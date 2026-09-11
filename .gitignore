@@ -20,3 +20,7 @@ data/raw-documents/
 # numbers and Place IDs that have no business in a public repo. Only the
 # derived data/reference/producers_geo.csv is committed.
 data/snapshot/_lookups/
+
+# Fetched snapshots stay local: competition workbooks embed a copy of the
+# World Cider Map Staging tab, whose Google Places formulas contain an API key.
+data/snapshot/
