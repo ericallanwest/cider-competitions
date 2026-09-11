@@ -21,6 +21,8 @@ data/raw-documents/
 # derived data/reference/producers_geo.csv is committed.
 data/snapshot/_lookups/
 
-# Fetched snapshots stay local: competition workbooks embed a copy of the
-# World Cider Map Staging tab, whose Google Places formulas contain an API key.
-data/snapshot/
+# The World Cider Map snapshot stays local: its Google Places formulas embed an
+# API key, and it carries Notes/TTB fields. Only data/reference/producers_geo.csv
+# is committed. Competition grain tabs ARE committed - fetch.py pulls only the
+# tab named in sheet_tables.csv, so nothing incidental comes with them.
+data/snapshot/_lookups/

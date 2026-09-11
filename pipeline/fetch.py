@@ -147,8 +147,15 @@ def a1_quote(title: str) -> str:
     return "'" + title.replace("'", "''") + "'"
 
 
-def dump_sheet(client, sheet_id: str, dest_dir: Path) -> list[str]:
-    """Write every worksheet tab to its own CSV. Values only, as displayed.
+def dump_sheet(client, sheet_id: str, dest_dir: Path,
+               only: set[str] | None = None) -> list[str]:
+    """Write worksheet tabs to CSV. Values only, as displayed.
+
+    `only` restricts the pull to specific tab names. Default behaviour is to
+    take everything, but the pipeline passes the one grain tab it reads:
+    competition workbooks also contain a "Copy of Staging" tab whose Google
+    Places formulas embed an API key, and fetching tabs we never use is how
+    that reached a public repo.
 
     All tabs come back in a single batch call. Reading them one at a time costs
     an API call per tab, which blows the per-minute read quota on the larger
@@ -156,6 +163,11 @@ def dump_sheet(client, sheet_id: str, dest_dir: Path) -> list[str]:
     """
     book = with_retry(client.open_by_key, sheet_id, what="open")
     titles = [ws.title for ws in book.worksheets()]
+    if only:
+        wanted = {t.casefold() for t in only}
+        titles = [t for t in titles if t.casefold() in wanted]
+        if not titles:
+            raise RuntimeError(f"none of {sorted(only)} found in this workbook")
     dest_dir.mkdir(parents=True, exist_ok=True)
     written = []
 
@@ -193,10 +205,17 @@ def main() -> None:
     ap.add_argument("--only", help="fetch a single competition_id")
     ap.add_argument("--lookups-only", action="store_true",
                     help="fetch only the lookup sheets (World Cider Map)")
+    ap.add_argument("--all-tabs", action="store_true",
+                    help="fetch every tab, not just the grain tab in sheet_tables.csv "
+                         "(off by default: other tabs can embed API keys)")
     args = ap.parse_args()
 
     sources = lib.read_csv(lib.CONFIG / "sources.csv")
     lookups = lib.read_csv(lib.CONFIG / "lookups.csv")
+    tables = lib.CONFIG / "sheet_tables.csv"
+    wanted = {t["competition_id"]: {t["tab"].removesuffix(".csv")}
+              for t in (lib.read_csv(tables) if tables.exists() else [])
+              if t["status"] == "active"}
     client = open_client(args.key, args.impersonate)
 
     targets = []
@@ -210,8 +229,10 @@ def main() -> None:
     failures = []
     for src in targets:
         try:
-            tabs = dump_sheet(client, src["sheet_id"], lib.SNAPSHOT / src["competition_id"])
-            print(f"  {src['competition_id']}: {len(tabs)} tabs")
+            only = None if args.all_tabs else wanted.get(src["competition_id"])
+            tabs = dump_sheet(client, src["sheet_id"],
+                              lib.SNAPSHOT / src["competition_id"], only)
+            print(f"  {src['competition_id']}: {', '.join(tabs)}")
         except Exception as exc:  # noqa: BLE001 - report and keep going
             print(f"  {src['competition_id']}: FAILED - {exc}", file=sys.stderr)
             failures.append(src["competition_id"])

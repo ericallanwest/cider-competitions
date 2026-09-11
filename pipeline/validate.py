@@ -9,6 +9,7 @@ same designation misspelled. Nothing here merges them.
 """
 import collections
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -62,11 +63,33 @@ def main() -> int:
         hard.append(f"{len(leftover_html)} rows still contain HTML tags")
 
     for path in (lib.ROOT / "crosswalks").glob("*.csv"):
-        text = path.read_text(encoding="utf-8", errors="replace")
-        if MOJIBAKE.search(text):
+        if MOJIBAKE.search(path.read_text(encoding="utf-8", errors="replace")):
             hard.append(f"mojibake detected in {path.name} - re-save as UTF-8")
-        if SECRET.search(text):
-            hard.append(f"API key detected in {path.name}")
+
+    # Secret scan over everything git would commit, not just the crosswalks.
+    # A Google API key reached this public repo once, inside the "Copy of
+    # Staging" tab that competition workbooks carry, so this check is repo-wide
+    # and blocking rather than advisory.
+    leaked = []
+    for path in sorted(lib.ROOT.rglob("*")):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(lib.ROOT).as_posix()
+        if rel.startswith((".git/", ".venv/", "site/vendor/")) or "__pycache__" in rel:
+            continue
+        if subprocess.call(["git", "check-ignore", "-q", str(path)],
+                           cwd=lib.ROOT, stdout=subprocess.DEVNULL,
+                           stderr=subprocess.DEVNULL) == 0:
+            continue          # ignored by git, so it will never be committed
+        try:
+            if SECRET.search(path.read_text(encoding="utf-8", errors="replace")):
+                leaked.append(rel)
+        except (OSError, ValueError):
+            continue
+    if leaked:
+        hard.append(f"API key found in {len(leaked)} committable file(s): "
+                    f"{', '.join(leaked[:5])}"
+                    f"{' …' if len(leaked) > 5 else ''}")
 
     unmapped = collections.Counter(r["award_raw"] for r in rows if r["award_kind"] == "unmapped")
     if unmapped:
