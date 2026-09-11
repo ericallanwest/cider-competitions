@@ -17,10 +17,26 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lib
 
 REFERENCE = lib.ROOT / "data" / "reference" / "producers_geo.csv"
+ALIASES = lib.ROOT / "crosswalks" / "producer_aliases.csv"
+COUNTRIES = lib.ROOT / "crosswalks" / "countries.csv"
 FIELDS = ["producer_id", "producer_name", "wid", "awards", "medals",
           "first_year", "last_year", "competitions",
           "town", "region", "country", "latitude", "longitude", "geo_source",
           "website", "google"]
+
+
+def match_key(name: str) -> str:
+    """Lookup key that ignores typographic variation only.
+
+    Curly and straight apostrophes are the same character to a reader, and
+    differ constantly between sources ("Oliver's" vs "Oliver’s"). Folding them
+    here fixes the join without touching the authored name, which is still
+    what gets displayed and written to awards.csv.
+    """
+    text = lib.clean(name)
+    for ch in "‘’ʼ´`":
+        text = text.replace(ch, "'")
+    return text.replace("“", '"').replace("”", '"').casefold()
 
 
 def slug(name: str) -> str:
@@ -28,24 +44,46 @@ def slug(name: str) -> str:
     return s or "unknown"
 
 
-def load_geo() -> dict:
-    """name.casefold() -> (town, region, country, lat, lon, source)"""
-    geo = {}
+def load_countries() -> dict:
+    """Spelling variants of one designation only. Never merges designations."""
+    if not COUNTRIES.exists():
+        return {}
+    return {lib.clean(r["raw"]).casefold(): lib.clean(r["canonical"])
+            for r in lib.read_csv(COUNTRIES) if lib.clean(r.get("raw", ""))}
+
+
+def load_geo() -> tuple[dict, dict]:
+    """Returns (by_name, by_wid), each -> (town, region, country, lat, lon, source)."""
+    by_name, by_wid = {}, {}
     if not REFERENCE.exists():
         print(f"  note: {REFERENCE.name} missing - no coordinates will be attached")
-        return geo
+        return by_name, by_wid
+    countries = load_countries()
     for r in lib.read_csv(REFERENCE):
-        name = lib.clean(r["name"])
+        country = lib.clean(r["country"])
+        country = countries.get(country.casefold(), country)
+        entry = (lib.clean(r["town"]), lib.clean(r["region"]), country,
+                 lib.clean(r["latitude"]), lib.clean(r["longitude"]), lib.clean(r["source"]))
+        name, wid = lib.clean(r["name"]), lib.clean(r["wid"])
         if name:
-            geo[name.casefold()] = (
-                lib.clean(r["town"]), lib.clean(r["region"]), lib.clean(r["country"]),
-                lib.clean(r["latitude"]), lib.clean(r["longitude"]), lib.clean(r["source"]))
-    return geo
+            by_name.setdefault(match_key(name), entry)
+        if wid:
+            by_wid.setdefault(wid, entry)
+    return by_name, by_wid
+
+
+def load_aliases() -> dict:
+    """Hand-confirmed producer -> World Cider Map ID. Decided once, kept forever."""
+    if not ALIASES.exists():
+        return {}
+    return {match_key(r["producer_name"]): lib.clean(r["wid"])
+            for r in lib.read_csv(ALIASES) if lib.clean(r.get("wid", ""))}
 
 
 def main() -> None:
     awards = lib.read_csv(lib.OUT / "awards.csv")
-    geo = load_geo()
+    geo, geo_by_wid = load_geo()
+    aliases = load_aliases()
 
     agg: dict[str, dict] = {}
     for r in awards:
@@ -70,7 +108,13 @@ def main() -> None:
 
     hits = 0
     for key, p in agg.items():
-        found = geo.get(key)
+        # A confirmed alias wins over the name match it was created to fix.
+        mkey = match_key(p["producer_name"])
+        wid = aliases.get(mkey)
+        found = geo_by_wid.get(wid) if wid else None
+        if wid and found:
+            p["wid"] = wid
+        found = found or geo.get(mkey)
         if found:
             town, region, country, lat, lon, src = found
             p["town"] = p["town"] or town
