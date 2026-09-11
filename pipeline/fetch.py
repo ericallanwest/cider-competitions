@@ -213,9 +213,10 @@ def main() -> None:
     sources = lib.read_csv(lib.CONFIG / "sources.csv")
     lookups = lib.read_csv(lib.CONFIG / "lookups.csv")
     tables = lib.CONFIG / "sheet_tables.csv"
-    wanted = {t["competition_id"]: {t["tab"].removesuffix(".csv")}
-              for t in (lib.read_csv(tables) if tables.exists() else [])
-              if t["status"] == "active"}
+    wanted: dict[str, set[str]] = {}
+    for t in (lib.read_csv(tables) if tables.exists() else []):
+        if t["status"] == "active":
+            wanted.setdefault(t["source_id"], set()).add(t["tab"].removesuffix(".csv"))
     client = open_client(args.key, args.impersonate)
 
     targets = []

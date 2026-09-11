@@ -23,8 +23,8 @@ CURRENT_YEAR = 2026
 # Known-good totals, now sourced from Google Sheets. A change here must be
 # deliberate: these are the numbers that catch a parser silently dropping rows.
 BASELINE = {
-    "glintcap": 8885,                 # 8,072 from the sheet (2005-2023) + 813 archive 2024
-    "australian-cider-awards": 1551,
+    "glintcap": 9615,                 # 8,072 sheet (2005-2023) + 813 archive 2024 + 730 for 2025
+    "australian-cider-awards": 1722,  # 1,551 through 2024 + 171 for 2025
     "ciderworld-awards": 969,         # sheet covers 2018-2024; the archive had only 2023-2024
     "museum-of-cider": 73,
     "japan-cider-cup": 138,

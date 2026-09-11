@@ -135,17 +135,20 @@ def main() -> None:
     # Google Sheets is the source of truth, so a competition with a snapshot
     # is read from there. The archive is the fallback for anything not yet
     # fetched, plus GLINTCAP 2024 - that sheet stops at 2023.
-    sheet_tables = {t["competition_id"]: t for t in lib.read_csv(SHEET_TABLES)
-                    if t["status"] == "active"} if SHEET_TABLES.exists() else {}
+    sheet_tables = [t for t in lib.read_csv(SHEET_TABLES)
+                    if t["status"] == "active"] if SHEET_TABLES.exists() else []
     from_sheets = set()
-    for comp, tbl in sorted(sheet_tables.items()):
-        path = lib.SNAPSHOT / comp / tbl["tab"]
+    for tbl in sheet_tables:
+        src, comp = tbl["source_id"], tbl["competition_id"]
+        path = lib.SNAPSHOT / src / tbl["tab"]
         if not path.exists():
-            missing.append(f"{comp}/{tbl['tab']}")
+            missing.append(f"{src}/{tbl['tab']}")
             continue
         from_sheets.add(comp)
+        # A fixed year covers one-off result sheets whose tab has no Year column.
+        fixed_year = lib.to_year(tbl["year"])
         for idx, row in enumerate(lib.read_csv(path), start=2):
-            awards.extend(map_row(row, comp, None, f"sheet:{comp}/{tbl['tab']}",
+            awards.extend(map_row(row, comp, fixed_year, f"sheet:{src}/{tbl['tab']}",
                                   idx, vocab, styles, countries, seen))
 
     covered = {(a["competition_id"], a["year"]) for a in awards}

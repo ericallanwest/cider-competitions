@@ -1,20 +1,22 @@
-competition_id,tab,status,notes
-australian-cider-awards,Data.csv,active,
-cidercraft-awards,Medals.csv,active,
-ciderworld-awards,Data.csv,active,covers 2018-2024; archive only had 2023-2024
-concours-des-cidres-de-normandie,Data.csv,active,
-concours-general-agricole,Data.csv,active,
-concours-regional-cidricole-de-bretagne,Data.csv,active,
-glintcap,Medals.csv,active,sheet stops at 2023; 2024 comes from the archive table
-good-food-awards,Data.csv,active,
-international-cider-awards,Data.csv,active,
-international-cider-challenge,Data.csv,active,
-japan-cider-cup,Data.csv,active,
-museum-of-cider,Data.csv,active,
-nordic-international-cider-awards,Data.csv,active,
-northwest-cider-cup,Medals.csv,active,
-royal-bath-and-west,Data.csv,active,
-royal-three-counties,Data.csv,active,NOT 24.csv - that tab has 1001 rows and no Year column
-sagardo-forum,Data.csv,active,
-sisga,Data.csv,active,
-us-open-cider-championship,Data.csv,active,
+source_id,tab,competition_id,year,status,notes
+australian-cider-awards,Data.csv,australian-cider-awards,,active,
+cidercraft-awards,Medals.csv,cidercraft-awards,,active,
+ciderworld-awards,Data.csv,ciderworld-awards,,active,covers 2018-2024; archive only had 2023-2024
+concours-des-cidres-de-normandie,Data.csv,concours-des-cidres-de-normandie,,active,
+concours-general-agricole,Data.csv,concours-general-agricole,,active,
+concours-regional-cidricole-de-bretagne,Data.csv,concours-regional-cidricole-de-bretagne,,active,
+glintcap,Medals.csv,glintcap,,active,sheet stops at 2023; 2024 comes from the archive table
+good-food-awards,Data.csv,good-food-awards,,active,
+international-cider-awards,Data.csv,international-cider-awards,,active,
+international-cider-challenge,Data.csv,international-cider-challenge,,active,
+japan-cider-cup,Data.csv,japan-cider-cup,,active,
+museum-of-cider,Data.csv,museum-of-cider,,active,
+nordic-international-cider-awards,Data.csv,nordic-international-cider-awards,,active,
+northwest-cider-cup,Medals.csv,northwest-cider-cup,,active,
+royal-bath-and-west,Data.csv,royal-bath-and-west,,active,
+royal-three-counties,Data.csv,royal-three-counties,,active,NOT 24.csv - that tab has 1001 rows and no Year column
+sagardo-forum,Data.csv,sagardo-forum,,active,
+sisga,Data.csv,sisga,,active,
+us-open-cider-championship,Data.csv,us-open-cider-championship,,active,
+glintcap-2025,Sheet1.csv,glintcap,2025,active,GLINTCAP 2025 Results sheet; tab has no Year column
+australian-cider-awards-2025,25_All_Results.csv,australian-cider-awards,2025,active,2025 Australian sheet; tab has no Year column
