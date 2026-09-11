@@ -15,3 +15,8 @@ data/raw-documents/
 
 # Excel lock files
 ~$*
+
+# Raw lookup snapshots stay local: the World Cider Map carries Notes, TTB
+# numbers and Place IDs that have no business in a public repo. Only the
+# derived data/reference/producers_geo.csv is committed.
+data/snapshot/_lookups/

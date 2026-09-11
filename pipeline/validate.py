@@ -97,14 +97,21 @@ def main() -> int:
                   ["field", "value", "rows"])
 
     # Producers carrying medals but no coordinates, worst-first by medal count.
-    nogeo = collections.Counter(
-        r["producer_name"] for r in rows if not r["latitude"] and r["award_kind"] in ("medal", "place"))
-    lib.write_csv(lib.REPORTS / "producers_missing_geo.csv",
-                  [{"producer_name": k, "medals": n} for k, n in nogeo.most_common()],
-                  ["producer_name", "medals"])
-    if nogeo:
-        warn.append(f"{len(nogeo)} producers have medals but no coordinates "
-                    f"(see reports/producers_missing_geo.csv)")
+    # This reads producers.csv, not awards.csv: the geocode join happens in
+    # producers.py, so an awards row only carries what its source table had.
+    producers = lib.read_csv(lib.OUT / "producers.csv")
+    if producers:
+        nogeo = sorted(
+            ({"producer_name": p["producer_name"], "medals": int(p["medals"] or 0)}
+             for p in producers if not p["latitude"] and int(p["medals"] or 0) > 0),
+            key=lambda p: -p["medals"])
+        lib.write_csv(lib.REPORTS / "producers_missing_geo.csv", nogeo,
+                      ["producer_name", "medals"])
+        if nogeo:
+            mapped = 1 - len(nogeo) / len(producers)
+            warn.append(f"{len(nogeo)} of {len(producers)} producers have medals but no "
+                        f"coordinates ({mapped:.0%} mapped; see "
+                        f"reports/producers_missing_geo.csv)")
 
     # --- report ----------------------------------------------------------
     print(f"validate: {len(rows)} awards across {len(bycomp)} competitions")
