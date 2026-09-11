@@ -1,8 +1,9 @@
 """Build data/out/producers.csv - one row per producer, with coordinates where known.
 
-Coordinate sources, in precedence order:
-  1. data/snapshot/_lookups/world-cider-map/  (source of truth; needs fetch.py)
-  2. the GLINTCAP Tableau extract on disk      (710 producers, used to bootstrap)
+Coordinates come from data/reference/producers_geo.csv, which is committed and
+therefore identical on every machine. Regenerate it with extract_geo.py when
+the World Cider Map changes; this stage never reads machine-local paths, so CI
+rebuilds byte-identical output.
 
 Producers with no coordinates are still emitted - they appear in tables and
 counts, they just get no map pin. Nothing is invented.
@@ -10,15 +11,12 @@ counts, they just get no map pin. Nothing is invented.
 import collections
 import re
 import sys
-import zipfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lib
 
-GLINTCAP_XLSX = Path(
-    r"C:\Users\Eric\Desktop\Personal\Cider\Competitions\GLINTCAP\2024\Tableau_GLINTCAP_20240508.xlsx"
-)
+REFERENCE = lib.ROOT / "data" / "reference" / "producers_geo.csv"
 FIELDS = ["producer_id", "producer_name", "wid", "awards", "medals",
           "first_year", "last_year", "competitions",
           "town", "region", "country", "latitude", "longitude", "geo_source",
@@ -30,63 +28,18 @@ def slug(name: str) -> str:
     return s or "unknown"
 
 
-def read_xlsx(path: Path, sheet_index: int) -> list[dict]:
-    """Minimal xlsx reader - avoids an openpyxl dependency for one bootstrap file."""
-    if not path.exists():
-        return []
-    with zipfile.ZipFile(path) as z:
-        shared = [
-            "".join(re.findall(r"<t[^>]*>(.*?)</t>", si, re.S))
-            for si in re.findall(r"<si>(.*?)</si>",
-                                 z.read("xl/sharedStrings.xml").decode("utf-8", "replace"), re.S)
-        ]
-        data = z.read(f"xl/worksheets/sheet{sheet_index}.xml").decode("utf-8", "replace")
-
-    def cells(row_xml):
-        out = []
-        for m in re.finditer(r"<c\b([^>]*)>(.*?)</c>|<c\b([^>]*)/>", row_xml, re.S):
-            attrs = m.group(1) or m.group(3) or ""
-            body = m.group(2) or ""
-            v = re.search(r"<v>(.*?)</v>", body, re.S)
-            val = v.group(1) if v else ""
-            if 't="s"' in attrs and val != "":
-                val = shared[int(val)]
-            out.append(lib.clean(val))
-        return out
-
-    rows = re.findall(r"<row[^>]*>(.*?)</row>", data, re.S)
-    if not rows:
-        return []
-    header = cells(rows[0])
-    return [dict(zip(header, cells(r))) for r in rows[1:]]
-
-
 def load_geo() -> dict:
     """name.casefold() -> (town, region, country, lat, lon, source)"""
     geo = {}
-    wcm_dir = lib.SNAPSHOT / "_lookups" / "world-cider-map"
-    for path in sorted(wcm_dir.glob("*.csv")) if wcm_dir.exists() else []:
-        for r in lib.read_csv(path):
-            name, lat, lon = lib.clean(r.get("Name", "")), lib.clean(r.get("Latitude", "")), lib.clean(r.get("Longitude", ""))
-            if name and lat and lon:
-                geo.setdefault(name.casefold(), (
-                    lib.clean(r.get("Town_City", "")), lib.clean(r.get("Region", "")),
-                    lib.clean(r.get("Country", "")), lat, lon, "world_cider_map"))
-        for r in lib.read_csv(path):  # alternate names, lower precedence
-            alt = lib.clean(r.get("Alternate_Name", ""))
-            lat, lon = lib.clean(r.get("Latitude", "")), lib.clean(r.get("Longitude", ""))
-            if alt and lat and lon:
-                geo.setdefault(alt.casefold(), (
-                    lib.clean(r.get("Town_City", "")), lib.clean(r.get("Region", "")),
-                    lib.clean(r.get("Country", "")), lat, lon, "world_cider_map"))
-
-    for r in read_xlsx(GLINTCAP_XLSX, 1):
-        name = lib.clean(r.get("Medalist", ""))
-        lat, lon = lib.clean(r.get("Latitude", "")), lib.clean(r.get("Longitude", ""))
-        if name and lat and lon:
-            geo.setdefault(name.casefold(), (
-                lib.clean(r.get("City", "")), lib.clean(r.get("Region", "")),
-                lib.clean(r.get("Country", "")), lat, lon, "glintcap_extract"))
+    if not REFERENCE.exists():
+        print(f"  note: {REFERENCE.name} missing - no coordinates will be attached")
+        return geo
+    for r in lib.read_csv(REFERENCE):
+        name = lib.clean(r["name"])
+        if name:
+            geo[name.casefold()] = (
+                lib.clean(r["town"]), lib.clean(r["region"]), lib.clean(r["country"]),
+                lib.clean(r["latitude"]), lib.clean(r["longitude"]), lib.clean(r["source"]))
     return geo
 
 

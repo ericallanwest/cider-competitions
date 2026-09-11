@@ -1,0 +1,710 @@
+name,wid,town,region,country,latitude,longitude,source
+101 Cider House,73.0,Westlake Village,California,USA,34.154101,-118.802575,glintcap_extract
+12 Bridge Ciderworks,72.0,Oregon City,Oregon,USA,45.326412,-122.580527,glintcap_extract
+12 Corners Vineyards,1016.0,Benton Harbor,Michigan,USA,42.1328817,-86.3767096,glintcap_extract
+19 Acres Cider Co.,1084.0,Sherwood,Oregon,USA,45.3886798,-122.9315471,glintcap_extract
+1911 Established,75.0,Marietta,New York,USA,42.903744,-76.22158,glintcap_extract
+2 Fools Cider,66.0,Naperville,Illinois,USA,41.775847,-88.188785,glintcap_extract
+2 Towns Ciderhouse,67.0,Corvallis,Oregon,USA,44.563505,-123.226185,glintcap_extract
+26 Acre Craft Cider Company,714.0,Pelham,Ontario,Canada,43.037222,-79.328764,glintcap_extract
+3 Keys Brewing,1849.0,Bradenton,Florida,USA,27.496807,-82.532577,glintcap_extract
+3 North Vines,1076.0,Croswell,Michigan,USA,43.2642732,-82.5821548,glintcap_extract
+3Cs Cider,1661.0,Brackley,Northamptonshire,England,52.070567,-1.179328,glintcap_extract
+45 North Vineyard & Winery,2.0,Lake Leelanau,Michigan,USA,45.002103,-85.681943,glintcap_extract
+5 Penny Hard Cider,69.0,Ontario,Ohio,USA,40.76436,-82.610672,glintcap_extract
+^5 Cider,1800.0,Portland,Oregon,USA,45.528907,-122.610394,glintcap_extract
+Acme Cider Co.,1835.0,Ada,Michigan,USA,43.030658,-85.492125,glintcap_extract
+Adams Cider Company,1642.0,Borrisoleigh,Tipperary,Ireland,52.752526,-7.957888,glintcap_extract
+Adesanya Mead & Microbrewery,1881.0,Grandville,Michigan,USA,42.9128227,-85.739652,glintcap_extract
+AeppelTreow Winery & Distillery,79.0,Burlington,Wisconsin,USA,42.642658,-88.160186,glintcap_extract
+Akiu Winery,2019.0,Sendai,Miyagi,Japan,38.2265556,140.7279175,glintcap_extract
+Albemarle CiderWorks,83.0,North Garden,Virginia,USA,37.966531,-78.650136,glintcap_extract
+Allagash Brewing Company,2659.0,Portland,Maine,USA,43.703142,-70.317621,glintcap_extract
+Allegheny Cellars Winery,1876.0,Sheffield,Pennsylvania,USA,40.1450666,-79.8385414,glintcap_extract
+Alma Cider,1885.0,Mount Vernon,Washington,USA,48.416119,-122.2940351,glintcap_extract
+Alpenfire Cider,84.0,Port Townsend,Washington,USA,48.082401,-122.87609,glintcap_extract
+Alter Ego Cider,85.0,Portland,Oregon,USA,45.519839,-122.659396,glintcap_extract
+Ambix Spirits,2135.0,Sebastopol,California,USA,38.4250521,-122.8319794,glintcap_extract
+Ambrosia Orchard,86.0,Hoagland,Indiana,USA,40.953615,-85.064073,glintcap_extract
+Angeles Crest Cider,2580.0,Canoga Park,California,USA,34.2053948,-118.5898987,glintcap_extract
+Angry Orchard,87.0,Walden,New York,USA,41.587128,-74.221692,glintcap_extract
+Annapolis Cider Company,718.0,Wolfville,Nova Scotia,Canada,45.09178,-64.360279,glintcap_extract
+ANXO Cider,89.0,Washington,District of Columbia,USA,38.956577,-77.022874,glintcap_extract
+Apfelweinkontor,1325.0,Frankfurt,Hesse,Germany,50.106271,8.68635649999999,glintcap_extract
+Apple Hill Cidery,2583.0,Lexington,Kentucky,USA,38.14,-84.47,glintcap_extract
+Apple Outlaw,92.0,Jacksonville,Oregon,USA,42.135329,-123.239648,glintcap_extract
+Apple Valley Cider Company,93.0,Penrose,Colorado,USA,38.425243,-105.026257,glintcap_extract
+Appleholic Cider Company,1914.0,Leland,Michigan,USA,45.02296,-85.7602,glintcap_extract
+Ardiel Cider House,722.0,Clarksburg,Ontario,Canada,44.499666,-80.426869,glintcap_extract
+Arktos Meadery,1933.0,Grand Rapids,Michigan,USA,42.9705088,-85.6806922,glintcap_extract
+Armagh Cider Company,1266.0,Portadown,Armagh,Northern Ireland,54.4078133,-6.4861608,glintcap_extract
+Arsenal Cider House,97.0,Pittsburgh,Pennsylvania,USA,40.465108,-79.96092,glintcap_extract
+Artifact Cider Project,99.0,Florence,Massachusetts,USA,42.3378061,-72.6732543,glintcap_extract
+Ash & Elm Cider Company,101.0,Indianapolis,Indiana,USA,39.768019,-86.125256,glintcap_extract
+Aspall,1227.0,Debenham,Suffolk,England,52.2435749,1.1787641,glintcap_extract
+Asturvisa,2586.0,Gijón,Asturias,Spain,43.5058969,-5.6984187,glintcap_extract
+Atlanta Hard Cider Co.,102.0,Atlanta,Georgia,USA,33.9507273,-84.52255,glintcap_extract
+Austin Eastciders,104.0,Austin,Texas,USA,30.211595,-97.7404707,glintcap_extract
+AVAL Cider,2596.0,New York,New York,USA,40.7674663,-73.9851725,glintcap_extract
+Avid Cider,103.0,Bend,Oregon,USA,44.0509307,-121.3144074,glintcap_extract
+B. Nektar,4.0,Ferndale,Michigan,USA,42.456877,-83.113432,glintcap_extract
+Banditry Cider,2085.0,Gibsons,British Columbia,Canada,49.40261,-123.5296301,glintcap_extract
+Banjo Cider,1727.0,Uxbridge,Ontario,Canada,44.1484947,-79.1592864,glintcap_extract
+Bantam Cider,1801.0,Somerville,Massachusetts,USA,42.377773,-71.091902,glintcap_extract
+Banter's Hard Cider,116.0,Stroudsburg,Pennsylvania,USA,40.98616,-75.1945,glintcap_extract
+Bardic Brewing & Cider,1889.0,Spokane Valley,Washington,USA,47.6558422,-117.1983661,glintcap_extract
+Barrika,2597.0,New York,New York,USA,40.710409,-73.918766,glintcap_extract
+Batch Brewing Company,1725.0,Detroit,Michigan,USA,42.3285217,-83.0633392,glintcap_extract
+Bauman's Cider,118.0,Gervais,Oregon,USA,45.1079661,-122.8693386,glintcap_extract
+Bayfield Winery & Blue Ox Cider,1823.0,Bayfield,Wisconsin,USA,46.8371393,-90.8362981,glintcap_extract
+Beach Bee Meadery,947.0,Long Branch,New Jersey,USA,40.3090937,-73.98298,glintcap_extract
+Bear Cider,1930.0,Naarden,North Holland,Netherlands,52.2961063,5.1662739,glintcap_extract
+Beaver Valley Orchard & Cidery,726.0,Kimberley,Ontario,Canada,44.432324,-80.522854,glintcap_extract
+Bee Well Mead & Cider,5.0,Bellaire,Michigan,USA,44.9760455,-85.2098303,glintcap_extract
+Bel Lago Winery,6.0,Cedar,Michigan,USA,44.883859,-85.725118,glintcap_extract
+Bent Ladder,124.0,Doylestown,Ohio,USA,40.9646071,-81.739989,glintcap_extract
+Bereziartua,1168.0,Astigarraga,Basque Country,Spain,43.2829301,-1.9400682,glintcap_extract
+Berkshire Cider Project,1962.0,North Adams,Massachusetts,USA,42.6980606999999,-73.1521496,glintcap_extract
+Bier Distillery,2007.0,Comstock Park,Michigan,USA,43.0593786,-85.6411356,glintcap_extract
+Big B's Hard Cider,126.0,Hotchkiss,Colorado,USA,38.860785,-107.626061,glintcap_extract
+Big Belly Ciderworks,2006.0,Empire,Michigan,USA,44.8072115,-85.9617851,glintcap_extract
+Big Fish Cider Co.,127.0,Monterey,Virginia,USA,38.412304,-79.58293,glintcap_extract
+Big Hill Ciderworks,128.0,Gardners,Pennsylvania,USA,40.0277976,-77.2135009,glintcap_extract
+bigLITTLE Wines,8.0,Suttons Bay,Michigan,USA,44.915844,-85.654114,glintcap_extract
+Bird Dog Cider,2103.0,Greenland,New Hampshire,USA,43.0437859,-70.8550379,glintcap_extract
+Bishop Cider Company,130.0,Fort Worth,Texas,USA,32.7433262,-97.3072551,glintcap_extract
+Bishops Orchards Winery,131.0,Guilford,Connecticut,USA,41.289934,-72.694687,glintcap_extract
+Black Apple,133.0,Springdale,Arkansas,USA,36.18487,-94.127403,glintcap_extract
+Black Bear Cider Co.,1899.0,St. Louis,Missouri,USA,38.6491261,-90.3206381,glintcap_extract
+Black Devil Cider,2592.0,Cambridge,Tasmania,Australia,-42.8310446,147.463841,glintcap_extract
+Black Diamond Cider,136.0,Trumansburg,New York,USA,42.547829,-76.655099,glintcap_extract
+Blackgrass Ciderworks,26.0,Birmingham,Michigan,USA,42.543611,-83.195536,glintcap_extract
+Blackman Cider Co.,142.0,Lockport,New York,USA,43.176071,-78.800052,glintcap_extract
+Blacksmiths Winery,143.0,Casco,Maine,USA,43.914429,-70.518351,glintcap_extract
+Blake's Hard Cider Co.,10.0,Armada,Michigan,USA,42.8503113,-82.9513855,glintcap_extract
+Blindwood Cider,144.0,Berkeley,California,USA,37.7058267,-122.188838,glintcap_extract
+Blossom Barn Cidery,905.0,Grants Pass,Oregon,USA,42.3165297,-123.2308841,glintcap_extract
+Blue Bee Cider,146.0,Richmond,Virginia,USA,37.5916262,-77.4888874999999,glintcap_extract
+Blue Toad Hard Cider,149.0,Roseland,Virginia,USA,37.8769705,-78.9252662,glintcap_extract
+Blueberry Hill Estates,730.0,Williams,Ontario,Canada,42.6709554,-80.3907974,glintcap_extract
+Bløm Meadworks,955.0,Ann Arbor,Michigan,USA,42.2810318,-83.747518,glintcap_extract
+Bold Rock Hard Cider,153.0,Nellysford,Virginia,USA,37.881384,-78.904992,glintcap_extract
+Bonnieheath Estate Winery,731.0,Waterford,Ontario,Canada,42.890266,-80.261896,glintcap_extract
+Boss Cider Company,12.0,Leslie,Michigan,USA,42.450331,-84.431688,glintcap_extract
+Boston Beer Company,2567.0,Boston,Massachusetts,USA,42.3146507,-71.1032192999999,glintcap_extract
+Botanist & Barrel,155.0,Cedar Grove,North Carolina,USA,36.216856,-79.179325,glintcap_extract
+Bowen Cider House,2088.0,Bowen Island,British Columbia,Canada,49.3639259,-123.3817062,glintcap_extract
+Boyden Valley Winery & Spirits,157.0,Cambridge,Vermont,USA,44.647436,-72.889201,glintcap_extract
+Branch Out Cider,159.0,Fort Collins,Colorado,USA,40.589815,-105.090583,glintcap_extract
+Brew Lab 101 Beer & Cider Co.,1994.0,Rio Rancho,New Mexico,USA,35.2432541,-106.6693816,glintcap_extract
+Brick River Cider,1068.0,St. Louis,Missouri,USA,38.6339407,-90.2079809,glintcap_extract
+Brickworks Ciderhouse,733.0,Toronto,Ontario,Canada,43.718379,-79.312625,glintcap_extract
+Bridgehouse Cider,896.0,Long Grove,Iowa,USA,41.712213,-90.471923,glintcap_extract
+Brinkhall Sparkling,1917.0,Halikko,Southwest Finland,Finland,60.4236854,23.0462561,glintcap_extract
+Brix Cider,162.0,Mount Horeb,Wisconsin,USA,43.007126,-89.737751,glintcap_extract
+Broken Brix,1895.0,St. Charles,Illinois,USA,41.9130721,-88.3165378,glintcap_extract
+Brooker's Cider,2028.0,Scotch Bush,Ontario,Canada,45.4370509,-76.9616291,glintcap_extract
+Brooklyn Cider House,165.0,New Paltz,New York,USA,41.757256,-74.04958,glintcap_extract
+Bryant's Cider,170.0,Roseland,Virginia,USA,37.797413,-78.939801,glintcap_extract
+Brys Estate Ciderworks,2034.0,Traverse City,Michigan,USA,44.8866671,-85.5098039,glintcap_extract
+Bull City Ciderworks,172.0,Lexington,North Carolina,USA,35.818872,-80.255816,glintcap_extract
+Bull Run Cider,173.0,Forest Grove,Oregon,USA,45.523121,-123.106516,glintcap_extract
+Bullevie Cidre,2564.0,Fodorovskoye,Leningrad Oblast,Russia,59.654978,30.5509418,glintcap_extract
+Bulwark Cider,734.0,New Ross,Nova Scotia,Canada,44.822603,-64.506287,glintcap_extract
+Buskey Cider,175.0,Richmond,Virginia,USA,37.566063,-77.46914,glintcap_extract
+C Squared Ciders,176.0,Denver,Colorado,USA,39.762816,-104.984037,glintcap_extract
+California Cider Company,179.0,Sebastopol,California,USA,38.423506,-122.849754,glintcap_extract
+Calvados Pierre Huet,1691.0,Cambremer,Normandy,France,49.1476519,0.0462976,glintcap_extract
+Cambium Cider Co,839.0,Vernon,British Columbia,Canada,50.2798201,-119.2228203,glintcap_extract
+Carolina Distillery,2008.0,Lenoir,North Carolina,USA,35.9139684,-81.5412586,glintcap_extract
+Carolinia Cider Company,3294.0,Harrow,Ontario,Canada,41.9965042,-82.8616938,glintcap_extract
+Carriage House Ciders,1776.0,Benton Harbor,Michigan,USA,42.1312598,-86.4568267,glintcap_extract
+Casa de Oro Cider,2106.0,Sun Valley,California,USA,34.226288,-118.4016825,glintcap_extract
+Cascade Winery & Sierra Rose Ciders,48.0,Grand Rapids,Michigan,USA,42.878915,-85.562785,glintcap_extract
+Cascadia Ciderworkers United,2582.0,Portland,Oregon,USA,45.5359,-122.66373,glintcap_extract
+Castle Hill Cider,185.0,Keswick,Virginia,USA,38.0888889,-78.2908333,glintcap_extract
+Cellar Brewing Company,1836.0,Sparta,Michigan,USA,43.160209,-85.697494,glintcap_extract
+Cellarmen's,1837.0,Hazel Park,Michigan,USA,42.47091,-83.104109,glintcap_extract
+Celtic Marches,1403.0,Bishops Frome,Worcestershire,England,52.1392063,-2.4991058,glintcap_extract
+Century Tree Cider Co.,2009.0,Memphis,Tennessee,USA,35.1402356,-90.0412219,glintcap_extract
+Chain Yard Cider,738.0,Halifax,Nova Scotia,Canada,44.655537,-63.593991,glintcap_extract
+Champlain Orchards,188.0,Shoreham,Vermont,USA,43.856854,-73.353028,glintcap_extract
+Chase Hill Cider,926.0,Albany,New Hampshire,USA,43.980732,-71.152804,glintcap_extract
+Chateau Buffalo,189.0,Buffalo,New York,USA,42.872906,-78.821088,glintcap_extract
+Chateau Morrisette,190.0,Floyd,Virginia,USA,36.793824,-80.3954679,glintcap_extract
+Cherry Creek Cellars,14.0,Albion,Michigan,USA,42.0504311,-84.301136,glintcap_extract
+Cider Brothers,193.0,Walnut Creek,California,USA,37.900624,-122.061308,glintcap_extract
+Cider by Rosie,1138.0,Winterbourne Houghton,Dorset,England,50.8386141,-2.2593542,glintcap_extract
+Cider Corps,915.0,Mesa,Arizona,USA,33.4141147,-111.8364706,glintcap_extract
+Cider Creek Hard Cider,194.0,Canisteo,New York,USA,42.316655,-77.60405,glintcap_extract
+Cider Hill Cellars,195.0,Amesbury,Massachusetts,USA,42.875044,-70.926449,glintcap_extract
+Cider House of Wisconsin,1804.0,McFarland,Wisconsin,USA,42.982849,-89.329972,glintcap_extract
+Cider Riot!,1845.0,Portland,Oregon,USA,45.523854,-122.657297,glintcap_extract
+Ciderboys,196.0,Stevens Point,Wisconsin,USA,44.510454,-89.573583,glintcap_extract
+Ciders from Mars,945.0,Staunton,Virginia,USA,38.1474916,-79.0742591,glintcap_extract
+Ciderworks @ Story Tavern,1785.0,Burbank,California,USA,34.1806729,-118.3082013,glintcap_extract
+Cidre La Chouette,2569.0,Saint-Pair-sur-Mer,Normandy,France,48.8148309,-1.5703068,glintcap_extract
+Cidre Le Brun,1586.0,Plovan,Brittany,France,47.925263,-4.344798,glintcap_extract
+Cidrerie Compton,2077.0,Compton,Quebec,Canada,45.2583716,-71.8262371,glintcap_extract
+Cidrerie de Menez-Brug,1931.0,Fouesnant,Brittany,France,47.8654274,-3.9978625,glintcap_extract
+Cidrerie du Minot,742.0,Hemmingford,Quebec,Canada,45.019621,-73.621962,glintcap_extract
+Cidrerie Entre Pierre & Terre,743.0,Hinchinbrooke,Quebec,Canada,45.0251972999999,-73.9479384,glintcap_extract
+Cidrerie et Distillerie C.E.Petch,1924.0,Hemmingford,Quebec,Canada,45.0458072,-73.596354,glintcap_extract
+Cidrerie Le Somnambule,736.0,Saint-Henri,Quebec,Canada,46.662195,-71.07671,glintcap_extract
+Cidrerie McKeown,748.0,Rougemont,Quebec,Canada,45.44444,-73.069221,glintcap_extract
+Cidrerie Milton,750.0,Sainte-Cécile-de-Milton,Quebec,Canada,45.483424,-72.759531,glintcap_extract
+Cidrerie St-Nicolas,752.0,Saint-Nicolas,Quebec,Canada,46.692988,-71.454642,glintcap_extract
+Cidrerie Verger Bilodeau,753.0,Saint-Pierre,Quebec,Canada,46.9128997,-71.0393277,glintcap_extract
+Cidrerie Verger Hemmingford,2392.0,Hemmingford,Quebec,Canada,45.045783,-73.5710108999999,glintcap_extract
+Cidres Nicol,1612.0,Surzur,Brittany,France,47.5587853,-2.6110586,glintcap_extract
+Cigar City Cider & Mead,197.0,Tampa,Florida,USA,27.960748,-82.443199,glintcap_extract
+Citizen Cider,199.0,Burlington,Vermont,USA,44.470722,-73.214282,glintcap_extract
+City Orchard,1001.0,Houston,Texas,USA,29.7708798,-95.3868984,glintcap_extract
+Clarksburg Cider,1813.0,Lancaster,New York,USA,42.9274192,-78.5953396,glintcap_extract
+Clear Fork Cider,202.0,Paonia,Colorado,USA,38.8682283,-107.5980751,glintcap_extract
+Clos de la Fontaine Hugo,2049.0,Rozoy-sur-Serre,Hauts-de-France,France,49.7158565,4.1436951,glintcap_extract
+Coastliner Craft Cider,2595.0,Fredericton,New Brunswick,Canada,45.9523177,-66.6149142,glintcap_extract
+Coffin Ridge Boutique Winery,759.0,Annan,Ontario,Canada,44.663372,-80.77569,glintcap_extract
+Cold Hand Winery,1986.0,Randers,Central Denmark,Denmark,56.513459,9.7900895,glintcap_extract
+Cold Hollow Cider Mill,207.0,Waterbury Center,Vermont,USA,44.381363,-72.719895,glintcap_extract
+Collective Arts Brewing,760.0,Hamilton,Ontario,Canada,43.27079,-79.852716,glintcap_extract
+Colorado Cider Company,209.0,Denver,Colorado,USA,39.71898,-105.01961,glintcap_extract
+Common Cider Company,211.0,Auburn,California,USA,38.950812,-121.084227,glintcap_extract
+Copper Crow Distillery,1985.0,Bayfield,Wisconsin,USA,46.857048,-90.7939071,glintcap_extract
+Corey Lake Orchards,16.0,Three Rivers,Michigan,USA,41.919986,-85.718213,glintcap_extract
+Cornish Cider Company,898.0,Cornish,Maine,USA,43.7971541,-70.7995635,glintcap_extract
+Coteau Rougemont,761.0,Rougemont,Quebec,Canada,45.4513635,-73.0422493,glintcap_extract
+Cotswold Cider Company,1349.0,Coleshill,Oxfordshire,England,51.650203,-1.5959266,glintcap_extract
+Country Mill Winery,1839.0,Charlotte,Michigan,USA,42.635232,-84.79667,glintcap_extract
+County Cider Company,763.0,Waupoos,Ontario,Canada,44.0212351,-76.9622839,glintcap_extract
+Courthouse Creek Cider,221.0,Maidens,Virginia,USA,37.673983,-77.877307,glintcap_extract
+Covered Bridge Brewing,2035.0,Cottage Grove,Oregon,USA,43.7975203,-123.0584655,glintcap_extract
+Craigies Cider,1460.0,Bagenalstown,Carlow,Ireland,52.6971962,-6.9762235,glintcap_extract
+Creekside Estate Winery,2050.0,Jordan,Ontario,Canada,43.1524387,-79.3331283,glintcap_extract
+Crimson Cider Company,2083.0,Picton,Ontario,Canada,43.9918792,-77.1891137,glintcap_extract
+Crispin Cider Company,225.0,Colfax,California,USA,39.089006,-120.950642,glintcap_extract
+Critz Farms,226.0,Cazenovia,New York,USA,42.880641,-75.873523,glintcap_extract
+Crossmount Cider Company,764.0,Crossmount,Saskatchewan,Canada,52.03247,-106.673155,glintcap_extract
+Dan Kelly's Cider,1929.0,Drogheda,Louth,Ireland,53.7063533,-6.3223204,glintcap_extract
+Dancing Cider Co.,1990.0,Chungju,North Chungcheong,South Korea,37.0264162,127.8580113,glintcap_extract
+Dead Horse Cider Co.,941.0,Winkler,Manitoba,Canada,49.227539,-97.9654922,glintcap_extract
+Deep Roots Hard Cider,230.0,Sugar Run,Pennsylvania,USA,41.606174,-76.228739,glintcap_extract
+Descendant Cider Company,232.0,Maspeth,New York,USA,40.714463,-73.914203,glintcap_extract
+Destileria Queilen,3298.0,Queilén,Los Lagos,Chile,-42.8897196,-73.4755931,glintcap_extract
+Devoto Orchards Cider,1857.0,Sebastopol,California,USA,38.388874,-122.865391,glintcap_extract
+Dickens Cider,1539.0,Hillwood,Tasmania,Australia,-41.252324,146.995144,glintcap_extract
+Diner Brew Co.,235.0,Mt. Vernon,New York,USA,40.908354,-73.849259,glintcap_extract
+Diskin Cider,236.0,Nashville,Tennessee,USA,36.140849,-86.769778,glintcap_extract
+Distillery Lane Ciderworks,237.0,Jefferson,Maryland,USA,39.386592,-77.620521,glintcap_extract
+Docendo Discitur,2036.0,Villeneuve,Aosta Valley,Italy,45.7121378,7.2154238,glintcap_extract
+Domaine de Kervéguen,1988.0,Guimaëc,Brittany,France,48.6663665,-3.6911349,glintcap_extract
+Domaine de Normandie,2590.0,Caderousse,Provence-Alpes-Côte d'Azur,France,44.102636,4.7591221,glintcap_extract
+Domaine des 5 D,2178.0,Ouilly-le-Vicomte,Normandy,France,49.1786404,0.2045199,glintcap_extract
+Domaine des Côtes d'Ardoise,2051.0,Dunham,Quebec,Canada,45.1139705,-72.8457277999999,glintcap_extract
+Domaine Duclos Fougeray,1178.0,Saint Michel d'Halescourt,Normandy,France,49.6100938,1.664631,glintcap_extract
+Domaine Pinnacle,776.0,Frelighsburg,Quebec,Canada,45.027528,-72.784982,glintcap_extract
+Dominion Cider Co.,778.0,Summerland,British Columbia,Canada,49.589829,-119.692589,glintcap_extract
+Donovan Orchards Estate Ciders,2325.0,Barker,New York,USA,43.3638889,-78.5572222,glintcap_extract
+Door Peninsula Winery,240.0,Sturgeon Bay,Wisconsin,USA,44.951804,-87.336352,glintcap_extract
+Douglas Valley,1840.0,Manistee,Michigan,USA,44.322634,-86.225881,glintcap_extract
+Downeast Cider House,243.0,Charlestown,Massachusetts,USA,42.3642793999999,-71.0324945,glintcap_extract
+Dragon's Head Cider,244.0,Vashon,Washington,USA,47.441428,-122.473876,glintcap_extract
+Duluth Cider,250.0,Duluth,Minnesota,USA,46.764947,-92.127394,glintcap_extract
+Dunkertons Cider and Perry,1133.0,Cheltenham,Herefordshire,England,51.8771374,-2.0279869,glintcap_extract
+Duntroon Cyder House,781.0,Duntroon,Ontario,Canada,44.4112621,-80.1944895,glintcap_extract
+Duxbury Cider Company,782.0,Meaford,Ontario,Canada,44.6435776999999,-80.6511491999999,glintcap_extract
+E&J Gallo Winery,2566.0,Modesto,California,USA,37.6368057,-120.981631,glintcap_extract
+Eaglemount Wine & Cider,253.0,Port Townsend,Washington,USA,48.099159,-122.818591,glintcap_extract
+East End Brewing Company,1905.0,Pittsburgh,Pennsylvania,USA,40.4592101,-79.91171,glintcap_extract
+Eden Ciders,255.0,Newport,Vermont,USA,44.935976,-72.209246,glintcap_extract
+EdenVale Winery,998.0,Medford,Oregon,USA,42.2886086,-122.8477144,glintcap_extract
+Ela Cider Co.,1847.0,Rochester,Wisconsin,USA,42.744704,-88.247955,glintcap_extract
+Elk Horn Brewery & Ciderhouse,257.0,Eugene,Oregon,USA,44.049648,-123.082413,glintcap_extract
+Embark Craft Ciderworks,258.0,Williamson,New York,USA,43.248684,-77.187685,glintcap_extract
+Empire Cider Company,259.0,Geneva,New York,USA,42.872345,-77.008276,glintcap_extract
+Empyrical Orchard & Cidery,2037.0,Snohomish,Washington,USA,47.9125058,-122.0347067,glintcap_extract
+Epona,1890.0,Woodland,Washington,USA,45.9446269,-122.6949361,glintcap_extract
+Eris Brewery & Cider House,262.0,Chicago,Illinois,USA,41.953873,-87.734239,glintcap_extract
+Ernest Cider,784.0,Newmarket,Ontario,Canada,44.0410624,-79.6608566,glintcap_extract
+EsoTerra Ciderworks,996.0,Dolores,Colorado,USA,37.4761004,-108.4837559,glintcap_extract
+Ethic Ciders,263.0,Petaluma,California,USA,38.4257764,-122.8569459,glintcap_extract
+Etta Place Cider,869.0,Torrey,Utah,USA,38.299562,-111.4351606,glintcap_extract
+Eva Group,2571.0,Lekunberri,Navarre,Spain,43.0042839,-1.91068,glintcap_extract
+F.H. Prager,2052.0,Zbraslav,Prague,Czechia,49.9773812,14.3938187,glintcap_extract
+Fabbioli Cellars,266.0,Leesburg,Virginia,USA,39.182648,-77.519279,glintcap_extract
+Falconer Vineyards,269.0,Red Wing,Minnesota,USA,44.557381,-92.59406,glintcap_extract
+Farm & Cidery Kaneshige,2017.0,Shimojō,Nagano,Japan,35.4001414,137.7568105,glintcap_extract
+Farm Club,2082.0,Traverse City,Michigan,USA,44.8331931,-85.6898661,glintcap_extract
+Farmgate Cider,1069.0,Arnprior,Ontario,Canada,45.4138013,-76.2414158,glintcap_extract
+Farmhaus Cider Co.,19.0,Hudsonville,Michigan,USA,42.936623,-85.909009,glintcap_extract
+Farmstead Cider,909.0,Jackson,Wyoming,USA,43.4201872,-110.7769249,glintcap_extract
+Fenceline Cider,274.0,Mancos,Colorado,USA,37.344471,-108.28887,glintcap_extract
+Fenn Valley Vineyards,20.0,Fennville,Michigan,USA,42.577827,-86.144125,glintcap_extract
+Ferme Black Creek,2005.0,Hinchinbrooke,Quebec,Canada,45.0150504,-74.0098805,glintcap_extract
+Ferme de la Sapinière,1913.0,Saint-Laurent-sur-Mer,Normandy,France,49.3561555,-0.8754963,glintcap_extract
+Ferme de Romilly,2053.0,Saint-Germain-du-Pert,Normandy,France,49.3382641,-1.0293343,glintcap_extract
+Ferro Farms,1848.0,Lake Geneva,Wisconsin,USA,42.591684,-88.43343,glintcap_extract
+Ficklewood Ciderworks,1799.0,Long Beach,California,USA,33.7691676,-118.1833942,glintcap_extract
+FieldBird Cider,2013.0,Bloomfield,Ontario,Canada,44.0069575,-77.2822809,glintcap_extract
+Fieldstone Hard Cider Co.,21.0,Rochester,Michigan,USA,42.678876,-83.134079,glintcap_extract
+Finnriver Farm and Cidery,276.0,Chimacum,Washington,USA,48.0097371,-122.7694043,glintcap_extract
+Five Maidens Cider Company,712.0,Bethlehem,Pennsylvania,USA,40.6109554,-75.373349,glintcap_extract
+Flat Rock Cider Company,280.0,Hendersonville,North Carolina,USA,35.315966,-82.460411,glintcap_extract
+Flatbed Cider Co.,1861.0,Milton-Freewater,Oregon,USA,47.72945,-122.149322,glintcap_extract
+Flint City Hard Cider Co.,22.0,Flint,Michigan,USA,43.021453,-83.69504,glintcap_extract
+Floribunda,2029.0,Salorno,Trentino-South Tyrol,Italy,46.2431813,11.2153676,glintcap_extract
+Foggy Ridge Cider,1872.0,Dugspur,Virginia,USA,36.7672784,-80.5290282,glintcap_extract
+Forbidden Cider Co.,2054.0,Warkworth,Auckland,New Zealand,-36.3808039,174.6371632,glintcap_extract
+Forgotten Ciders,18.0,Wheeler,Michigan,USA,43.466119,-84.411417,glintcap_extract
+Forgotten Fire Winery,284.0,Marinette,Wisconsin,USA,45.045825,-87.719535,glintcap_extract
+Fort Point Beer Company,2079.0,San Francisco,California,USA,37.7896109,-122.4648487,glintcap_extract
+Forward Ferments,894.0,Myra,Wisconsin,USA,43.417508,-88.092845,glintcap_extract
+Fourth Coast Ciderworks,23.0,Lake Orion,Michigan,USA,42.7457157,-83.2832693,glintcap_extract
+Foxcraft Hard Cider,287.0,Santa Rosa,California,USA,38.441272,-122.714998,glintcap_extract
+Fraser Valley Cider Company,787.0,Langley Township,British Columbia,Canada,49.030911,-122.610962,glintcap_extract
+Frecon Farms,289.0,Reading,Pennsylvania,USA,40.328401,-75.647477,glintcap_extract
+Freewater Cider and Wine Company,290.0,Milton-Freewater,Oregon,USA,45.942433,-118.389708,glintcap_extract
+French Road Cellars,940.0,Lake Leelenau,Michigan,USA,44.9473982,-85.7551357,glintcap_extract
+Friendly Noise,2080.0,Los Angeles,California,USA,34.0522342,-118.2436849,glintcap_extract
+Gabbie's Premium Cider,788.0,Gabriola,British Columbia,Canada,49.1490115999999,-123.8076025,glintcap_extract
+Garage D'or Ciders,789.0,Pelham,Ontario,Canada,43.045335,-79.285449,glintcap_extract
+Gary Awdey,2574.0,Valparaiso,Indiana,USA,41.47309,-87.06114,glintcap_extract
+Geo Cider,2089.0,Squamish,British Columbia,Canada,49.7240532,-123.1542449,glintcap_extract
+Glacial Till Vineyard & Winery,294.0,Ashland,Nebraska,USA,41.038896,-96.368951,glintcap_extract
+Gnarly Grove Hard Cider,295.0,Columbus,Indiana,USA,39.267861,-85.832134,glintcap_extract
+Gnarly Pippin Cider House,1894.0,Cleveland Heights,Ohio,USA,41.503749,-81.5658554,glintcap_extract
+Goat Rock Cider Company,1011.0,Petaluma,California,USA,38.2734373,-122.6643955,glintcap_extract
+Godfrey Run Cider Mill,1070.0,Lake City,Pennsylvania,USA,42.036151,-80.3082175,glintcap_extract
+Golden State Cider,298.0,Graton,California,USA,38.4041073,-122.8198562,glintcap_extract
+Good Bones Ciderhouse,2090.0,Beulah,Michigan,USA,44.6279156,-85.9957727,glintcap_extract
+GoodRoad Ciderworks,300.0,Charlotte,North Carolina,USA,35.184917,-80.879441,glintcap_extract
+Gowan's Heirloom Ciders,303.0,Philo,California,USA,39.0869042,-123.4751758,glintcap_extract
+Grand Illusion Hard Cider,305.0,Carlisle,Pennsylvania,USA,40.20144,-77.190639,glintcap_extract
+Gravity Vineyards and Winery,1004.0,Baroda,Michigan,USA,41.933548,-86.4391475,glintcap_extract
+Great Lakes Farms,2084.0,Port Stanley,Ontario,Canada,42.6911428,-81.2335877,glintcap_extract
+Green Bench Brewing Co.,306.0,St. Petersburg,Florida,USA,27.771864,-82.650644,glintcap_extract
+Green Bird Cellars,25.0,Northport,Michigan,USA,45.108463,-85.65037,glintcap_extract
+Greenwood Cider Company,308.0,Seattle,Washington,USA,47.631204,-122.375137,glintcap_extract
+Grey & Gold Cider,1782.0,Clarksburg,Ontario,Canada,44.526397,-80.4657931,glintcap_extract
+Griffin Cider Works,309.0,Westlake,Ohio,USA,41.470266,-81.896853,glintcap_extract
+Gypsy Circus,312.0,Kingsport,Tennessee,USA,36.520022,-82.51794,glintcap_extract
+Hard Way Cider Co.,1879.0,Kingston,Ontario,Canada,44.241888,-76.5736795,glintcap_extract
+Hardscrabble Cider,320.0,North Salem,New York,USA,41.349727,-73.635051,glintcap_extract
+Harpers Ferry Brewing,2086.0,Purcellville,Virginia,USA,39.320459,-77.708175,glintcap_extract
+Hawk Knob,322.0,Lewisburg,West Virginia,USA,37.811476,-80.50273,glintcap_extract
+Haykin Family Cider,323.0,Aurora,Colorado,USA,39.764391,-104.848127,glintcap_extract
+Hazlitt 1852 Vineyards,324.0,Naples,New York,USA,42.621963,-77.400262,glintcap_extract
+Headwater Cider,325.0,Hawley,Massachusetts,USA,42.58249,-72.860053,glintcap_extract
+Heartland Ciderworks,2076.0,Rickreall,Oregon,USA,44.9264472,-123.2292953,glintcap_extract
+Heartwood Farm & Cidery,1783.0,Acton,Ontario,Canada,43.7010113,-80.1373711,glintcap_extract
+Heeman's,1071.0,Thorndale,Ontario,Canada,43.0407802,-81.1242136,glintcap_extract
+Heirloom Hill Cider Company,2578.0,Sterling,New York,USA,43.3242698,-76.7188388,glintcap_extract
+Henney's Cider,1179.0,Bishops Frome,Herefordshire,England,52.1324052,-2.4945371,glintcap_extract
+Hideout Brewing Company,2055.0,Grand Rapids,Michigan,USA,43.0179127,-85.6308116,glintcap_extract
+High Hope Cider,1892.0,Toronto,Ontario,Canada,43.6775105,-79.4207053,glintcap_extract
+High Limb Hard Cider,330.0,Plymouth,Massachusetts,USA,41.9434465,-70.7111477,glintcap_extract
+Himachal,2570.0,Burnley,Lancashire,England,53.80675,-2.21805,glintcap_extract
+Hogan's Cider,1150.0,Alcestor,Warwickshire,England,52.2205461,-1.8336097,glintcap_extract
+Hoity Toity Cellars,791.0,Mildmay,Ontario,Canada,44.093675,-81.143186,glintcap_extract
+Holmberg Orchards & Winery,333.0,Gales Ferry,Connecticut,USA,41.468406,-72.058204,glintcap_extract
+Hudson Valley Farmhouse Cider,341.0,Staatsburg,New York,USA,41.858265,-73.807785,glintcap_extract
+Humboldt Cider Company,342.0,Eureka,California,USA,40.7817209,-124.1298735,glintcap_extract
+Idol Cider House,2030.0,Turner,Oregon,USA,44.7501765,-122.918168,glintcap_extract
+Incline Cider Company,345.0,Auburn,Washington,USA,47.307323,-122.228453,glintcap_extract
+Independent Perry,990.0,Dryden,Washington,USA,47.5533258,-120.5686382,glintcap_extract
+Institut Agricole Régional,2031.0,Aosta,Aosta Valley,Italy,45.7369231,7.3000211,glintcap_extract
+Ironbark Ciderworks,348.0,Claremont,California,USA,34.10859,-117.701704,glintcap_extract
+Ironwood Hard Cider,796.0,Niagara-on-the-Lake,Ontario,Canada,43.252604,-79.120363,glintcap_extract
+Island Folk Cider House,2032.0,Sydney,Nova Scotia,Canada,46.1428047,-60.1955871,glintcap_extract
+Island Orchard Cider,350.0,Ellison Bay,Wisconsin,USA,45.256318,-87.071244,glintcap_extract
+J. Trees Cellars,1843.0,Tecumseh,Michigan,USA,42.004554,-83.934273,glintcap_extract
+Jaanihanso Cider,1927.0,Kaelase,Pärnu,Estonia,58.6955057,24.5206078,glintcap_extract
+James Creek Cider House,354.0,Cameron,North Carolina,USA,35.336069,-79.245782,glintcap_extract
+Jefferson County Ciderworks,357.0,Fairfield,Iowa,USA,41.017198,-92.018367,glintcap_extract
+JK's Farmhouse Ciders,3.0,Flushing,Michigan,USA,43.0274314,-83.9112091,glintcap_extract
+Journey North Cider Co.,1896.0,Bonnyville,Alberta,Canada,54.2321434,-110.8326035,glintcap_extract
+Junction Orchard & Cidery,2033.0,Victoria,British Columbia,Canada,48.5234444,-123.4370793,glintcap_extract
+Kaneb Orchards,362.0,Massena,New York,USA,44.945459,-74.853156,glintcap_extract
+Kekionga Craft Company,367.0,Fort Wayne,Indiana,USA,41.098914,-85.044471,glintcap_extract
+Kennebec Cider Company,368.0,Winthrop,Maine,USA,44.3251,-69.898994,glintcap_extract
+Keuka Craft Ciders,911.0,Canisteo,New York,USA,42.267302,-77.614778,glintcap_extract
+Kikusui Brewing Co.,2016.0,Iida,Nagano,Japan,35.5132343,137.8072107,glintcap_extract
+King Orchards,2137.0,Central Lake,Michigan,USA,45.1018844,-85.3050168,glintcap_extract
+Kings Highway Fine Cider,372.0,Millerton,New York,USA,41.8978652,-73.534851,glintcap_extract
+Kings Mill Cider,936.0,Stirling,Ontario,Canada,44.335137,-77.616518,glintcap_extract
+Kingston Creek Cider,1925.0,Kingston,New Brunswick,Canada,45.5322639,-65.9955129,glintcap_extract
+Knightberg,2565.0,Saint Petersburg,Saint Petersburg,Russia,59.9562289,30.3430525,glintcap_extract
+Koval Distillery,2056.0,Chicago,Illinois,USA,41.9589073,-87.6733714,glintcap_extract
+Kristof Farms,2039.0,Yamhill,Oregon,USA,45.3833849,-123.153384,glintcap_extract
+Kuhnhenn Brewing Co.,27.0,Warren,Michigan,USA,42.527768,-83.046765,glintcap_extract
+KW Craft Cider,798.0,Waterloo,Ontario,Canada,43.508396,-80.543731,glintcap_extract
+Lassen Traditional Cider,380.0,Chico,California,USA,39.714697,-121.820272,glintcap_extract
+Le Flanc Nord Verger & Cidrerie,802.0,Mont-Saint-Hilaire,Quebec,Canada,45.5715939,-73.1542621999999,glintcap_extract
+Le Père Jules,1384.0,Saint Desir de Lisieux,Normandy,France,49.157696,0.1960087,glintcap_extract
+Leaky Barrel Cider Company,2057.0,Windsor,California,USA,38.5289432,-122.8030103,glintcap_extract
+Left Field Cider Co.,806.0,Logan Lake,British Columbia,Canada,50.3615989,-120.8033218,glintcap_extract
+Left Foot Charley,30.0,Traverse City,Michigan,USA,44.756339,-85.645097,glintcap_extract
+Lehman's Orchards,31.0,Buchanan,Michigan,USA,41.8286715,-86.3576005,glintcap_extract
+Lekker Cider,2058.0,Calgary,Alberta,Canada,50.991601,-114.0646122,glintcap_extract
+Les Vergers de Kermao,1587.0,Gouesnac'h,Brittany,France,47.9218609999999,-4.08807999999999,glintcap_extract
+Liberty Ciderworks,387.0,Spokane,Washington,USA,47.655356,-117.418438,glintcap_extract
+Lindner's Cider,1886.0,Hamden,New York,USA,42.170095,-75.018056,glintcap_extract
+Liquid Alchemy Beverages,389.0,Wilmington,Delaware,USA,39.729206,-75.580718,glintcap_extract
+Liquid Art Winery,897.0,Manhattan,Kansas,USA,39.1924003,-96.6778549,glintcap_extract
+Little Apple Cidery,1012.0,Hillsdale,New York,USA,42.2158739,-73.5186273,glintcap_extract
+Little Pomona,1880.0,Bromyard,Herefordshire,England,52.1692482,-2.4944892,glintcap_extract
+Llagares Valverán,1471.0,Sariego,Asturias,Spain,43.4052509,-5.52600499999999,glintcap_extract
+Loch Mór Cider Co.,921.0,Wellington,Ontario,Canada,43.9718054,-77.3897867,glintcap_extract
+Locust Cider,391.0,Woodinville,Washington,USA,47.766244,-122.148563,glintcap_extract
+Long Island Meadery,2059.0,Holbrook,New York,USA,40.7838542,-73.0832757,glintcap_extract
+Long View Ciderhouse,2087.0,Southington,Connecticut,USA,41.6365031,-72.8386701,glintcap_extract
+Longueville House,1315.0,Mallow,Cork,Ireland,52.1355768,-8.7220608,glintcap_extract
+Lost Boy Cider,396.0,Alexandria,Virginia,USA,38.798715,-77.06327,glintcap_extract
+Lost Giants Cider Company,397.0,Bellingham,Washington,USA,48.752457,-122.459354,glintcap_extract
+Lost Valley Cider Co.,1026.0,Milwaukee,Wisconsin,USA,43.0276082,-87.9159237,glintcap_extract
+Loïc Raison,1369.0,Domagné,Brittany,France,48.070267,-1.394779,glintcap_extract
+Lucia Maria Melchiori,2092.0,Predaia,Trentino-South Tyrol,Italy,46.3193865,11.0960328,glintcap_extract
+LUK Cider and Spirit,2593.0,Shefford,Quebec,Canada,45.309873,-72.555275,glintcap_extract
+Maeloc,2510.0,Chantada,Galicia,Spain,42.5868096,-7.7764782,glintcap_extract
+Maiden Rock Winery & Cidery,401.0,Stockholm,Wisconsin,USA,44.515238,-92.268117,glintcap_extract
+Maison Hérout,2140.0,Auvers,Normandy,France,49.2940012,-1.303545,glintcap_extract
+Malicious Spirits,2060.0,Manistee,Michigan,USA,44.2126394,-86.2616291,glintcap_extract
+Malner,2078.0,Kozina,Hrpelje-Kozina,Slovenia,45.5749654,13.9366407,glintcap_extract
+Manoff Market Gardens & Cidery,987.0,New Hope,Pennsylvania,USA,40.396882,-75.0057,glintcap_extract
+Manoir de Grandouet,1376.0,Grandouet,Normandy,France,49.158588,0.066211,glintcap_extract
+Market Garden Brewery,1072.0,Cleveland,Ohio,USA,41.4850769,-81.7034306,glintcap_extract
+Mawby Vineyards,28.0,Suttons Bay,Michigan,USA,44.913676,-85.65229,glintcap_extract
+McClure's Orchard & Winery,407.0,Peru,Indiana,USA,40.837576,-86.130016,glintcap_extract
+Mcintosh Cellars,33.0,South Haven,Michigan,USA,42.469453,-86.170857,glintcap_extract
+McRitchie Winery & Ciderworks,410.0,Thurmond,North Carolina,USA,36.367307,-80.946974,glintcap_extract
+Meckley's Cidery,34.0,Cement City,Michigan,USA,42.058904,-84.405962,glintcap_extract
+Melo Moon Cider,985.0,Greenwich,New York,USA,43.0172595,-73.5126149,glintcap_extract
+Meraki Cider,413.0,Pismo Beach,California,USA,35.135223,-120.612188,glintcap_extract
+Meriwether Cider Company,415.0,Garden City,Idaho,USA,43.645176,-116.271227,glintcap_extract
+Mershon's Artisan Cider,416.0,Stoughton,Wisconsin,USA,42.929738,-89.213077,glintcap_extract
+Metal House Cider,417.0,Ulster Park,New York,USA,41.848908,-73.973564,glintcap_extract
+Methow Valley Ciderhouse,418.0,Winthrop,Washington,USA,48.477133,-120.186948,glintcap_extract
+Michigan Wine Company,1749.0,Fennville,Michigan,USA,42.5945628,-86.2096112,glintcap_extract
+Milk & Honey Ciders,419.0,St. Joseph,Minnesota,USA,45.5603828,-94.3518905,glintcap_extract
+Mill Bridge Winery,420.0,Pigeon Forge,Tennessee,USA,35.788615,-83.554632,glintcap_extract
+Millionaires' Row Cider Co.,892.0,Summerland,British Columbia,Canada,49.5904464,-119.7078094,glintcap_extract
+Minneapolis Cider Company,423.0,Minneapolis,Minnesota,USA,44.977753,-93.265011,glintcap_extract
+Mississippi Ale House,110.0,Olive Branch,Mississippi,USA,34.9631296,-89.8268168,glintcap_extract
+Modales Wines,1073.0,Fennville,Michigan,USA,42.5731406,-86.1530078,glintcap_extract
+Montana CiderWorks,428.0,Darby,Montana,USA,45.965401,-114.11709,glintcap_extract
+Mori-yama-en,2018.0,Hirosaki,Aomori,Japan,40.5869073,140.4570299,glintcap_extract
+Moss Vineyards,2020.0,Dyke,Virginia,USA,38.2404817,-78.5514481,glintcap_extract
+Mount Diablo Cider Company,1908.0,Lafayette,California,USA,37.9025575,-122.0944769,glintcap_extract
+Mountain West Cider Company,432.0,Salt Lake City,Utah,USA,40.778772,-111.903037,glintcap_extract
+Muse Orchard,707.0,Edinburg,Virginia,USA,38.8202977,-78.6011459,glintcap_extract
+Napton Cidery,2027.0,Southam,Warwickshire,England,52.2422487,-1.325063,glintcap_extract
+Nashi Orchards,435.0,Vashon,Washington,USA,47.375697,-122.504058,glintcap_extract
+New Holland Brewing,2061.0,Holland,Michigan,USA,42.790068,-86.1042,glintcap_extract
+New Leaf Cider Co.,1922.0,Port Crane,New York,USA,42.1497193,-75.8199007,glintcap_extract
+New Salem Cider,1883.0,New Salem,Massachusetts,USA,42.4945866,-72.3308978,glintcap_extract
+Newton Court Cider,1882.0,Newton,Herefordshire,England,52.1830141999999,-2.717924,glintcap_extract
+Niagara Cider Company,1923.0,Niagara Falls,Ontario,Canada,43.0550484,-79.1308663,glintcap_extract
+Nine Pin Cider,446.0,Albany,New York,USA,42.661798,-73.744166,glintcap_extract
+No Boats On Sunday,813.0,Truro,Nova Scotia,Canada,45.365773,-63.286941,glintcap_extract
+Noble Cider,447.0,Asheville,North Carolina,USA,35.602136,-82.62465,glintcap_extract
+Nomad Cider,815.0,Summerland,British Columbia,Canada,49.580647,-119.684279,glintcap_extract
+Nomad Cidery,36.0,Williamsburg,Michigan,USA,44.772385,-85.4418419,glintcap_extract
+North Shore Cider Company,452.0,Evanston,Illinois,USA,42.019682,-87.680734,glintcap_extract
+Northern Natural Cider House & Winery,37.0,Kaleva,Michigan,USA,44.3464985,-86.1020865,glintcap_extract
+Northman Cider Co.,2228.0,Chicago,Illinois,USA,41.9605939,-87.6829794,glintcap_extract
+Northville Winery and Brewing Company,38.0,Northville,Michigan,USA,42.437271,-83.475242,glintcap_extract
+Northwood Cider Co.,1910.0,Norwood,Ohio,USA,39.1584343,-84.458172,glintcap_extract
+Northyards Cider Co.,814.0,Salmon Arm,British Columbia,Canada,50.7082062,-119.2489944,glintcap_extract
+Number 12 Cider,454.0,Minneapolis,Minnesota,USA,44.9852933,-93.2796211,glintcap_extract
+Occam Cider,3297.0,Beacon,New York,USA,41.4965045,-73.9546244,glintcap_extract
+Odd Brothers Craft Cider,1757.0,Homer,Michigan,USA,42.1364887,-84.8664378,glintcap_extract
+Offset Ciderworks,1887.0,Seattle,Washington,USA,47.8028091,-122.3228434,glintcap_extract
+OK Cider Co,455.0,Oklahoma City,Oklahoma,USA,35.4670261,-97.5247456,glintcap_extract
+Old Boys’ Brewhouse,2568.0,Spring Lake,Michigan,USA,43.0770187,-86.2127533,glintcap_extract
+Old Hill Cider,456.0,Timberville,Virginia,USA,38.667709,-78.797062,glintcap_extract
+Oliver's Cider and Perry,1130.0,Ocle Pychard,Herefordshire,England,52.118645,-2.59315,glintcap_extract
+Once Upon A Tree,1181.0,Ledbury,Herefordshire,England,52.0360541999999,-2.4517932,glintcap_extract
+OR\WA Cider Collective,463.0,Milwaukie,Oregon,USA,45.440262,-122.630103,glintcap_extract
+Ore Creek Craft Cider,39.0,Pinckney,Michigan,USA,42.4182281,-83.905632,glintcap_extract
+Original Sin Cider,467.0,New York,New York,USA,40.733215,-73.991496,glintcap_extract
+Orpens Cider,1470.0,Kildare,Kildare,Ireland,53.1589342,-6.9095683,glintcap_extract
+Overgrown Orchard,893.0,Gary,Indiana,USA,41.5757249,-87.2941181,glintcap_extract
+Owl Creek Vineyard,91.0,Cobden,Illinois,USA,37.560606,-89.190211,glintcap_extract
+Paha Cider,2221.0,Waverly,Iowa,USA,42.7013869,-92.414852,glintcap_extract
+Painted Turtle Hard Cider,40.0,Lowell,Michigan,USA,43.027811,-85.371348,glintcap_extract
+Papa Moon Vineyards & Winery,1074.0,Scottsbluff,Nebraska,USA,41.8877158,-103.6176699,glintcap_extract
+Patriots' Heritage Cider,912.0,Schaghticoke,New York,USA,42.8848347,-73.5781383,glintcap_extract
+Paynter's Cider,2004.0,Havelock North,Hawke's Bay,New Zealand,-39.665185,176.8531411,glintcap_extract
+Peak Light Cider,916.0,Sauvie Island,Oregon,USA,45.6648629,-122.844112,glintcap_extract
+Peat's Original Cider,1771.0,Stevensville,Michigan,USA,42.0052528,-86.5306091,glintcap_extract
+Pencil Hound Ciders,1874.0,Dolores,Colorado,USA,37.4762645,-108.4837614,glintcap_extract
+Peninsula Cellars,1893.0,Traverse City,Michigan,USA,44.854006,-85.527215,glintcap_extract
+Phillips Orchards & Cider Mill,43.0,St Johns,Michigan,USA,43.1177,-84.563483,glintcap_extract
+Pink Barrel Cellars,1767.0,Grand Rapids,Michigan,USA,43.0586154999999,-85.7445192,glintcap_extract
+Platform Beer Company,483.0,Cleveland,Ohio,USA,41.479836,-81.713968,glintcap_extract
+Ploughman Cider,484.0,Gettysburg,Pennsylvania,USA,39.8305602999999,-77.231414,glintcap_extract
+Pommies Cider Co.,819.0,Caledon,Ontario,Canada,43.863806,-79.720618,glintcap_extract
+Ponderosa Cider Co.,2181.0,Auburn,California,USA,38.8916572,-121.0684595,glintcap_extract
+Portland Cider Company,490.0,Clackamas,Oregon,USA,45.415288,-122.572714,glintcap_extract
+Posterity Ciderworks,1873.0,Mokelumne Hill,California,USA,38.2969506,-120.7076974,glintcap_extract
+Potter's Craft Cider,491.0,Charlottesville,Virginia,USA,37.9986534,-78.5798492,glintcap_extract
+Presque Isle Farm Cider,1717.0,Posen,Michigan,USA,45.25734,-83.59946,glintcap_extract
+Prima Cider,492.0,Long Grove,Illinois,USA,42.232727,-88.015032,glintcap_extract
+Prospect Ciderworks,493.0,Boston,Massachusetts,USA,42.542993,-71.575747,glintcap_extract
+Prototype Hard Cider,2579.0,Lancaster,Pennsylvania,USA,40.0325367,-76.3299666,glintcap_extract
+Puddicombe Estate Farm,820.0,Winona,Ontario,Canada,43.2048937,-79.6336934999999,glintcap_extract
+Puget Sound Cider Company,1912.0,Renton,Washington,USA,47.479856,-122.204573,glintcap_extract
+Punta de Fierro Fine Cider,3282.0,Cayumapu,Los Ríos,Chile,-39.7294565,-73.1097418,glintcap_extract
+Punx Cider Worx,2247.0,Punxsutawney,Pennsylvania,USA,40.9358884,-78.9681709,glintcap_extract
+Pux Cider,44.0,Grand Rapids,Michigan,USA,42.9683341,-85.6402739999999,glintcap_extract
+Ragged and Right Cider Project,271.0,Mount Vernon,Washington,USA,48.442772,-122.342298,glintcap_extract
+Ragged Hill Cider,497.0,West Brookfield,Massachusetts,USA,42.269444,-72.168979,glintcap_extract
+Raging Cider & Mead,498.0,San Marcos,California,USA,33.144079,-117.18753,glintcap_extract
+Raven's Moon Craft Cider,729.0,Courtenay,British Columbia,Canada,49.692391,-125.040645,glintcap_extract
+RAW Cider,2070.0,Yamhill,Oregon,USA,45.3415301,-123.1878221,glintcap_extract
+Rebel Apple,2091.0,Moscow,Moscow,Russia,55.7692065,37.5108509,glintcap_extract
+Rebel Seed Cidery,501.0,Marydel,Delaware,USA,39.083683,-75.742472,glintcap_extract
+Red Clay Ciderworks,504.0,Charlotte,North Carolina,USA,35.194573,-80.874782,glintcap_extract
+Red Door Brewing Company,901.0,Albuquerque,New Mexico,USA,35.0848892,-106.6532389,glintcap_extract
+Red Island Cider,1898.0,Charlottetown,Prince Edward Island,Canada,46.2453598,-63.1244046,glintcap_extract
+Red Rover Craft Cider,823.0,Fredericton,New Brunswick,Canada,45.9509442,-66.6855764,glintcap_extract
+Red Top Winery,1716.0,Baroda,Michigan,USA,41.9260552,-86.4463222,glintcap_extract
+Redbyrd Orchard Cider,507.0,Trumansburg,New York,USA,42.500194,-76.639118,glintcap_extract
+Reinhart's Cider,2026.0,Stayner,Ontario,Canada,44.4209888,-80.0971399,glintcap_extract
+Renaissance Orchards,511.0,Ferndale,Washington,USA,48.834936,-122.640266,glintcap_extract
+Restoration Cider,512.0,Madison,Wisconsin,USA,43.051481,-89.27519,glintcap_extract
+Revel Cider Company,824.0,Guelph,Ontario,Canada,43.5467931,-80.2767466999999,glintcap_extract
+Reverend Nat's Hard Cider,514.0,Portland,Oregon,USA,45.5050424,-122.6278162,glintcap_extract
+Rhinegeist Brewery,515.0,Cincinnati,Ohio,USA,39.117266,-84.520101,glintcap_extract
+Rice Lake Hard Cider,1888.0,Baltimore,Ontario,Canada,44.017223,-78.1461123,glintcap_extract
+Ricker Hill,516.0,Turner,Maine,USA,44.26588,-70.280404,glintcap_extract
+Rider Ranch,517.0,Los Gatos,California,USA,37.122006,-121.977594,glintcap_extract
+Ridge Cider Co.,1802.0,Grant,Michigan,USA,43.308463,-85.809504,glintcap_extract
+Right Bee Cider,518.0,Chicago,Illinois,USA,41.914519,-87.736933,glintcap_extract
+Riley's Cidery,2105.0,Bowen Island,British Columbia,Canada,49.3624343,-123.4012374,glintcap_extract
+Riverhead Ciderhouse,521.0,Riverhead,New York,USA,40.958383,-72.729308,glintcap_extract
+Robinette Cellars,46.0,Grand Rapids,Michigan,USA,43.027537,-85.592264,glintcap_extract
+Rock N Wool Winery,1075.0,Poynette,Wisconsin,USA,43.4264281,-89.3907181,glintcap_extract
+Rogue Ales & Spirits,527.0,Newport,Oregon,USA,44.620258,-124.052403,glintcap_extract
+Rootstock Ciderworks,529.0,Marion,New York,USA,43.201215,-77.224684,glintcap_extract
+Ross-on-Wye Cider and Perry,1134.0,Ross-on-Wye,Herefordshire,England,51.9170867999999,-2.6320935,glintcap_extract
+Rossbach Cider,1542.0,Hranice,Karlovy Vary,Czechia,50.3053478,12.1753565,glintcap_extract
+Runcible Cider,534.0,Mosier,Oregon,USA,45.673003,-121.408294,glintcap_extract
+Rushford Meadery & Winery,895.0,Omro,Wisconsin,USA,44.0627484,-88.8189843,glintcap_extract
+Russell Orchards,535.0,Ipswich,Massachusetts,USA,42.664953,-70.799866,glintcap_extract
+S. Martinelli & Co.,537.0,Watsonville,California,USA,36.902162,-121.7648,glintcap_extract
+Sage Bird Ciderworks,889.0,Harrisonburg,Virginia,USA,38.4530173,-78.86998,glintcap_extract
+Salt Creek Cider House,978.0,Dallas,Oregon,USA,44.9786166,-123.3265005,glintcap_extract
+Salt Spring Wild Cider,827.0,Salt Spring Island,British Columbia,Canada,48.862494,-123.522065,glintcap_extract
+Sanctuary Spirits,1013.0,Grand Ledge,Michigan,USA,42.7404054,-84.7354777,glintcap_extract
+Santa Cruz Cider Co.,543.0,Santa Cruz,California,USA,36.959789,-122.048975,glintcap_extract
+Santa Fe Cider Works,544.0,Santa Fe,New Mexico,USA,35.637686,-106.025024,glintcap_extract
+Santa Sidra Hard Cider,2025.0,Santa Fe,New Mexico,USA,35.6608392,-105.987504,glintcap_extract
+Sapsucker Farms Yellow Belly Cidery,545.0,Mora,Minnesota,USA,45.8970174,-93.152247,glintcap_extract
+Saro Cider,547.0,Lincoln,Nebraska,USA,40.812684,-96.695605,glintcap_extract
+Scenic Road Cider Co.,828.0,Kelowna,British Columbia,Canada,49.931257,-119.421347,glintcap_extract
+Schilling Cider,550.0,Auburn,Washington,USA,47.347243,-122.233995,glintcap_extract
+Sea Cider Farm & Ciderhouse,830.0,Saanichton,British Columbia,Canada,48.6036859,-123.396825,glintcap_extract
+Seattle Cider Company,553.0,Seattle,Washington,USA,47.560327,-122.337605,glintcap_extract
+Seek-No-Further Cidery,1817.0,Granville,Ohio,USA,40.0670945,-82.5194091,glintcap_extract
+Seminary Hill Orchard & Cidery,1060.0,Callicoon,New York,USA,41.7743187,-75.0549915,glintcap_extract
+Serpentine Cider,556.0,San Diego,California,USA,32.895393,-117.137246,glintcap_extract
+Seven Seeds Seidr,2594.0,Forest Grove,Oregon,USA,45.5230162999999,-123.1063599,glintcap_extract
+Sheppy's Cider,1118.0,Bradford-on-Tone,Somerset,England,50.9935861,-3.1723149,glintcap_extract
+Shield Cider,2598.0,Houston,Texas,USA,29.7811534,-95.626656,glintcap_extract
+Shiny Apple Cider,831.0,Niagara-on-the-Lake,Ontario,Canada,43.223863,-79.1714889,glintcap_extract
+ShipBuilders Cider,832.0,Halifax,Nova Scotia,Canada,44.649288,-63.574042,glintcap_extract
+Shoal Hope Ciderworks,560.0,Provincetown,Massachusetts,USA,42.057719,-70.188488,glintcap_extract
+Shuswap Cider Co.,1980.0,Salmon Arm,British Columbia,Canada,50.6918843,-119.3095887,glintcap_extract
+Sidewood Estate,1916.0,Hahndorf,South Australia,Australia,-35.0207278,138.7945874,glintcap_extract
+Sidra Castañón,1473.0,Quintueles,Asturias,Spain,43.5144271,-5.5691788,glintcap_extract
+Sidra Cortina,1472.0,Amandi,Asturias,Spain,43.4709695,-5.4418764,glintcap_extract
+Sidra Della Chà,2953.0,Tralcao,Los Ríos,Chile,-39.6955049,-73.1471684999999,glintcap_extract
+Sidra El Gaitero,1314.0,Villaviciosa,Asturias,Spain,43.4923237,-5.4230532,glintcap_extract
+Sidra El Gobernador,1476.0,Villaviciosa,Asturias,Spain,43.5193518,-5.4402059,glintcap_extract
+Sidra Fanjul,1672.0,Siero,Asturias,Spain,43.370866,-5.754482,glintcap_extract
+Sidra Insular,3296.0,Achao,Los Lagos,Chile,-42.4703002,-73.4954543,glintcap_extract
+Sidra Mayador,1610.0,La Rasa,Asturias,Spain,43.514985,-5.330323,glintcap_extract
+Sidra Menéndez,1165.0,Fano,Asturias,Spain,43.4612103,-5.6209813,glintcap_extract
+Sidra Riestra,1673.0,Sariego,Asturias,Spain,43.416536,-5.580949,glintcap_extract
+Sidra Somarroza,1921.0,Renedo de Piélagos,Cantabria,Spain,43.3529633,-3.9604843,glintcap_extract
+Sidra Trabanco,1674.0,Llavandera,Asturias,Spain,43.4704387,-5.6447197,glintcap_extract
+Sidra Viuda de Angelón,1675.0,Nava,Asturias,Spain,43.367684,-5.523426,glintcap_extract
+Sidrería Irigoien Herrero,2003.0,Astigarraga,Basque Country,Spain,43.2851708,-1.9329983,glintcap_extract
+Sidrería TenCai,2743.0,Padre Las Casas,Araucanía,Chile,-38.7416573,-72.5550678,glintcap_extract
+Sierra Cider,561.0,Mariposa,California,USA,37.495517,-119.819732,glintcap_extract
+Sietsema Orchards,1844.0,Ada,Michigan,USA,43.000772,-85.459472,glintcap_extract
+Silo Distillery,939.0,Windsor,Vermont,USA,43.5143504,-72.402142,glintcap_extract
+Sincere Cider,976.0,Oakland,California,USA,37.8043514,-122.2711639,glintcap_extract
+Slabtown Cider Co.,2104.0,Uxbridge,Ontario,Canada,44.0606307,-79.1247329,glintcap_extract
+Slake Cider,181.0,McMinnville,Oregon,USA,45.215577,-123.197811,glintcap_extract
+Slaughterhouse Craft Cider & Mead,2563.0,Prince George,British Columbia,Canada,53.8182393,-123.0477032,glintcap_extract
+Sly Clyde Ciderworks,566.0,Hampton,Virginia,USA,37.01651,-76.319663,glintcap_extract
+Slyboro Ciderhouse,567.0,Granville,New York,USA,43.411532,-73.330994,glintcap_extract
+Small Acres Cyder,1175.0,Borenore,New South Wales,Australia,-33.2818782,148.9909171,glintcap_extract
+Snow Capped Cider,569.0,Cedaredge,Colorado,USA,38.898619,-107.924961,glintcap_extract
+Snowdrift Cider Co.,570.0,East Wenatchee,Washington,USA,47.400586,-120.178628,glintcap_extract
+SoCal CiderWorks,2581.0,Los Angeles,California,USA,34.1385139,-118.2103626,glintcap_extract
+Sonoma Cider,1085.0,Fresno,California,USA,36.7270581,-119.7906887,glintcap_extract
+Sourwood Cider,1928.0,Halifax,Nova Scotia,Canada,44.6395722,-63.6644932,glintcap_extract
+South City Ciderworks,577.0,San Bruno,California,USA,37.639936,-122.412129,glintcap_extract
+Space Time Mead & Cider Works,971.0,Dunmore,Pennsylvania,USA,41.4172242,-75.6350154,glintcap_extract
+Speciation Artisan Ales,938.0,Grand Rapids,Michigan,USA,42.9552166,-85.6456408,glintcap_extract
+Spicer's Winery,49.0,Fenton,Michigan,USA,42.677486,-83.751844,glintcap_extract
+Spirit Tree Estate Cidery,835.0,Caledon,Ontario,Canada,43.757858,-79.9424878,glintcap_extract
+Spoke + Spy Ciderworks,582.0,Middletown,Connecticut,USA,41.572063,-72.657709,glintcap_extract
+Spring Hill Cider Works,584.0,Geneva,Ohio,USA,41.781744,-80.97225,glintcap_extract
+Spy Cider House and Distillery,2040.0,Clarksburg,Ontario,Canada,44.5130682,-80.450338,glintcap_extract
+Square Mile Cider,585.0,Portland,Oregon,USA,45.541124,-122.676595,glintcap_extract
+Squiggly Tree Cider,1901.0,Grand Rapids,Michigan,USA,43.0187425,-85.6003355,glintcap_extract
+St. Ambrose Cellars,50.0,Beulah,Michigan,USA,44.618196,-85.998147,glintcap_extract
+St. Julian Winery,51.0,Paw Paw,Michigan,USA,42.212252,-85.891725,glintcap_extract
+St. Vrain Cidery,587.0,Longmont,Colorado,USA,40.1651663,-105.104967,glintcap_extract
+Star Cider,590.0,Clifton Springs,New York,USA,42.866574,-77.2504058,glintcap_extract
+Starcut Ciders,52.0,Bellaire,Michigan,USA,44.976269,-85.210357,glintcap_extract
+Stem Ciders,592.0,Denver,Colorado,USA,39.761635,-104.983791,glintcap_extract
+Still River Winery,2024.0,Harvard,Massachusetts,USA,42.4817422,-71.583847,glintcap_extract
+Stoic Cider,594.0,Prescott,Arizona,USA,34.748157,-112.670676,glintcap_extract
+Stoked Cider,2587.0,Westlake Village,California,USA,34.1557416,-118.8083848,glintcap_extract
+Stone Circle Cider,597.0,Estacada,Oregon,USA,45.27771,-122.284894,glintcap_extract
+Stoney Ridge Winery,598.0,Bryan,Ohio,USA,41.516257,-84.516839,glintcap_extract
+Stoneybrook Cider,599.0,South Hadley,Massachusetts,USA,42.250687,-72.55657,glintcap_extract
+Stormalong Cider,600.0,Sherborn,Massachusetts,USA,42.231425,-71.362237,glintcap_extract
+Stowe Cider,601.0,Stowe,Vermont,USA,44.473504,-72.711986,glintcap_extract
+String Theory Cider,1822.0,Cumberland,Wisconsin,USA,45.5309002,-92.0212919,glintcap_extract
+Subterranean Cider,2041.0,Ypsilanti,Michigan,USA,42.2411499,-83.6129939,glintcap_extract
+Sulker's Cider,2585.0,Newmarket,Ontario,Canada,44.055902,-79.3909169,glintcap_extract
+Sully's Cider,1383.0,Reidsdale,New South Wales,Australia,-35.5730387,149.8488755,glintcap_extract
+Summerland Heritage Cider Company,836.0,Summerland,British Columbia,Canada,49.5714107999999,-119.6384971,glintcap_extract
+Sunken Paddle Ciderworks,1891.0,Oshkosh,Wisconsin,USA,44.0015236,-88.5517169,glintcap_extract
+Sunnycider,2042.0,Calgary,Alberta,Canada,51.0652978,-113.9871956,glintcap_extract
+Sunrise Orchards,2572.0,Cornwall,Vermont,USA,43.9619116999999,-73.2398856,glintcap_extract
+Sutliff Cider Company,609.0,Lisbon,Iowa,USA,41.887218,-91.385952,glintcap_extract
+Suttons Bay Ciders,53.0,Suttons Bay,Michigan,USA,44.905766,-85.643616,glintcap_extract
+Swift Cider,612.0,Portland,Oregon,USA,45.5791983999999,-122.6641214,glintcap_extract
+Swilled Dog Hard Cider,613.0,Franklin,West Virginia,USA,38.7831416,-79.2850581,glintcap_extract
+Sycamore Ranch Vineyard & Winery,1014.0,Crestline,California,USA,34.2532057,-117.2588613,glintcap_extract
+Talbott's Cider Company,615.0,Palisade,Colorado,USA,39.097123,-108.349759,glintcap_extract
+Talisman Farm Cidery,2023.0,Hygiene,Colorado,USA,40.1893942,-105.1781092,glintcap_extract
+Tall Post Craft Cider,2002.0,Hannon,Ontario,Canada,43.1459211,-79.7682554,glintcap_extract
+Tall Ship Craft Cider / Fjordfolk Mikrobryggeri,1884.0,Sandefjord,Vestfold,Norway,59.1287336,10.2604976,glintcap_extract
+Tandem Ciders,54.0,Suttons Bay,Michigan,USA,45.011335,-85.659757,glintcap_extract
+Tapped Apple Cider & Winery,617.0,Westerly,Rhode Island,USA,41.378713,-71.829973,glintcap_extract
+Teal Cider,1875.0,Dolores,Colorado,USA,37.4715586,-108.6286897,glintcap_extract
+Tempted Cider,1459.0,Lisburn,Antrim,Northern Ireland,54.5086985,-6.1311345,glintcap_extract
+Ten Towers Cider Co.,1878.0,Rickreall,Oregon,USA,44.9263204,-123.2291874,glintcap_extract
+Tenmile Cider Co.,2043.0,Breckenridge,Colorado,USA,39.4824831,-106.0463073,glintcap_extract
+Tercer Ciclo,3293.0,Santiago,Metropolitan,Chile,-33.4316585,-70.6352261,glintcap_extract
+Texas Corners Brewing Company,55.0,Kalamazoo,Michigan,USA,42.202294,-85.686559,glintcap_extract
+Texas Keeper Cider,619.0,Manchaca,Texas,USA,30.125459,-97.818789,glintcap_extract
+The Apple Barn And Cider Mill,2299.0,Sevierville,Tennessee,USA,35.8267321,-83.5792419,glintcap_extract
+The BottleHouse Brewing Company,621.0,Cleveland Heights,Ohio,USA,41.503728,-81.565883,glintcap_extract
+The Cider Farm,622.0,Mineral Point,Wisconsin,USA,42.859997,-90.179847,glintcap_extract
+The Cider Mill Slane,2001.0,Slane,Meath,Ireland,53.7129257,-6.6236699,glintcap_extract
+The Great Canadian Cider Company,2589.0,Collingwood,Ontario,Canada,44.4883641,-80.1988175,glintcap_extract
+The Hills Cider Company,1184.0,North Adelaide,South Australia,Australia,-35.0133029,138.8931757,glintcap_extract
+The Infinite Monkey Theorem,625.0,Denver,Colorado,USA,39.764124,-104.977492,glintcap_extract
+The New Frontier Cider Company,440.0,Seville,Ohio,USA,41.04744,-81.850545,glintcap_extract
+The Old Mine Cider Company,626.0,Erie,Colorado,USA,40.049115,-105.047549,glintcap_extract
+Thistly Cross Cider,1155.0,Dunbar,East Lothian,Scotland,55.9850363,-2.5614933,glintcap_extract
+Thor's Hard Cider,631.0,Stillwater,Minnesota,USA,45.042138,-92.865744,glintcap_extract
+Thornapple Brewing Company,58.0,Grand Rapids,Michigan,USA,42.912347,-85.512693,glintcap_extract
+Thornborough Cider,1374.0,Thornborough,North Yorkshire,England,54.213483,-1.55187,glintcap_extract
+Thornbury Craft Co.,841.0,Thornbury,Ontario,Canada,44.5596898,-80.4459883999999,glintcap_extract
+Threadbare Cider,632.0,Pittsburgh,Pennsylvania,USA,40.460471,-79.988895,glintcap_extract
+Three Brothers Wineries & Estates,633.0,Geneva,New York,USA,42.820685,-76.926299,glintcap_extract
+Three Falls Cider,1919.0,Castile,New York,USA,42.6310355,-78.0475846,glintcap_extract
+Three Thinkers Cider,900.0,Stateline,Nevada,USA,38.9624079,-119.9399029,glintcap_extract
+Tideview Cider,1851.0,Greenwich,Nova Scotia,Canada,45.08312,-64.402318,glintcap_extract
+Tieton Cider Works,635.0,Yakima,Washington,USA,46.615859,-120.521786,glintcap_extract
+Tilted Shed Ciderworks,636.0,Windsor,California,USA,38.536915,-122.805436,glintcap_extract
+Tin Hat Cider,640.0,Warren,Vermont,USA,44.087237,-72.715339,glintcap_extract
+Toboggan Brewing Co.,842.0,London,Ontario,Canada,42.9898526,-81.2511909,glintcap_extract
+Tom's Foolery Distillery,1877.0,Burton,Ohio,USA,41.3910297,-81.1757311,glintcap_extract
+Top of the Rock Ciders,2576.0,Kalamazoo,Michigan,USA,42.2950935,-85.7294998,glintcap_extract
+Townline Ciderworks,59.0,Williamsburg,Michigan,USA,44.863802,-85.422672,glintcap_extract
+Tractor Brewing Company,643.0,Albuquerque,New Mexico,USA,35.102281,-106.647915,glintcap_extract
+Treasury Cider at Fishkill Farms,644.0,Hopewell Junction,New York,USA,41.517826,-73.823327,glintcap_extract
+Treehive,3295.0,Brocton,Illinois,USA,39.7155705,-87.9333654,glintcap_extract
+Treehorn Cider,645.0,Marietta,Georgia,USA,33.942771,-84.514319,glintcap_extract
+Troy Cider,647.0,Fulton,California,USA,38.495772,-122.7667,glintcap_extract
+Trubacheevka,2139.0,Trubacheyevka,Moscow Oblast,Russia,55.646393,37.1704977,glintcap_extract
+Tulip Valley Vineyard & Orchard,648.0,Mt Vernon,Washington,USA,48.443719,-122.396515,glintcap_extract
+Tumalo Cider,649.0,Bend,Oregon,USA,44.1473701,-121.3304068,glintcap_extract
+Turncoat Cidery,2136.0,Jamestown,Rhode Island,USA,41.487469,-71.3907177,glintcap_extract
+Twin Pines Orchards & Cider House,845.0,Thedford,Ontario,Canada,43.1877621,-81.8474768999999,glintcap_extract
+Twisted Hills Craft Cider,846.0,Cawston,British Columbia,Canada,49.177257,-119.754245,glintcap_extract
+Two Blokes Cider,935.0,Seagrave,Ontario,Canada,44.1845111999999,-78.9465991,glintcap_extract
+Two Broads Ciderworks,654.0,San Luis Obispo,California,USA,35.259662,-120.644957,glintcap_extract
+Two K Farms,932.0,Suttons Bay,Michigan,USA,44.922709,-85.626569,glintcap_extract
+Txopinondo,1649.0,Ascain,Nouvelle-Aquitaine,France,43.364722,-1.6375,glintcap_extract
+Ugly Apple,2015.0,Lanark,Ontario,Canada,45.0409655,-76.511907,glintcap_extract
+Uncle John's,61.0,St Johns,Michigan,USA,43.112648,-84.561921,glintcap_extract
+Uncommon Cider Co.,847.0,Calgary,Alberta,Canada,51.0187544,-114.0596605,glintcap_extract
+Unibroue,2000.0,Chambly,Quebec,Canada,45.4412746,-73.2614007,glintcap_extract
+Upper Left Apples,2584.0,Everett,Washington,USA,47.900697,-122.205343,glintcap_extract
+Upstream Cider,657.0,Stevens Point,Wisconsin,USA,44.4976,-89.5595,glintcap_extract
+Urban Farm Fermentory,658.0,Portland,Maine,USA,43.669113,-70.256105,glintcap_extract
+Urban Forage Winery & Cider House,659.0,Minneapolis,Minnesota,USA,44.948571,-93.227734,glintcap_extract
+Urban Tree Hard Cider,661.0,Atlanta,Georgia,USA,33.794905,-84.414797,glintcap_extract
+Val de Rance,1999.0,Pleudihen-sur-Rance,Brittany,France,48.5085681999999,-1.9533612,glintcap_extract
+Vala's Orchard Cider,1055.0,Gretna,Nebraska,USA,41.1285802,-96.1989432,glintcap_extract
+Valley Cider Company,1897.0,Duncan,British Columbia,Canada,48.8370145,-123.7089745,glintcap_extract
+Vander Mill,62.0,Grand Rapids,Michigan,USA,42.971697,-85.630719,glintcap_extract
+Verger Belliveau Orchard,850.0,Memramcook,New Brunswick,Canada,45.9486894,-64.6265421,glintcap_extract
+Vergers de Velours,1998.0,Saint-Henri-de-Taillon,Quebec,Canada,48.6614250999999,-71.8144356,glintcap_extract
+Vermont Cider Company,664.0,Middlebury,Vermont,USA,44.034072,-73.172778,glintcap_extract
+Victoria Cider Co.,2134.0,Victoria,British Columbia,Canada,48.643741,-123.457186,glintcap_extract
+Vin 312,1902.0,Chicago,Illinois,USA,41.9676466,-87.6748505,glintcap_extract
+Vines & Rushes Winery,665.0,Ripon,Wisconsin,USA,43.906003,-88.839949,glintcap_extract
+Vins Arista,861.0,Rougemont,Quebec,Canada,45.4394121,-73.0580021999999,glintcap_extract
+Virtue Cider,63.0,Fennville,Michigan,USA,42.57688,-86.15187,glintcap_extract
+Walkerville City Cidery,1926.0,Windsor,Ontario,Canada,42.3238128,-83.0113399,glintcap_extract
+Wandering Aengus Ciderworks,668.0,Salem,Oregon,USA,44.893871,-122.996201,glintcap_extract
+Wards Cider,863.0,Kelowna,British Columbia,Canada,49.8451347,-119.4383954,glintcap_extract
+Warwick Valley Winery & Distillery,669.0,Warwick,New York,USA,41.29121,-74.439717,glintcap_extract
+Waves Cider Co.,1050.0,Columbia,Missouri,USA,38.9655649,-92.3297892,glintcap_extract
+Weidmann & Groh,1343.0,Friedberg-Ockstadt,Hesse,Germany,50.3305754,8.7244989,glintcap_extract
+West Avenue Cider,864.0,Freelton,Ontario,Canada,43.3699543,-79.9815735,glintcap_extract
+West End Cider House,674.0,Athens,Ohio,USA,39.332217,-82.110287,glintcap_extract
+Westcott Bay Cider,675.0,Friday Harbor,Washington,USA,48.603122,-123.162475,glintcap_extract
+Western Cider,676.0,Missoula,Montana,USA,46.876599,-114.014032,glintcap_extract
+Westons Cider,1131.0,Ledbury,Herefordshire,England,51.994817,-2.512396,glintcap_extract
+Westside CiderWerks,2575.0,Grand Rapids,Michigan,USA,42.97887,-85.71474,glintcap_extract
+Westview Orchards & Winery,64.0,Washington,Michigan,USA,42.772653,-83.018539,glintcap_extract
+Whetstone CiderWorks,1803.0,Marlboro,Vermont,USA,42.863815,-72.689529,glintcap_extract
+White Winter Winery,681.0,Iron River,Wisconsin,USA,46.565581,-91.418129,glintcap_extract
+Whitewood Cider Co.,682.0,Olympia,Washington,USA,47.0456687,-122.8933489,glintcap_extract
+Wild Cider,683.0,Firestone,Colorado,USA,40.166464,-104.905465,glintcap_extract
+Wild Hare Cider,684.0,Bluemont,Virginia,USA,39.110623,-77.833609,glintcap_extract
+Wild State Cider,685.0,Duluth,Minnesota,USA,46.762891,-92.130134,glintcap_extract
+Wildbranch Cider,924.0,Craftsbury,Vermont,USA,44.6199347,-72.4065106,glintcap_extract
+WildCraft Cider Works,688.0,Eugene,Oregon,USA,44.055602,-123.097306,glintcap_extract
+Wilding Orchards,1900.0,Brackney,Pennsylvania,USA,41.956338,-75.8892283,glintcap_extract
+Willamette Ale & Cider House,689.0,West Linn,Oregon,USA,45.344129,-122.65676,glintcap_extract
+Williamson Mead and Brewing,2044.0,Glade Valley,North Carolina,USA,36.4756637,-80.9887261,glintcap_extract
+Willie Smith's,1442.0,Grove,Tasmania,Australia,-42.987793,147.085402,glintcap_extract
+Willow Oaks,690.0,Middletown,Maryland,USA,39.402881,-77.576441,glintcap_extract
+Wilson's Orchard & Farm,691.0,Iowa City,Iowa,USA,41.72032,-91.460991,glintcap_extract
+Windfall Cider,1997.0,Vancouver,British Columbia,Canada,49.3093392,-123.0750308,glintcap_extract
+Windfall Orchard,693.0,Cornwall,Vermont,USA,43.978128,-73.20449,glintcap_extract
+Windswept Orchard Cider,1915.0,Meaford,Ontario,Canada,44.5544537,-80.5405778,glintcap_extract
+Windy Hill Orchard & Cidery,694.0,York,South Carolina,USA,35.025033,-81.280415,glintcap_extract
+Winery at Black Star Farms,9.0,Suttons Bay,Michigan,USA,44.933625,-85.636114,glintcap_extract
+Winterset Cidery,696.0,Winterset,Iowa,USA,41.411913,-94.012008,glintcap_extract
+Wise Bird Cider,697.0,Lexington,Kentucky,USA,38.055559,-84.517713,glintcap_extract
+Woodbox Cider Co.,1846.0,Portland,Oregon,USA,45.546299,-122.576482,glintcap_extract
+Wooden Gate Cider,2045.0,Pilot Mound,Manitoba,Canada,49.2022693,-98.8931669,glintcap_extract
+Woodlore Cider Co.,1959.0,Brainerd,Minnesota,USA,46.4067999,-94.2866359,glintcap_extract
+Working Hands Fermentation,565.0,Hood River,Oregon,USA,45.7024656,-121.5233966,glintcap_extract
+Worley's Cider,1125.0,Shepton Mallet,Somerset,England,51.1965541,-2.4711281,glintcap_extract
+Wyder's Cider,2577.0,Oakland,California,USA,37.8089023,-122.2518736,glintcap_extract
+Wyndfall Cyder,702.0,Jordan,Minnesota,USA,44.640543,-93.68819,glintcap_extract
+Wyndridge Farm,703.0,Dallastown,Pennsylvania,USA,39.884193,-76.648405,glintcap_extract
+Wölffer Estate Vineyard,698.0,Sagaponack,New York,USA,40.945028,-72.27747,glintcap_extract
+XO Alambic,2022.0,Dayton,Washington,USA,46.3100847,-117.9976091,glintcap_extract
+Yahara Bay Distillery,2021.0,Madison,Wisconsin,USA,43.0106427,-89.4784476,glintcap_extract
+Yip Cider,866.0,Long Reach,New Brunswick,Canada,45.4296035,-66.1424713,glintcap_extract
+Yonder Cider,957.0,Seattle,Washington,USA,47.6646136,-122.3675796,glintcap_extract
+York County Cider,1932.0,Fredericton,New Brunswick,Canada,45.9824391,-66.6627163,glintcap_extract
+Zapiain,1172.0,Astigarraga,Basque Country,Spain,43.2821854,-1.9422089,glintcap_extract
