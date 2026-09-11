@@ -1,0 +1,6 @@
+# The pipeline writes LF on every platform. Without this, a Windows checkout
+# gets CRLF and the CI drift check ("generated files are out of date") fails
+# against a Linux runner that regenerates them with LF.
+* text=auto eol=lf
+*.png binary
+*.jpg binary

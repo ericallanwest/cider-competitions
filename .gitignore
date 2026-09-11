@@ -1,0 +1,17 @@
+# Secrets — never commit
+*service-account*.json
+*credentials*.json
+.env
+config/gcp-key.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw source archive stays local (large, copyright-ambiguous)
+data/raw-documents/
+*.zip
+
+# Excel lock files
+~$*

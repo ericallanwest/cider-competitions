@@ -1,0 +1,24 @@
+Region,Country,🥇 Gold,🥈 Silver,🥉 Bronze,🏅 Total
+New York,United States,2,3,7,12
+Nebraska,United States,4,3,4,11
+Pennsylvania,United States,3,4,4,11
+Ontario,Canada,6,2,1,9
+Oregon,United States,2,3,2,7
+Michigan,United States,1,4,1,6
+Wisconsin,United States,2,1,2,5
+North Carolina,United States,1,1,3,5
+Minnesota,United States,2,2,---,4
+Vermont,United States,2,2,---,4
+Arizona,United States,2,1,---,3
+Texas,United States,1,1,1,3
+Ohio,United States,1,---,2,3
+California,United States,1,1,---,2
+Colorado,United States,1,1,---,2
+Virginia,United States,1,1,---,2
+Maryland,United States,1,---,1,2
+New Jersey,United States,---,2,---,2
+Georgia,United States,---,---,2,2
+Maine,United States,---,1,---,1
+Massachusetts,United States,---,1,---,1
+Kentucky,United States,---,---,1,1
+Total,,33,34,31,98

@@ -1,0 +1,43 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Rebuild from the committed snapshot and verify nothing drifted.
+      # Refreshing from Google Sheets is a deliberate local step, not automatic.
+      - run: python pipeline/run_all.py
+
+      - name: Fail if generated data is out of date
+        run: |
+          if ! git diff --quiet -- data/out site/data; then
+            echo "Generated files differ from what was committed."
+            git diff --stat -- data/out site/data
+            exit 1
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

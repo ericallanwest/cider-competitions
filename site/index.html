@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cider Competitions</title>
+<meta name="description" content="Medal results from major hard cider competitions worldwide.">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>🍎</text></svg>">
+</head>
+<body>
+<header>
+  <h1>Cider Competitions <span>&mdash; worldwide results</span></h1>
+  <nav>
+    <a href="#/">Overview</a>
+    <a href="#/map">Map</a>
+    <a href="#/competition">Competitions</a>
+    <a href="#/producer">Producers</a>
+    <a href="#/explore">Explore</a>
+  </nav>
+</header>
+
+<main id="view"><p class="sub">Loading&hellip;</p></main>
+
+<footer>
+  Compiled by Eric West. Results are transcribed from each competition&rsquo;s published
+  announcements; where a competition publishes no location or category, those fields are
+  left empty rather than guessed. Region and country names follow each producer&rsquo;s own
+  designation.
+</footer>
+
+<script src="vendor/maplibre-gl.js"></script>
+<!-- Plot's UMD build treats d3 as an external peer, so d3 must load first. -->
+<script src="vendor/d3.js"></script>
+<script src="vendor/plot.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

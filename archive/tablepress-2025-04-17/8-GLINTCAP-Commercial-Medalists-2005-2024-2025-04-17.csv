@@ -1,0 +1,711 @@
+Medalist,🏆 BIC,🥇 Gold,🥈 Silver,🥉 Bronze,Total,First,Last,Years,City,Region,Country,Status,Results
+Uncle John's,19,28,91,73,211,2005,2023,17,St Johns,Michigan,USA,Active,https://ciderguide.com/uncle-johns/
+2 Towns Ciderhouse,5,20,104,77,206,2012,2024,12,Corvallis,Oregon,USA,Active,https://ciderguide.com/2-towns-ciderhouse/
+Seattle Cider Company,10,15,72,58,155,2015,2024,9,Seattle,Washington,USA,Active,https://ciderguide.com/seattle-cider-company/
+Angry Orchard,5,8,59,75,147,2013,2024,11,Walden,New York,USA,Active,https://ciderguide.com/angry-orchard/
+Haykin Family Cider,16,14,70,28,128,2017,2024,7,Aurora,Colorado,USA,Active,https://ciderguide.com/haykin-family-cider/
+Snow Capped Cider,17,17,51,37,122,2017,2024,7,Cedaredge,Colorado,USA,Active,https://ciderguide.com/snow-capped-cider/
+Bauman's Cider,11,20,58,21,110,2016,2024,8,Gervais,Oregon,USA,Active,https://ciderguide.com/baumans-cider/
+Vander Mill,2,10,52,37,101,2008,2024,15,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/vander-mill/
+Vermont Cider Company,7,8,39,46,100,2005,2024,14,Middlebury,Vermont,USA,Active,https://ciderguide.com/vermont-cider-company/
+Tandem Ciders,6,9,59,21,95,2009,2024,14,Suttons Bay,Michigan,USA,Active,https://ciderguide.com/tandem-ciders/
+Twin Pines Orchards & Cider House,3,12,36,43,94,2011,2023,12,Thedford,Ontario,Canada,Active,https://ciderguide.com/twin-pines-orchards-cider-house/
+Blake's Hard Cider Co.,1,11,38,30,80,2014,2024,10,Armada,Michigan,USA,Active,https://ciderguide.com/blakes-hard-cider-co/
+Farmhaus Cider Co.,0,9,42,24,75,2015,2024,9,Hudsonville,Michigan,USA,Active,https://ciderguide.com/farmhaus-cider-co/
+1911 Established,2,6,43,23,74,2015,2024,8,Marietta,New York,USA,Active,https://ciderguide.com/1911-established/
+Thornbury Craft Co.,6,6,46,14,72,2013,2024,11,Thornbury,Ontario,Canada,Active,https://ciderguide.com/thornbury-craft-co/
+Eden Ciders,10,12,31,17,70,2009,2024,14,Newport,Vermont,USA,Active,https://ciderguide.com/eden-ciders/
+AeppelTreow Winery & Distillery,4,8,22,36,70,2005,2024,18,Burlington,Wisconsin,USA,Active,https://ciderguide.com/aeppeltreow-winery-distillery/
+Gypsy Circus,1,5,35,29,70,2017,2023,4,Kingsport,Tennessee,USA,Active,https://ciderguide.com/gypsy-circus/
+Northville Winery and Brewing Company,4,4,30,31,69,2008,2024,15,Northville,Michigan,USA,Active,https://ciderguide.com/northville-winery-and-brewing-company/
+Virtue Cider,1,5,38,24,68,2013,2023,10,Fennville,Michigan,USA,Active,https://ciderguide.com/virtue-cider/
+Stem Ciders,3,4,34,23,64,2014,2024,10,Denver,Colorado,USA,Active,https://ciderguide.com/stem-ciders/
+Crispin Cider Company,2,4,23,35,64,2006,2021,9,Colfax,California,USA,Inactive,https://ciderguide.com/crispin-cider-company/
+Cidrerie Milton,9,8,25,20,62,2013,2023,10,Sainte-Cécile-de-Milton,Quebec,Canada,Active,https://ciderguide.com/cidrerie-milton/
+Threadbare Cider,2,4,28,28,62,2018,2024,6,Pittsburgh,Pennsylvania,USA,Active,https://ciderguide.com/threadbare-cider/
+Sea Cider Farm & Ciderhouse,1,8,29,24,62,2014,2024,10,Saanichton,British Columbia,Canada,Active,https://ciderguide.com/sea-cider-farm-ciderhouse/
+Tieton Cider Works,3,2,31,25,61,2011,2022,10,Yakima,Washington,USA,Active,https://ciderguide.com/tieton-cider-works/
+Puget Sound Cider Company,0,12,33,14,59,2019,2024,5,Renton,Washington,USA,Active,https://ciderguide.com/puget-sound-cider-company/
+Raven's Moon Craft Cider,0,1,37,21,59,2018,2024,6,Courtenay,British Columbia,Canada,Active,https://ciderguide.com/ravens-moon-craft-cider/
+Starcut Ciders,4,4,22,24,54,2015,2023,8,Bellaire,Michigan,USA,Active,https://ciderguide.com/starcut-ciders/
+St. Vrain Cidery,0,9,23,20,52,2016,2024,8,Longmont,Colorado,USA,Active,https://ciderguide.com/st-vrain-cidery/
+Island Orchard Cider,1,4,26,18,49,2015,2024,8,Ellison Bay,Wisconsin,USA,Active,https://ciderguide.com/island-orchard-cider/
+Arsenal Cider House,2,6,26,13,47,2016,2022,5,Pittsburgh,Pennsylvania,USA,Active,https://ciderguide.com/arsenal-cider-house/
+West Avenue Cider,3,6,20,15,44,2014,2023,8,Freelton,Ontario,Canada,Active,https://ciderguide.com/west-avenue-cider/
+Salt Spring Wild Cider,5,4,30,4,43,2018,2023,4,Salt Spring Island,British Columbia,Canada,Active,https://ciderguide.com/salt-spring-wild-cider/
+Colorado Cider Company,4,6,18,15,43,2014,2024,10,Denver,Colorado,USA,Active,https://ciderguide.com/colorado-cider-company/
+Brooklyn Cider House,4,1,19,19,43,2016,2024,8,New Paltz,New York,USA,Active,https://ciderguide.com/brooklyn-cider-house/
+Bold Rock Hard Cider,1,4,25,13,43,2016,2024,6,Nellysford,Virginia,USA,Active,https://ciderguide.com/bold-rock-hard-cider/
+Ernest Cider,1,3,26,12,42,2017,2024,7,Newmarket,Ontario,Canada,Active,https://ciderguide.com/ernest-cider/
+Swift Cider,0,5,26,11,42,2016,2023,6,Portland,Oregon,USA,Active,https://ciderguide.com/swift-cider/
+Empyrical Orchard & Cidery,8,8,19,6,41,2019,2024,5,Snohomish,Washington,USA,Active,https://ciderguide.com/empyrical-orchard-cidery/
+Winery at Black Star Farms,6,5,13,17,41,2005,2021,12,Suttons Bay,Michigan,USA,Active,https://ciderguide.com/winery-at-black-star-farms/
+Donovan Orchards Estate Ciders,2,0,21,18,41,2012,2023,11,Barker,New York,USA,Active,https://ciderguide.com/donovan-orchards-estate-ciders/
+Albemarle CiderWorks,1,10,18,12,41,2012,2024,10,North Garden,Virginia,USA,Active,https://ciderguide.com/albemarle-ciderworks/
+Cider Creek Hard Cider,0,2,12,27,41,2015,2019,5,Canisteo,New York,USA,Active,https://ciderguide.com/cider-creek-hard-cider/
+Finnriver Farm and Cidery,4,5,15,16,40,2011,2023,10,Chimacum,Washington,USA,Active,https://ciderguide.com/finnriver-farm-and-cidery/
+Stormalong Cider,1,5,20,13,39,2015,2024,8,Sherborn,Massachusetts,USA,Active,https://ciderguide.com/stormalong-cider/
+Kings Highway Fine Cider,0,2,19,18,39,2016,2018,3,Millerton,New York,USA,Active,https://ciderguide.com/kings-highway-fine-cider/
+Cidrerie du Minot,7,3,16,12,38,2016,2019,4,Hemmingford,Quebec,Canada,Active,https://ciderguide.com/cidrerie-du-minot/
+Snowdrift Cider Co.,4,5,17,12,38,2009,2023,9,East Wenatchee,Washington,USA,Active,https://ciderguide.com/snowdrift-cider-co/
+Wandering Aengus Ciderworks,1,10,17,10,38,2006,2016,7,Salem,Oregon,USA,Inactive,https://ciderguide.com/wandering-aengus-ciderworks/
+Eris Brewery & Cider House,1,1,20,16,38,2018,2024,6,Chicago,Illinois,USA,Active,https://ciderguide.com/eris-brewery-cider-house/
+Embark Craft Ciderworks,0,4,18,16,38,2015,2024,6,Williamson,New York,USA,Active,https://ciderguide.com/embark-craft-ciderworks/
+Locust Cider,0,0,16,22,38,2016,2024,8,Woodinville,Washington,USA,Active,https://ciderguide.com/locust-cider/
+City Orchard,1,4,24,8,37,2017,2023,6,Houston,Texas,USA,Active,https://ciderguide.com/city-orchard/
+Glacial Till Vineyard & Winery,1,1,24,11,37,2022,2024,3,Ashland,Nebraska,USA,Active,https://ciderguide.com/glacial-till-vineyard-winery/
+ANXO Cider,1,1,19,16,37,2016,2024,7,Washington,District of Columbia,USA,Active,https://ciderguide.com/anxo-cider/
+Robinette Cellars,0,1,13,23,37,2006,2021,13,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/robinette-cellars/
+Bee Well Mead & Cider,5,1,13,17,36,2016,2023,7,Bellaire,Michigan,USA,Active,https://ciderguide.com/bee-well-mead-cider/
+Cider Hill Cellars,4,4,20,8,36,2018,2024,6,Amesbury,Massachusetts,USA,Active,https://ciderguide.com/cider-hill-cellars/
+Thor's Hard Cider,3,5,17,11,36,2018,2023,5,Stillwater,Minnesota,USA,Active,https://ciderguide.com/thors-hard-cider/
+Left Foot Charley,1,3,21,11,36,2011,2023,10,Traverse City,Michigan,USA,Active,https://ciderguide.com/left-foot-charley/
+Jefferson County Ciderworks,4,3,19,9,35,2017,2024,5,Fairfield,Iowa,USA,Active,https://ciderguide.com/jefferson-county-ciderworks/
+Sapsucker Farms Yellow Belly Cidery,1,3,15,15,34,2017,2024,7,Mora,Minnesota,USA,Active,https://ciderguide.com/sapsucker-farms-yellow-belly-cidery/
+Ciderboys,1,3,13,17,34,2014,2022,7,Stevens Point,Wisconsin,USA,Active,https://ciderguide.com/ciderboys/
+Castle Hill Cider,1,0,18,15,34,2012,2023,10,Keswick,Virginia,USA,Inactive,https://ciderguide.com/castle-hill-cider/
+Big Fish Cider Co.,4,8,17,4,33,2016,2024,8,Monterey,Virginia,USA,Active,https://ciderguide.com/big-fish-cider-co/
+Sage Bird Ciderworks,1,4,23,5,33,2021,2024,4,Harrisonburg,Virginia,USA,Active,https://ciderguide.com/sage-bird-ciderworks/
+McClure's Orchard & Winery,0,4,10,19,33,2011,2023,7,Peru,Indiana,USA,Active,https://ciderguide.com/mcclures-orchard-winery/
+Annapolis Cider Company,4,3,17,8,32,2017,2024,3,Wolfville,Nova Scotia,Canada,Active,https://ciderguide.com/annapolis-cider-company/
+Rootstock Ciderworks,2,3,19,8,32,2015,2022,7,Marion,New York,USA,Inactive,https://ciderguide.com/rootstock-ciderworks/
+Westcott Bay Cider,2,3,15,12,32,2006,2019,11,Friday Harbor,Washington,USA,Active,https://ciderguide.com/westcott-bay-cider/
+Big B's Hard Cider,0,1,15,16,32,2013,2019,7,Hotchkiss,Colorado,USA,Active,https://ciderguide.com/big-bs-hard-cider/
+Black Diamond Cider,5,6,14,6,31,2017,2023,6,Trumansburg,New York,USA,Active,https://ciderguide.com/black-diamond-cider/
+Cidrerie Verger Bilodeau,3,2,18,8,31,2017,2024,7,Saint-Pierre,Quebec,Canada,Active,https://ciderguide.com/cidrerie-verger-bilodeau/
+Two K Farms,1,4,14,12,31,2019,2024,5,Suttons Bay,Michigan,USA,Active,https://ciderguide.com/two-k-farms/
+Gowan's Heirloom Ciders,7,1,17,5,30,2018,2023,5,Philo,California,USA,Active,https://ciderguide.com/gowans-heirloom-ciders/
+Pux Cider,1,3,15,11,30,2016,2024,8,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/pux-cider/
+Portland Cider Company,1,3,14,12,30,2013,2023,8,Clackamas,Oregon,USA,Active,https://ciderguide.com/portland-cider-company/
+Incline Cider Company,1,2,16,11,30,2017,2024,5,Auburn,Washington,USA,Active,https://ciderguide.com/incline-cider-company/
+Hogan's Cider,5,4,13,7,29,2011,2019,9,Alcestor,Warwickshire,England,Active,https://ciderguide.com/hogans-cider/
+Oliver's Cider and Perry,2,3,13,11,29,2009,2019,9,Ocle Pychard,Herefordshire,England,Active,https://ciderguide.com/olivers-cider-and-perry/
+Meriwether Cider Company,4,2,17,5,28,2018,2024,6,Garden City,Idaho,USA,Active,https://ciderguide.com/meriwether-cider-company/
+Liberty Ciderworks,1,3,11,13,28,2013,2021,8,Spokane,Washington,USA,Active,https://ciderguide.com/liberty-ciderworks/
+Thornapple Brewing Company,1,2,9,16,28,2017,2024,7,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/thornapple-brewing-company/
+California Cider Company,0,6,10,12,28,2015,2023,7,Sebastopol,California,USA,Active,https://ciderguide.com/california-cider-company/
+Number 12 Cider,0,3,17,8,28,2016,2024,6,Minneapolis,Minnesota,USA,Active,https://ciderguide.com/number-12-cider/
+Windy Hill Orchard & Cidery,0,1,12,15,28,2011,2019,9,York,South Carolina,USA,Active,https://ciderguide.com/windy-hill-orchard-cidery/
+Loch Mór Cider Co.,4,5,14,4,27,2021,2024,4,Wellington,Ontario,Canada,Active,https://ciderguide.com/loch-mor-cider-co/
+Sidra El Gaitero,2,2,12,11,27,2018,2024,5,Villaviciosa,Asturias,Spain,Active,https://ciderguide.com/sidra-el-gaitero/
+Lost Boy Cider,0,1,17,9,27,2021,2024,4,Alexandria,Virginia,USA,Active,https://ciderguide.com/lost-boy-cider/
+Townline Ciderworks,2,2,16,6,26,2017,2024,6,Williamsburg,Michigan,USA,Active,https://ciderguide.com/townline-ciderworks/
+Vala's Orchard Cider,1,5,8,12,26,2021,2024,4,Gretna,Nebraska,USA,Active,https://ciderguide.com/valas-orchard-cider/
+KW Craft Cider,0,1,19,6,26,2015,2022,7,Waterloo,Ontario,Canada,Active,https://ciderguide.com/kw-craft-cider/
+Champlain Orchards,1,5,16,3,25,2013,2023,7,Shoreham,Vermont,USA,Active,https://ciderguide.com/champlain-orchards/
+Deep Roots Hard Cider,1,1,13,10,25,2016,2024,8,Sugar Run,Pennsylvania,USA,Active,https://ciderguide.com/deep-roots-hard-cider/
+Mountain West Cider Company,1,0,15,9,25,2016,2024,4,Salt Lake City,Utah,USA,Active,https://ciderguide.com/mountain-west-cider-company/
+Phillips Orchards & Cider Mill,0,1,16,8,25,2019,2024,5,St Johns,Michigan,USA,Active,https://ciderguide.com/phillips-orchards-cider-mill/
+Atlanta Hard Cider Co.,2,1,17,4,24,2019,2024,5,Atlanta,Georgia,USA,Active,https://ciderguide.com/atlanta-hard-cider-co/
+Urban Tree Hard Cider,2,0,13,9,24,2016,2022,6,Atlanta,Georgia,USA,Active,https://ciderguide.com/urban-tree-hard-cider/
+Slake Cider,1,5,10,8,24,2012,2018,6,McMinnville,Oregon,USA,Inactive,https://ciderguide.com/slake-cider/
+Cambium Cider Co,1,2,14,7,24,2015,2023,7,Vernon,British Columbia,Canada,Active,https://ciderguide.com/cambium-cider-co/
+Distillery Lane Ciderworks,0,2,7,15,24,2011,2017,7,Jefferson,Maryland,USA,Inactive,https://ciderguide.com/distillery-lane-ciderworks/
+Suttons Bay Ciders,3,0,9,11,23,2017,2024,6,Suttons Bay,Michigan,USA,Active,https://ciderguide.com/suttons-bay-ciders/
+Peat's Original Cider,2,3,12,6,23,2018,2024,5,Stevensville,Michigan,USA,Active,https://ciderguide.com/peats-original-cider/
+Bull City Ciderworks,2,3,10,8,23,2018,2022,4,Lexington,North Carolina,USA,Active,https://ciderguide.com/bull-city-ciderworks/
+Citizen Cider,2,0,12,9,23,2016,2021,5,Burlington,Vermont,USA,Active,https://ciderguide.com/citizen-cider/
+Presque Isle Farm Cider,1,3,12,7,23,2021,2024,4,Posen,Michigan,USA,Active,https://ciderguide.com/presque-isle-farm-cider/
+James Creek Cider House,1,0,10,12,23,2016,2024,6,Cameron,North Carolina,USA,Active,https://ciderguide.com/james-creek-cider-house/
+Beaver Valley Orchard & Cidery,0,2,3,18,23,2014,2021,7,Kimberley,Ontario,Canada,Inactive,https://ciderguide.com/beaver-valley-orchard-cidery/
+Hazlitt 1852 Vineyards,0,1,12,10,23,2016,2023,7,Naples,New York,USA,Active,https://ciderguide.com/hazlitt-1852-vineyards/
+Yip Cider,2,1,11,8,22,2018,2024,5,Long Reach,New Brunswick,Canada,Active,https://ciderguide.com/yip-cider/
+Papa Moon Vineyards & Winery,1,2,8,11,22,2021,2024,4,Scottsbluff,Nebraska,USA,Active,https://ciderguide.com/papa-moon-vineyards-winery/
+Blue Toad Hard Cider,1,2,7,12,22,2017,2024,7,Roseland,Virginia,USA,Active,https://ciderguide.com/blue-toad-hard-cider/
+Green Bench Brewing Co.,0,1,14,7,22,2019,2024,5,St. Petersburg,Florida,USA,Active,https://ciderguide.com/green-bench-brewing-co/
+Bull Run Cider,0,1,9,12,22,2013,2022,7,Forest Grove,Oregon,USA,Active,https://ciderguide.com/bull-run-cider/
+Fenceline Cider,0,1,9,12,22,2019,2023,4,Mancos,Colorado,USA,Active,https://ciderguide.com/fenceline-cider/
+Sidra Trabanco,3,2,8,8,21,2014,2024,7,Llavandera,Asturias,Spain,Active,https://ciderguide.com/sidra-trabanco/
+Brickworks Ciderhouse,1,3,9,8,21,2016,2022,5,Toronto,Ontario,Canada,Active,https://ciderguide.com/brickworks-ciderhouse/
+Noble Cider,1,3,9,8,21,2016,2023,6,Asheville,North Carolina,USA,Active,https://ciderguide.com/noble-cider/
+Original Sin Cider,0,4,13,4,21,2009,2023,7,New York,New York,USA,Active,https://ciderguide.com/original-sin-cider/
+Teal Cider,0,1,10,10,21,2017,2021,4,Dolores,Colorado,USA,Inactive,https://ciderguide.com/teal-cider/
+Grey & Gold Cider,2,3,6,9,20,2017,2023,5,Clarksburg,Ontario,Canada,Active,https://ciderguide.com/grey-gold-cider/
+Nashi Orchards,2,2,8,8,20,2016,2024,5,Vashon,Washington,USA,Active,https://ciderguide.com/nashi-orchards/
+Mcintosh Cellars,1,2,7,10,20,2006,2019,9,South Haven,Michigan,USA,Inactive,https://ciderguide.com/mcintosh-cellars/
+Ficklewood Ciderworks,0,1,12,7,20,2021,2024,3,Long Beach,California,USA,Active,https://ciderguide.com/ficklewood-ciderworks/
+Pommies Cider Co.,0,1,7,12,20,2013,2018,6,Caledon,Ontario,Canada,Active,https://ciderguide.com/pommies-cider-co/
+The Cider Farm,2,1,12,4,19,2014,2024,4,Mineral Point,Wisconsin,USA,Active,https://ciderguide.com/the-cider-farm/
+Heeman's,1,2,11,5,19,2021,2024,4,Thorndale,Ontario,Canada,Active,https://ciderguide.com/heemans/
+Windswept Orchard Cider,1,2,7,9,19,2017,2022,4,Meaford,Ontario,Canada,Active,https://ciderguide.com/windswept-orchard-cider/
+Blackgrass Ciderworks,0,0,7,12,19,2021,2023,3,Birmingham,Michigan,USA,Active,https://ciderguide.com/blackgrass-ciderworks/
+Meckley's Cidery,0,0,4,15,19,2013,2016,4,Cement City,Michigan,USA,Active,https://ciderguide.com/meckleys-cidery/
+Twisted Hills Craft Cider,3,2,8,5,18,2016,2019,4,Cawston,British Columbia,Canada,Active,https://ciderguide.com/twisted-hills-craft-cider/
+Dragon's Head Cider,3,0,7,8,18,2017,2021,4,Vashon,Washington,USA,Active,https://ciderguide.com/dragons-head-cider/
+EsoTerra Ciderworks,2,1,9,6,18,2021,2022,2,Dolores,Colorado,USA,Active,https://ciderguide.com/esoterra-ciderworks/
+Montana CiderWorks,1,5,7,5,18,2012,2023,8,Darby,Montana,USA,Active,https://ciderguide.com/montana-ciderworks/
+Chain Yard Cider,1,2,11,4,18,2019,2024,3,Halifax,Nova Scotia,Canada,Active,https://ciderguide.com/chain-yard-cider/
+Spirit Tree Estate Cidery,0,2,7,9,18,2011,2017,6,Caledon,Ontario,Canada,Active,https://ciderguide.com/spirit-tree-estate-cidery/
+Minneapolis Cider Company,0,1,12,5,18,2016,2024,4,Minneapolis,Minnesota,USA,Active,https://ciderguide.com/minneapolis-cider-company/
+Etta Place Cider,0,1,7,10,18,2021,2024,4,Torrey,Utah,USA,Active,https://ciderguide.com/etta-place-cider/
+Forgotten Ciders,0,0,7,11,18,2015,2018,4,Wheeler,Michigan,USA,Inactive,https://ciderguide.com/forgotten-ciders/
+Sidra Mayador,4,1,5,7,17,2016,2024,7,La Rasa,Asturias,Spain,Active,https://ciderguide.com/sidra-mayador/
+Michigan Wine Company,3,2,9,3,17,2019,2024,5,Fennville,Michigan,USA,Active,https://ciderguide.com/michigan-wine-company/
+Avid Cider,1,0,4,12,17,2014,2024,4,Bend,Oregon,USA,Active,https://ciderguide.com/avid-cider/
+Journey North Cider Co.,0,1,10,6,17,2021,2022,2,Bonnyville,Alberta,Canada,Active,https://ciderguide.com/journey-north-cider-co/
+Hawk Knob,0,1,8,8,17,2016,2021,5,Lewisburg,West Virginia,USA,Active,https://ciderguide.com/hawk-knob/
+Five Maidens Cider Company,0,1,7,9,17,2023,2024,2,Bethlehem,Pennsylvania,USA,Active,https://ciderguide.com/five-maidens-cider-company/
+Spicer's Winery,0,1,5,11,17,2009,2016,7,Fenton,Michigan,USA,Active,https://ciderguide.com/spicers-winery/
+Sonoma Cider,0,0,7,10,17,2015,2017,3,Fresno,California,USA,Active,https://ciderguide.com/sonoma-cider/
+Door Peninsula Winery,1,4,6,5,16,2018,2024,5,Sturgeon Bay,Wisconsin,USA,Active,https://ciderguide.com/door-peninsula-winery/
+Wooden Gate Cider,1,1,7,7,16,2022,2023,2,Pilot Mound,Manitoba,Canada,Active,https://ciderguide.com/wooden-gate-cider/
+Apple Valley Cider Company,1,1,4,10,16,2019,2023,4,Penrose,Colorado,USA,Active,https://ciderguide.com/apple-valley-cider-company/
+Wyndridge Farm,0,2,10,4,16,2016,2021,4,Dallastown,Pennsylvania,USA,Active,https://ciderguide.com/wyndridge-farm/
+Wilson's Orchard & Farm,0,1,11,4,16,2022,2022,1,Iowa City,Iowa,USA,Active,https://ciderguide.com/wilsons-orchard-farm/
+Offset Ciderworks,0,1,10,5,16,2021,2024,3,Seattle,Washington,USA,Active,https://ciderguide.com/offset-ciderworks/
+Peninsula Cellars,0,0,8,8,16,2021,2024,3,Traverse City,Michigan,USA,Active,https://ciderguide.com/peninsula-cellars/
+Appleholic Cider Company,0,0,7,9,16,2018,2021,3,Leland,Michigan,USA,Inactive,https://ciderguide.com/appleholic-cider-company/
+C Squared Ciders,3,1,5,6,15,2016,2019,4,Denver,Colorado,USA,Inactive,https://ciderguide.com/c-squared-ciders/
+Ragged Hill Cider,1,3,2,9,15,2018,2023,5,West Brookfield,Massachusetts,USA,Active,https://ciderguide.com/ragged-hill-cider/
+Stoic Cider,1,2,9,3,15,2018,2024,5,Prescott,Arizona,USA,Active,https://ciderguide.com/stoic-cider/
+Slabtown Cider Co.,0,2,7,6,15,2023,2023,1,Uxbridge,Ontario,Canada,Active,https://ciderguide.com/slabtown-cider-co/
+Reverend Nat's Hard Cider,0,2,5,8,15,2013,2016,4,Portland,Oregon,USA,Inactive,https://ciderguide.com/reverend-nats-hard-cider/
+Shiny Apple Cider,0,1,8,6,15,2016,2023,4,Niagara-on-the-Lake,Ontario,Canada,Active,https://ciderguide.com/shiny-apple-cider/
+Wise Bird Cider,0,1,8,6,15,2021,2024,4,Lexington,Kentucky,USA,Active,https://ciderguide.com/wise-bird-cider/
+Bishops Orchards Winery,0,1,2,12,15,2014,2016,3,Guilford,Connecticut,USA,Active,https://ciderguide.com/bishops-orchards-winery/
+Waves Cider Co.,0,0,9,6,15,2021,2023,3,Columbia,Missouri,USA,Active,https://ciderguide.com/waves-cider-co/
+Scenic Road Cider Co.,2,1,10,1,14,2017,2021,4,Kelowna,British Columbia,Canada,Active,https://ciderguide.com/scenic-road-cider-co/
+Elk Horn Brewery & Ciderhouse,2,0,3,9,14,2017,2022,3,Eugene,Oregon,USA,Active,https://ciderguide.com/elk-horn-brewery-ciderhouse/
+Tulip Valley Vineyard & Orchard,1,4,5,4,14,2005,2023,10,Mt Vernon,Washington,USA,Active,https://ciderguide.com/tulip-valley-vineyard-orchard/
+Aspall,0,1,7,6,14,2009,2012,3,Debenham,Suffolk,England,Active,https://ciderguide.com/aspall/
+Sietsema Orchards,0,1,5,8,14,2013,2018,6,Ada,Michigan,USA,Inactive,https://ciderguide.com/sietsema-orchards/
+45 North Vineyard & Winery,0,0,8,6,14,2016,2019,4,Lake Leelanau,Michigan,USA,Active,https://ciderguide.com/45-north-vineyard-winery/
+Cider Riot!,0,0,5,9,14,2015,2019,4,Portland,Oregon,USA,Inactive,https://ciderguide.com/cider-riot/
+Space Time Mead & Cider Works,0,0,4,10,14,2019,2024,5,Dunmore,Pennsylvania,USA,Active,https://ciderguide.com/space-time-mead-cider-works/
+Le Père Jules,3,2,7,1,13,2014,2017,3,Saint Desir de Lisieux,Normandy,France,Active,https://ciderguide.com/le-pere-jules/
+Celtic Marches,2,1,5,5,13,2018,2021,3,Bishops Frome,Worcestershire,England,Active,https://ciderguide.com/celtic-marches/
+Bulwark Cider,2,0,3,8,13,2016,2018,3,New Ross,Nova Scotia,Canada,Active,https://ciderguide.com/bulwark-cider/
+County Cider Company,1,0,8,4,13,2011,2017,4,Waupoos,Ontario,Canada,Active,https://ciderguide.com/county-cider-company/
+Tideview Cider,1,0,7,5,13,2009,2014,4,Greenwich,Nova Scotia,Canada,Inactive,https://ciderguide.com/tideview-cider/
+Pencil Hound Ciders,0,2,7,4,13,2021,2022,2,Dolores,Colorado,USA,Inactive,https://ciderguide.com/pencil-hound-ciders/
+Niagara Cider Company,0,1,10,2,13,2019,2022,3,Niagara Falls,Ontario,Canada,Active,https://ciderguide.com/niagara-cider-company/
+Wild State Cider,0,0,9,4,13,2021,2023,3,Duluth,Minnesota,USA,Active,https://ciderguide.com/wild-state-cider/
+Big Hill Ciderworks,0,0,6,7,13,2014,2019,5,Gardners,Pennsylvania,USA,Active,https://ciderguide.com/big-hill-ciderworks/
+Ferme de la Sapinière,0,0,5,8,13,2014,2018,5,Saint-Laurent-sur-Mer,Normandy,France,Active,https://ciderguide.com/ferme-de-la-sapiniere/
+Treasury Cider at Fishkill Farms,0,0,4,9,13,2018,2022,4,Hopewell Junction,New York,USA,Active,https://ciderguide.com/treasury-cider-at-fishkill-farms/
+Puddicombe Estate Farm,0,0,3,10,13,2012,2019,5,Winona,Ontario,Canada,Active,https://ciderguide.com/puddicombe-estate-farm/
+Patriots' Heritage Cider,0,0,2,11,13,2017,2021,4,Schaghticoke,New York,USA,Active,https://ciderguide.com/patriots-heritage-cider/
+Dunkertons Cider and Perry,4,0,3,5,12,2017,2021,4,Cheltenham,Herefordshire,England,Active,https://ciderguide.com/dunkertons-cider-and-perry/
+Sidewood Estate,3,1,5,3,12,2018,2023,4,Hahndorf,South Australia,Australia,Active,https://ciderguide.com/sidewood-estate/
+Maiden Rock Winery & Cidery,2,1,6,3,12,2011,2023,8,Stockholm,Wisconsin,USA,Active,https://ciderguide.com/maiden-rock-winery-cidery/
+Red Rover Craft Cider,2,1,1,8,12,2016,2019,4,Fredericton,New Brunswick,Canada,Active,https://ciderguide.com/red-rover-craft-cider/
+Two Blokes Cider,2,0,2,8,12,2018,2024,3,Seagrave,Ontario,Canada,Active,https://ciderguide.com/two-blokes-cider/
+Ragged and Right Cider Project,1,1,7,3,12,2021,2022,2,Mount Vernon,Washington,USA,Active,https://ciderguide.com/ragged-and-right-cider-project/
+Square Mile Cider,1,0,5,6,12,2015,2019,5,Portland,Oregon,USA,Active,https://ciderguide.com/square-mile-cider/
+Headwater Cider,0,2,3,7,12,2015,2024,6,Hawley,Massachusetts,USA,Active,https://ciderguide.com/headwater-cider/
+Collective Arts Brewing,0,1,7,4,12,2017,2021,4,Hamilton,Ontario,Canada,Active,https://ciderguide.com/collective-arts-brewing/
+Seminary Hill Orchard & Cidery,0,1,7,4,12,2022,2024,3,Callicoon,New York,USA,Active,https://ciderguide.com/seminary-hill-orchard-cidery/
+White Winter Winery,0,1,4,7,12,2005,2024,7,Iron River,Wisconsin,USA,Active,https://ciderguide.com/white-winter-winery/
+Brew Lab 101 Beer & Cider Co.,0,0,9,3,12,2022,2024,3,Rio Rancho,New Mexico,USA,Active,https://ciderguide.com/brew-lab-101-beer-cider-co/
+Harpers Ferry Brewing,0,0,7,5,12,2023,2024,2,Purcellville,Virginia,USA,Active,https://ciderguide.com/harpers-ferry-brewing/
+Ridge Cider Co.,0,0,6,6,12,2016,2019,4,Grant,Michigan,USA,Inactive,https://ciderguide.com/ridge-cider-co/
+The Great Canadian Cider Company,0,0,6,6,12,2017,2019,3,Collingwood,Ontario,Canada,Inactive,https://ciderguide.com/the-great-canadian-cider-company/
+Common Cider Company,0,0,5,7,12,2015,2018,3,Auburn,California,USA,Inactive,https://ciderguide.com/common-cider-company/
+Bryant's Cider,0,0,4,8,12,2019,2022,3,Roseland,Virginia,USA,Active,https://ciderguide.com/bryants-cider/
+Spring Hill Cider Works,0,0,4,8,12,2017,2024,7,Geneva,Ohio,USA,Active,https://ciderguide.com/spring-hill-cider-works/
+Methow Valley Ciderhouse,1,1,4,5,11,2013,2018,5,Winthrop,Washington,USA,Active,https://ciderguide.com/methow-valley-ciderhouse/
+Sidra Riestra,1,0,8,2,11,2013,2024,7,Sariego,Asturias,Spain,Active,https://ciderguide.com/sidra-riestra/
+Toboggan Brewing Co.,1,0,7,3,11,2016,2023,3,London,Ontario,Canada,Active,https://ciderguide.com/toboggan-brewing-co/
+Bent Ladder,1,0,6,4,11,2019,2023,3,Doylestown,Ohio,USA,Active,https://ciderguide.com/bent-ladder/
+Northern Natural Cider House & Winery,0,2,3,6,11,2013,2017,5,Kaleva,Michigan,USA,Active,https://ciderguide.com/northern-natural-cider-house-winery/
+Descendant Cider Company,0,1,7,3,11,2015,2018,4,Maspeth,New York,USA,Inactive,https://ciderguide.com/descendant-cider-company/
+Uncommon Cider Co.,0,1,6,4,11,2017,2021,3,Calgary,Alberta,Canada,Active,https://ciderguide.com/uncommon-cider-co/
+Lassen Traditional Cider,0,1,3,7,11,2017,2023,6,Chico,California,USA,Active,https://ciderguide.com/lassen-traditional-cider/
+ShipBuilders Cider,0,0,6,5,11,2015,2019,4,Halifax,Nova Scotia,Canada,Inactive,https://ciderguide.com/shipbuilders-cider/
+Runcible Cider,0,0,4,7,11,2017,2023,4,Mosier,Oregon,USA,Active,https://ciderguide.com/runcible-cider/
+Tractor Brewing Company,0,0,4,7,11,2017,2019,3,Albuquerque,New Mexico,USA,Active,https://ciderguide.com/tractor-brewing-company/
+Alma Cider,3,0,6,1,10,2021,2024,3,Mount Vernon,Washington,USA,Active,https://ciderguide.com/alma-cider/
+Coffin Ridge Boutique Winery,2,0,7,1,10,2017,2019,2,Annan,Ontario,Canada,Active,https://ciderguide.com/coffin-ridge-boutique-winery/
+Once Upon A Tree,1,1,5,3,10,2019,2021,2,Ledbury,Herefordshire,England,Active,https://ciderguide.com/once-upon-a-tree/
+Duluth Cider,1,1,3,5,10,2021,2023,3,Duluth,Minnesota,USA,Active,https://ciderguide.com/duluth-cider/
+Sidra Viuda de Angelón,0,2,5,3,10,2013,2017,4,Nava,Asturias,Spain,Active,https://ciderguide.com/sidra-viuda-de-angelon/
+Coteau Rougemont,0,2,4,4,10,2016,2017,2,Rougemont,Quebec,Canada,Active,https://ciderguide.com/coteau-rougemont/
+Rhinegeist Brewery,0,1,6,3,10,2017,2022,3,Cincinnati,Ohio,USA,Active,https://ciderguide.com/rhinegeist-brewery/
+Ricker Hill,0,1,6,3,10,2016,2018,3,Turner,Maine,USA,Active,https://ciderguide.com/ricker-hill/
+Cascade Winery & Sierra Rose Ciders,0,1,5,4,10,2006,2023,5,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/cascade-winery-sierra-rose-ciders/
+Alpenfire Cider,0,1,4,5,10,2011,2017,5,Port Townsend,Washington,USA,Active,https://ciderguide.com/alpenfire-cider/
+Odd Brothers Craft Cider,0,1,4,5,10,2019,2024,2,Homer,Michigan,USA,Active,https://ciderguide.com/odd-brothers-craft-cider/
+Buskey Cider,0,1,3,6,10,2017,2023,4,Richmond,Virginia,USA,Active,https://ciderguide.com/buskey-cider/
+GoodRoad Ciderworks,0,1,3,6,10,2017,2018,2,Charlotte,North Carolina,USA,Inactive,https://ciderguide.com/goodroad-ciderworks/
+Humboldt Cider Company,0,1,3,6,10,2015,2017,3,Eureka,California,USA,Active,https://ciderguide.com/humboldt-cider-company/
+19 Acres Cider Co.,0,0,8,2,10,2023,2024,2,Sherwood,Oregon,USA,Active,https://ciderguide.com/19-acres-cider-co/
+Blue Bee Cider,0,0,6,4,10,2014,2022,3,Richmond,Virginia,USA,Active,https://ciderguide.com/blue-bee-cider/
+Brix Cider,0,0,6,4,10,2017,2019,3,Mount Horeb,Wisconsin,USA,Active,https://ciderguide.com/brix-cider/
+Texas Keeper Cider,0,0,5,5,10,2015,2016,2,Manchaca,Texas,USA,Active,https://ciderguide.com/texas-keeper-cider/
+Kaneb Orchards,0,0,4,6,10,2015,2024,5,Massena,New York,USA,Active,https://ciderguide.com/kaneb-orchards/
+Shoal Hope Ciderworks,0,0,4,6,10,2018,2021,3,Provincetown,Massachusetts,USA,Inactive,https://ciderguide.com/shoal-hope-ciderworks/
+Flat Rock Cider Company,0,0,2,8,10,2021,2023,3,Hendersonville,North Carolina,USA,Active,https://ciderguide.com/flat-rock-cider-company/
+Kristof Farms,2,1,5,1,9,2022,2024,3,Yamhill,Oregon,USA,Active,https://ciderguide.com/kristof-farms/
+Weidmann & Groh,1,2,4,2,9,2013,2024,3,Friedberg-Ockstadt,Hesse,Germany,Active,https://ciderguide.com/weidmann-groh/
+Red Island Cider,1,2,3,3,9,2021,2024,3,Charlottetown,Prince Edward Island,Canada,Active,https://ciderguide.com/red-island-cider/
+Cidrerie Entre Pierre & Terre,1,0,7,1,9,2013,2016,4,Hinchinbrooke,Quebec,Canada,Active,https://ciderguide.com/cidrerie-entre-pierre-terre/
+Potter's Craft Cider,0,2,6,1,9,2019,2021,2,Charlottesville,Virginia,USA,Active,https://ciderguide.com/potters-craft-cider/
+Treehorn Cider,0,2,6,1,9,2018,2019,2,Marietta,Georgia,USA,Active,https://ciderguide.com/treehorn-cider/
+Fieldstone Hard Cider Co.,0,2,5,2,9,2017,2019,3,Rochester,Michigan,USA,Inactive,https://ciderguide.com/fieldstone-hard-cider-co/
+Williamson Mead and Brewing,0,1,5,3,9,2022,2024,3,Glade Valley,North Carolina,USA,Active,https://ciderguide.com/williamson-mead-and-brewing/
+Diskin Cider,0,1,4,4,9,2019,2021,2,Nashville,Tennessee,USA,Active,https://ciderguide.com/diskin-cider/
+Le Flanc Nord Verger & Cidrerie,0,1,4,4,9,2015,2018,4,Mont-Saint-Hilaire,Quebec,Canada,Active,https://ciderguide.com/le-flanc-nord-verger-cidrerie/
+Liquid Alchemy Beverages,0,1,4,4,9,2018,2023,3,Wilmington,Delaware,USA,Active,https://ciderguide.com/liquid-alchemy-beverages/
+Cider Brothers,0,1,3,5,9,2015,2017,3,Walnut Creek,California,USA,Inactive,https://ciderguide.com/cider-brothers/
+Old Hill Cider,0,1,1,7,9,2014,2018,3,Timberville,Virginia,USA,Active,https://ciderguide.com/old-hill-cider/
+Island Folk Cider House,0,0,7,2,9,2022,2024,3,Sydney,Nova Scotia,Canada,Active,https://ciderguide.com/island-folk-cider-house/
+Boss Cider Company,0,0,5,4,9,2022,2022,1,Leslie,Michigan,USA,Active,https://ciderguide.com/boss-cider-company/
+OK Cider Co,0,0,5,4,9,2022,2024,2,Oklahoma City,Oklahoma,USA,Active,https://ciderguide.com/ok-cider-co/
+Ash & Elm Cider Company,0,0,4,5,9,2017,2019,3,Indianapolis,Indiana,USA,Active,https://ciderguide.com/ash-elm-cider-company/
+Bird Dog Cider,0,0,4,5,9,2023,2024,2,Greenland,New Hampshire,USA,Active,https://ciderguide.com/bird-dog-cider/
+Sly Clyde Ciderworks,0,0,4,5,9,2019,2021,2,Hampton,Virginia,USA,Active,https://ciderguide.com/sly-clyde-ciderworks/
+Sycamore Ranch Vineyard & Winery,0,0,3,6,9,2021,2021,1,Crestline,California,USA,Active,https://ciderguide.com/sycamore-ranch-vineyard-winery/
+Heartwood Farm & Cidery,0,0,1,8,9,2017,2019,3,Acton,Ontario,Canada,Active,https://ciderguide.com/heartwood-farm-cidery/
+Sierra Cider,3,1,2,2,8,2017,2019,3,Mariposa,California,USA,Active,https://ciderguide.com/sierra-cider/
+Renaissance Orchards,2,1,3,2,8,2016,2024,6,Ferndale,Washington,USA,Active,https://ciderguide.com/renaissance-orchards/
+Sidra Fanjul,2,0,4,2,8,2013,2024,7,Siero,Asturias,Spain,Active,https://ciderguide.com/sidra-fanjul/
+Shuswap Cider Co.,1,1,3,3,8,2023,2024,2,Salmon Arm,British Columbia,Canada,Active,https://ciderguide.com/shuswap-cider-co/
+Clear Fork Cider,1,1,1,5,8,2017,2021,2,Paonia,Colorado,USA,Active,https://ciderguide.com/clear-fork-cider/
+Banjo Cider,1,0,6,1,8,2021,2022,2,Uxbridge,Ontario,Canada,Active,https://ciderguide.com/banjo-cider/
+Spoke + Spy Ciderworks,1,0,5,2,8,2018,2023,4,Middletown,Connecticut,USA,Active,https://ciderguide.com/spoke-spy-ciderworks/
+Lost Giants Cider Company,1,0,3,4,8,2019,2021,2,Bellingham,Washington,USA,Active,https://ciderguide.com/lost-giants-cider-company/
+Bereziartua,0,2,4,2,8,2015,2021,5,Astigarraga,Basque Country,Spain,Active,https://ciderguide.com/bereziartua/
+Cidrerie et Distillerie C.E.Petch,0,1,6,1,8,2019,2024,3,Hemmingford,Quebec,Canada,Active,https://ciderguide.com/cidrerie-et-distillerie-c-e-petch/
+Little Apple Cidery,0,1,5,2,8,2021,2024,4,Hillsdale,New York,USA,Active,https://ciderguide.com/little-apple-cidery/
+Ciders from Mars,0,1,4,3,8,2022,2023,2,Staunton,Virginia,USA,Active,https://ciderguide.com/ciders-from-mars/
+Dancing Cider Co.,0,1,3,4,8,2022,2022,1,Chungju,North Chungcheong,South Korea,Active,https://ciderguide.com/dancing-cider-co/
+Mawby Vineyards,0,1,3,4,8,2016,2018,3,Suttons Bay,Michigan,USA,Active,https://ciderguide.com/mawby-vineyards/
+Freewater Cider and Wine Company,0,1,2,5,8,2018,2021,3,Milton-Freewater,Oregon,USA,Active,https://ciderguide.com/freewater-cider-and-wine-company/
+Ironwood Hard Cider,0,1,2,5,8,2016,2019,4,Niagara-on-the-Lake,Ontario,Canada,Active,https://ciderguide.com/ironwood-hard-cider/
+Willamette Ale & Cider House,0,0,7,1,8,2023,2024,2,West Linn,Oregon,USA,Active,https://ciderguide.com/willamette-ale-cider-house/
+12 Bridge Ciderworks,0,0,6,2,8,2019,2021,2,Oregon City,Oregon,USA,Inactive,https://ciderguide.com/12-bridge-ciderworks/
+Santa Cruz Cider Co.,0,0,6,2,8,2017,2021,3,Santa Cruz,California,USA,Active,https://ciderguide.com/santa-cruz-cider-co/
+Sunken Paddle Ciderworks,0,0,6,2,8,2021,2024,3,Oshkosh,Wisconsin,USA,Active,https://ciderguide.com/sunken-paddle-ciderworks/
+Blossom Barn Cidery,0,0,5,3,8,2021,2024,4,Grants Pass,Oregon,USA,Active,https://ciderguide.com/blossom-barn-cidery/
+Kings Mill Cider,0,0,5,3,8,2018,2021,3,Stirling,Ontario,Canada,Inactive,https://ciderguide.com/kings-mill-cider/
+Right Bee Cider,0,0,5,3,8,2018,2021,3,Chicago,Illinois,USA,Active,https://ciderguide.com/right-bee-cider/
+Texas Corners Brewing Company,0,0,5,3,8,2017,2024,3,Kalamazoo,Michigan,USA,Active,https://ciderguide.com/texas-corners-brewing-company/
+Junction Orchard & Cidery,0,0,4,4,8,2022,2023,2,Victoria,British Columbia,Canada,Active,https://ciderguide.com/junction-orchard-cidery/
+Ploughman Cider,0,0,4,4,8,2019,2022,2,Gettysburg,Pennsylvania,USA,Active,https://ciderguide.com/ploughman-cider/
+Botanist & Barrel,0,0,3,5,8,2019,2022,3,Cedar Grove,North Carolina,USA,Active,https://ciderguide.com/botanist-barrel/
+Cellarmen's,0,0,3,5,8,2016,2017,2,Hazel Park,Michigan,USA,Inactive,https://ciderguide.com/cellarmens/
+Serpentine Cider,0,0,3,5,8,2019,2023,2,San Diego,California,USA,Active,https://ciderguide.com/serpentine-cider/
+Sidra Somarroza,0,0,2,6,8,2019,2022,3,Renedo de Piélagos,Cantabria,Spain,Active,https://ciderguide.com/sidra-somarroza/
+Western Cider,0,0,2,6,8,2018,2018,1,Missoula,Montana,USA,Active,https://ciderguide.com/western-cider/
+WildCraft Cider Works,0,0,2,6,8,2016,2017,2,Eugene,Oregon,USA,Active,https://ciderguide.com/wildcraft-cider-works/
+Wild Cider,0,0,1,7,8,2014,2018,3,Firestone,Colorado,USA,Active,https://ciderguide.com/wild-cider/
+Jaanihanso Cider,2,0,3,2,7,2017,2018,2,Kaelase,Pärnu,Estonia,Active,https://ciderguide.com/jaanihanso-cider/
+Corey Lake Orchards,1,0,3,3,7,2017,2018,2,Three Rivers,Michigan,USA,Active,https://ciderguide.com/corey-lake-orchards/
+West End Cider House,1,0,2,4,7,2023,2024,2,Athens,Ohio,USA,Active,https://ciderguide.com/west-end-cider-house/
+Gary Awdey,0,2,1,4,7,2016,2021,3,Valparaiso,Indiana,USA,Inactive,https://ciderguide.com/gary-awdey/
+Clarksburg Cider,0,1,5,1,7,2023,2024,2,Lancaster,New York,USA,Active,https://ciderguide.com/clarksburg-cider/
+Critz Farms,0,1,4,2,7,2016,2019,2,Cazenovia,New York,USA,Active,https://ciderguide.com/critz-farms/
+Black Apple,0,1,3,3,7,2021,2023,2,Springdale,Arkansas,USA,Active,https://ciderguide.com/black-apple/
+Posterity Ciderworks,0,0,5,2,7,2021,2022,2,Mokelumne Hill,California,USA,Active,https://ciderguide.com/posterity-ciderworks/
+B. Nektar,0,0,4,3,7,2017,2022,3,Ferndale,Michigan,USA,Active,https://ciderguide.com/b-nektar/
+Cidrerie McKeown,0,0,4,3,7,2017,2022,2,Rougemont,Quebec,Canada,Active,https://ciderguide.com/cidrerie-mckeown/
+Empire Cider Company,0,0,4,3,7,2017,2018,2,Geneva,New York,USA,Inactive,https://ciderguide.com/empire-cider-company/
+Lindner's Cider,0,0,4,3,7,2021,2021,1,Hamden,New York,USA,Active,https://ciderguide.com/lindners-cider/
+St. Ambrose Cellars,0,0,4,3,7,2015,2016,2,Beulah,Michigan,USA,Active,https://ciderguide.com/st-ambrose-cellars/
+String Theory Cider,0,0,3,4,7,2021,2023,3,Cumberland,Wisconsin,USA,Active,https://ciderguide.com/string-theory-cider/
+Apple Outlaw,0,0,2,5,7,2015,2017,2,Jacksonville,Oregon,USA,Active,https://ciderguide.com/apple-outlaw/
+Flint City Hard Cider Co.,0,0,2,5,7,2016,2022,5,Flint,Michigan,USA,Inactive,https://ciderguide.com/flint-city-hard-cider-co/
+High Limb Hard Cider,0,0,2,5,7,2024,2024,1,Plymouth,Massachusetts,USA,Active,https://ciderguide.com/high-limb-hard-cider/
+Mississippi Ale House,0,0,2,5,7,2018,2023,3,Olive Branch,Mississippi,USA,Active,https://ciderguide.com/mississippi-ale-house/
+Red Clay Ciderworks,0,0,2,5,7,2018,2018,1,Charlotte,North Carolina,USA,Active,https://ciderguide.com/red-clay-ciderworks/
+Revel Cider Company,0,0,2,5,7,2015,2017,3,Guelph,Ontario,Canada,Active,https://ciderguide.com/revel-cider-company/
+Swilled Dog Hard Cider,0,0,2,5,7,2017,2021,3,Franklin,West Virginia,USA,Active,https://ciderguide.com/swilled-dog-hard-cider/
+Frecon Farms,0,0,1,6,7,2013,2015,3,Reading,Pennsylvania,USA,Active,https://ciderguide.com/frecon-farms/
+Ore Creek Craft Cider,0,0,1,6,7,2022,2024,3,Pinckney,Michigan,USA,Active,https://ciderguide.com/ore-creek-craft-cider/
+Ferme de Romilly,4,1,0,1,6,2018,2018,1,Saint-Germain-du-Pert,Normandy,France,Active,https://ciderguide.com/ferme-de-romilly/
+Zapiain,3,1,0,2,6,2014,2024,3,Astigarraga,Basque Country,Spain,Active,https://ciderguide.com/zapiain/
+Floribunda,2,0,1,3,6,2022,2024,3,Salorno,Trentino-South Tyrol,Italy,Active,https://ciderguide.com/floribunda/
+Idol Cider House,1,0,4,1,6,2022,2023,2,Turner,Oregon,USA,Active,https://ciderguide.com/idol-cider-house/
+Warwick Valley Winery & Distillery,1,0,3,2,6,2009,2013,2,Warwick,New York,USA,Active,https://ciderguide.com/warwick-valley-winery-distillery/
+Fenn Valley Vineyards,0,2,2,2,6,2022,2023,2,Fennville,Michigan,USA,Active,https://ciderguide.com/fenn-valley-vineyards/
+Artifact Cider Project,0,1,5,0,6,2023,2024,2,Florence,Massachusetts,USA,Active,https://ciderguide.com/artifact-cider-project/
+Seek-No-Further Cidery,0,1,5,0,6,2023,2024,2,Granville,Ohio,USA,Active,https://ciderguide.com/seek-no-further-cidery/
+Punx Cider Worx,0,1,4,1,6,2024,2024,1,Punxsutawney,Pennsylvania,USA,Active,https://ciderguide.com/punx-cider-worx/
+Riverhead Ciderhouse,0,1,4,1,6,2018,2021,3,Riverhead,New York,USA,Active,https://ciderguide.com/riverhead-ciderhouse/
+Devoto Orchards Cider,0,1,3,2,6,2013,2015,3,Sebastopol,California,USA,Inactive,https://ciderguide.com/devoto-orchards-cider/
+Brys Estate Ciderworks,0,1,2,3,6,2022,2024,2,Traverse City,Michigan,USA,Active,https://ciderguide.com/brys-estate-ciderworks/
+Green Bird Cellars,0,1,1,4,6,2012,2015,4,Northport,Michigan,USA,Active,https://ciderguide.com/green-bird-cellars/
+Raging Cider & Mead,0,1,1,4,6,2018,2019,2,San Marcos,California,USA,Active,https://ciderguide.com/raging-cider-mead/
+Willow Oaks,0,1,1,4,6,2021,2022,2,Middletown,Maryland,USA,Active,https://ciderguide.com/willow-oaks/
+Bløm Meadworks,0,0,5,1,6,2021,2023,3,Ann Arbor,Michigan,USA,Active,https://ciderguide.com/blom-meadworks/
+Berkshire Cider Project,0,0,4,2,6,2023,2024,2,North Adams,Massachusetts,USA,Active,https://ciderguide.com/berkshire-cider-project/
+Falconer Vineyards,0,0,4,2,6,2017,2019,3,Red Wing,Minnesota,USA,Active,https://ciderguide.com/falconer-vineyards/
+Urban Forage Winery & Cider House,0,0,4,2,6,2017,2022,2,Minneapolis,Minnesota,USA,Active,https://ciderguide.com/urban-forage-winery-cider-house/
+Ambrosia Orchard,0,0,3,3,6,2019,2022,2,Hoagland,Indiana,USA,Active,https://ciderguide.com/ambrosia-orchard/
+Liquid Art Winery,0,0,3,3,6,2019,2019,1,Manhattan,Kansas,USA,Active,https://ciderguide.com/liquid-art-winery/
+Redbyrd Orchard Cider,0,0,3,3,6,2013,2014,2,Trumansburg,New York,USA,Active,https://ciderguide.com/redbyrd-orchard-cider/
+Stone Circle Cider,0,0,3,3,6,2018,2021,2,Estacada,Oregon,USA,Active,https://ciderguide.com/stone-circle-cider/
+Talbott's Cider Company,0,0,3,3,6,2018,2021,2,Palisade,Colorado,USA,Active,https://ciderguide.com/talbotts-cider-company/
+Cider House of Wisconsin,0,0,2,4,6,2014,2019,3,McFarland,Wisconsin,USA,Inactive,https://ciderguide.com/cider-house-of-wisconsin/
+Kekionga Craft Company,0,0,2,4,6,2018,2019,2,Fort Wayne,Indiana,USA,Active,https://ciderguide.com/kekionga-craft-company/
+Nomad Cidery,0,0,2,4,6,2017,2018,2,Williamsburg,Michigan,USA,Inactive,https://ciderguide.com/nomad-cidery/
+Sourwood Cider,0,0,2,4,6,2018,2019,2,Halifax,Nova Scotia,Canada,Active,https://ciderguide.com/sourwood-cider/
+St. Julian Winery,0,0,2,4,6,2015,2019,3,Paw Paw,Michigan,USA,Active,https://ciderguide.com/st-julian-winery/
+Tall Ship Craft Cider / Fjordfolk Mikrobryggeri,0,0,2,4,6,2021,2021,1,Sandefjord,Vestfold,Norway,Active,https://ciderguide.com/tall-ship-craft-cider-fjordfolk-mikrobryggeri/
+Cherry Creek Cellars,0,0,1,5,6,2015,2018,4,Albion,Michigan,USA,Active,https://ciderguide.com/cherry-creek-cellars/
+Wild Hare Cider,0,0,1,5,6,2016,2019,3,Bluemont,Virginia,USA,Active,https://ciderguide.com/wild-hare-cider/
+Bridgehouse Cider,1,1,2,1,5,2021,2022,2,Long Grove,Iowa,USA,Active,https://ciderguide.com/bridgehouse-cider/
+Two Broads Ciderworks,1,1,2,1,5,2021,2021,1,San Luis Obispo,California,USA,Active,https://ciderguide.com/two-broads-ciderworks/
+Beach Bee Meadery,1,1,1,2,5,2023,2023,1,Long Branch,New Jersey,USA,Active,https://ciderguide.com/beach-bee-meadery/
+Millionaires' Row Cider Co.,1,0,4,0,5,2022,2022,1,Summerland,British Columbia,Canada,Active,https://ciderguide.com/millionaires-row-cider-co/
+Cornish Cider Company,1,0,2,2,5,2019,2023,3,Cornish,Maine,USA,Active,https://ciderguide.com/cornish-cider-company/
+Verger Belliveau Orchard,1,0,1,3,5,2015,2021,4,Memramcook,New Brunswick,Canada,Active,https://ciderguide.com/verger-belliveau-orchard/
+Rebel Apple,0,3,1,1,5,2023,2024,2,Moscow,Moscow,Russia,Active,https://ciderguide.com/rebel-apple/
+2 Fools Cider,0,2,1,2,5,2019,2021,2,Naperville,Illinois,USA,Inactive,https://ciderguide.com/2-fools-cider/
+Hoity Toity Cellars,0,2,0,3,5,2012,2015,4,Mildmay,Ontario,Canada,Inactive,https://ciderguide.com/hoity-toity-cellars/
+Ardiel Cider House,0,1,2,2,5,2018,2018,1,Clarksburg,Ontario,Canada,Active,https://ciderguide.com/ardiel-cider-house/
+Coastliner Craft Cider,0,1,2,2,5,2017,2019,3,Fredericton,New Brunswick,Canada,Active,https://ciderguide.com/coastliner-craft-cider/
+Diner Brew Co.,0,1,2,2,5,2019,2019,1,Mt. Vernon,New York,USA,Inactive,https://ciderguide.com/diner-brew-co/
+South City Ciderworks,0,1,2,2,5,2019,2019,1,San Bruno,California,USA,Inactive,https://ciderguide.com/south-city-ciderworks/
+Ten Towers Cider Co.,0,1,2,2,5,2017,2019,2,Rickreall,Oregon,USA,Active,https://ciderguide.com/ten-towers-cider-co/
+26 Acre Craft Cider Company,0,1,1,3,5,2017,2018,2,Pelham,Ontario,Canada,Inactive,https://ciderguide.com/26-acre-craft-cider-company/
+Angeles Crest Cider,0,1,1,3,5,2018,2021,3,Canoga Park,California,USA,Inactive,https://ciderguide.com/angeles-crest-cider/
+Peak Light Cider,0,0,5,0,5,2022,2022,1,Sauvie Island,Oregon,USA,Active,https://ciderguide.com/peak-light-cider/
+Bowen Cider House,0,0,4,1,5,2023,2024,2,Bowen Island,British Columbia,Canada,Active,https://ciderguide.com/bowen-cider-house/
+Ironbark Ciderworks,0,0,4,1,5,2023,2023,1,Claremont,California,USA,Active,https://ciderguide.com/ironbark-ciderworks/
+Keuka Craft Ciders,0,0,4,1,5,2018,2019,2,Canisteo,New York,USA,Inactive,https://ciderguide.com/keuka-craft-ciders/
+Market Garden Brewery,0,0,4,1,5,2021,2024,4,Cleveland,Ohio,USA,Active,https://ciderguide.com/market-garden-brewery/
+Santa Sidra Hard Cider,0,0,4,1,5,2015,2016,2,Santa Fe,New Mexico,USA,Inactive,https://ciderguide.com/santa-sidra-hard-cider/
+Urban Farm Fermentory,0,0,4,1,5,2019,2021,2,Portland,Maine,USA,Inactive,https://ciderguide.com/urban-farm-fermentory/
+Whitewood Cider Co.,0,0,4,1,5,2014,2015,2,Olympia,Washington,USA,Active,https://ciderguide.com/whitewood-cider-co/
+Cidre Le Brun,0,0,3,2,5,2016,2019,4,Plovan,Brittany,France,Active,https://ciderguide.com/cidre-le-brun/
+Farm Club,0,0,3,2,5,2023,2024,2,Traverse City,Michigan,USA,Active,https://ciderguide.com/farm-club/
+Left Field Cider Co.,0,0,3,2,5,2013,2016,3,Logan Lake,British Columbia,Canada,Active,https://ciderguide.com/left-field-cider-co/
+Mount Diablo Cider Company,0,0,3,2,5,2023,2024,2,Lafayette,California,USA,Active,https://ciderguide.com/mount-diablo-cider-company/
+Ponderosa Cider Co.,0,0,3,2,5,2024,2024,1,Auburn,California,USA,Active,https://ciderguide.com/ponderosa-cider-co./
+Schilling Cider,0,0,3,2,5,2016,2024,2,Auburn,Washington,USA,Active,https://ciderguide.com/schilling-cider/
+Sheppy's Cider,0,0,3,2,5,2014,2015,2,Bradford-on-Tone,Somerset,England,Active,https://ciderguide.com/sheppys-cider/
+The Apple Barn And Cider Mill,0,0,3,2,5,2024,2024,1,Sevierville,Tennessee,USA,Active,https://ciderguide.com/the-apple-barn-and-cider-mill/
+Heartland Ciderworks,0,0,2,3,5,2023,2024,2,Rickreall,Oregon,USA,Active,https://ciderguide.com/heartland-ciderworks/
+Northman Cider Co.,0,0,2,3,5,2022,2024,2,Chicago,Illinois,USA,Active,https://ciderguide.com/northman-cider-co/
+Painted Turtle Hard Cider,0,0,2,3,5,2017,2021,2,Lowell,Michigan,USA,Active,https://ciderguide.com/painted-turtle-hard-cider/
+Westons Cider,0,0,2,3,5,2009,2011,2,Ledbury,Herefordshire,England,Active,https://ciderguide.com/westons-cider/
+Nomad Cider,0,0,1,4,5,2018,2018,1,Summerland,British Columbia,Canada,Active,https://ciderguide.com/nomad-cider/
+Armagh Cider Company,0,0,0,5,5,2013,2014,2,Portadown,Armagh,Northern Ireland,Active,https://ciderguide.com/armagh-cider-company/
+Barrika,2,0,1,1,4,2017,2019,3,New York,New York,USA,Active,https://ciderguide.com/barrika/
+Kuhnhenn Brewing Co.,1,1,0,2,4,2023,2024,2,Warren,Michigan,USA,Active,https://ciderguide.com/kuhnhenn-brewing-co/
+Heirloom Hill Cider Company,1,0,2,1,4,2023,2024,2,Sterling,New York,USA,In Planning,https://ciderguide.com/heirloom-hill-cider-company/
+Slyboro Ciderhouse,1,0,2,1,4,2008,2008,1,Granville,New York,USA,Active,https://ciderguide.com/slyboro-ciderhouse/
+Valley Cider Company,1,0,2,1,4,2021,2021,1,Duncan,British Columbia,Canada,Active,https://ciderguide.com/valley-cider-company/
+Forbidden Cider Co.,0,1,2,1,4,2014,2017,2,Warkworth,Auckland,New Zealand,Inactive,https://ciderguide.com/forbidden-cider-co/
+Wyder's Cider,0,1,2,1,4,2005,2007,2,Oakland,California,USA,Inactive,https://ciderguide.com/wyders-cider/
+Yonder Cider,0,1,2,1,4,2022,2022,1,Seattle,Washington,USA,Active,https://ciderguide.com/yonder-cider/
+Ferme Black Creek,0,1,1,2,4,2018,2024,4,Hinchinbrooke,Quebec,Canada,Active,https://ciderguide.com/ferme-black-creek/
+Lekker Cider,0,1,1,2,4,2019,2021,2,Calgary,Alberta,Canada,Inactive,https://ciderguide.com/lekker-cider/
+Rushford Meadery & Winery,0,1,1,2,4,2019,2023,2,Omro,Wisconsin,USA,Active,https://ciderguide.com/rushford-meadery-winery/
+Boyden Valley Winery & Spirits,0,0,4,0,4,2014,2016,2,Cambridge,Vermont,USA,Active,https://ciderguide.com/boyden-valley-winery-spirits/
+Whetstone CiderWorks,0,0,4,0,4,2015,2016,2,Marlboro,Vermont,USA,Inactive,https://ciderguide.com/whetstone-ciderworks/
+Alter Ego Cider,0,0,3,1,4,2019,2019,1,Portland,Oregon,USA,Inactive,https://ciderguide.com/alter-ego-cider/
+Chateau Buffalo,0,0,3,1,4,2007,2008,2,Buffalo,New York,USA,Active,https://ciderguide.com/chateau-buffalo/
+Cidrerie Verger Hemmingford,0,0,3,1,4,2015,2016,2,Hemmingford,Quebec,Canada,Active,https://ciderguide.com/cidrerie-verger-hemmingford/
+Ela Cider Co.,0,0,3,1,4,2016,2018,3,Rochester,Wisconsin,USA,Inactive,https://ciderguide.com/ela-cider-co/
+Fabbioli Cellars,0,0,3,1,4,2017,2018,2,Leesburg,Virginia,USA,Active,https://ciderguide.com/fabbioli-cellars/
+Golden State Cider,0,0,3,1,4,2015,2021,3,Graton,California,USA,Active,https://ciderguide.com/golden-state-cider/
+Lehman's Orchards,0,0,3,1,4,2009,2011,2,Buchanan,Michigan,USA,Active,https://ciderguide.com/lehmans-orchards/
+Llagares Valverán,0,0,3,1,4,2013,2023,3,Sariego,Asturias,Spain,Active,https://ciderguide.com/llagares-valveran/
+Muse Orchard,0,0,3,1,4,2021,2023,2,Edinburg,Virginia,USA,Active,https://ciderguide.com/muse-orchard/
+Salt Creek Cider House,0,0,3,1,4,2023,2023,1,Dallas,Oregon,USA,Active,https://ciderguide.com/salt-creek-cider-house/
+Stowe Cider,0,0,3,1,4,2017,2018,2,Stowe,Vermont,USA,Active,https://ciderguide.com/stowe-cider/
+Victoria Cider Co.,0,0,3,1,4,2023,2023,1,Victoria,British Columbia,Canada,Active,https://ciderguide.com/victoria-cider-co/
+Wards Cider,0,0,3,1,4,2016,2018,2,Kelowna,British Columbia,Canada,Active,https://ciderguide.com/wards-cider/
+Austin Eastciders,0,0,2,2,4,2012,2021,2,Austin,Texas,USA,Active,https://ciderguide.com/austin-eastciders/
+Black Bear Cider Co.,0,0,2,2,4,2021,2022,2,St. Louis,Missouri,USA,Active,https://ciderguide.com/black-bear-cider-co/
+Blackman Cider Co.,0,0,2,2,4,2019,2019,1,Lockport,New York,USA,Active,https://ciderguide.com/blackman-cider-co/
+Branch Out Cider,0,0,2,2,4,2014,2016,3,Fort Collins,Colorado,USA,Inactive,https://ciderguide.com/branch-out-cider/
+Cidrerie Le Somnambule,0,0,2,2,4,2023,2023,1,Saint-Henri,Quebec,Canada,Active,https://ciderguide.com/cidrerie-le-somnambule/
+Hudson Valley Farmhouse Cider,0,0,2,2,4,2018,2018,1,Staatsburg,New York,USA,Active,https://ciderguide.com/hudson-valley-farmhouse-cider/
+McRitchie Winery & Ciderworks,0,0,2,2,4,2009,2013,3,Thurmond,North Carolina,USA,Active,https://ciderguide.com/mcritchie-winery-ciderworks/
+Milk & Honey Ciders,0,0,2,2,4,2016,2016,1,St. Joseph,Minnesota,USA,Active,https://ciderguide.com/milk-honey-ciders/
+New Salem Cider,0,0,2,2,4,2021,2021,1,New Salem,Massachusetts,USA,Active,https://ciderguide.com/new-salem-cider/
+Paha Cider,0,0,2,2,4,2024,2024,1,Waverly,Iowa,USA,Active,https://ciderguide.com/paha-cider/
+Rossbach Cider,0,0,2,2,4,2015,2021,3,Hranice,Karlovy Vary,Czechia,Inactive,https://ciderguide.com/rossbach-cider/
+Russell Orchards,0,0,2,2,4,2011,2011,1,Ipswich,Massachusetts,USA,Active,https://ciderguide.com/russell-orchards/
+Banter's Hard Cider,0,0,1,3,4,2017,2018,2,Stroudsburg,Pennsylvania,USA,Inactive,https://ciderguide.com/banters-hard-cider/
+Big Belly Ciderworks,0,0,1,3,4,2016,2018,3,Empire,Michigan,USA,Inactive,https://ciderguide.com/big-belly-ciderworks/
+Brooker's Cider,0,0,1,3,4,2022,2023,2,Scotch Bush,Ontario,Canada,Active,https://ciderguide.com/brookers-cider/
+Cascadia Ciderworkers United,0,0,1,3,4,2013,2015,2,Portland,Oregon,USA,Inactive,https://ciderguide.com/cascadia-ciderworkers-united/
+Ciderworks @ Story Tavern,0,0,1,3,4,2017,2022,3,Burbank,California,USA,Active,https://ciderguide.com/ciderworks-story-tavern/
+Cidrerie de Menez-Brug,0,0,1,3,4,2016,2019,4,Fouesnant,Brittany,France,Active,https://ciderguide.com/cidrerie-de-menez-brug/
+Gravity Vineyards and Winery,0,0,1,3,4,2021,2021,1,Baroda,Michigan,USA,Active,https://ciderguide.com/gravity-vineyards-and-winery/
+Griffin Cider Works,0,0,1,3,4,2013,2017,2,Westlake,Ohio,USA,Inactive,https://ciderguide.com/griffin-cider-works/
+Hardscrabble Cider,0,0,1,3,4,2016,2016,1,North Salem,New York,USA,Active,https://ciderguide.com/hardscrabble-cider/
+Maeloc,0,0,1,3,4,2015,2015,1,Chantada,Galicia,Spain,Active,https://ciderguide.com/maeloc/
+Star Cider,0,0,1,3,4,2016,2016,1,Clifton Springs,New York,USA,Active,https://ciderguide.com/star-cider/
+Walkerville City Cidery,0,0,1,3,4,2019,2023,4,Windsor,Ontario,Canada,Active,https://ciderguide.com/walkerville-city-cidery/
+Wilding Orchards,0,0,1,3,4,2021,2023,2,Brackney,Pennsylvania,USA,In Planning,https://ciderguide.com/wilding-orchards/
+York County Cider,0,0,1,3,4,2018,2018,1,Fredericton,New Brunswick,Canada,Active,https://ciderguide.com/york-county-cider/
+Bishop Cider Company,0,0,0,4,4,2018,2018,1,Fort Worth,Texas,USA,Active,https://ciderguide.com/bishop-cider-company/
+Blueberry Hill Estates,0,0,0,4,4,2016,2018,2,Williams,Ontario,Canada,Active,https://ciderguide.com/blueberry-hill-estates/
+Douglas Valley,0,0,0,4,4,2008,2008,1,Manistee,Michigan,USA,Inactive,https://ciderguide.com/douglas-valley/
+Foxcraft Hard Cider,0,0,0,4,4,2015,2015,1,Santa Rosa,California,USA,Inactive,https://ciderguide.com/foxcraft-hard-cider/
+Grand Illusion Hard Cider,0,0,0,4,4,2017,2019,3,Carlisle,Pennsylvania,USA,Active,https://ciderguide.com/grand-illusion-hard-cider/
+Meraki Cider,0,0,0,4,4,2017,2017,1,Pismo Beach,California,USA,Inactive,https://ciderguide.com/meraki-cider/
+Saro Cider,0,0,0,4,4,2019,2019,1,Lincoln,Nebraska,USA,Active,https://ciderguide.com/saro-cider/
+Wildbranch Cider,2,0,0,1,3,2021,2023,2,Craftsbury,Vermont,USA,Active,https://ciderguide.com/wildbranch-cider/
+Dead Horse Cider Co.,1,1,0,1,3,2021,2021,1,Winkler,Manitoba,Canada,Active,https://ciderguide.com/dead-horse-cider-co/
+AVAL Cider,1,0,2,0,3,2023,2023,1,New York,New York,USA,Active,https://ciderguide.com/aval-cider/
+Duxbury Cider Company,1,0,2,0,3,2024,2024,1,Meaford,Ontario,Canada,Active,https://ciderguide.com/duxbury-cider-company/
+Les Vergers de Kermao,1,0,2,0,3,2017,2019,3,Gouesnac'h,Brittany,France,Active,https://ciderguide.com/les-vergers-de-kermao/
+Adams Cider Company,1,0,1,1,3,2014,2018,3,Borrisoleigh,Tipperary,Ireland,Active,https://ciderguide.com/adams-cider-company/
+Ambix Spirits,1,0,1,1,3,2023,2023,1,Sebastopol,California,USA,Active,https://ciderguide.com/ambix-spirits/
+Chateau Morrisette,1,0,1,1,3,2018,2018,1,Floyd,Virginia,USA,Active,https://ciderguide.com/chateau-morrisette/
+Fraser Valley Cider Company,1,0,1,1,3,2022,2022,1,Langley Township,British Columbia,Canada,Active,https://ciderguide.com/fraser-valley-cider-company/
+Gnarly Pippin Cider House,0,2,0,1,3,2021,2021,1,Cleveland Heights,Ohio,USA,Inactive,https://ciderguide.com/gnarly-pippin-cider-house/
+Bel Lago Winery,0,1,2,0,3,2015,2016,2,Cedar,Michigan,USA,Active,https://ciderguide.com/bel-lago-winery/
+Woodlore Cider Co.,0,1,2,0,3,2023,2023,1,Brainerd,Minnesota,USA,Inactive,https://ciderguide.com/woodlore-cider-co/
+Banditry Cider,0,1,1,1,3,2023,2023,1,Gibsons,British Columbia,Canada,Active,https://ciderguide.com/banditry-cider/
+King Orchards,0,1,1,1,3,2023,2023,1,Central Lake,Michigan,USA,Active,https://ciderguide.com/king-orchards/
+Loïc Raison,0,1,1,1,3,2018,2018,1,Domagné,Brittany,France,Active,https://ciderguide.com/loic-raison/
+Manoff Market Gardens & Cidery,0,1,1,1,3,2023,2023,1,New Hope,Pennsylvania,USA,Active,https://ciderguide.com/manoff-market-gardens-cidery/
+Stoneybrook Cider,0,1,1,1,3,2019,2022,3,South Hadley,Massachusetts,USA,Active,https://ciderguide.com/stoneybrook-cider/
+Tempted Cider,0,1,1,1,3,2021,2021,1,Lisburn,Antrim,Northern Ireland,Active,https://ciderguide.com/tempted-cider/
+The Infinite Monkey Theorem,0,1,0,2,3,2014,2017,3,Denver,Colorado,USA,Active,https://ciderguide.com/the-infinite-monkey-theorem/
+Windfall Orchard,0,1,0,2,3,2016,2017,2,Cornwall,Vermont,USA,Active,https://ciderguide.com/windfall-orchard/
+12 Corners Vineyards,0,0,3,0,3,2023,2023,1,Benton Harbor,Michigan,USA,Active,https://ciderguide.com/12-corners-vineyards/
+Docendo Discitur,0,0,3,0,3,2022,2024,3,Villeneuve,Aosta Valley,Italy,Active,https://ciderguide.com/docendo-discitur/
+E&J Gallo Winery,0,0,3,0,3,2008,2011,2,Modesto,California,USA,Active,https://ciderguide.com/ej-gallo-winery/
+Farmgate Cider,0,0,3,0,3,2021,2023,2,Arnprior,Ontario,Canada,Active,https://ciderguide.com/farmgate-cider/
+Kingston Creek Cider,0,0,3,0,3,2019,2021,2,Kingston,New Brunswick,Canada,Active,https://ciderguide.com/kingston-creek-cider/
+Northyards Cider Co.,0,0,3,0,3,2023,2023,1,Salmon Arm,British Columbia,Canada,Active,https://ciderguide.com/northyards-cider-co/
+101 Cider House,0,0,2,1,3,2016,2018,2,Westlake Village,California,USA,Active,https://ciderguide.com/101-cider-house/
+5 Penny Hard Cider,0,0,2,1,3,2018,2019,2,Ontario,Ohio,USA,Inactive,https://ciderguide.com/5-penny-hard-cider/
+Broken Brix,0,0,2,1,3,2021,2022,2,St. Charles,Illinois,USA,Active,https://ciderguide.com/broken-brix/
+Carolina Distillery,0,0,2,1,3,2014,2017,2,Lenoir,North Carolina,USA,Inactive,https://ciderguide.com/carolina-distillery/
+Carriage House Ciders,0,0,2,1,3,2024,2024,1,Benton Harbor,Michigan,USA,Active,https://ciderguide.com/carriage-house-ciders/
+Crossmount Cider Company,0,0,2,1,3,2022,2022,1,Crossmount,Saskatchewan,Canada,Active,https://ciderguide.com/crossmount-cider-company/
+Goat Rock Cider Company,0,0,2,1,3,2022,2022,1,Petaluma,California,USA,Active,https://ciderguide.com/goat-rock-cider-company/
+Godfrey Run Cider Mill,0,0,2,1,3,2021,2021,1,Lake City,Pennsylvania,USA,Active,https://ciderguide.com/godfrey-run-cider-mill/
+Manoir de Grandouet,0,0,2,1,3,2016,2019,2,Grandouet,Normandy,France,Active,https://ciderguide.com/manoir-de-grandouet/
+North Shore Cider Company,0,0,2,1,3,2018,2019,2,Evanston,Illinois,USA,Inactive,https://ciderguide.com/north-shore-cider-company/
+Overgrown Orchard,0,0,2,1,3,2019,2019,1,Gary,Indiana,USA,Inactive,https://ciderguide.com/overgrown-orchard/
+Prototype Hard Cider,0,0,2,1,3,2017,2019,3,Lancaster,Pennsylvania,USA,Inactive,https://ciderguide.com/prototype-hard-cider/
+Restoration Cider,0,0,2,1,3,2017,2017,1,Madison,Wisconsin,USA,Active,https://ciderguide.com/restoration-cider/
+Sunnycider,0,0,2,1,3,2022,2022,1,Calgary,Alberta,Canada,Active,https://ciderguide.com/sunnycider/
+Tapped Apple Cider & Winery,0,0,2,1,3,2023,2023,1,Westerly,Rhode Island,USA,Active,https://ciderguide.com/tapped-apple-cider-winery/
+Three Thinkers Cider,0,0,2,1,3,2019,2021,2,Stateline,Nevada,USA,Inactive,https://ciderguide.com/three-thinkers-cider/
+Wölffer Estate Vineyard,0,0,2,1,3,2022,2022,1,Sagaponack,New York,USA,Active,https://ciderguide.com/wolffer-estate-vineyard/
+Worley's Cider,0,0,2,1,3,2015,2015,1,Shepton Mallet,Somerset,England,Active,https://ciderguide.com/worleys-cider/
+Acme Cider Co.,0,0,1,2,3,2016,2017,2,Ada,Michigan,USA,Inactive,https://ciderguide.com/acme-cider-co/
+Bayfield Winery & Blue Ox Cider,0,0,1,2,3,2021,2024,2,Bayfield,Wisconsin,USA,Active,https://ciderguide.com/bayfield-winery-blue-ox-cider/
+Bullevie Cidre,0,0,1,2,3,2018,2019,2,Fodorovskoye,Leningrad Oblast,Russia,Active,https://ciderguide.com/bullevie-cidre/
+Cider Corps,0,0,1,2,3,2022,2022,1,Mesa,Arizona,USA,Active,https://ciderguide.com/cider-corps/
+Cidrerie St-Nicolas,0,0,1,2,3,2013,2013,1,Saint-Nicolas,Quebec,Canada,Active,https://ciderguide.com/cidrerie-st-nicolas/
+Domaine Duclos Fougeray,0,0,1,2,3,2014,2014,1,Saint Michel d'Halescourt,Normandy,France,Active,https://ciderguide.com/domaine-duclos-fougeray/
+Eaglemount Wine & Cider,0,0,1,2,3,2014,2014,1,Port Townsend,Washington,USA,Active,https://ciderguide.com/eaglemount-wine-cider/
+Forgotten Fire Winery,0,0,1,2,3,2023,2023,1,Marinette,Wisconsin,USA,Active,https://ciderguide.com/forgotten-fire-winery/
+Greenwood Cider Company,0,0,1,2,3,2018,2018,1,Seattle,Washington,USA,Active,https://ciderguide.com/greenwood-cider-company/
+High Hope Cider,0,0,1,2,3,2021,2021,1,Toronto,Ontario,Canada,Inactive,https://ciderguide.com/high-hope-cider/
+Holmberg Orchards & Winery,0,0,1,2,3,2007,2007,1,Gales Ferry,Connecticut,USA,Active,https://ciderguide.com/holmberg-orchards-winery/
+Independent Perry,0,0,1,2,3,2019,2019,1,Dryden,Washington,USA,Active,https://ciderguide.com/independent-perry/
+JK's Farmhouse Ciders,0,0,1,2,3,2014,2018,3,Flushing,Michigan,USA,Active,https://ciderguide.com/jks-farmhouse-ciders/
+Newton Court Cider,0,0,1,2,3,2016,2017,2,Newton,Herefordshire,England,Active,https://ciderguide.com/newton-court-cider/
+Nine Pin Cider,0,0,1,2,3,2014,2015,2,Albany,New York,USA,Active,https://ciderguide.com/nine-pin-cider/
+Owl Creek Vineyard,0,0,1,2,3,2014,2014,1,Cobden,Illinois,USA,Active,https://ciderguide.com/owl-creek-vineyard/
+RAW Cider,0,0,1,2,3,2024,2024,1,Yamhill,Oregon,USA,Active,https://ciderguide.com/raw-cider/
+Ross-on-Wye Cider and Perry,0,0,1,2,3,2012,2012,1,Ross-on-Wye,Herefordshire,England,Active,https://ciderguide.com/ross-on-wye-cider-and-perry/
+Spy Cider House and Distillery,0,0,1,2,3,2022,2022,1,Clarksburg,Ontario,Canada,Active,https://ciderguide.com/spy-cider-house-and-distillery/
+Thistly Cross Cider,0,0,1,2,3,2012,2015,2,Dunbar,East Lothian,Scotland,Active,https://ciderguide.com/thistly-cross-cider/
+Three Falls Cider,0,0,1,2,3,2024,2024,1,Castile,New York,USA,Active,https://ciderguide.com/three-falls-cider/
+Top of the Rock Ciders,0,0,1,2,3,2016,2018,3,Kalamazoo,Michigan,USA,Inactive,https://ciderguide.com/top-of-the-rock-ciders/
+Ugly Apple,0,0,1,2,3,2017,2018,2,Lanark,Ontario,Canada,Active,https://ciderguide.com/ugly-apple/
+3 North Vines,0,0,0,3,3,2021,2021,1,Croswell,Michigan,USA,Active,https://ciderguide.com/3-north-vines/
+Century Tree Cider Co.,0,0,0,3,3,2018,2018,1,Memphis,Tennessee,USA,Inactive,https://ciderguide.com/century-tree-cider-co/
+Country Mill Winery,0,0,0,3,3,2011,2011,1,Charlotte,Michigan,USA,Active,https://ciderguide.com/country-mill-winery/
+Napton Cidery,0,0,0,3,3,2019,2019,1,Southam,Warwickshire,England,Active,https://ciderguide.com/napton-cidery/
+Platform Beer Company,0,0,0,3,3,2017,2021,2,Cleveland,Ohio,USA,Inactive,https://ciderguide.com/platform-beer-company/
+Prospect Ciderworks,0,0,0,3,3,2018,2018,1,Boston,Massachusetts,USA,Inactive,https://ciderguide.com/prospect-ciderworks/
+Small Acres Cyder,0,0,0,3,3,2014,2014,1,Borenore,New South Wales,Australia,Active,https://ciderguide.com/small-acres-cyder/
+Tall Post Craft Cider,0,0,0,3,3,2019,2019,1,Hannon,Ontario,Canada,Active,https://ciderguide.com/tall-post-craft-cider/
+Domaine des 5 D,1,0,1,0,2,2016,2016,1,Ouilly-le-Vicomte,Normandy,France,Active,https://ciderguide.com/domaine-des-5-d/
+EdenVale Winery,1,0,1,0,2,2017,2019,2,Medford,Oregon,USA,Active,https://ciderguide.com/edenvale-winery/
+Vergers de Velours,1,0,1,0,2,2018,2018,1,Saint-Henri-de-Taillon,Quebec,Canada,Active,https://ciderguide.com/vergers-de-velours/
+Cold Hand Winery,1,0,0,1,2,2018,2018,1,Randers,Central Denmark,Denmark,Active,https://ciderguide.com/cold-hand-winery/
+Upper Left Apples,1,0,0,1,2,2019,2019,1,Everett,Washington,USA,Inactive,https://ciderguide.com/upper-left-apples/
+Val de Rance,0,2,0,0,2,2016,2016,1,Pleudihen-sur-Rance,Brittany,France,Active,https://ciderguide.com/val-de-rance/
+Covered Bridge Brewing,0,1,1,0,2,2022,2022,1,Cottage Grove,Oregon,USA,Inactive,https://ciderguide.com/covered-bridge-brewing/
+LUK Cider and Spirit,0,1,1,0,2,2013,2013,1,Shefford,Quebec,Canada,Inactive,https://ciderguide.com/luk-cider-and-spirit/
+Prima Cider,0,1,1,0,2,2019,2019,1,Long Grove,Illinois,USA,Active,https://ciderguide.com/prima-cider/
+The BottleHouse Brewing Company,0,1,1,0,2,2018,2018,1,Cleveland Heights,Ohio,USA,Active,https://ciderguide.com/the-bottlehouse-brewing-company/
+Asturvisa,0,1,0,1,2,2013,2013,1,Gijón,Asturias,Spain,Inactive,https://ciderguide.com/asturvisa/
+Domaine de Kervéguen,0,1,0,1,2,2014,2016,2,Guimaëc,Brittany,France,Active,https://ciderguide.com/domaine-de-kerveguen/
+Long Island Meadery,0,1,0,1,2,2005,2006,2,Holbrook,New York,USA,Inactive,https://ciderguide.com/long-island-meadery/
+Mershon's Artisan Cider,0,1,0,1,2,2023,2023,1,Stoughton,Wisconsin,USA,Active,https://ciderguide.com/mershons-artisan-cider/
+Old Boys’ Brewhouse,0,1,0,1,2,2011,2012,2,Spring Lake,Michigan,USA,Inactive,https://ciderguide.com/old-boys-brewhouse/
+Subterranean Cider,0,1,0,1,2,2022,2022,1,Ypsilanti,Michigan,USA,Inactive,https://ciderguide.com/subterranean-cider/
+Batch Brewing Company,0,0,2,0,2,2024,2024,1,Detroit,Michigan,USA,Active,https://ciderguide.com/batch-brewing-company/
+Cidre La Chouette,0,0,2,0,2,2019,2019,1,Saint-Pair-sur-Mer,Normandy,France,Active,https://ciderguide.com/cidre-la-chouette/
+Clos de la Fontaine Hugo,0,0,2,0,2,2014,2016,2,Rozoy-sur-Serre,Hauts-de-France,France,Active,https://ciderguide.com/clos-de-la-fontaine-hugo/
+Copper Crow Distillery,0,0,2,0,2,2022,2024,2,Bayfield,Wisconsin,USA,Active,https://ciderguide.com/copper-crow-distillery/
+Destileria Queilen,0,0,2,0,2,2024,2024,1,Queilén,Los Lagos,Chile,Active,https://ciderguide.com/destileria-queilen/
+Domaine des Côtes d'Ardoise,0,0,2,0,2,2018,2018,1,Dunham,Quebec,Canada,Active,https://ciderguide.com/domaine-des-cotes-dardoise/
+Foggy Ridge Cider,0,0,2,0,2,2007,2007,1,Dugspur,Virginia,USA,Inactive,https://ciderguide.com/foggy-ridge-cider/
+Good Bones Ciderhouse,0,0,2,0,2,2023,2024,2,Beulah,Michigan,USA,In Planning,https://ciderguide.com/good-bones-ciderhouse/
+Institut Agricole Régional,0,0,2,0,2,2022,2023,2,Aosta,Aosta Valley,Italy,Active,https://ciderguide.com/institut-agricole-regional/
+Knightberg,0,0,2,0,2,2019,2019,1,Saint Petersburg,Saint Petersburg,Russia,Active,https://ciderguide.com/knightberg/
+Maison Hérout,0,0,2,0,2,2023,2023,1,Auvers,Normandy,France,Active,https://ciderguide.com/maison-herout/
+OR\WA Cider Collective,0,0,2,0,2,2018,2018,1,Milwaukie,Oregon,USA,Inactive,https://ciderguide.com/orwa-cider-collective/
+Paynter's Cider,0,0,2,0,2,2019,2019,1,Havelock North,Hawke's Bay,New Zealand,Active,https://ciderguide.com/paynters-cider/
+S. Martinelli & Co.,0,0,2,0,2,2019,2021,2,Watsonville,California,USA,Active,https://ciderguide.com/s-martinelli-co/
+Sidra El Gobernador,0,0,2,0,2,2013,2013,1,Villaviciosa,Asturias,Spain,Active,https://ciderguide.com/sidra-el-gobernador/
+Vins Arista,0,0,2,0,2,2023,2024,2,Rougemont,Quebec,Canada,Active,https://ciderguide.com/vins-arista/
+Willie Smith's,0,0,2,0,2,2018,2018,1,Grove,Tasmania,Australia,Active,https://ciderguide.com/willie-smiths/
+Wyndfall Cyder,0,0,2,0,2,2015,2016,2,Jordan,Minnesota,USA,Inactive,https://ciderguide.com/wyndfall-cyder/
+Bantam Cider,0,0,1,1,2,2013,2013,1,Somerville,Massachusetts,USA,Inactive,https://ciderguide.com/bantam-cider/
+Blacksmiths Winery,0,0,1,1,2,2012,2012,1,Casco,Maine,USA,Inactive,https://ciderguide.com/blacksmiths-winery/
+Brick River Cider,0,0,1,1,2,2021,2021,1,St. Louis,Missouri,USA,Active,https://ciderguide.com/brick-river-cider/
+Cider by Rosie,0,0,1,1,2,2011,2011,1,Winterbourne Houghton,Dorset,England,Active,https://ciderguide.com/cider-by-rosie/
+Cidres Nicol,0,0,1,1,2,2017,2017,1,Surzur,Brittany,France,Active,https://ciderguide.com/cidres-nicol/
+Cigar City Cider & Mead,0,0,1,1,2,2016,2016,1,Tampa,Florida,USA,Active,https://ciderguide.com/cigar-city-cider-mead/
+Cold Hollow Cider Mill,0,0,1,1,2,2016,2017,2,Waterbury Center,Vermont,USA,Active,https://ciderguide.com/cold-hollow-cider-mill/
+Courthouse Creek Cider,0,0,1,1,2,2019,2019,1,Maidens,Virginia,USA,Active,https://ciderguide.com/courthouse-creek-cider/
+Crimson Cider Company,0,0,1,1,2,2023,2023,1,Picton,Ontario,Canada,Active,https://ciderguide.com/crimson-cider-company/
+Dominion Cider Co.,0,0,1,1,2,2019,2019,1,Summerland,British Columbia,Canada,Active,https://ciderguide.com/dominion-cider-co/
+Ferro Farms,0,0,1,1,2,2016,2017,2,Lake Geneva,Wisconsin,USA,Inactive,https://ciderguide.com/ferro-farms/
+FieldBird Cider,0,0,1,1,2,2018,2018,1,Bloomfield,Ontario,Canada,Active,https://ciderguide.com/fieldbird-cider/
+Flatbed Cider Co.,0,0,1,1,2,2016,2016,1,Milton-Freewater,Oregon,USA,Inactive,https://ciderguide.com/flatbed-cider-co/
+Fort Point Beer Company,0,0,1,1,2,2023,2023,1,San Francisco,California,USA,Active,https://ciderguide.com/fort-point-beer-company/
+Henney's Cider,0,0,1,1,2,2009,2009,1,Bishops Frome,Herefordshire,England,Active,https://ciderguide.com/henneys-cider/
+Lost Valley Cider Co.,0,0,1,1,2,2019,2019,1,Milwaukee,Wisconsin,USA,Active,https://ciderguide.com/lost-valley-cider-co/
+Lucia Maria Melchiori,0,0,1,1,2,2023,2023,1,Predaia,Trentino-South Tyrol,Italy,Active,https://ciderguide.com/lucia-maria-melchiori/
+Metal House Cider,0,0,1,1,2,2018,2018,1,Ulster Park,New York,USA,Active,https://ciderguide.com/metal-house-cider/
+Mill Bridge Winery,0,0,1,1,2,2017,2017,1,Pigeon Forge,Tennessee,USA,Active,https://ciderguide.com/mill-bridge-winery/
+New Holland Brewing,0,0,1,1,2,2007,2007,1,Holland,Michigan,USA,Active,https://ciderguide.com/new-holland-brewing/
+New Leaf Cider Co.,0,0,1,1,2,2018,2021,2,Port Crane,New York,USA,Active,https://ciderguide.com/new-leaf-cider-co/
+Rice Lake Hard Cider,0,0,1,1,2,2021,2021,1,Baltimore,Ontario,Canada,Active,https://ciderguide.com/rice-lake-hard-cider/
+Speciation Artisan Ales,0,0,1,1,2,2022,2023,2,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/speciation-artisan-ales/
+Sutliff Cider Company,0,0,1,1,2,2022,2022,1,Lisbon,Iowa,USA,Inactive,https://ciderguide.com/sutliff-cider-company/
+Tercer Ciclo,0,0,1,1,2,2024,2024,1,Santiago,Metropolitan,Chile,Active,https://ciderguide.com/tercer-ciclo/
+Tilted Shed Ciderworks,0,0,1,1,2,2013,2013,1,Windsor,California,USA,Active,https://ciderguide.com/tilted-shed-ciderworks/
+Tom's Foolery Distillery,0,0,1,1,2,2011,2011,1,Burton,Ohio,USA,Active,https://ciderguide.com/toms-foolery-distillery/
+Troy Cider,0,0,1,1,2,2015,2018,2,Fulton,California,USA,Inactive,https://ciderguide.com/troy-cider/
+Turncoat Cidery,0,0,1,1,2,2023,2023,1,Jamestown,Rhode Island,USA,Active,https://ciderguide.com/turncoat-cidery/
+Txopinondo,0,0,1,1,2,2014,2016,2,Ascain,Nouvelle-Aquitaine,France,Active,https://ciderguide.com/txopinondo/
+Westside CiderWerks,0,0,1,1,2,2016,2016,1,Grand Rapids,Michigan,USA,Inactive,https://ciderguide.com/westside-ciderwerks/
+Windfall Cider,0,0,1,1,2,2019,2021,2,Vancouver,British Columbia,Canada,Active,https://ciderguide.com/windfall-cider/
+Woodbox Cider Co.,0,0,1,1,2,2016,2017,2,Portland,Oregon,USA,Inactive,https://ciderguide.com/woodbox-cider-co/
+^5 Cider,0,0,0,2,2,2016,2016,1,Portland,Oregon,USA,Inactive,https://ciderguide.com/5-cider/
+3 Keys Brewing,0,0,0,2,2,2019,2019,1,Bradenton,Florida,USA,Active,https://ciderguide.com/3-keys-brewing/
+Adesanya Mead & Microbrewery,0,0,0,2,2,2021,2024,2,Grandville,Michigan,USA,Active,https://ciderguide.com/adesanya-mead-microbrewery/
+Bier Distillery,0,0,0,2,2,2017,2019,2,Comstock Park,Michigan,USA,Active,https://ciderguide.com/bier-distillery/
+Bonnieheath Estate Winery,0,0,0,2,2,2017,2017,1,Waterford,Ontario,Canada,Active,https://ciderguide.com/bonnieheath-estate-winery/
+Cidrerie Compton,0,0,0,2,2,2023,2023,1,Compton,Quebec,Canada,Active,https://ciderguide.com/cidrerie-compton/
+Ethic Ciders,0,0,0,2,2,2019,2019,1,Petaluma,California,USA,Active,https://ciderguide.com/ethic-ciders/
+Farmstead Cider,0,0,0,2,2,2021,2021,1,Jackson,Wyoming,USA,Active,https://ciderguide.com/farmstead-cider/
+Forward Ferments,0,0,0,2,2,2019,2019,1,Myra,Wisconsin,USA,Inactive,https://ciderguide.com/forward-ferments/
+Gnarly Grove Hard Cider,0,0,0,2,2,2016,2016,1,Columbus,Indiana,USA,Inactive,https://ciderguide.com/gnarly-grove-hard-cider/
+Himachal,0,0,0,2,2,2016,2017,2,Burnley,Lancashire,England,Inactive,https://ciderguide.com/himachal/
+Leaky Barrel Cider Company,0,0,0,2,2,2017,2017,1,Windsor,California,USA,Inactive,https://ciderguide.com/leaky-barrel-cider-company/
+Little Pomona,0,0,0,2,2,2018,2018,1,Bromyard,Herefordshire,England,Active,https://ciderguide.com/little-pomona/
+Northwood Cider Co.,0,0,0,2,2,2023,2023,1,Norwood,Ohio,USA,Active,https://ciderguide.com/northwood-cider-co/
+Orpens Cider,0,0,0,2,2,2014,2015,2,Kildare,Kildare,Ireland,Inactive,https://ciderguide.com/orpens-cider/
+Red Top Winery,0,0,0,2,2,2021,2021,1,Baroda,Michigan,USA,Active,https://ciderguide.com/red-top-winery/
+Sunrise Orchards,0,0,0,2,2,2013,2013,1,Cornwall,Vermont,USA,Inactive,https://ciderguide.com/sunrise-orchards/
+Tenmile Cider Co.,0,0,0,2,2,2022,2022,1,Breckenridge,Colorado,USA,Active,https://ciderguide.com/tenmile-cider-co/
+The Old Mine Cider Company,0,0,0,2,2,2018,2018,1,Erie,Colorado,USA,Active,https://ciderguide.com/the-old-mine-cider-company/
+Tumalo Cider,0,0,0,2,2,2021,2021,1,Bend,Oregon,USA,Active,https://ciderguide.com/tumalo-cider/
+Gabbie's Premium Cider,1,0,0,0,1,2024,2024,1,Gabriola,British Columbia,Canada,Active,https://ciderguide.com/gabbies-premium-cider/
+Talisman Farm Cidery,1,0,0,0,1,2016,2016,1,Hygiene,Colorado,USA,Inactive,https://ciderguide.com/talisman-farm-cidery/
+Bear Cider,0,1,0,0,1,2019,2019,1,Naarden,North Holland,Netherlands,Active,https://ciderguide.com/bear-cider/
+Calvados Pierre Huet,0,1,0,0,1,2023,2023,1,Cambremer,Normandy,France,Active,https://ciderguide.com/calvados-pierre-huet/
+Kikusui Brewing Co.,0,1,0,0,1,2022,2022,1,Iida,Nagano,Japan,Active,https://ciderguide.com/kikusui-brewing-co/
+Malner,0,1,0,0,1,2023,2023,1,Kozina,Hrpelje-Kozina,Slovenia,Active,https://ciderguide.com/malner/
+3Cs Cider,0,0,1,0,1,2014,2014,1,Brackley,Northamptonshire,England,Inactive,https://ciderguide.com/3cs-cider/
+Apple Hill Cidery,0,0,1,0,1,2016,2016,1,Lexington,Kentucky,USA,Inactive,https://ciderguide.com/apple-hill-cidery/
+bigLITTLE Wines,0,0,1,0,1,2016,2016,1,Suttons Bay,Michigan,USA,Inactive,https://ciderguide.com/biglittle-wines/
+Black Devil Cider,0,0,1,0,1,2018,2018,1,Cambridge,Tasmania,Australia,Inactive,https://ciderguide.com/black-devil-cider/
+Carolinia Cider Company,0,0,1,0,1,2024,2024,1,Harrow,Ontario,Canada,Active,https://ciderguide.com/carolinia-cider-company/
+Cellar Brewing Company,0,0,1,0,1,2011,2011,1,Sparta,Michigan,USA,Inactive,https://ciderguide.com/cellar-brewing-company/
+Chase Hill Cider,0,0,1,0,1,2022,2022,1,Albany,New Hampshire,USA,Active,https://ciderguide.com/chase-hill-cider/
+Creekside Estate Winery,0,0,1,0,1,2018,2018,1,Jordan,Ontario,Canada,Active,https://ciderguide.com/creekside-estate-winery/
+Dickens Cider,0,0,1,0,1,2014,2014,1,Hillwood,Tasmania,Australia,Inactive,https://ciderguide.com/dickens-cider/
+Domaine de Normandie,0,0,1,0,1,2016,2016,1,Caderousse,Provence-Alpes-Côte d'Azur,France,Inactive,https://ciderguide.com/domaine-de-normandie/
+Domaine Pinnacle,0,0,1,0,1,2013,2013,1,Frelighsburg,Quebec,Canada,Active,https://ciderguide.com/domaine-pinnacle/
+Epona,0,0,1,0,1,2021,2021,1,Woodland,Washington,USA,Inactive,https://ciderguide.com/epona/
+Fourth Coast Ciderworks,0,0,1,0,1,2019,2019,1,Lake Orion,Michigan,USA,Active,https://ciderguide.com/fourth-coast-ciderworks/
+Garage D'or Ciders,0,0,1,0,1,2017,2017,1,Pelham,Ontario,Canada,Inactive,https://ciderguide.com/garage-dor-ciders/
+Geo Cider,0,0,1,0,1,2023,2023,1,Squamish,British Columbia,Canada,Active,https://ciderguide.com/geo-cider/
+Great Lakes Farms,0,0,1,0,1,2023,2023,1,Port Stanley,Ontario,Canada,Active,https://ciderguide.com/great-lakes-farms/
+J. Trees Cellars,0,0,1,0,1,2011,2011,1,Tecumseh,Michigan,USA,Inactive,https://ciderguide.com/j-trees-cellars/
+Kennebec Cider Company,0,0,1,0,1,2011,2011,1,Winthrop,Maine,USA,Inactive,https://ciderguide.com/kennebec-cider-company/
+Koval Distillery,0,0,1,0,1,2011,2011,1,Chicago,Illinois,USA,Active,https://ciderguide.com/koval-distillery/
+Melo Moon Cider,0,0,1,0,1,2022,2022,1,Greenwich,New York,USA,Active,https://ciderguide.com/melo-moon-cider/
+Moss Vineyards,0,0,1,0,1,2022,2022,1,Dyke,Virginia,USA,Active,https://ciderguide.com/moss-vineyards/
+Punta de Fierro Fine Cider,0,0,1,0,1,2024,2024,1,Cayumapu,Los Ríos,Chile,Active,https://ciderguide.com/punta-de-fierro-fine-cider/
+Reinhart's Cider,0,0,1,0,1,2018,2018,1,Stayner,Ontario,Canada,Active,https://ciderguide.com/reinharts-cider/
+Rider Ranch,0,0,1,0,1,2018,2018,1,Los Gatos,California,USA,Inactive,https://ciderguide.com/rider-ranch/
+Riley's Cidery,0,0,1,0,1,2023,2023,1,Bowen Island,British Columbia,Canada,Active,https://ciderguide.com/rileys-cidery/
+Rock N Wool Winery,0,0,1,0,1,2021,2021,1,Poynette,Wisconsin,USA,Active,https://ciderguide.com/rock-n-wool-winery/
+Rogue Ales & Spirits,0,0,1,0,1,2016,2016,1,Newport,Oregon,USA,Active,https://ciderguide.com/rogue-ales-spirits/
+Seven Seeds Seidr,0,0,1,0,1,2019,2019,1,Forest Grove,Oregon,USA,Active,https://ciderguide.com/seven-seeds-seidr/
+Shield Cider,0,0,1,0,1,2018,2018,1,Houston,Texas,USA,Inactive,https://ciderguide.com/shield-cider/
+Sidra Cortina,0,0,1,0,1,2013,2013,1,Amandi,Asturias,Spain,Active,https://ciderguide.com/sidra-cortina/
+Sidrería Irigoien Herrero,0,0,1,0,1,2015,2015,1,Astigarraga,Basque Country,Spain,Active,https://ciderguide.com/sidreria-irigoien-herrero/
+Sidrería TenCai,0,0,1,0,1,2024,2024,1,Padre Las Casas,Araucanía,Chile,Active,https://ciderguide.com/sidreria-tencai/
+Silo Distillery,0,0,1,0,1,2019,2019,1,Windsor,Vermont,USA,Active,https://ciderguide.com/silo-distillery/
+Sincere Cider,0,0,1,0,1,2024,2024,1,Oakland,California,USA,Active,https://ciderguide.com/sincere-cider/
+SoCal CiderWorks,0,0,1,0,1,2017,2017,1,Los Angeles,California,USA,Inactive,https://ciderguide.com/socal-ciderworks/
+Squiggly Tree Cider,0,0,1,0,1,2021,2021,1,Grand Rapids,Michigan,USA,Inactive,https://ciderguide.com/squiggly-tree-cider/
+Still River Winery,0,0,1,0,1,2011,2011,1,Harvard,Massachusetts,USA,Inactive,https://ciderguide.com/still-river-winery/
+Stoked Cider,0,0,1,0,1,2018,2018,1,Westlake Village,California,USA,Inactive,https://ciderguide.com/stoked-cider/
+Stoney Ridge Winery,0,0,1,0,1,2018,2018,1,Bryan,Ohio,USA,Active,https://ciderguide.com/stoney-ridge-winery/
+Thornborough Cider,0,0,1,0,1,2017,2017,1,Thornborough,North Yorkshire,England,Active,https://ciderguide.com/thornborough-cider/
+Tin Hat Cider,0,0,1,0,1,2018,2018,1,Warren,Vermont,USA,Active,https://ciderguide.com/tin-hat-cider/
+Upstream Cider,0,0,1,0,1,2019,2019,1,Stevens Point,Wisconsin,USA,Inactive,https://ciderguide.com/upstream-cider/
+Vin 312,0,0,1,0,1,2021,2021,1,Chicago,Illinois,USA,Active,https://ciderguide.com/vin-312/
+Winterset Cidery,0,0,1,0,1,2023,2023,1,Winterset,Iowa,USA,Active,https://ciderguide.com/winterset-cidery/
+Akiu Winery,0,0,0,1,1,2022,2022,1,Sendai,Miyagi,Japan,Active,https://ciderguide.com/akiu-winery/
+Allagash Brewing Company,0,0,0,1,1,2024,2024,1,Portland,Maine,USA,Active,https://ciderguide.com/allagash-brewing-company/
+Allegheny Cellars Winery,0,0,0,1,1,2013,2013,1,Sheffield,Pennsylvania,USA,Active,https://ciderguide.com/allegheny-cellars-winery/
+Apfelweinkontor,0,0,0,1,1,2014,2014,1,Frankfurt,Hesse,Germany,Active,https://ciderguide.com/apfelweinkontor/
+Arktos Meadery,0,0,0,1,1,2016,2016,1,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/arktos-meadery/
+Bardic Brewing & Cider,0,0,0,1,1,2021,2021,1,Spokane Valley,Washington,USA,Active,https://ciderguide.com/bardic-brewing-cider/
+Blindwood Cider,0,0,0,1,1,2019,2019,1,Berkeley,California,USA,Active,https://ciderguide.com/blindwood-cider/
+Boston Beer Company,0,0,0,1,1,2007,2007,1,Boston,Massachusetts,USA,Active,https://ciderguide.com/boston-beer-company/
+Brinkhall Sparkling,0,0,0,1,1,2017,2017,1,Halikko,Southwest Finland,Finland,Active,https://ciderguide.com/brinkhall-sparkling/
+Casa de Oro Cider,0,0,0,1,1,2023,2023,1,Sun Valley,California,USA,Active,https://ciderguide.com/casa-de-oro-cider/
+Cotswold Cider Company,0,0,0,1,1,2017,2017,1,Coleshill,Oxfordshire,England,Active,https://ciderguide.com/cotswold-cider-company/
+Craigies Cider,0,0,0,1,1,2015,2015,1,Bagenalstown,Carlow,Ireland,Active,https://ciderguide.com/craigies-cider/
+Dan Kelly's Cider,0,0,0,1,1,2015,2015,1,Drogheda,Louth,Ireland,Active,https://ciderguide.com/dan-kellys-cider/
+Downeast Cider House,0,0,0,1,1,2012,2012,1,Charlestown,Massachusetts,USA,Active,https://ciderguide.com/downeast-cider-house/
+Duntroon Cyder House,0,0,0,1,1,2015,2015,1,Duntroon,Ontario,Canada,Active,https://ciderguide.com/duntroon-cyder-house/
+East End Brewing Company,0,0,0,1,1,2022,2022,1,Pittsburgh,Pennsylvania,USA,Active,https://ciderguide.com/east-end-brewing-company/
+Eva Group,0,0,0,1,1,2016,2016,1,Lekunberri,Navarre,Spain,Active,https://ciderguide.com/eva-group/
+F.H. Prager,0,0,0,1,1,2016,2016,1,Zbraslav,Prague,Czechia,Active,https://ciderguide.com/f-h-prager/
+Farm & Cidery Kaneshige,0,0,0,1,1,2022,2022,1,Shimojō,Nagano,Japan,Active,https://ciderguide.com/farm-cidery-kaneshige/
+French Road Cellars,0,0,0,1,1,2011,2011,1,Lake Leelenau,Michigan,USA,Active,https://ciderguide.com/french-road-cellars/
+Friendly Noise,0,0,0,1,1,2023,2023,1,Los Angeles,California,USA,Active,https://ciderguide.com/friendly-noise/
+Hard Way Cider Co.,0,0,0,1,1,2019,2019,1,Kingston,Ontario,Canada,Active,https://ciderguide.com/hard-way-cider-co/
+Hideout Brewing Company,0,0,0,1,1,2009,2009,1,Grand Rapids,Michigan,USA,Inactive,https://ciderguide.com/hideout-brewing-company/
+Long View Ciderhouse,0,0,0,1,1,2023,2023,1,Southington,Connecticut,USA,Active,https://ciderguide.com/long-view-ciderhouse/
+Longueville House,0,0,0,1,1,2015,2015,1,Mallow,Cork,Ireland,Active,https://ciderguide.com/longueville-house/
+Malicious Spirits,0,0,0,1,1,2018,2018,1,Manistee,Michigan,USA,Inactive,https://ciderguide.com/malicious-spirits/
+Modales Wines,0,0,0,1,1,2024,2024,1,Fennville,Michigan,USA,Active,https://ciderguide.com/modales-wines/
+Mori-yama-en,0,0,0,1,1,2022,2022,1,Hirosaki,Aomori,Japan,Active,https://ciderguide.com/mori-yama-en/
+No Boats On Sunday,0,0,0,1,1,2017,2017,1,Truro,Nova Scotia,Canada,Active,https://ciderguide.com/no-boats-on-sunday/
+Occam Cider,0,0,0,1,1,2024,2024,1,Beacon,New York,USA,Active,https://ciderguide.com/occam-cider/
+Palestra Hidromiel,0,0,0,1,1,2024,2024,1,,,Chile,Active,https://ciderguide.com/palestra-hidromiel/
+Pink Barrel Cellars,0,0,0,1,1,2024,2024,1,Grand Rapids,Michigan,USA,Active,https://ciderguide.com/pink-barrel-cellars/
+Rebel Seed Cidery,0,0,0,1,1,2016,2016,1,Marydel,Delaware,USA,Active,https://ciderguide.com/rebel-seed-cidery/
+Red Door Brewing Company,0,0,0,1,1,2019,2019,1,Albuquerque,New Mexico,USA,Active,https://ciderguide.com/red-door-brewing-company/
+Sanctuary Spirits,0,0,0,1,1,2014,2014,1,Grand Ledge,Michigan,USA,Active,https://ciderguide.com/sanctuary-spirits/
+Santa Fe Cider Works,0,0,0,1,1,2015,2015,1,Santa Fe,New Mexico,USA,Inactive,https://ciderguide.com/santa-fe-cider-works/
+Sidra Castañón,0,0,0,1,1,2013,2013,1,Quintueles,Asturias,Spain,Active,https://ciderguide.com/sidra-castanon/
+Sidra Della Chà,0,0,0,1,1,2024,2024,1,Tralcao,Los Ríos,Chile,Active,https://ciderguide.com/sidra-della-cha/
+Sidra Insular,0,0,0,1,1,2024,2024,1,Achao,Los Lagos,Chile,Active,https://ciderguide.com/sidra-insular/
+Sidra Menéndez,0,0,0,1,1,2013,2013,1,Fano,Asturias,Spain,Active,https://ciderguide.com/sidra-menendez/
+Slaughterhouse Craft Cider & Mead,0,0,0,1,1,2024,2024,1,Prince George,British Columbia,Canada,Active,https://ciderguide.com/slaughterhouse-craft/
+Sulker's Cider,0,0,0,1,1,2017,2017,1,Newmarket,Ontario,Canada,Inactive,https://ciderguide.com/sulkers-cider/
+Sully's Cider,0,0,0,1,1,2014,2014,1,Reidsdale,New South Wales,Australia,Active,https://ciderguide.com/sullys-cider/
+Summerland Heritage Cider Company,0,0,0,1,1,2013,2013,1,Summerland,British Columbia,Canada,Active,https://ciderguide.com/summerland-heritage-cider-company/
+The Cider Mill Slane,0,0,0,1,1,2014,2014,1,Slane,Meath,Ireland,Active,https://ciderguide.com/the-cider-mill-slane/
+The Hills Cider Company,0,0,0,1,1,2014,2014,1,North Adelaide,South Australia,Australia,Active,https://ciderguide.com/the-hills-cider-company/
+The New Frontier Cider Company,0,0,0,1,1,2019,2019,1,Seville,Ohio,USA,Inactive,https://ciderguide.com/the-new-frontier-cider-company/
+Three Brothers Wineries & Estates,0,0,0,1,1,2015,2015,1,Geneva,New York,USA,Active,https://ciderguide.com/three-brothers-wineries-estates/
+Treehive,0,0,0,1,1,2024,2024,1,Brocton,Illinois,USA,Active,https://ciderguide.com/treehive/
+Trubacheevka,0,0,0,1,1,2023,2023,1,Trubacheyevka,Moscow Oblast,Russia,Active,https://ciderguide.com/trubacheevka/
+Unibroue,0,0,0,1,1,2005,2005,1,Chambly,Quebec,Canada,Active,https://ciderguide.com/unibroue/
+Vines & Rushes Winery,0,0,0,1,1,2014,2014,1,Ripon,Wisconsin,USA,Active,https://ciderguide.com/vines-rushes-winery/
+Westview Orchards & Winery,0,0,0,1,1,2019,2019,1,Washington,Michigan,USA,Active,https://ciderguide.com/westview-orchards-winery/
+Working Hands Fermentation,0,0,0,1,1,2017,2017,1,Hood River,Oregon,USA,Active,https://ciderguide.com/working-hands-fermentation/
+XO Alambic,0,0,0,1,1,2019,2019,1,Dayton,Washington,USA,Inactive,https://ciderguide.com/xo-alambic/
+Yahara Bay Distillery,0,0,0,1,1,2011,2011,1,Madison,Wisconsin,USA,Active,https://ciderguide.com/yahara-bay-distillery/

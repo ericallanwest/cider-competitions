@@ -1,0 +1,25 @@
+competition_id,file_glob,year_from_file,status,notes
+glintcap,10-GLINTCAP-Commercial-Medalists-by-Style-*.csv,,active,8879 rows; carries Style_Crosswalk
+australian-cider-awards,124-Australian-Cider-Awards-Full-Results-2011-2024-*.csv,,active,multi-year master
+cidercraft-awards,26-Cidercraft-Awards-Full-Results-2017-2024-*.csv,,active,two Region columns; Region__2 is producer region
+concours-general-agricole,94-Concours-General-Agricole-Full-Results-2017-2024-*.csv,,active,multi-year master
+concours-regional-cidricole-de-bretagne,91-Concours-Regional-Cidricole-de-Bretagne-Full-Results-*.csv,,active,multi-year master
+concours-des-cidres-de-normandie,110-Concours-des-Cidres-de-Normandie-Full-Results-2020-2024-*.csv,,active,multi-year master
+good-food-awards,50-Good-Food-Awards-Full-Results-*.csv,,active,multi-year master
+international-cider-awards,100-International-Cider-Awards-Full-Results-2013-2024-*.csv,,active,multi-year master
+international-cider-challenge,33-International-Cider-Challenge-Full-Results-2018-2024-*.csv,,active,use 33 not 104
+international-cider-challenge,104-International-Cider-Challenge-Full-Results-2018-2023-*.csv,,excluded,WRONG DATA - byte-identical to file 100 (Intl Cider Awards)
+nordic-international-cider-awards,127-Nordic-International-Cider-Awards-Full-Results-2022-2023-*.csv,,active,multi-year master
+northwest-cider-cup,81-Northwest-Cider-Cup-Full-Results-*.csv,,active,multi-year master
+royal-three-counties,113-Royal-Three-Counties-Show-Full-Results-2023-2024-*.csv,,active,multi-year master
+sagardo-forum,130-Sagardo-Forum-Full-Results-2017-2023-*.csv,,active,multi-year master
+sisga,123-SISGA-Full-Results-2013-2024-*.csv,,active,multi-year master
+us-open-cider-championship,51-U.S.-Open-Cider-Championship-Full-Results-2014-2024-*.csv,,active,multi-year master
+ciderworld-awards,23-CiderWorld-2023-Full-Results-*.csv,2023,active,no multi-year master exists
+ciderworld-awards,62-CiderWorld-2024-Full-Results-*.csv,2024,active,no multi-year master exists
+japan-cider-cup,36-Japan-Cider-Cup-2023-Full-Results-*.csv,2023,active,no multi-year master exists
+japan-cider-cup,60-Japan-Cider-Cup-2024-Full-Results-*.csv,2024,active,no multi-year master exists
+museum-of-cider,56-Museum-of-Cider-International-Cider-Perry-Competition-2023-*.csv,2023,active,no multi-year master exists
+museum-of-cider,66-Museum-of-Cider-International-Cider-Perry-Competition-2024-*.csv,2024,active,no multi-year master exists
+royal-bath-and-west,58-Royal-Bath-West-Show-British-Cider-Championships-2023-*.csv,2023,active,no multi-year master exists
+royal-bath-and-west,73-Royal-Bath-West-Show-British-Cider-Championships-2024-*.csv,2024,active,no multi-year master exists

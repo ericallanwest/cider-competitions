@@ -1,0 +1,30 @@
+award_raw,award_kind,medal_level,special_award,splits_to,display,notes
+Gold,medal,gold,,,🥇,matches GOLD and Gold
+Silver,medal,silver,,,🥈,matches SILVER and Silver
+Bronze,medal,bronze,,,🥉,matches BRONZE and Bronze
+Double Gold,medal,double_gold,,,🥇🥇,Cidercraft
+Or,medal,gold,,,🥇,French - Concours
+Argent,medal,silver,,,🥈,French - Concours
+HONOR,medal,bronze,,,🥉,SISGA honorific tier
+Platinum,trophy,,platinum,,🏆,Cidercraft top tier
+Premium,trophy,,premium,,🏆,SISGA top tier
+Best in Class,trophy,,best_in_class,,🏆,GLINTCAP
+Best in Show,trophy,,best_in_show,,🏆,
+Best of Show,trophy,,best_in_show,,🏆,
+Trophy,trophy,,trophy,,🏆,
+Reserve,trophy,,reserve,,🏆,
+Champion,trophy,,champion,,🏆,
+Supreme Champion,trophy,,supreme_champion,,🏆,
+Winner,trophy,,winner,,🏆,
+Winner (Joint),trophy,,winner,,🏆,joint award
+Judges' Pick,nomination,,judges_pick,,👍,Cidercraft
+Finalist,nomination,,finalist,,🏅,Good Food Awards
+Highly Commended,medal,commended,,,👍,
+Commended,medal,commended,,,👍,
+First,place,gold,,,🥇,placing not a medal
+Second,place,silver,,,🥈,placing not a medal
+Third,place,bronze,,,🥉,placing not a medal
+Second (Joint),place,silver,,,🥈,joint placing
+BEST IN CLASS + GOLD,compound,,,Best in Class|Gold,,splits into two rows
+BEST IN SHOW + GOLD,compound,,,Best in Show|Gold,,splits into two rows
+BEST OF SHOW + GOLD,compound,,,Best of Show|Gold,,splits into two rows
