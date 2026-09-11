@@ -1,2 +1,3 @@
 source_id,competition_id,year,path,parser,tab,status,notes
 glintcap-2026,glintcap,2026,data/source/web/glintcap/2026/commercial.html,glintcap_web,results.csv,active,commercial division only
+us-open-cider-championship-2025,us-open-cider-championship,2025,data/source/web/us-open-cider-championship/2025/results.html,us_open_web,results.csv,active,

@@ -1,0 +1,39 @@
+competition_id,year,status,source_url,notes
+glintcap,2025,published,https://michiganciders.com/1640-2/,ingested from the GLINTCAP 2025 Results sheet
+glintcap,2026,published,https://michiganciders.com/glintcap-2026-commercial-results/,parsed from the results page
+australian-cider-awards,2025,published,,ingested from the 2025 results sheet
+australian-cider-awards,2026,pending,,usually held in October - may not have run yet
+us-open-cider-championship,2025,published,https://theusopenchampionships.com/2025-u-s-open-cider-championship-medal-winners/,parsed from the results page
+us-open-cider-championship,2026,pending,,usually held in November
+northwest-cider-cup,2025,blocked,https://www.nwcider.com/northwest-cider-cup/winners/,"full list is JS-rendered and in a Winner's Guide; Cidercraft reports 57 medals, 18 categories, 29 cideries"
+northwest-cider-cup,2026,pending,,
+cidercraft-awards,2025,pending,,
+cidercraft-awards,2026,pending,,
+ciderworld-awards,2025,pending,,Frankfurt - April
+ciderworld-awards,2026,pending,,
+concours-general-agricole,2025,pending,,Paris - February/March
+concours-general-agricole,2026,pending,,
+concours-regional-cidricole-de-bretagne,2025,pending,,
+concours-regional-cidricole-de-bretagne,2026,pending,,
+concours-des-cidres-de-normandie,2025,pending,,
+concours-des-cidres-de-normandie,2026,pending,,
+good-food-awards,2025,pending,,
+good-food-awards,2026,pending,,
+international-cider-awards,2025,pending,,
+international-cider-awards,2026,pending,,
+international-cider-challenge,2025,pending,,
+international-cider-challenge,2026,pending,,
+japan-cider-cup,2025,pending,,
+japan-cider-cup,2026,pending,,
+museum-of-cider,2025,pending,,
+museum-of-cider,2026,pending,,
+nordic-international-cider-awards,2025,pending,,no results published since 2023 - may be dormant
+nordic-international-cider-awards,2026,pending,,
+royal-bath-and-west,2025,pending,,
+royal-bath-and-west,2026,pending,,
+royal-three-counties,2025,pending,,
+royal-three-counties,2026,pending,,
+sagardo-forum,2025,pending,,biennial - odd years only
+sagardo-forum,2026,not-held,,biennial - no even-year edition
+sisga,2025,pending,,
+sisga,2026,pending,,

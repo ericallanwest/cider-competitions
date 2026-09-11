@@ -4,6 +4,7 @@ WID,Medalist,Year,Event,Awards
 ,1911 Established,2024,Great Lakes International Cider and Perry Competition,4
 ,2 Towns Ciderhouse,2024,Great Lakes International Cider and Perry Competition,18
 ,2 Towns Ciderhouse,2026,Great Lakes International Cider and Perry Competition,20
+,ACE Cider,2025,U.S. Open Cider Championship,2
 ,"ACE Cider I, LLC",2026,Great Lakes International Cider and Perry Competition,4
 ,ANXO Cider,2024,Great Lakes International Cider and Perry Competition,7
 ,ATHENS WEST END CIDERHOUSE,2026,Great Lakes International Cider and Perry Competition,2
@@ -28,8 +29,12 @@ WID,Medalist,Year,Event,Awards
 ,Apple Theory Cidery,2025,Great Lakes International Cider and Perry Competition,3
 ,Apple Theory Cidery,2026,Great Lakes International Cider and Perry Competition,4
 ,Ardiel Cider House,2026,Great Lakes International Cider and Perry Competition,3
+,Arizona,2025,U.S. Open Cider Championship,1
+,Armageddon Brewing,2025,U.S. Open Cider Championship,3
+,Arsenal Cider House,2025,U.S. Open Cider Championship,8
 ,Artifact Cider Project,2024,Great Lakes International Cider and Perry Competition,3
 ,Atlanta Hard Cider Co.,2024,Great Lakes International Cider and Perry Competition,10
+,Atlanta Hard Cider Co. & Distillery,2025,U.S. Open Cider Championship,2
 ,Atlanta Hard Cider Co. & Distillery,2026,Great Lakes International Cider and Perry Competition,5
 ,Avid Cider,2024,Great Lakes International Cider and Perry Competition,5
 ,Barossa Cider Co,2025,Australian Cider Awards,3
@@ -38,8 +43,10 @@ WID,Medalist,Year,Event,Awards
 ,Bauman’s Cider,2026,Great Lakes International Cider and Perry Competition,18
 ,Bayfield Winery & Blue Ox Cider,2024,Great Lakes International Cider and Perry Competition,2
 ,Bdsm Cider,2025,Great Lakes International Cider and Perry Competition,1
+,Beach Bee Meadery,2025,U.S. Open Cider Championship,1
 ,Beak & Skiff Apple Farms,2026,Great Lakes International Cider and Perry Competition,6
 ,Bee Well Mead And Cider,2026,Great Lakes International Cider and Perry Competition,4
+,Bent Ladder Cidery,2025,U.S. Open Cider Championship,1
 ,Berkshire Cider Project,2024,Great Lakes International Cider and Perry Competition,3
 ,Big Fish Cider Co.,2024,Great Lakes International Cider and Perry Competition,4
 ,Bilpin Cider,2025,Australian Cider Awards,1
@@ -51,14 +58,17 @@ WID,Medalist,Year,Event,Awards
 ,Blake's Hard Cider Co.,2024,Great Lakes International Cider and Perry Competition,15
 ,Blake’s Beverage Company,2026,Great Lakes International Cider and Perry Competition,1
 ,Blossom Barn Cidery,2024,Great Lakes International Cider and Perry Competition,2
+,Blue Barn Cidery,2025,U.S. Open Cider Championship,3
 ,Blue Ox Cider,2026,Great Lakes International Cider and Perry Competition,1
 ,Blue Toad Hard Cider,2024,Great Lakes International Cider and Perry Competition,1
 ,Bold Rock Hard Cider,2024,Great Lakes International Cider and Perry Competition,4
+,Bold Rock Hard Cider,2025,U.S. Open Cider Championship,2
 ,Bowen Cider House,2024,Great Lakes International Cider and Perry Competition,3
 ,Bradys Lookout Cider,2025,Australian Cider Awards,2
 ,Brew Lab 101 Beer & Cider Co.,2024,Great Lakes International Cider and Perry Competition,3
 ,Brewers Orchard,2025,Australian Cider Awards,2
 ,Brooklyn Cider House,2024,Great Lakes International Cider and Perry Competition,4
+,Brunswick Beer and Cider,2025,U.S. Open Cider Championship,1
 ,Bruny Island Cider,2025,Australian Cider Awards,3
 ,Brys Estate Ciderworks,2024,Great Lakes International Cider and Perry Competition,3
 ,Cambium Cider Co.,2026,Great Lakes International Cider and Perry Competition,8
@@ -68,10 +78,13 @@ WID,Medalist,Year,Event,Awards
 ,Cedar Creek Cider,2025,Australian Cider Awards,4
 ,Chain Yard Cider,2024,Great Lakes International Cider and Perry Competition,3
 ,Cheeky Tiki,2025,Australian Cider Awards,1
+,Cherry Street Brewing,2025,U.S. Open Cider Championship,1
+,Cider Corps,2025,U.S. Open Cider Championship,2
 ,Cider Corps,2026,Great Lakes International Cider and Perry Competition,4
 ,Cider Hill Cellars,2024,Great Lakes International Cider and Perry Competition,6
 ,Cider Hill Cellars,2026,Great Lakes International Cider and Perry Competition,9
 ,Cider Infusion,2025,Australian Cider Awards,1
+,Ciderboys Hard Cider,2025,U.S. Open Cider Championship,5
 ,Cidrerie Compton,2026,Great Lakes International Cider and Perry Competition,2
 ,Cidrerie Verger Bilodeau,2024,Great Lakes International Cider and Perry Competition,1
 ,Cidrerie Verger Bilodeau,2026,Great Lakes International Cider and Perry Competition,6
@@ -81,6 +94,7 @@ WID,Medalist,Year,Event,Awards
 ,Colorado Cider Company,2024,Great Lakes International Cider and Perry Competition,2
 ,Copper & Kings,2026,Great Lakes International Cider and Perry Competition,6
 ,Copper Crow Distillery,2024,Great Lakes International Cider and Perry Competition,1
+,Country Boy Brewing,2025,U.S. Open Cider Championship,6
 ,Crane’s Winery,2026,Great Lakes International Cider and Perry Competition,3
 ,Crow River Winery,2025,Great Lakes International Cider and Perry Competition,3
 ,Crow River Winery,2026,Great Lakes International Cider and Perry Competition,4
@@ -90,6 +104,7 @@ WID,Medalist,Year,Event,Awards
 ,Deep Roots Hard Cider,2024,Great Lakes International Cider and Perry Competition,2
 ,Destileria Queilen,2024,Great Lakes International Cider and Perry Competition,2
 ,Dirty Dog Cider Company,2025,Great Lakes International Cider and Perry Competition,1
+,Doc Waters Cidery,2025,U.S. Open Cider Championship,1
 ,Docendo Discitur,2024,Great Lakes International Cider and Perry Competition,1
 ,Domaine De Yunohara,2025,Great Lakes International Cider and Perry Competition,2
 ,Door Peninsula Winery,2024,Great Lakes International Cider and Perry Competition,2
@@ -109,6 +124,8 @@ WID,Medalist,Year,Event,Awards
 ,Etta Place Cider,2024,Great Lakes International Cider and Perry Competition,7
 ,Etta Place Cidery,2026,Great Lakes International Cider and Perry Competition,2
 ,Everleigh Vineyards and Brewing Co,2026,Great Lakes International Cider and Perry Competition,1
+,FIVE MAIDENS CIDER CO,2025,U.S. Open Cider Championship,4
+,FX Matt Brewing Co.,2025,U.S. Open Cider Championship,2
 ,Farm Club,2024,Great Lakes International Cider and Perry Competition,4
 ,Farm Club,2026,Great Lakes International Cider and Perry Competition,6
 ,Farmgate Cider,2026,Great Lakes International Cider and Perry Competition,1
@@ -124,6 +141,8 @@ WID,Medalist,Year,Event,Awards
 ,Front Range Apples,2025,Great Lakes International Cider and Perry Competition,1
 ,Funk Cider,2025,Australian Cider Awards,3
 ,GEO Cider co,2026,Great Lakes International Cider and Perry Competition,1
+,Gatlinburg Brewing Company,2025,U.S. Open Cider Championship,1
+,Glacial Till,2025,U.S. Open Cider Championship,6
 ,Glacial Till,2026,Great Lakes International Cider and Perry Competition,8
 ,Glacial Till Vineyard & Winery,2024,Great Lakes International Cider and Perry Competition,14
 ,Golden Russet,2025,Great Lakes International Cider and Perry Competition,1
@@ -155,6 +174,7 @@ WID,Medalist,Year,Event,Awards
 ,Island Orchard Cider,2026,Great Lakes International Cider and Perry Competition,4
 ,Jaanihanso,2025,Australian Cider Awards,2
 ,James Creek Cider House,2024,Great Lakes International Cider and Perry Competition,4
+,James Werner,2025,U.S. Open Cider Championship,1
 ,Jefferson County Ciderworks,2024,Great Lakes International Cider and Perry Competition,7
 ,Jepis,2025,Australian Cider Awards,1
 ,Kaneb Orchards,2024,Great Lakes International Cider and Perry Competition,1
@@ -194,6 +214,7 @@ WID,Medalist,Year,Event,Awards
 ,Murbudu cider co.,2025,Australian Cider Awards,1
 ,Napoleone Cider Co.,2025,Australian Cider Awards,2
 ,Nashi Orchards,2024,Great Lakes International Cider and Perry Competition,5
+,Niagara College Teaching Winery,2025,U.S. Open Cider Championship,1
 ,Noble Cider,2026,Great Lakes International Cider and Perry Competition,5
 ,Northman Cider Co,2026,Great Lakes International Cider and Perry Competition,1
 ,Northman Cider Co.,2024,Great Lakes International Cider and Perry Competition,3
@@ -212,12 +233,14 @@ WID,Medalist,Year,Event,Awards
 ,Paha Cider,2024,Great Lakes International Cider and Perry Competition,4
 ,Paha Cider,2026,Great Lakes International Cider and Perry Competition,7
 ,Palestra Hidromiel,2024,Great Lakes International Cider and Perry Competition,1
+,Papa Moon Ciders,2025,U.S. Open Cider Championship,4
 ,Papa Moon Ciders,2026,Great Lakes International Cider and Perry Competition,3
 ,Papa Moon Vineyards & Winery,2024,Great Lakes International Cider and Perry Competition,7
 ,Peat's Original Cider,2024,Great Lakes International Cider and Perry Competition,4
 ,Peckham's Cidery and Orchard,2025,Australian Cider Awards,4
 ,Peninsula Cellars,2024,Great Lakes International Cider and Perry Competition,7
 ,Peninsula Cellars,2026,Great Lakes International Cider and Perry Competition,1
+,Penn Brewery,2025,U.S. Open Cider Championship,1
 ,Pennings Farm Cidery,2026,Great Lakes International Cider and Perry Competition,4
 ,Phillips Orchards & Cider Mill,2024,Great Lakes International Cider and Perry Competition,4
 ,Pink Barrel Cellars,2024,Great Lakes International Cider and Perry Competition,1
@@ -246,8 +269,10 @@ WID,Medalist,Year,Event,Awards
 ,Sabiles Sidrs,2025,Australian Cider Awards,1
 ,Sage Bird Ciderworks,2024,Great Lakes International Cider and Perry Competition,3
 ,Sapsucker Farms Yellow Belly Cidery,2024,Great Lakes International Cider and Perry Competition,4
+,Sapsucker Farms Yellow Belly Cidery,2025,U.S. Open Cider Championship,1
 ,Sapsucker Farms Yellow Belly Cidery,2026,Great Lakes International Cider and Perry Competition,4
 ,Schilling Cider,2024,Great Lakes International Cider and Perry Competition,2
+,Schilling Cider,2025,U.S. Open Cider Championship,6
 ,Schilling Cider,2026,Great Lakes International Cider and Perry Competition,15
 ,Sea Cider,2026,Great Lakes International Cider and Perry Competition,3
 ,Sea Cider Farm & Ciderhouse,2024,Great Lakes International Cider and Perry Competition,4
@@ -269,6 +294,7 @@ WID,Medalist,Year,Event,Awards
 ,Sidrería TenCai,2024,Great Lakes International Cider and Perry Competition,1
 ,Sincere Cider,2024,Great Lakes International Cider and Perry Competition,1
 ,Sisters Cider House,2026,Great Lakes International Cider and Perry Competition,2
+,Six Byrd Cider,2025,U.S. Open Cider Championship,2
 ,Six River Cider,2025,Great Lakes International Cider and Perry Competition,2
 ,Slaughter Orchard & Cidery,2026,Great Lakes International Cider and Perry Competition,4
 ,Slaughterhouse Craft Cider & Mead,2024,Great Lakes International Cider and Perry Competition,1
@@ -281,6 +307,7 @@ WID,Medalist,Year,Event,Awards
 ,Sodo sidrine,2026,Great Lakes International Cider and Perry Competition,2
 ,Solville,2025,Great Lakes International Cider and Perry Competition,2
 ,Solville,2026,Great Lakes International Cider and Perry Competition,3
+,Sons of Toil Brewing,2025,U.S. Open Cider Championship,3
 ,South Porch Cider,2026,Great Lakes International Cider and Perry Competition,3
 ,Southern Scrumpy,2025,Great Lakes International Cider and Perry Competition,1
 ,Space Time Mead & Cider Works,2024,Great Lakes International Cider and Perry Competition,2
@@ -316,6 +343,7 @@ WID,Medalist,Year,Event,Awards
 ,The Wild Beyond,2025,Australian Cider Awards,2
 ,Thornapple Brewing Company,2024,Great Lakes International Cider and Perry Competition,5
 ,Thornbury Craft Co.,2024,Great Lakes International Cider and Perry Competition,17
+,Thornbury Craft Co.,2025,U.S. Open Cider Championship,4
 ,Thornbury Craft Co.,2026,Great Lakes International Cider and Perry Competition,18
 ,Thorny Devil,2025,Australian Cider Awards,1
 ,Threadbare Cider,2024,Great Lakes International Cider and Perry Competition,2
@@ -334,6 +362,7 @@ WID,Medalist,Year,Event,Awards
 ,TĀLAVA,2025,Australian Cider Awards,1
 ,Uncommon Kin Cidery,2026,Great Lakes International Cider and Perry Competition,4
 ,Vala's Orchard Cider,2024,Great Lakes International Cider and Perry Competition,5
+,Vala’s Orchard Cider Co.,2025,U.S. Open Cider Championship,2
 ,Vala’s Orchard Cider Co.,2026,Great Lakes International Cider and Perry Competition,10
 ,"Valle, Ballina Y Fernández Sa",2026,Great Lakes International Cider and Perry Competition,4
 ,Vander Mill,2024,Great Lakes International Cider and Perry Competition,8
@@ -345,17 +374,22 @@ WID,Medalist,Year,Event,Awards
 ,Vins Arista,2024,Great Lakes International Cider and Perry Competition,1
 ,Weidmann & Groh,2024,Great Lakes International Cider and Perry Competition,2
 ,West End Cider House,2024,Great Lakes International Cider and Perry Competition,3
+,"White Winter Mead, Cider, Spirits",2025,U.S. Open Cider Championship,2
 ,White Winter Winery,2024,Great Lakes International Cider and Perry Competition,2
 ,Willamette Ale & Cider House,2024,Great Lakes International Cider and Perry Competition,4
 ,Williamson Mead and Brewing,2024,Great Lakes International Cider and Perry Competition,3
 ,Willie Smith's Tasmanian,2025,Australian Cider Awards,8
 ,Windswept Cider,2026,Great Lakes International Cider and Perry Competition,3
 ,Wine Barrel Aged,2025,Great Lakes International Cider and Perry Competition,1
+,Wisconsin,2025,U.S. Open Cider Championship,1
 ,Wise Bird Cider,2024,Great Lakes International Cider and Perry Competition,4
 ,Wise Bird Cider Co.,2026,Great Lakes International Cider and Perry Competition,2
+,Woodchuck Cider,2025,U.S. Open Cider Championship,2
 ,Woodchuck Cider,2026,Great Lakes International Cider and Perry Competition,7
 ,Wooden Gate Cider,2026,Great Lakes International Cider and Perry Competition,13
 ,Woodfolk Cider,2026,Great Lakes International Cider and Perry Competition,2
+,Wyders Cider,2025,U.S. Open Cider Championship,1
+,Wölffer Estate Vineyard,2025,U.S. Open Cider Championship,1
 ,Yallingup Cider Co,2025,Australian Cider Awards,1
 ,Yip Cider,2024,Great Lakes International Cider and Perry Competition,5
 ,Zapiain,2024,Great Lakes International Cider and Perry Competition,1

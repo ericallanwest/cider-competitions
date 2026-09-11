@@ -58,7 +58,7 @@ region,Alaska,2
 region,Antwerp,1
 region,Aosta Valley,25
 region,Araucanía,4
-region,Arizona,11
+region,Arizona,15
 region,Arkansas,14
 region,Asturias,334
 region,Auckland,2
@@ -74,7 +74,7 @@ region,Bragança,5
 region,British Columbia,52
 region,Brittany,251
 region,Buckinghamshire,1
-region,California,76
+region,California,78
 region,Canary Islands,52
 region,Cantabria,15
 region,Capital Region,1
@@ -106,7 +106,7 @@ region,Flintshire,3
 region,Florida,32
 region,France,46
 region,Galicia,17
-region,Georgia,29
+region,Georgia,32
 region,Germany,43
 region,Gloucestershire,11
 region,Grand Est,3
@@ -130,7 +130,7 @@ region,Italy,18
 region,Kalmar,1
 region,Karlovy Vary,12
 region,Kent,1
-region,Kentucky,11
+region,Kentucky,17
 region,Košice,2
 region,Kyiv,2
 region,Latvia,4
@@ -150,30 +150,30 @@ region,Luxembourg,5
 region,Madeira,17
 region,Madrid,1
 region,Maine,15
-region,Maryland,3
+region,Maryland,4
 region,Masovian,24
 region,Massachusetts,27
 region,Michigan,72
-region,Minnesota,42
+region,Minnesota,43
 region,Missouri,3
 region,Montana,17
 region,Moravia-Silesia,2
 region,Morbihan,43
 region,Navarre,24
 region,Neath Port Talbot,1
-region,Nebraska,59
+region,Nebraska,71
 region,Nelson,7
 region,Netherlands,17
 region,New Hampshire,2
-region,New Jersey,10
+region,New Jersey,14
 region,New Mexico,4
 region,New South Wales,315
-region,New York,105
+region,New York,111
 region,New Zealand,1
 region,Newport,8
 region,Normandy,167
 region,North,56
-region,North Carolina,53
+region,North Carolina,54
 region,North Holland,3
 region,North Yorkshire,9
 region,Norway,30
@@ -181,14 +181,14 @@ region,Nottinghamshire,18
 region,Nouvelle-Aquitaine,20
 region,Nova Scotia,7
 region,Ogre,23
-region,Ohio,29
+region,Ohio,33
 region,Olomouc,1
-region,Ontario,65
+region,Ontario,70
 region,Oregon,393
 region,Overijssel,3
 region,Oxfordshire,1
 region,Pays de la Loire,51
-region,Pennsylvania,60
+region,Pennsylvania,73
 region,Peru,2
 region,Piedmont,1
 region,Plzeň,5
@@ -220,7 +220,7 @@ region,Tasman,15
 region,Tasmania,252
 region,Tauragė,2
 region,Telemark,3
-region,Tennessee,17
+region,Tennessee,18
 region,Texas,15
 region,Tipperary,10
 region,Trentino-South Tyrol,8
@@ -232,14 +232,14 @@ region,Utrecht,8
 region,Vale of Glamorgan,4
 region,Valka,2
 region,Veneto,6
-region,Vermont,67
+region,Vermont,70
 region,Vestfold,4
 region,Viana do Castelo,1
 region,Victoria,394
-region,Virginia,41
+region,Virginia,43
 region,Västerbotten,3
 region,Warwickshire,2
-region,Washington,408
+region,Washington,414
 region,Wellington,1
 region,West,45
 region,West Coast,5
@@ -247,7 +247,7 @@ region,West Midlands,2
 region,West Virginia,1
 region,Western Australia,164
 region,Western Cape,1
-region,Wisconsin,57
+region,Wisconsin,65
 region,Worcestershire,14
 region,Zealand,1
 region,Zlín,1

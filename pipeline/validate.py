@@ -30,6 +30,7 @@ BASELINE = {
     "japan-cider-cup": 138,
     "northwest-cider-cup": 426,
     "royal-three-counties": 67,       # from Data.csv, not the 1,001-row 24.csv tab
+    "us-open-cider-championship": 806,  # 722 through 2024 + 84 for 2025
 }
 
 
