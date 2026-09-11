@@ -138,9 +138,17 @@ def main() -> None:
     sheet_tables = [t for t in lib.read_csv(SHEET_TABLES)
                     if t["status"] == "active"] if SHEET_TABLES.exists() else []
     from_sheets = set()
+    parsed_cfg = lib.CONFIG / "parsed_sources.csv"
+    if parsed_cfg.exists():
+        sheet_tables = sheet_tables + [t for t in lib.read_csv(parsed_cfg)
+                                       if t["status"] == "active"]
+
     for tbl in sheet_tables:
         src, comp = tbl["source_id"], tbl["competition_id"]
+        # A source is either fetched from Sheets or parsed from a saved page.
         path = lib.SNAPSHOT / src / tbl["tab"]
+        if not path.exists():
+            path = lib.ROOT / "data" / "parsed" / src / tbl["tab"]
         if not path.exists():
             missing.append(f"{src}/{tbl['tab']}")
             continue

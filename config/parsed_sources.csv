@@ -1,0 +1,2 @@
+source_id,competition_id,year,path,parser,tab,status,notes
+glintcap-2026,glintcap,2026,data/source/web/glintcap/2026/commercial.html,glintcap_web,results.csv,active,commercial division only

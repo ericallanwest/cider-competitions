@@ -1,24 +1,24 @@
 WID,Medalist,Region,Country,Latitude,Longitude
 67,2 Towns Ciderhouse,Oregon,USA,44.563505,-123.226185
 87,Angry Orchard,New York,USA,41.587128,-74.221692
+569,Snow Capped Cider,Colorado,USA,38.898619,-107.924961
 553,Seattle Cider Company,Washington,USA,47.560327,-122.337605
 61,Uncle John's,Michigan,USA,43.112648,-84.561921
-569,Snow Capped Cider,Colorado,USA,38.898619,-107.924961
+323,Haykin Family Cider,Colorado,USA,39.764391,-104.848127
 118,Bauman's Cider,Oregon,USA,45.1079661,-122.8693386
 1314,Sidra El Gaitero,Asturias,Spain,43.4923237,-5.4230532
-323,Haykin Family Cider,Colorado,USA,39.764391,-104.848127
 664,Vermont Cider Company,Vermont,USA,44.034072,-73.172778
 62,Vander Mill,Michigan,USA,42.971697,-85.630719
-10,Blake's Hard Cider Co.,Michigan,USA,42.8503113,-82.9513855
 54,Tandem Ciders,Michigan,USA,45.011335,-85.659757
-635,Tieton Cider Works,Washington,USA,46.615859,-120.521786
 841,Thornbury Craft Co.,Ontario,Canada,44.5596898,-80.4459884
+10,Blake's Hard Cider Co.,Michigan,USA,42.8503113,-82.9513855
+635,Tieton Cider Works,Washington,USA,46.615859,-120.521786
 845,Twin Pines Orchards & Cider House,Ontario,Canada,43.1877621,-81.8474769
 1175,Small Acres Cyder,New South Wales,Australia,-33.2818782,148.9909171
 1912,Puget Sound Cider Company,Washington,USA,47.479856,-122.204573
+19,Farmhaus Cider Co.,Michigan,USA,42.936623,-85.909009
 75,1911 Established,New York,USA,42.903744,-76.22158
 750,Cidrerie Milton,Quebec,Canada,45.483424,-72.759531
-19,Farmhaus Cider Co.,Michigan,USA,42.936623,-85.909009
 63,Virtue Cider,Michigan,USA,42.57688,-86.15187
 97,Arsenal Cider House,Pennsylvania,USA,40.465108,-79.96092
 196,Ciderboys,Wisconsin,USA,44.510454,-89.573583
@@ -33,71 +33,74 @@ WID,Medalist,Region,Country,Latitude,Longitude
 38,Northville Winery and Brewing Company,Michigan,USA,42.437271,-83.475242
 1586,Cidre Le Brun,Brittany,France,47.925263,-4.344798
 225,Crispin Cider Company,California,USA,39.089006,-120.950642
+350,Island Orchard Cider,Wisconsin,USA,45.256318,-87.071244
 1189,Lobo Cider,South Australia,Australia,-34.9198542,138.8289368
 490,Portland Cider Company,Oregon,USA,45.415288,-122.572714
 592,Stem Ciders,Colorado,USA,39.761635,-104.983791
 632,Threadbare Cider,Pennsylvania,USA,40.460471,-79.988895
+718,Annapolis Cider Company,Nova Scotia,Canada,45.09178,-64.360279
 729,Raven's Moon Craft Cider,British Columbia,Canada,49.692391,-125.040645
 153,Bold Rock Hard Cider,North Carolina,USA,37.881384,-78.904992
-350,Island Orchard Cider,Wisconsin,USA,45.256318,-87.071244
 1675,Sidra Viuda de Angelón,Asturias,Spain,43.367684,-5.523426
 1502,Spreyton Cider Co.,Tasmania,Australia,-41.2451669,146.3426667
 1487,Cidrerie Château Lézergué,Brittany,France,48.0028849,-4.0125256
+545,Sapsucker Farms Yellow Belly Cidery,Minnesota,USA,45.8970174,-93.152247
+600,Stormalong Cider,Massachusetts,USA,42.231425,-71.362237
 612,Swift Cider,Oregon,USA,45.5791984,-122.6641214
 2698,Ramborn Cider Co.,Luxembourg,Luxembourg,49.7599024,6.5135119
 165,Brooklyn Cider House,New York,USA,41.757256,-74.04958
 2860,Hillbilly Cider,New South Wales,Australia,-33.5050517,150.5450351
 587,St. Vrain Cidery,Colorado,USA,40.1651663,-105.104967
 52,Starcut Ciders,Michigan,USA,44.976269,-85.210357
-545,Sapsucker Farms Yellow Belly Cidery,Minnesota,USA,45.8970174,-93.152247
 1921,Sidra Somarroza,Cantabria,Spain,43.3529633,-3.9604843
 1674,Sidra Trabanco,Asturias,Spain,43.4704387,-5.6447197
 1343,Weidmann & Groh,Hesse,Germany,50.3305754,8.7244989
 1184,The Hills Cider Company,South Australia,Australia,-35.0133029,138.8931757
 1119,Thatchers Cider,Somerset,England,51.3328274,-2.8330779
 2844,Carmel Cider Co.,Western Australia,Australia,-32.029804,116.0846998
+195,Cider Hill Cellars,Massachusetts,USA,42.875044,-70.926449
 345,Incline Cider Company,Washington,USA,47.307323,-122.228453
+89,ANXO Cider,United States,USA,38.956577,-77.022874
 1186,Daylesford Cider Company,Victoria,Australia,-37.3566482,144.2004847
 1150,Hogan's Cider,Warwickshire,England,52.2205461,-1.8336097
-600,Stormalong Cider,Massachusetts,USA,42.231425,-71.362237
 864,West Avenue Cider,Ontario,Canada,43.3699543,-79.9815735
+118,Bauman’s Cider,Oregon,USA,45.1079661,-122.8693386
 631,Thor's Hard Cider,Minnesota,USA,45.042138,-92.865744
 668,Wandering Aengus Ciderworks,Oregon,USA,44.893871,-122.996201
 1488,Flying Brick Cider,Victoria,Australia,-38.2112991,144.5152589
-89,ANXO Cider,United States,USA,38.956577,-77.022874
-718,Annapolis Cider Company,Nova Scotia,Canada,45.09178,-64.360279
 209,Colorado Cider Company,Colorado,USA,39.71898,-105.01961
 387,Liberty Ciderworks,Washington,USA,47.655356,-117.418438
+550,Schilling Cider,Washington,USA,47.347243,-122.233995
 1673,Sidra Riestra,Asturias,Spain,43.416536,-5.580949
 194,Cider Creek Hard Cider,New York,USA,42.316655,-77.60405
 570,Snowdrift Cider Co.,Washington,USA,47.400586,-120.178628
 1190,Bilpin Cider,New South Wales,Australia,-33.5034269,150.5299259
 262,Eris Brewery & Cider House,United States,USA,41.953873,-87.734239
 784,Ernest Cider,Ontario,Canada,44.0410624,-79.6608566
+932,Two K Farms,Michigan,USA,44.922709,-85.626569
 83,Albemarle CiderWorks,South,USA,37.966531,-78.650136
+753,Cidrerie Verger Bilodeau,Quebec,Canada,46.9128997,-71.0393277
 2325,Donovan Orchards Estate Ciders,New York,USA,43.3638889,-78.5572222
 1176,Napoleone Cider,Victoria,Australia,-37.691864,145.4129791
 1172,Zapiain,Basque Country,Spain,43.2821854,-1.9422089
+1001,City Orchard,Texas,USA,29.7708798,-95.3868984
 372,Kings Highway Fine Cider,New York,USA,41.8978652,-73.534851
 391,Locust Cider,Washington,USA,47.766244,-122.148563
 2397,Pomologik,Sweden,Sweden,59.2627056,17.1157609
 1916,Sidewood Estate,South Australia,Australia,-35.0207278,138.7945874
 126,Big B's Hard Cider,Colorado,USA,38.860785,-107.626061
-195,Cider Hill Cellars,Massachusetts,USA,42.875044,-70.926449
 258,Embark Craft Ciderworks,New York,USA,43.248684,-77.187685
 3542,Marks & Spencer,Greater London,England,51.5185558,-0.1752384
 827,Salt Spring Wild Cider,British Columbia,Canada,48.862494,-123.522065
 661,Urban Tree Hard Cider,Georgia,USA,33.794905,-84.414797
 3182,Écusson,Île-de-France,France,48.8279643,2.2657746
 185,Castle Hill Cider,Virginia,USA,38.0888889,-78.2908333
-1001,City Orchard,Texas,USA,29.7708798,-95.3868984
 415,Meriwether Cider Company,Idaho,USA,43.645176,-116.271227
 46,Robinette Cellars,Michigan,USA,43.027537,-85.592264
 3093,Aston Manor Cider,West Midlands,England,52.4992215,-1.8724982
 276,Finnriver Farm and Cidery,Washington,USA,48.0097371,-122.7694043
 1322,Jörg Geiger,Baden-Württemberg,Germany,48.6524936,9.7049199
 1130,Oliver's Cider and Perry,Herefordshire,England,52.118645,-2.59315
-932,Two K Farms,Michigan,USA,44.922709,-85.626569
 1504,Core Cider,Western Australia,Australia,-32.0381641,116.1344718
 30,Left Foot Charley,Michigan,USA,44.756339,-85.645097
 889,Sage Bird Ciderworks,Virginia,USA,38.4530173,-78.86998
@@ -106,19 +109,23 @@ WID,Medalist,Region,Country,Latitude,Longitude
 1494,The Apple Thief,New South Wales,Australia,-35.4922551,148.1527324
 9,Winery at Black Star Farms,Michigan,USA,44.933625,-85.636114
 127,Big Fish Cider Co.,Virginia,USA,38.412304,-79.58293
-753,Cidrerie Verger Bilodeau,Quebec,Canada,46.9128997,-71.0393277
 1553,Frank's Cider,Tasmania,Australia,-43.0691759,147.023825
 3041,Sisson & Smith,Nottinghamshire,England,53.018115,-1.308544
+58,Thornapple Brewing Company,Michigan,USA,42.912347,-85.512693
 1369,Loïc Raison,Brittany,France,48.070267,-1.394779
 407,McClure's Orchard & Winery,Indiana,USA,40.837576,-86.130016
-58,Thornapple Brewing Company,Michigan,USA,42.912347,-85.512693
+59,Townline Ciderworks,Michigan,USA,44.863802,-85.422672
+2037,Empyrical Orchard & Cidery,Washington,USA,47.9125058,-122.0347067
 2029,Floribunda,Italy,Italy,46.2431813,11.2153676
+44,Pux Cider,Michigan,USA,42.9683341,-85.640274
 1055,Vala's Orchard Cider,Nebraska,USA,41.1285802,-96.1989432
+87,Angry Orchard Hard Cider Company,New York,USA,41.587128,-74.221692
 5,Bee Well Mead & Cider,Michigan,USA,44.9760455,-85.2098303
 179,California Cider Company,California,USA,38.423506,-122.849754
 742,Cidrerie du Minot,Quebec,Canada,45.019621,-73.621962
 357,Jefferson County Ciderworks,Iowa,USA,41.017198,-92.018367
-44,Pux Cider,Michigan,USA,42.9683341,-85.640274
+447,Noble Cider,North Carolina,USA,35.602136,-82.62465
+622,The Cider Farm,Central,USA,42.859997,-90.179847
 303,Gowan's Heirloom Ciders,California,USA,39.0869042,-123.4751758
 2862,Kangaroo Island Ciders,South Australia,Australia,-35.7852747,137.5522015
 529,Rootstock Ciderworks,New York,USA,43.201215,-77.224684
@@ -130,7 +137,6 @@ WID,Medalist,Region,Country,Latitude,Longitude
 1548,Seppelbauer,Austria,Austria,48.0927034,14.9042506
 1265,Stonewell Cider,Cork,Ireland,51.8093009,-8.3699975
 2875,Sydney Brewery,New South Wales,Australia,-33.8819999,151.2098009
-59,Townline Ciderworks,Michigan,USA,44.863802,-85.422672
 2838,Barossa Cider Co.,South Australia,Australia,-34.479051,138.9579419
 1403,Celtic Marches,Worcestershire,England,52.1392063,-2.4991058
 2489,Cidre Fournier,Normandy,France,48.4721531,-0.1272051
@@ -141,9 +147,8 @@ WID,Medalist,Region,Country,Latitude,Longitude
 432,Mountain West Cider Company,Utah,USA,40.778772,-111.903037
 2073,Mr. Plūme,Latvia,Latvia,56.69531,24.9870439
 1717,Presque Isle Farm Cider,Michigan,USA,45.25734,-83.59946
-550,Schilling Cider,Washington,USA,47.347243,-122.233995
 694,Windy Hill Orchard & Cidery,South Carolina,USA,35.025033,-81.280415
-118,Bauman’s Cider,Oregon,USA,45.1079661,-122.8693386
+2045,Wooden Gate Cider,Manitoba,Canada,49.2022693,-98.8931669
 136,Black Diamond Cider,New York,USA,42.547829,-76.655099
 244,Dragon's Head Cider,Washington,USA,47.441428,-122.473876
 712,Five Maidens Cider Company,Pennsylvania,USA,40.6109554,-75.373349
@@ -151,11 +156,10 @@ WID,Medalist,Region,Country,Latitude,Longitude
 396,Lost Boy Cider,Virginia,USA,38.798715,-77.06327
 1074,Papa Moon Vineyards & Winery,Nebraska,USA,41.8877158,-103.6176699
 1427,St Ronan's Cider,Victoria,Australia,-37.6872838,145.5377722
+53,Suttons Bay Ciders,Michigan,USA,44.905766,-85.643616
 102,Atlanta Hard Cider Co.,Georgia,USA,33.9507273,-84.52255
 173,Bull Run Cider,Oregon,USA,45.523121,-123.106516
-2037,Empyrical Orchard & Cidery,Washington,USA,47.9125058,-122.0347067
 798,KW Craft Cider,Ontario,Canada,43.508396,-80.543731
-447,Noble Cider,North Carolina,USA,35.602136,-82.62465
 1118,Sheppy's Cider,Somerset,England,50.9935861,-3.1723149
 181,Slake Cider,North,USA,45.215577,-123.197811
 1084,19 Acres Cider Co.,Oregon,USA,45.3886798,-122.9315471
@@ -173,6 +177,7 @@ WID,Medalist,Region,Country,Latitude,Longitude
 2037,Empyrical Orchards & Cider,Washington,USA,47.9125058,-122.0347067
 274,Fenceline Cider,Colorado,USA,37.344471,-108.28887
 1913,Ferme de la Sapinière,Normandy,France,49.3561555,-0.8754963
+1782,Grey & Gold Cider,Ontario,Canada,44.526397,-80.4657931
 2825,Gutshof Kraatz,Germany,Germany,53.3903407,13.6664087
 2518,Hawkes,England,England,51.4995721,-0.075018
 354,James Creek Cider House,North Carolina,USA,35.336069,-79.245782
@@ -185,12 +190,12 @@ WID,Medalist,Region,Country,Latitude,Longitude
 324,Hazlitt 1852 Vineyards,New York,USA,42.621963,-77.400262
 514,Reverend Nat's Hard Cider,Oregon,USA,45.5050424,-122.6278162
 1473,Sidra Castañón,Asturias,Spain,43.5144271,-5.5691788
-53,Suttons Bay Ciders,Michigan,USA,44.905766,-85.643616
 2142,TĀLAVA,Gulbene,Latvia,57.162926,26.7596704
 1414,Ulvik Frukt & Cideri,Norway,Norway,60.5751852,6.9390893
 1133,Dunkertons Cider and Perry,Herefordshire,England,51.8771374,-2.0279869
 2689,Le Pressoir d'Or,Normandy,France,49.2934642,1.4849943
 2752,Mooma,Catalonia,Spain,42.0007312,3.133318
+664,Woodchuck Cider,Vermont,USA,44.034072,-73.172778
 3129,Ace Cider,California,USA,30.6672618,-81.4590785
 93,Apple Valley Cider Company,Colorado,USA,38.425243,-105.026257
 124,Bent Ladder,Ohio,USA,40.9646071,-81.739989
@@ -202,6 +207,7 @@ WID,Medalist,Region,Country,Latitude,Longitude
 1663,Egge Gård,Buskerud,Norway,59.8156009,10.2213072
 3010,Hardanger Saft og Siderfabrikk,Vestland,Norway,60.5742416,6.9563357
 1574,Kelterei Heil,Germany,Germany,50.390709,8.331258
+2221,Paha Cider,Iowa,USA,42.7013869,-92.414852
 1771,Peat's Original Cider,Michigan,USA,42.0052528,-86.5306091
 2531,Rawlins Family Cider,Somerset,England,50.9300166,-2.9585196
 1243,Sandford Orchards,Devon,England,50.7886749,-3.6453966
@@ -215,9 +221,11 @@ WID,Medalist,Region,Country,Latitude,Longitude
 1799,Ficklewood Ciderworks,California,USA,33.7691676,-118.1833942
 276,Finnriver Farm & Cidery,Washington,USA,48.0097371,-122.7694043
 1749,Michigan Wine Company,Michigan,USA,42.5945628,-86.2096112
+1893,Peninsula Cellars,Michigan,USA,44.854006,-85.527215
 2699,Plenty Cider,Tasmania,Australia,-42.7535512,146.9708462
 819,Pommies Cider Co.,Ontario,Canada,43.863806,-79.720618
 866,Yip Cider,New Brunswick,Canada,45.4296035,-66.1424713
+2103,Bird Dog Cider,New Hampshire,USA,43.0437859,-70.8550379
 2846,Cheeky Grog Co,Victoria,Australia,-36.27882,145.3687509
 2660,Elegast Cidery,Netherlands,Netherlands,51.9951943,5.3674425
 2887,Ferme des Noës,Normandy,France,49.1301268,1.3281105
@@ -227,26 +235,28 @@ WID,Medalist,Region,Country,Latitude,Longitude
 34,Meckley's Cidery,Michigan,USA,42.058904,-84.405962
 2603,Mistérios da Quinta,Madeira,Portugal,32.75286,-17.2045712
 435,Nashi Orchards,North,USA,47.375697,-122.504058
-1893,Peninsula Cellars,Michigan,USA,44.854006,-85.527215
 2872,Seven Oaks Farmhouse Cider,Victoria,Australia,-38.3507377,145.0576847
 835,Spirit Tree Estate Cidery,Ontario,Canada,43.757858,-79.9424878
 658,Urban Farm Fermentory,United States,USA,43.669113,-70.256105
 2544,Åkre Gård,Norway,Norway,60.2613409,6.5735653
+915,Cider Corps,Arizona,USA,33.4141147,-111.8364706
 1371,Cidre Sorre,Brittany,France,48.5193051,-1.8481256
 869,Etta Place Cider,Utah,USA,38.299562,-111.4351606
 18,Forgotten Ciders,Michigan,USA,43.466119,-84.411417
-1782,Grey & Gold Cider,Ontario,Canada,44.526397,-80.4657931
+294,Glacial Till,Nebraska,USA,41.038896,-96.368951
 3177,Groupe Geloso,Quebec,Canada,45.6109278,-73.6737069
 1071,Heeman's,Ontario,Canada,43.0407802,-81.1242136
 423,Minneapolis Cider Company,Minnesota,USA,44.977753,-93.265011
+432,Mountain West Hard Cider,Utah,USA,40.778772,-111.903037
 1887,Offset Ciderworks,Washington,USA,47.8028091,-122.3228434
 1639,Oiharte,Basque Country,Spain,43.0180369,-2.2696672
 1336,Pomolo Obstweine,Hesse,Germany,50.21228,8.78947
 497,Ragged Hill Cider,Massachusetts,USA,42.269444,-72.168979
 515,Rhinegeist Brewery,Ohio,USA,39.117266,-84.520101
+1060,Seminary Hill Orchard & Cidery,New York,USA,41.7743187,-75.0549915
 1085,Sonoma Cider,California,USA,36.7270581,-119.7906887
-622,The Cider Farm,Central,USA,42.859997,-90.179847
 1915,Windswept Orchard Cider,Ontario,Canada,44.5544537,-80.5405778
+2546,Alde Sider,Norway,Norway,60.2448984,6.5638617
 1168,Bereziartua,Basque Country,Spain,43.2829301,-1.9400682
 1918,Brady's Lookout Cider,Tasmania,Australia,-41.340095,147.0000822
 1917,Brinkhall Sparkling,Southwest Finland,Finland,60.4236854,23.0462561
@@ -271,6 +281,7 @@ WID,Medalist,Region,Country,Latitude,Longitude
 1757,Odd Brothers Craft Cider,Michigan,USA,42.1364887,-84.8664378
 2520,Palmers Upland Cyder,Newport,Wales,51.591654,-3.0551443
 49,Spicer's Winery,Michigan,USA,42.677486,-83.751844
+584,Spring Hill Cider Works,Ohio,USA,41.781744,-80.97225
 1155,Thistly Cross Cider,East Lothian,Scotland,55.9850363,-2.5614933
 846,Twisted Hills Craft Cider,British Columbia,Canada,49.177257,-119.754245
 935,Two Blokes Cider,Ontario,Canada,44.1845112,-78.9465991
@@ -283,6 +294,7 @@ WID,Medalist,Region,Country,Latitude,Longitude
 2703,Cydr Chyliczki,Masovian,Poland,51.702596,20.846746
 250,Duluth Cider,Minnesota,USA,46.764947,-92.127394
 996,EsoTerra Ciderworks,Colorado,USA,37.4761004,-108.4837559
+1012,Little Apple Cidery,New York,USA,42.2158739,-73.5186273
 1185,Mock Red Hill,Victoria,Australia,-38.3738505,144.993723
 1542,Rossbach Cider,Karlovy Vary,Czechia,50.3053478,12.1753565
 534,Runcible Cider,Oregon,USA,45.673003,-121.408294
@@ -290,6 +302,7 @@ WID,Medalist,Region,Country,Latitude,Longitude
 691,Wilson's Orchard & Farm,Iowa,USA,41.72032,-91.460991
 3001,Andersen Winery,Central Denmark,Denmark,56.242291,10.4941277
 92,Apple Outlaw,Oregon,USA,42.135329,-123.239648
+75,Beak & Skiff Apple Farms,New York,USA,42.903744,-76.22158
 128,Big Hill Ciderworks,Pennsylvania,USA,40.0277976,-77.2135009
 131,Bishops Orchards Winery,Connecticut,USA,41.289934,-72.694687
 146,Blue Bee Cider,Virginia,USA,37.5916262,-77.4888875
@@ -304,30 +317,26 @@ WID,Medalist,Region,Country,Latitude,Longitude
 828,Scenic Road Cider Co.,British Columbia,Canada,49.931257,-119.421347
 831,Shiny Apple Cider,Ontario,Canada,43.223863,-79.1714889
 2104,Slabtown Cider Co.,Ontario,Canada,44.0606307,-79.1247329
-584,Spring Hill Cider Works,Ohio,USA,41.781744,-80.97225
 594,Stoic Cider,Arizona,USA,34.748157,-112.670676
 648,Tulip Valley Vineyard & Orchard,Washington,USA,48.443719,-122.396515
 1050,Waves Cider Co.,Missouri,USA,38.9655649,-92.3297892
 697,Wise Bird Cider,Kentucky,USA,38.055559,-84.517713
-664,Woodchuck Cider,Vermont,USA,44.034072,-73.172778
-2045,Wooden Gate Cider,Manitoba,Canada,49.2022693,-98.8931669
 698,Wölffer Estate Vineyard,New York,USA,40.945028,-72.27747
 2,45 North Vineyard & Winery,Michigan,USA,45.002103,-85.681943
 2712,Au Pressoir du Bélon,Finistère,France,47.8361715,-3.6859769
 738,Chain Yard Urban Cidery,Nova Scotia,Canada,44.655537,-63.593991
-915,Cider Corps,Arizona,USA,33.4141147,-111.8364706
 1589,Cidrerie Manoir du Kinkiz,Brittany,France,47.973904,-4.0549284
 1588,Cidrerie Paul Coïc,Brittany,France,47.999837,-4.199284
 1141,Cidres Kerisac,Pays de la Loire,France,47.519588,-1.9560451
 3450,Coles Liquor Group,Victoria,Australia,-37.8454294,145.0482216
 1990,Dancing Cider Co.,North Chungcheong,South Korea,37.0264162,127.8580113
 1183,Domaine de la Galotière,Normandy,France,48.923403,0.138481
+2082,Farm Club,Michigan,USA,44.8331931,-85.6898661
 2879,Ferme du Theil,Pays de la Loire,France,48.159845,-0.826714
 2039,Kristof Farms,Oregon,USA,45.3833849,-123.153384
 2863,Lenswood Cider Co.,South Australia,Australia,-34.94118,138.8195355
 X,Moons Cider,,,,
 2027,Napton Cidery,Warwickshire,England,52.2422487,-1.325063
-2221,Paha Cider,Iowa,USA,42.7013869,-92.414852
 3024,Paladeus,Italy,Italy,46.3487132,11.2974342
 1381,Pips Cider,Herefordshire,England,52.0666607,-3.0090619
 530,Rootwood Cider Co.,Washington,USA,47.88489,-120.159129
@@ -338,7 +347,6 @@ X,Moons Cider,,,,
 688,WildCraft Cider Works,Oregon,USA,44.055602,-123.097306
 957,Yonder Cider,Washington,USA,47.6646136,-122.3675796
 1451,Zeffer,Hawke's Bay,New Zealand,-39.5775333,176.7740347
-2546,Alde Sider,Norway,Norway,60.2448984,6.5638617
 2742,Baldorba Naturel & Sagarraleku,Basque Country,Spain,42.5849196,-1.5400788
 155,Botanist & Barrel,North Carolina,USA,36.216856,-79.179325
 167,Broski Ciderworks,Florida,USA,26.222228,-80.142524
@@ -356,6 +364,7 @@ X,Dowding's,Somerset,England,51.0763751,-2.4537554
 3321,Les Vergers de Ducy,Normandy,France,49.2169875,-0.6242584
 389,Liquid Alchemy Beverages,Delaware,USA,39.729206,-75.580718
 1376,Manoir de Grandouet,Normandy,France,49.158588,0.066211
+1908,Mount Diablo Cider Company,California,USA,37.9025575,-122.0944769
 2606,Nerø Frukt og Sider,Telemark,Norway,59.4988141,9.3240024
 1923,Niagara Cider Company,Ontario,Canada,43.0550484,-79.1308663
 912,Patriots' Heritage Cider,New York,USA,42.8848347,-73.5781383
@@ -363,7 +372,7 @@ X,Dowding's,Somerset,England,51.0763751,-2.4537554
 3428,Pressman's Cider,New South Wales,Australia,-34.2467608,146.2187469
 820,Puddicombe Estate Farm,Ontario,Canada,43.2048937,-79.6336935
 271,Ragged and Right Cider Project,Washington,USA,48.442772,-122.342298
-1060,Seminary Hill Orchard & Cidery,New York,USA,41.7743187,-75.0549915
+55,Texas Corners Brewing Company,Michigan,USA,42.202294,-85.686559
 2589,The Great Canadian Cider Company,Ontario,Canada,44.4883641,-80.1988175
 644,Treasury Cider at Fishkill Farms,New York,USA,41.517826,-73.823327
 676,Western Cider,Montana,USA,46.876599,-114.014032
@@ -378,15 +387,16 @@ X,Dowding's,Somerset,England,51.0763751,-2.4537554
 1591,Cidrerie de Rozavern,Brittany,France,48.2502317,-4.3826303
 1312,Cidrerie de la Brique,Normandy,France,49.5156759,-1.5231005
 763,County Cider Company,Ontario,Canada,44.0212351,-76.9622839
+2547,Endless Orchard Cider,Washington,USA,47.8529453,-120.0419087
 2161,Ferme Cidricole Desvoye,Normandy,France,49.209316,0.008439
 3315,Ferme du Manoir du Val,Normandy,France,49.02546,0.722805
+280,Flat Rock Cider Company,North Carolina,USA,35.315966,-82.460411
 2086,Harpers Ferry Brewing,Virginia,USA,39.320459,-77.708175
 325,Headwater Cider,Massachusetts,USA,42.58249,-72.860053
 1179,Henney's Cider,Herefordshire,England,52.1324052,-2.4945371
 1546,Isastegi,Basque Country,Spain,43.120554,-2.09486
 380,Lassen Traditional Cider,California,USA,39.714697,-121.820272
 1384,Le Père Jules,Normandy,France,49.157696,0.1960087
-1012,Little Apple Cidery,New York,USA,42.2158739,-73.5186273
 2990,Loader's Cider,Somerset,England,51.0344431,-3.1825594
 37,Northern Natural Cider House & Winery,Michigan,USA,44.3464985,-86.1020865
 X,Orchard 101,,,,
@@ -394,11 +404,10 @@ X,Orchard 101,,,,
 1802,Ridge Cider Co.,Michigan,USA,43.308463,-85.809504
 3151,Southdown Cider,Somerset,England,51.0761907,-2.4546243
 3520,Taunton Cider Company,Somerset,England,50.8656004,-2.7974336
-55,Texas Corners Brewing Company,Michigan,USA,42.202294,-85.686559
 1851,Tideview Cider,Nova Scotia,Canada,45.08312,-64.402318
+102,Atlanta Hard Cider Co. & Distillery,Georgia,USA,33.9507273,-84.52255
 1448,Bere Cider Company,Somerset,England,51.0774,-2.847342
 1995,Berryland,Ukraine,Ukraine,50.46534,30.3545682
-2103,Bird Dog Cider,New Hampshire,USA,43.0437859,-70.8550379
 2428,Branch Cider,Bristol,England,51.46694615,-2.554391254
 2840,Bruny Island Cider,Tasmania,Australia,-43.3220335,147.2421817
 1590,Cidrerie Melenig,Brittany,France,48.007427,-3.958735
@@ -432,7 +441,6 @@ X,Steve Faulkner,,,,
 X,Sweeting's Cider,,,,
 643,Tractor Brewing Company,New Mexico,USA,35.102281,-106.647915
 847,Uncommon Cider Co.,Alberta,Canada,51.0187544,-114.0596605
-87,Angry Orchard Hard Cider Company,New York,USA,41.587128,-74.221692
 101,Ash & Elm Cider Company,Indiana,USA,39.768019,-86.125256
 10,Blakes Beverage Company,Michigan,USA,42.8503113,-82.9513855
 162,Brix Cider,Wisconsin,USA,43.007126,-89.737751
@@ -444,10 +452,9 @@ X,Broadpool Cider,,,,
 749,Cidrerie Michel Jodoin,Quebec,Canada,45.456646,-73.037688
 761,Coteau Rougemont,Quebec,Canada,45.4513635,-73.0422493
 222,Coyote Hole Craft Beverages,Virginia,USA,38.085727,-77.851857
-280,Flat Rock Cider Company,North Carolina,USA,35.315966,-82.460411
 290,Freewater Cider and Wine Company,Oregon,USA,45.942433,-118.389708
-294,Glacial Till,Nebraska,USA,41.038896,-96.368951
 300,GoodRoad Ciderworks,North Carolina,USA,35.184917,-80.879441
+1071,Heeman’s,Ontario,Canada,43.0407802,-81.1242136
 1356,Henry of Harcourt,Victoria,Australia,-36.9897306,144.278854
 2723,Het Hamerstuk,Netherlands,Netherlands,51.8760148,5.872176
 342,Humboldt Cider Company,West,USA,40.7817209,-124.1298735
@@ -458,7 +465,6 @@ X,Broadpool Cider,,,,
 1457,Mac Ivors Cider,Armagh,Northern Ireland,54.4457975,-6.5934788
 401,Maiden Rock Winery & Cidery,Wisconsin,USA,44.515238,-92.268117
 418,Methow Valley Ciderhouse,Washington,USA,48.477133,-120.186948
-1908,Mount Diablo Cider Company,California,USA,37.9025575,-122.0944769
 2828,Obst- & Weingut Brüggenwirth,Lower Saxony,Germany,52.35643,9.34768
 3517,Oldfields Cider,Worcestershire,England,52.3255948,-2.4610259
 39,Ore Creek Craft Cider,Michigan,USA,42.4182281,-83.905632
@@ -476,11 +482,12 @@ X,Strangey's Devon Cyder,,,,
 619,Texas Keeper Cider,Texas,USA,30.125459,-97.818789
 842,Toboggan Brewing Co.,Ontario,Canada,42.9898526,-81.2511909
 3036,Tori Siidritalu,Pärnu,Estonia,58.4882786,24.9101775
+,Vala’s Orchard Cider Co.,,,,
 2044,Williamson Mead and Brewing,North Carolina,USA,36.4756637,-80.9887261
 229,d's Wicked Cider,Washington,USA,46.20084,-119.246466
 72,12 Bridge Ciderworks,Oregon,USA,45.326412,-122.580527
 2075,Artistraw Cider,Herefordshire,England,52.0960679,-3.0947504
-75,Beak & Skiff Apple Farms,New York,USA,42.903744,-76.22158
+5,Bee Well Mead And Cider,Michigan,USA,44.9760455,-85.2098303
 ,Bilpin Cider Co,,,,
 2839,Borrodell Vineyard,New South Wales,Australia,-33.3140184,149.0241999
 1456,Brännland Cider,Sweden,Sweden,63.9185456,19.83196
@@ -510,7 +517,6 @@ X,Dinnington Cider Press,,,,
 3419,Magners,Tipperary,Ireland,52.3618983,-7.6479971
 810,Merridale Ciderworks,British Columbia,Canada,48.6644855,-123.5869335
 3057,Mosterei Seiz,Baden-Württemberg,Germany,48.7712143,9.7999727
-432,Mountain West Hard Cider,Utah,USA,40.778772,-111.903037
 3087,Naturcidre,Baden-Württemberg,Germany,48.8255479,9.0630527
 455,OK Cider Co,Oklahoma,USA,35.4670261,-97.5247456
 456,Old Hill Cider,Virginia,USA,38.667709,-78.797062
@@ -536,12 +542,14 @@ X,William Barnes,,,,
 X,Alex Hill,,,,
 1885,Alma Cider,Washington,USA,48.416119,-122.2940351
 2895,Appie,Île-de-France,France,49.0580353,2.1241484
+722,Ardiel Cider House,Ontario,Canada,44.499666,-80.426869
 99,Artifact Cider Project,Massachusetts,USA,42.3378061,-72.6732543
 104,Austin Eastciders,Texas,USA,30.211595,-97.7404707
 1930,Bear Cider,Netherlands,Netherlands,52.2961063,5.1662739
 1326,Bembel With Care,Germany,Germany,49.6472541,8.6844034
 1962,Berkshire Cider Project,East,USA,42.6980607,-73.1521496
 905,Blossom Barn Cidery,Oregon,USA,42.3165297,-123.2308841
+,Cambium Cider Co.,,,,
 1837,Cellarmen's,Michigan,USA,42.47091,-83.104109
 945,Ciders from Mars,Virginia,USA,38.1474916,-79.0742591
 2691,Cidre Lemasson,Normandy,France,49.0708506,-1.2963565
@@ -555,7 +563,6 @@ X,Alex Hill,,,,
 1592,Distillerie Warenghem,Côtes-d'Armor,France,48.718761,-3.414837
 3565,Echt Brombachseer,Bavaria,Germany,49.1736344,10.8482912
 3008,Eiane Gard,Rogaland,Norway,59.2945806,6.2913364
-2082,Farm Club,Michigan,USA,44.8331931,-85.6898661
 20,Fenn Valley Vineyards,Michigan,USA,42.577827,-86.144125
 1650,Ferme du Lieu-Roussel,Normandy,France,49.254184,-0.021999
 3175,Fils de Pomme,Île-de-France,France,48.8707036,2.3440637
@@ -580,15 +587,18 @@ X,Alex Hill,,,,
 1147,Redwood Cider Co.,Tasman,New Zealand,-41.3018135,173.074386
 3263,Roter Adam,Hesse,Germany,50.1044255,8.6857447
 543,Santa Cruz Cider Co.,California,USA,36.959789,-122.048975
+830,Sea Cider,British Columbia,Canada,48.6036859,-123.396825
 556,Serpentine Cider,California,USA,32.895393,-117.137246
 2756,Sidra Alfa,Portugal,Portugal,41.2332048,-7.3302313
 2748,Sidra Niebla,Canary Islands,Spain,28.0509128,-15.5754537
 597,Stone Circle Cider,Oregon,USA,45.27771,-122.284894
+,Storum Ranch Cider & Wine,California,USA,33.103021,-116.5993278
 1891,Sunken Paddle Ciderworks,Wisconsin,USA,44.0015236,-88.5517169
 613,Swilled Dog Hard Cider,West Virginia,USA,38.7831416,-79.2850581
 899,Tennessee Cider Company,Tennessee,USA,35.7132217,-83.5137398
 1177,The Cidery,Western Australia,Australia,-33.955182,116.148075
 1055,Vala’s Orchard Cider Co,Nebraska,USA,41.1285802,-96.1989432
+1314,"Valle, Ballina Y Fernández Sa",Asturias,Spain,43.4923237,-5.4230532
 2134,Victoria Cider Co.,British Columbia,Canada,48.643741,-123.457186
 2010,VinVie Winery & Cidery,Nagano,Japan,35.5976837,137.8797641
 683,Wild Cider,Colorado,USA,40.166464,-104.905465
@@ -600,6 +610,7 @@ X,Abbey Orchards,,,,
 1642,Adams Cider Company,Tipperary,Ireland,52.752526,-7.957888
 1167,Alorrenea,Basque Country,Spain,43.2873917,-1.9463625
 85,Alter Ego Cider,Oregon,USA,45.519839,-122.659396
+,Apple Theory Cidery,,,,
 4,B. Nektar,Michigan,USA,42.456877,-83.113432
 1727,Banjo Cider,Ontario,Canada,44.1484947,-79.1592864
 947,Beach Bee Meadery,New Jersey,USA,40.3090937,-73.98298
@@ -618,6 +629,7 @@ X,Abbey Orchards,,,,
 197,Cigar City Cider & Mead,Florida,USA,27.960748,-82.443199
 202,Clear Fork Cider,Colorado,USA,38.8682283,-107.5980751
 226,Critz Farms,New York,USA,42.880641,-75.873523
+,Crow River Winery,,,,
 2850,Crucible Cider,Victoria,Australia,-38.5072427,143.6841826
 2170,Dingo Dog Brewing Company,North Carolina,USA,35.9140913,-79.0720655
 2036,Docendo Discitur,Aosta Valley,Italy,45.7121378,7.2154238
@@ -657,6 +669,7 @@ X,North Down Orchard,,,,
 1533,Rochdale Cider,Nelson,New Zealand,-41.3189677,173.2255718
 1282,Rosie's Triple D Cider,Denbighshire,Wales,53.0508675,-3.2120122
 2871,Rusty Bike Wines & Ciders,South Australia,Australia,-34.8216825,138.7560099
+,Second Summit Hard Cider Co.,,,,
 X,Seven Trees Cider,,,,
 3147,Sidro Vittoria,Veneto,Italy,46.4977453,12.4787894
 3034,Skarbø Gard,Møre og Romsdal,Norway,62.2884688,6.9656853
@@ -666,14 +679,17 @@ X,Seven Trees Cider,,,,
 3112,Terre Cartusiae,Veneto,Italy,45.7882616,12.0067675
 3477,The Lingens Farm,Worcestershire,England,52.2065732,-2.3140423
 3176,Thirsty Fox,Maharashtra,India,19.1149918,72.8604769
+644,Treasury Cider,New York,USA,41.517826,-73.823327
+,1818 farm & cidery,Ontario,Canada,45.3083183,-75.9484824
 2784,Ad Astra Cider,Somerset,England,51.2574922,-2.8528453
 3503,Adam & Eva,Bavaria,Germany,47.5669393,9.6360752
 2605,Aga Sideri,Vestland,Norway,60.2985346,6.6029726
+,Alchemy Cider Co.,,,,
 86,Ambrosia Orchard,Indiana,USA,40.953615,-85.064073
 3002,Apal Sideri,Rogaland,Norway,59.2365806,6.1841654
 3605,Apfelweinhandlung JB,Germany,Germany,50.1056113,8.6876455
 2688,Astarbe,Basque Country,Spain,43.2840361,-1.9454688
-102,Atlanta Hard Cider Co. & Distillery,Georgia,USA,33.9507273,-84.52255
+,Black Diamond Farm,,,,
 955,Bløm Meadworks,Michigan,USA,42.2810318,-83.747518
 2034,Brys Estate Ciderworks,Michigan,USA,44.8866671,-85.5098039
 3004,Bugarden,Innlandet,Norway,60.6218761,12.0398927
@@ -683,6 +699,7 @@ X,Seven Trees Cider,,,,
 X,Chris Hecks,,,,
 3516,Cider Magnetic Apple,Central Bohemia,Czechia,50.0398896,15.1067288
 757,Clafeld Cider House,Ontario,Canada,44.014915,-76.972342
+,Copper & Kings,,,,
 16,Corey Lake Orchards,Michigan,USA,41.919986,-85.718213
 898,Cornish Cider Company,Maine,USA,43.7971541,-70.7995635
 1137,Cornish Orchards,Cornwall,England,50.3964689,-4.4742393
@@ -690,7 +707,7 @@ X,Chris Hecks,,,,
 1857,Devoto Orchards Cider,California,USA,38.388874,-122.865391
 999,Doc Waters Cidery,Maryland,USA,39.2244834,-77.2013931
 2209,Draper Girls Cider Co.,Oregon,USA,45.5498509,-121.5707139
-2547,Endless Orchard Cider,Washington,USA,47.8529453,-120.0419087
+255,Eden Specialty Ciders,East,USA,44.935976,-72.209246
 2052,F.H. Prager,Prague,Czechia,49.9773812,14.3938187
 269,Falconer Vineyards,Minnesota,USA,44.557381,-92.59406
 3319,Ferme de la Commanderie,Normandy,France,49.5108604,-1.7174817
@@ -718,6 +735,7 @@ X,Chris Hecks,,,,
 897,Liquid Art Winery,Kansas,USA,39.1924003,-96.6778549
 2766,Lofthus Ekspedisjon,Norway,Norway,60.3253607,6.6585526
 1072,Market Garden Brewery,Ohio,USA,41.4850769,-81.7034306
+,Mixed Meadia Wines,,,,
 X,Molly's and Jasmine's Cider,,,,
 1555,Mostbauernhof Distelberger,Austria,Austria,48.1412668,14.8455765
 36,Nomad Cidery,Michigan,USA,44.772385,-85.4418419
@@ -759,9 +777,7 @@ X,Molly's and Jasmine's Cider,,,,
 2580,Angeles Crest Cider,California,USA,34.2053948,-118.5898987
 3029,Apfelhotel Torgglerhof,Trentino-South Tyrol,Italy,46.7237757,11.1998071
 1624,Araeta,Basque Country,Spain,43.2702303,-2.0307195
-722,Ardiel Cider House,Ontario,Canada,44.499666,-80.426869
 1266,Armagh Cider Company,Armagh,Northern Ireland,54.4078133,-6.4861608
-5,Bee Well Mead And Cider,Michigan,USA,44.9760455,-85.2098303
 X,Benjamin Jaffe - Dinnington Cider Press,,,,
 130,Bishop Cider Company,Texas,USA,32.7433262,-97.3072551
 2751,Bizio,Basque Country,Spain,43.1798316,-2.6608247
@@ -794,7 +810,6 @@ X,Chris Conroy,,,,
 2854,Funk Drinks Co.,Western Australia,Australia,-31.8781416,115.9686002
 1152,Healey's Cornish Cyder Farm,Cornwall,England,50.312002,-5.133238
 1113,Hecks Farmhouse Cider,Somerset,England,51.1209522,-2.7415338
-1071,Heeman’s,Ontario,Canada,43.0407802,-81.1242136
 791,Hoity Toity Cellars,Ontario,Canada,44.093675,-81.143186
 3344,Horn Cider,Central Denmark,Denmark,56.1442594,9.7785135
 990,Independent Perry,Washington,USA,47.5533258,-120.5686382
@@ -813,6 +828,7 @@ X,Chris Conroy,,,,
 2140,Maison Hérout,Normandy,France,49.2940012,-1.303545
 1333,Matsch & Brei,Hesse,Germany,50.1057794,8.3391384
 3056,Meichle Obst- und Weinbau,Baden-Württemberg,Germany,47.679952,9.325393
+,Michigan Wine Company LLC,,,,
 423,Minneapolis Cider Co,Minnesota,USA,44.977753,-93.265011
 3121,Missing Falls Brewery,Ohio,USA,41.0705056,-81.5267931
 2864,Monkey Rock Winery & Cider,Western Australia,Australia,-34.9965582,117.2639961
@@ -837,16 +853,21 @@ X,Paul Rendell,,,,
 3026,Pirula,South Ostrobothnia,Finland,62.938362,22.4885116
 ,Plenty,,,,
 3398,Pure Peninsula Honey,Victoria,Australia,-38.2395277,145.1052554
+,Purely Pomme,,,,
 3539,Retreat 21 Cider Co.,Ohio,USA,40.1740652,-83.264304
 1134,Ross on Wye Cider & Perry,Herefordshire,England,51.9170868,-2.6320935
 535,Russell Orchards,Massachusetts,USA,42.664953,-70.799866
 2025,Santa Sidra Hard Cider,New Mexico,USA,35.6608392,-105.987504
-830,Sea Cider,British Columbia,Canada,48.6036859,-123.396825
 1165,Sidra Menéndez,Asturias,Spain,43.4612103,-5.6209813
 561,Sierra Cider,California,USA,37.495517,-119.819732
+2115,Sisters Cider House,Washington,USA,47.6329997,-122.5173436
+2177,Slaughter Orchard & Cidery,Indiana,USA,39.1134207,-86.6356493
+2241,Snowbird Farm & Cidery,Washington,USA,46.9967692,-123.5085581
+,Solville,,,,
 972,Son of Man,United States,USA,45.68249,-121.8628333
 577,South City Ciderworks,California,USA,37.639936,-122.412129
 3030,Stahringer Streuobstmosterei,Baden-Württemberg,Germany,47.7881228,8.9760308
+,Starfall Cider Co,,,,
 3413,Surges Bay Orchard,Tasmania,Australia,-43.2244877,146.9834133
 1878,Ten Towers Cider Co.,Oregon,USA,44.9263204,-123.2291874
 ,The Apple Barn And Cider Mill,Tennessee,USA,35.8267321,-83.5792419
@@ -861,12 +882,17 @@ X,The Crest Cyder Company,,,,
 X,W-G Cider,Somerset,England,51.245413,-2.826757
 863,Wards Cider,British Columbia,Canada,49.8451347,-119.4383954
 669,Warwick Valley Winery & Distillery,New York,USA,41.29121,-74.439717
+697,Wise Bird Cider Co.,South,USA,38.055559,-84.517713
 2878,Yarra Valley Cider,Victoria,Australia,-38.0003679,145.3415665
 1173,Zelaia,Basque Country,Spain,43.2690714,-1.954256
 3723,40 Knots Winery And Cidery,,,,
 69,5 Penny Hard Cider,Ohio,USA,40.76436,-82.610672
+,"ACE Cider I, LLC",,,,
+79,Aeppeltreow Inc,Wisconsin,USA,42.642658,-88.160186
 2019,Akiu Winery,Miyagi,Japan,38.2265556,140.7279175
 3239,Apfelundwein,Hesse,Germany,50.1738765,8.3343422
+538,Appalachian Ridge Cidery / Saint Paul Mountain Vineyard,North Carolina,USA,35.3544502,-82.4079111
+,Apple Barn Cider House,,,,
 3094,Balfour Winery,Kent,England,51.1493044,0.5120774
 116,Banter's Hard Cider,Pennsylvania,USA,40.98616,-75.1945
 1217,Biddenden Vineyards,Kent,England,51.0953762,0.6400535
@@ -891,6 +917,7 @@ X,W-G Cider,Somerset,England,51.245413,-2.826757
 2758,Cider Bohemia,Czechia,Czechia,49.4649893,13.5022307
 1785,Ciderworks @ Story Tavern,California,USA,34.1806729,-118.3082013
 1143,Cidre Écusson,Normandy,France,49.0130825,0.1532477
+2077,Cidrerie Compton,Quebec,Canada,45.2583716,-71.8262371
 3325,Cidrerie Domaine du Ruisseau,Normandy,France,48.4571495,0.7511747
 736,Cidrerie Le Somnambule,Quebec,Canada,46.662195,-71.07671
 3125,Cidrerie Stassen,Liège,Belgium,50.7042612,5.8644305
@@ -900,13 +927,16 @@ X,W-G Cider,Somerset,England,51.245413,-2.826757
 1990,Dancing Cider Company,North Chungcheong,South Korea,37.0264162,127.8580113
 2541,Des Bouteilles à l'Amère,Finistère,France,47.772159,-3.56129
 3339,Domaine Lesuffleur,France,France,48.9822909,0.422398
+,Door Peninsula Winery & Ciders,,,,
 241,Double Mountain Brewery & Cidery,Oregon,USA,45.710014,-121.514641
 1840,Douglas Valley,Michigan,USA,44.322634,-86.225881
 3169,EBD Group,Harju,Estonia,59.350669,24.8908811
 2804,Ebbelboi,Schleswig-Holstein,Germany,53.6153456,9.7931551
 1847,Ela Cider Co.,Wisconsin,USA,42.744704,-88.247955
+3465,Elder Piper Beer & Cider,Michigan,USA,45.3684838,-84.9605473
 266,Fabbioli Cellars,Virginia,USA,39.182648,-77.519279
 3426,Faire Ferments,Victoria,Australia,-36.3811027,145.3993137
+1069,Farmgate Cider,Ontario,Canada,45.4138013,-76.2414158
 2005,Ferme Black Creek,Quebec,Canada,45.0150504,-74.0098805
 2160,Ferme de la Vallée au Tanneur,Normandy,France,49.2084438,0.0436273
 2054,Forbidden Cider Co.,Auckland,New Zealand,-36.3808039,174.6371632
@@ -915,6 +945,7 @@ X,W-G Cider,Somerset,England,51.245413,-2.826757
 298,Golden State Cider,California,USA,38.4041073,-122.8198562
 305,Grand Illusion Hard Cider,Pennsylvania,USA,40.20144,-77.190639
 3390,Granite Belt Cider Company,Queensland,Australia,-28.249859,152.034567
+,Gravity Distribution Ltd,,,,
 1004,Gravity Vineyards and Winery,Michigan,USA,41.933548,-86.4391475
 308,Greenwood Cider Company,Washington,USA,47.631204,-122.375137
 309,Griffin Cider Works,Ohio,USA,41.470266,-81.896853
@@ -957,12 +988,15 @@ X,Jonathan Marsden,,,,
 3197,NewLeaf Orchard,Western Australia,Australia,-34.3188398,116.1623223
 2074,Nightingale Cider,Kent,England,51.0609498,0.7237881
 3022,Odelsgut,Vestland,Norway,61.149613,6.9812658
+,Orcas Island Cider,,,,
 3451,PRAH,Tasmania,Australia,-41.1981424,146.9027037
 2193,Pacific Grove CiderWorks,California,USA,36.6152808,-121.934671
 3412,Patrick of Coonawarra,South Australia,Australia,-37.3545919,140.8408884
 1771,Peats Original Cider,Michigan,USA,42.0052528,-86.5306091
 ,Peckham's Cidery and Orchard,,,,
+,Pennings Farm Cidery,New York,USA,41.235591,-74.383093
 3524,Pinter,Staffordshire,England,52.7895543,-1.6736245
+,Porter’s Hard Cider Company,,,,
 3526,RAW Cider,North Denmark,Denmark,55.9758197,12.294988
 2070,Raw Cider Company,Oregon,USA,45.2418018,-123.0575241
 2869,Roleystone Brewing Company,Western Australia,Australia,-32.1259944,116.0605632
@@ -987,17 +1021,18 @@ X,Jonathan Marsden,,,,
 1292,Tilse's Apple Truck Cider,New South Wales,Australia,-31.8670388,151.2884241
 3035,Tingvoll Sider,Møre og Romsdal,Norway,62.9536724,8.3158826
 1942,Tinston Cider,West Sussex,England,51.0442035,-0.2590182
-644,Treasury Cider,New York,USA,41.517826,-73.823327
 654,Two Broads Ciderworks,West,USA,35.259662,-120.644957
 932,Two K Farms Cidery & Winery,Michigan,USA,44.922709,-85.626569
+,Uncommon Kin Cidery,New York,USA,42.5807257,-75.2402998
 908,Union Hill Cider Co.,North,USA,47.3880763,-120.2207316
-1314,"Valle, Ballina Y Fernández Sa",Asturias,Spain,43.4923237,-5.4230532
 850,Verger Belliveau Orchard,New Brunswick,Canada,45.9486894,-64.6265421
+3351,Vermont Cider Lab,Vermont,USA,44.5060541,-73.0817122
 3260,Von Wiesen,Hesse,Germany,49.6792237,8.6235592
 3543,Waitrose,Greater London,England,51.4894721,-0.1324522
 1926,Walkerville City Cidery,Ontario,Canada,42.3238128,-83.0113399
 1803,Whetstone CiderWorks,Vermont,USA,42.863815,-72.689529
 1900,Wilding Orchards,Pennsylvania,USA,41.956338,-75.8892283
+3202,Woodfolk Cider,Ontario,Canada,44.7099419,-79.643778
 1572,Woodredding Cider and Perry,Herefordshire,England,51.9658888,-2.5259432
 2577,Wyder's Cider,California,USA,37.8089023,-122.2518736
 1932,York County Cider,New Brunswick,Canada,45.9824391,-66.6627163
@@ -1019,7 +1054,6 @@ X,Alan Berry,,,,
 X,Appelsche,,Germany,,
 2286,Apple Barrel Orchards,New York,USA,42.6601021,-77.0848636
 2388,Apple County Cider Co,Monmouthshire,Wales,51.8679719,-2.7892975
-,Apple Theory Cidery,,,,
 3619,Araújo Monte,Portugal,Portugal,41.7807911,-8.6408923
 353,Atomic Dog Hard Cider,Pennsylvania,USA,39.7911774,-77.2006855
 2826,Backstabber Finest Cider,Aargau,Switzerland,47.4750911,8.0499746
@@ -1055,8 +1089,8 @@ X,Appelsche,,Germany,,
 221,Courthouse Creek Cider,Virginia,USA,37.673983,-77.877307
 2849,Crafty Cider,New South Wales,Australia,-35.5685824,148.1051911
 3537,Crafty Nectar Cider Co.,Dorset,England,50.7283955,-2.7560369
+,Crane’s Winery,,,,
 764,Crossmount Cider Company,Saskatchewan,Canada,52.03247,-106.673155
-,Crow River Winery,,,,
 3025,Cydr Podlaski,Podlaskie,Poland,52.9131527,23.5198496
 2725,Cydrownia Filomelos,Lublin,Poland,50.3369233,22.8461063
 2979,Der Kleine Cidre Betrieb,North Rhine-Westphalia,Germany,51.7417954,8.0415368
@@ -1066,11 +1100,12 @@ X,Downside Perry,,,,
 2566,E&J Gallo Winery,California,USA,37.6368057,-120.981631
 253,Eaglemount Wine & Cider,Washington,USA,48.099159,-122.818591
 3708,Egiazki,Nouvelle-Aquitaine,France,43.3613218,-1.5818204
-1069,Farmgate Cider,Ontario,Canada,45.4138013,-76.2414158
+,Eris Brewery And Cider House Llc,,,,
 3490,Ferme Cidricole Lemercier,Normandy,France,49.6329329,0.8335807
 1372,Ferme du Pressoir,Pays de la Loire,France,47.8463549,-0.937751
 3610,Fjordsider,Møre og Romsdal,Norway,62.7857473,7.537744
 284,Forgotten Fire Winery,Wisconsin,USA,45.045825,-87.719535
+,Four Phantoms,,,,
 3233,Ganley & Naish,Somerset,England,51.4174659,-2.8389317
 3233,Ganley & Naish Cider,Somerset,England,51.4174659,-2.8389317
 789,Garage D'or Ciders,Ontario,Canada,43.045335,-79.285449
@@ -1087,11 +1122,13 @@ X,Hayloft,,,,
 327,Hemly Cider,West,USA,38.3152957,-121.5646309
 2366,Herbsts,South Kurzeme,Latvia,56.3690897,21.6010042
 X,Heritage Cider Limited,,,,
+328,Hidden Cave Cidery,Wisconsin,USA,43.1036669,-89.5369882
 1892,High Hope Cider,Ontario,Canada,43.6775105,-79.4207053
 1056,Highpoint Cider,Idaho,USA,43.6131537,-111.1063313
 2831,Hirosaki Meijo,Aomori,Japan,40.590752,140.4734174
 333,Holmberg Orchards & Winery,Connecticut,USA,41.468406,-72.058204
 337,Hopworks Urban Brewery,Oregon,USA,45.496879,-122.634841
+,Indian Ladder Farms Cidery,,,,
 2031,Institut Agricole Régional,Aosta Valley,Italy,45.7369231,7.3000211
 2835,Izumi Brewery,Tokyo,Japan,35.6386509,139.5794893
 3,JK's Farmhouse Ciders,Michigan,USA,43.0274314,43.0274314
@@ -1118,6 +1155,7 @@ X,Heritage Cider Limited,,,,
 3338,Longways Cider Company,Waterford,Ireland,52.0969346,-7.6287236
 919,Madrone Cellars & Cider,Washington,USA,48.5351226,-123.0164504
 3484,Maison Bellot,Grand Est,France,48.0568674,4.1406121
+,Manoff Market Cidery,,,,
 987,Manoff Market Gardens & Cidery,Pennsylvania,USA,40.396882,-75.0057
 1377,Manoir d'Apreval,Normandy,France,49.4063622,0.1751606
 2717,Martin's Cidery,Slovakia,Slovakia,48.2931624,18.0767206
@@ -1133,14 +1171,18 @@ X,Molly & Jasmine's Cider,,,,
 2803,Nordappel,Lower Saxony,Germany,53.1412026,8.2215315
 451,North Idaho Cider,Idaho,USA,47.7559855,-116.7871141
 452,North Shore Cider Company,Illinois,USA,42.019682,-87.680734
+2228,Northman Cider Co,Illinois,USA,41.9605939,-87.6829794
 ,Northman Cider Co.,Illinois,USA,41.9605939,-87.6829794
 814,Northyards Cider Co.,British Columbia,Canada,50.7082062,-119.2489944
 463,OR\WA Cider Collective,Oregon,USA,45.440262,-122.630103
+,Oak Tree Orchard,,,,
 3405,Oakvale Wines,New South Wales,Australia,-32.7592131,151.2522701
 2239,Ola Brew,Hawaii,USA,19.6467059,-155.9981111
+,Old Mountain Wine Company,,,,
 3515,Ouse Winery,Fukushima,Japan,37.3926655,140.2270987
 893,Overgrown Orchard,Indiana,USA,41.5757249,-87.2941181
 91,Owl Creek Vineyard,Illinois,USA,37.560606,-89.190211
+,Papa Moon Ciders,,,,
 3402,Paracombe Premium Perry,South Australia,Australia,-34.8431137,138.768267
 1297,Pilton Cider,England,England,51.1917645,-2.5506558
 483,Platform Beer Company,Ohio,USA,41.479836,-81.713968
@@ -1170,11 +1212,13 @@ X,Riverside Cider,,,,
 X,Showerings Cider Mill,Somerset,England,51.1901603,-2.5369188
 1476,Sidra El Gobernador,Asturias,Spain,43.5193518,-5.4402059
 3395,Sinclair Orchards,Victoria,Australia,-36.404895,146.7547326
-2115,Sisters Cider House,Washington,USA,47.6329997,-122.5173436
+,Smokin Banjo Wine Co,,,,
 3040,Sodo Sidrinė,Tauragė,Lithuania,55.161219,23.448567
+,South Porch Cider,,,,
 ,Spreyton Cider Co,,,,
 2040,Spy Cider House and Distillery,Ontario,Canada,44.5130682,-80.450338
 2873,St Andrews Beach Brewery,Victoria,Australia,-38.418584,144.8598607
+,Stars Front Cider,,,,
 3548,Steve'z,Netherlands,Netherlands,51.9870912,5.209142
 599,Stoneybrook Cider,Massachusetts,USA,42.250687,-72.55657
 2042,Sunnycider,Alberta,Canada,51.0652978,-113.9871956
@@ -1209,7 +1253,7 @@ X,Tom Cernohous - Cidermil,,,,
 1997,Windfall Cider,British Columbia,Canada,49.3093392,-123.0750308
 693,Windfall Orchard,Vermont,USA,43.978128,-73.20449
 3123,Windmill Ridge Acres,Ontario,Canada,42.0073007,-82.8803437
-697,Wise Bird Cider Co.,South,USA,38.055559,-84.517713
+,Windswept Cider,,,,
 3529,Wise Owl Cider,Kent,England,51.2323472,0.4713367
 1959,Woodlore Cider Co.,Minnesota,USA,46.4067999,-94.2866359
 1572,Woodredding Farm Cider,Herefordshire,England,51.9658888,-2.5259432
@@ -1222,10 +1266,10 @@ X,Wyatts,,,,
 716,401 Cider Brewery,Ontario,Canada,44.0219637,-77.9059336
 3203,99PINES,Gloucestershire,England,51.913102,-2.3716719
 3129,A1A Cider,Florida,USA,30.6672618,-81.4590785
+,ATHENS WEST END CIDERHOUSE,,,,
 2596,AVAL Cider,New York,USA,40.7674663,-73.9851725
 3442,Adams Orchard Cider,South Australia,Australia,-34.4603596,139.0031613
 1881,Adesanya Mead & Microbrewery,Michigan,USA,42.9128227,-85.739652
-79,Aeppeltreow Inc,Wisconsin,USA,42.642658,-88.160186
 2659,Allagash Brewing Company,Maine,USA,43.703142,-70.317621
 1620,Altzueta,Basque Country,Spain,43.2529554,-1.9633743
 2068,Arba Wine,,Kazakhstan,43.259781,76.940675
@@ -1247,6 +1291,7 @@ X,Balti Sodai,,Lithuania,,
 143,Blacksmiths Winery,Maine,USA,43.914429,-70.518351
 905,Blossom Barncidery,Oregon,USA,42.3165297,-123.2308841
 145,Blue Barn Cidery,New York,USA,43.272706,-77.749524
+1823,Blue Ox Cider,Wisconsin,USA,46.8371393,-90.8362981
 731,Bonnieheath Estate Winery,Ontario,Canada,42.890266,-80.261896
 ,Bradys Lookout Cider,,,,
 ,Brewers Orchard,,,,
@@ -1264,7 +1309,6 @@ X,Balti Sodai,,Lithuania,,
 1138,Cider by Rosie,Dorset,England,50.8386141,-2.2593542
 2569,Cidre La Chouette,Normandy,France,48.8148309,-1.5703068
 3557,Cidre de Grévilly,Normandy,France,49.2944582,-0.7854045
-2077,Cidrerie Compton,Quebec,Canada,45.2583716,-71.8262371
 2924,Cidrerie Guérin,Ille-et-Vilaine,France,48.4696976,-1.1178777
 2938,Cidrerie Maison de Perguet,Finistère,France,47.8766473,-4.0502647
 1645,Cidrerie Tudker,Côtes-d'Armor,France,48.7803061,-3.4458511
@@ -1298,9 +1342,8 @@ X,Draig Development,,,,
 3612,Dyre Gård,Østfold,Norway,59.4071218,10.6615106
 3501,Dürr Fruchtsaftkellerei,Baden-Württemberg,Germany,48.6388911,8.6258819
 ,ELSEWHEN,,,,
-255,Eden Specialty Ciders,East,USA,44.935976,-72.209246
-3465,Elder Piper Beer & Cider,Michigan,USA,45.3684838,-84.9605473
 263,Ethic Ciders,West,USA,38.4257764,-122.8569459
+,Etta Place Cidery,,,,
 2993,Ezera Sidrs,Riga,Latvia,56.947174,24.0619052
 2017,Farm & Cidery Kaneshige,Nagano,Japan,35.4001414,137.7568105
 909,Farmstead Cider,North,USA,43.4201872,-110.7769249
@@ -1325,7 +1368,6 @@ X,Draig Development,,,,
 295,Gnarly Grove Hard Cider,Indiana,USA,39.267861,-85.832134
 2090,Good Bones Ciderhouse,Michigan,USA,44.6279156,-85.9957727
 3252,Graf Apfelwein,Upper Austria,Austria,48.601594,13.9053778
-,Gravity Distribution Ltd,,,,
 1132,Gregg's Pit Cider and Perry,Herefordshire,England,51.9883626,-2.4925671
 3367,Groualle Frères,Normandy,France,49.104686,-1.329224
 3065,Guillaume & Co,Valais,Switzerland,46.2320928,7.353101
@@ -1337,13 +1379,14 @@ X,Draig Development,,,,
 1113,Hecks Cider,Somerset,England,51.1209522,-2.7415338
 3373,Hedgerow Cidery,Oregon,USA,44.912118,-123.32749
 906,Herb's Cider,Washington,USA,48.7737787,-122.5240419
-328,Hidden Cave Cidery,Wisconsin,USA,43.1036669,-89.5369882
 2570,Himachal,Lancashire,England,53.80675,-2.21805
 3254,Hofkellerei Lackner,Upper Austria,Austria,48.3490681,14.1254242
 3240,Hohenloher Schaumweine,Baden-Württemberg,Germany,49.2751911,9.833152
 3385,Hoila Cider,Trentino-South Tyrol,Italy,46.5109091,11.3456743
+,Idiot Brothers,,,,
 3570,InCide Drinks,Baden-Württemberg,Germany,48.83878,9.36335
 349,Ironbound Hard Cider,New Jersey,USA,40.627611,-75.042357
+,Ironwood,,,,
 3437,James Squire,New South Wales,Australia,-33.8870376,151.1747914
 X,Jon Steadman,,,,
 3607,Kabiles Muižas,Kuldīga,Latvia,56.9500613,22.4000835
@@ -1398,7 +1441,6 @@ X,Mark Palfrey & Jonathan Pepper,,,,
 1922,New Leaf Cider Co.,New York,USA,42.1497193,-75.8199007
 2074,Nightingale Cider Company,Kent,England,51.0609498,0.7237881
 X,Northleigh Cider,,,,
-2228,Northman Cider Co,Illinois,USA,41.9605939,-87.6829794
 1910,Northwood Cider Co.,Ohio,USA,39.1584343,-84.458172
 2483,Nua Cider,Portugal,Portugal,41.7647333,-8.5827407
 3387,Nutrition Farms,Queensland,Australia,-28.5983143,151.9392966
@@ -1448,11 +1490,12 @@ X,Park Farm,,,,
 3396,Sitting Ducks Cider,South Australia,Australia,-34.460112,138.987768
 ,Six River Cider,,,,
 43,Smythphillips Company,Michigan,USA,43.1177,-84.563483
-,Solville,,,,
+,Sodo sidrine,,,,
 1992,Son of the Smith Hard Cider,Nagano,Japan,36.538683,137.840128
 2208,Soundbite Hard Cider,Washington,USA,47.9114113,-122.2191859
 938,Speciation Artisan Ales,Michigan,USA,42.9552166,-85.6456408
 ,Spreyton Cider,,,,
+,Spy Cider House & Distillery,,,,
 1547,St. Ives Cider,Cornwall,England,50.192991,-5.494432
 3404,Strange Brothers,Auckland,New Zealand,-36.8685453,174.758845
 869,Stray Arrow Ranch,Utah,USA,38.299562,-111.4351606
@@ -1461,6 +1504,7 @@ X,Park Farm,,,,
 3415,Suspicious Squirrel,New South Wales,Australia,-33.129004,148.7711117
 609,Sutliff Cider Company,Iowa,USA,41.887218,-91.385952
 2236,Sycamore Brewing,North Carolina,USA,35.2089475,-80.8620811
+,Sylvan Farm & Cidery,New York,USA,42.3931332,-77.1764663
 3133,Szczepanówka,Lublin,Poland,51.2456524,22.6756611
 1684,Templars Cider,Normandy,France,48.945138,0.199086
 3420,Ten Sixty One,Victoria,Australia,-38.278218,145.126963
@@ -1489,7 +1533,6 @@ X,Park Farm,,,,
 2762,Tátův Sad,Central Bohemian,Czech Republic,49.888683,14.317649
 ,Vaski Cider & Distillery,,,,
 1436,Ventons Devon Cyder,Devon,England,50.7917746,-3.3784493
-3351,Vermont Cider Lab,Vermont,USA,44.5060541,-73.0817122
 3235,Villa Armos Craft Cider,Kotayk,Armenia,40.3150451,44.572094
 861,Vins Arista,Quebec,Canada,45.4394121,-73.0580022
 83,Vintage Virginia Apples,Virginia,USA,37.966531,-78.650136
@@ -1505,7 +1548,6 @@ X,Wadys Cider,Somerset,England,51.096392,-2.8847318
 3721,Wise Man Brewing,North Carolina,USA,36.1049525,-80.2453257
 3313,Wolds Wine Estate,Nottinghamshire,England,52.8662463,-1.0673132
 1846,Woodbox Cider Co.,Oregon,USA,45.546299,-122.576482
-3202,Woodfolk Cider,Ontario,Canada,44.7099419,-79.643778
 565,Working Hands Fermentation,Oregon,USA,45.7024656,-121.5233966
 X,Wyldlands,,,,
 702,Wyndfall Cyder,Minnesota,USA,44.640543,-93.68819
@@ -1524,7 +1566,6 @@ X,Wyldlands,,,,
 3270,Alte Brennerei,Baden-Württemberg,Germany,48.96158,9.4236
 3113,Andover Cider Co,Massachusetts,USA,42.6583356,-71.1367953
 3113,Andover Cider Co.,Massachusetts,USA,42.6583356,-71.1367953
-538,Appalachian Ridge Cidery / Saint Paul Mountain Vineyard,North Carolina,USA,35.3544502,-82.4079111
 2583,Apple Hill Cidery,Kentucky,USA,38.14,-84.47
 3579,Arantast,Catalonia,Spain,42.810637,0.7116881
 3193,Archer Brewing,Queensland,Australia,-27.4360237,153.0154876
@@ -1548,9 +1589,9 @@ X,Wyldlands,,,,
 3054,Birkenhof Hofheim,Hesse,Germany,50.10457,8.4638746
 ,Black Currant,,,,
 2592,Black Devil Cider,Tasmania,Australia,-42.8310446,147.463841
+,Blake’s Beverage Company,,,,
 144,Blindwood Cider,California,USA,37.7058267,-122.188838
 147,Blue Mountain Cider Company,Oregon,USA,45.937382,-118.391288
-1823,Blue Ox Cider,Wisconsin,USA,46.8371393,-90.8362981
 2567,Boston Beer Company,Massachusetts,USA,42.3146507,-71.1032193
 3480,Brasserie Distillerie Veyrat,Auvergne-Rhône-Alpes,France,45.8659912,5.9733739
 3068,Brennerei Bühler,Baden-Württemberg,Germany,48.9438018,9.2684461
@@ -1644,6 +1685,7 @@ X,Crest Cyder,,,,
 3512,Entre-Deux-Monts,West Flanders,Belgium,50.784743,2.75242
 1890,Epona,Washington,USA,45.9446269,-122.6949361
 354,Etude No 5,North Carolina,USA,35.336069,-79.245782
+,Everleigh Vineyards and Brewing Co,,,,
 1303,Everson's Cider,Western Cape,South Africa,-34.2012955,19.0390626
 2515,Ex-Press Cider,Somerset,England,51.2094402,-3.5986885
 270,Far From The Tree Cider,Massachusetts,USA,42.514793,-70.899726
@@ -1652,6 +1694,7 @@ X,Crest Cyder,,,,
 3551,Ferme du Petit Château,Normandy,France,49.2899785,-0.6457572
 3425,Fernbank Creek Cidery,New South Wales,Australia,-31.4163367,152.8498513
 X,Fishbone,,,,
+,Fogtown Brewing Company,Maine,USA,44.5397889,-68.4214354
 23,Fourth Coast Ciderworks,Michigan,USA,42.7457157,-83.2832693
 3245,Fowey Valley,Cornwall,England,50.4100383,-4.6669979
 3486,François Roger,Normandy,France,48.97927,0.610402
@@ -1659,6 +1702,7 @@ X,Fishbone,,,,
 3273,FreuObst,Baden-Württemberg,Germany,47.9860265,7.8465785
 2080,Friendly Noise,California,USA,34.0522342,-118.2436849
 ,Front Range Apples,,,,
+,GEO Cider co,,,,
 X,Gabe Cook,,,,
 3613,Gardsbrenneriet,Vestland,Norway,61.790463,6.1780244
 3238,Gaztañaga,Basque Country,Spain,43.2248237,-2.0182284
@@ -1726,6 +1770,7 @@ X,Koshiro Noen,,,,
 2774,La Ferme d'Hotte,Grand Est,France,48.1225701,3.888301
 2891,La Ferme du Gros Caillou,Normandy,France,49.3009488,0.4278206
 3545,Ladislav Sorcik,Prague,Czechia,50.0902753,14.4260311
+,Lake Michigan Vintners,Michigan,USA,42.1000254,-86.3908434
 1340,Landsteiner Mühle,Hesse,Germany,50.3072389,8.4299933
 3587,Le Coq Toqué,Normandy,France,49.4451238,1.0675647
 3556,Le Domaine du Tertre,Normandy,France,48.6622435,0.4614076
@@ -1756,7 +1801,6 @@ X,Martin Pagett,,,,
 985,Melo Moon Cider,New York,USA,43.0172595,-73.5126149
 3498,Militsa,Nicosia,Cyprus,34.9212257,33.1350054
 3407,Mismatch Brewing Company,South Australia,Australia,-35.0135612,138.8929138
-,Mixed Meadia Wines,,,,
 3201,Miyazaki Phoenix Brewing,Miyazaki,Japan,31.9175902,131.4245487
 2750,Mizpiradi,Basque Country,Spain,43.2187221,-1.9972872
 ,Modales Wines,Michigan,USA,42.5731406,-86.1530078
@@ -1826,6 +1870,7 @@ X,Pontymeddyg Cider,,,,
 496,Rack & Cloth,Oregon,USA,45.683309,-121.398854
 2791,Ragged Stone Cider & Perry,Gloucestershire,England,52.003267,-2.369026
 3364,Rain Barrel Ciderworks,Oregon,USA,44.779612,-117.8422537
+,Rebel Apple LLC,,,,
 501,Rebel Seed Cidery,Delaware,USA,39.083683,-75.742472
 1692,Red Brick Road Cider,Australia,Australia,-41.4362859,147.1407738
 901,Red Door Brewing Company,New Mexico,USA,35.0848892,-106.6532389
@@ -1862,10 +1907,9 @@ X,Sam Everitt,Herefordshire,,,
 939,Silo Distillery,East,USA,43.5143504,-72.402142
 1231,Skittery Cider,Herefordshire,England,52.0264686,-2.500881
 2525,Skyborry Cider & Perry,Powys,Wales,52.3555786,-3.0633831
-2177,Slaughter Orchard & Cidery,Indiana,USA,39.1134207,-86.6356493
 ,Slaughterhouse Craft Cider & Mead,British Columbia,Canada,53.8182393,-123.0477032
+,Small Cider,,,,
 3505,Smashed Drynks,West Yorkshire,England,53.7482995,-1.7643309
-2241,Snowbird Farm & Cidery,Washington,USA,46.9967692,-123.5085581
 2581,SoCal CiderWorks,California,USA,34.1385139,-118.2103626
 3611,Solhøi Cider,Oslo,Norway,59.9414827,10.8806996
 3063,Sommerbauer Edelmost,Styria,Austria,47.2152793,15.6968677
@@ -1920,6 +1964,7 @@ X,Tom Cernohous,,,,
 2669,Upside Cider,British Columbia,Canada,49.9686304,-119.3860437
 657,Upstream Cider,Wisconsin,USA,44.4976,-89.5595
 3379,Ventimiglia Cellars,Washington,USA,47.9082341,-120.1818521
+,Verdant Cider,,,,
 858,Vergers Petit et Fils,Quebec,Canada,45.534505,-73.165682
 1998,Vergers de Velours,Quebec,Canada,48.6614251,-71.8144356
 3166,Vestavin,Vestland,Norway,61.5421394,6.3410104
@@ -2004,7 +2049,6 @@ X,Win's Cider,,,,
 919,Madrone Cider,North,USA,48.5351226,-123.0164504
 904,Merchant's Daughter Cider,New York,USA,41.3260354,-73.6555985
 982,North American Press,West,USA,38.440429,-122.7140548
-,Old Mountain Wine Company,,,,
 465,Orchard Hill Cider Mill,East,USA,41.402871,-74.403127
 ,Original,,,,
 X,Pedro El Duque,#N/A,#N/A,,
