@@ -2,7 +2,7 @@
 
 Results from major hard cider competitions worldwide, compiled by Eric West.
 
-**Site:** https://ericallanwest.github.io/ciderguide/
+**Site:** https://ericallanwest.github.io/cider-competitions/
 
 ## How this works
 
@@ -12,12 +12,18 @@ sheets, normalizes them into a single tidy table, validates the result, and emit
 static JSON for the site.
 
 ```
-Google Sheets  ──fetch──>  data/snapshot/  ──normalize──>  data/out/awards.csv
-                                                                  │
-                                                            build │
-                                                                  v
-                                                          site/data/*.json
+Google Sheets ──fetch──> data/snapshot/ ──normalize──> data/out/awards.csv
+                                                              │
+                    data/reference/producers_geo.csv ──────> producers.csv
+                                                              │
+                                                        build │
+                                                              v
+                                                      site/data/*.json
 ```
+
+`fetch.py` and `extract_geo.py` are run by hand: they need Google credentials
+and machine-local files. Everything in `run_all.py` works from committed inputs
+only, so CI rebuilds byte-identical output and fails the build if it drifts.
 
 Run the whole thing:
 
@@ -46,5 +52,6 @@ designation, and those are resolved in an editable crosswalk — never inferred 
 | `data/out/` | canonical `awards.csv`, `producers.csv`, site JSON |
 | `archive/` | last export of the retired ciderguide.com TablePress tables |
 | `pipeline/` | the ETL |
+| `data/reference/` | producer coordinates, committed so every machine agrees |
 | `reports/` | validator output, committed so regressions show in diffs |
 | `site/` | the GitHub Pages site (vanilla HTML/JS/CSS, no build step) |
