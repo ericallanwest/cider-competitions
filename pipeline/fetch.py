@@ -120,23 +120,67 @@ def open_client(key_path: str | None, impersonate: str | None = None):
     return gspread.authorize(creds)
 
 
+def with_retry(fn, *args, what="request", **kwargs):
+    """Retry through Sheets' per-minute read quota.
+
+    The quota is 60 reads/minute/user, and it refills continuously, so backing
+    off and retrying is the correct response to a 429 rather than an error.
+    """
+    import time
+    delay = 20
+    for attempt in range(1, 6):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as exc:  # noqa: BLE001 - inspect the message, not the type
+            if "429" not in str(exc) and "Quota exceeded" not in str(exc):
+                raise
+            if attempt == 5:
+                raise
+            print(f"    quota hit on {what}; waiting {delay}s (attempt {attempt}/5)")
+            time.sleep(delay)
+            delay = min(delay * 2, 90)
+    return None
+
+
+def a1_quote(title: str) -> str:
+    """A1 notation quoting: a literal apostrophe in a tab name is doubled."""
+    return "'" + title.replace("'", "''") + "'"
+
+
 def dump_sheet(client, sheet_id: str, dest_dir: Path) -> list[str]:
-    """Write every worksheet tab to its own CSV. Values only, as displayed."""
-    book = client.open_by_key(sheet_id)
+    """Write every worksheet tab to its own CSV. Values only, as displayed.
+
+    All tabs come back in a single batch call. Reading them one at a time costs
+    an API call per tab, which blows the per-minute read quota on the larger
+    workbooks (Australian Cider Awards alone has 30 tabs).
+    """
+    book = with_retry(client.open_by_key, sheet_id, what="open")
+    titles = [ws.title for ws in book.worksheets()]
     dest_dir.mkdir(parents=True, exist_ok=True)
     written = []
-    for ws in book.worksheets():
-        rows = ws.get_all_values()
-        if not rows or not any(any(c.strip() for c in r) for r in rows):
+
+    # Chunked so the request URL stays a sane length on big workbooks.
+    payload = {}
+    for i in range(0, len(titles), 25):
+        chunk = titles[i:i + 25]
+        resp = with_retry(book.values_batch_get, [a1_quote(t) for t in chunk],
+                          what=f"batch_get[{i}]")
+        for title, vr in zip(chunk, resp.get("valueRanges", [])):
+            payload[title] = vr.get("values", [])
+
+    for title in titles:
+        rows = payload.get(title) or []
+        if not rows or not any(any(str(c).strip() for c in r) for r in rows):
             continue
-        safe = "".join(c if c.isalnum() or c in "-_ " else "_" for c in ws.title).strip()
+        safe = "".join(c if c.isalnum() or c in "-_ " else "_" for c in title).strip()
         path = dest_dir / f"{safe or 'sheet'}.csv"
+        # batch_get returns ragged rows - trailing empty cells are omitted.
         width = max(len(r) for r in rows)
-        header = [c.strip() or f"col{i}"
-                  for i, c in enumerate(rows[0] + [""] * (width - len(rows[0])))]
-        body = [dict(zip(header, r + [""] * (width - len(r)))) for r in rows[1:]]
+        header = [str(c).strip() or f"col{i}"
+                  for i, c in enumerate(list(rows[0]) + [""] * (width - len(rows[0])))]
+        body = [dict(zip(header, list(r) + [""] * (width - len(r)))) for r in rows[1:]]
         lib.write_csv(path, body, header)
-        written.append(f"{ws.title} ({len(body)} rows)")
+        written.append(f"{title} ({len(body)} rows)")
     return written
 
 

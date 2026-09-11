@@ -1,0 +1,852 @@
+ID,WID,Year,Style,Award,Medalist,Entry,Region,Style Group
+2,749,2017,Heritage,🥇🥇 Double Gold,Cidrerie Michel Jodoin,Cidre Mousseux Rosé,Quebec,Heritage
+3,244,2017,Heritage,🥇 Gold,Dragon's Head Cider,Traditional Cider,Washington,Heritage
+4,570,2017,Heritage,🥈 Silver,Snowdrift Cider Co.,Cliffbreaks Blend,Washington,Heritage
+5,387,2017,Heritage,🥉 Bronze,Liberty Ciderworks,McIntosh SV,Washington,Heritage
+6,570,2017,Heritage,👍 Judges' Pick,Snowdrift Cider Co.,Red,Washington,Heritage
+7,1845,2017,Heritage,👍 Judges' Pick,Cider Riot!,1763 Revolutionary West Country Cider,Oregon,Heritage
+8,827,2017,Heritage,👍 Judges' Pick,Salt Spring Wild Cider,Semi-Dry,British Columbia,Heritage
+9,176,2017,Modern,🥇🥇 Double Gold,C Squared Ciders,Alma,Colorado,Modern
+10,303,2017,Modern,🥇 Gold,Gowan's Heirloom Ciders,Estate 1876 Heirloom Cider,California,Modern
+11,287,2017,Modern,🥈 Silver,Foxcraft Hard Cider,Apple Blossom,California,Modern
+12,67,2017,Modern,🥉 Bronze,2 Towns Ciderhouse,OutCider,Oregon,Modern
+13,514,2017,Modern,👍 Judges' Pick,Reverend Nat's Hard Cider,Revival Hard Apple,Oregon,Modern
+14,405,2017,Modern,👍 Judges' Pick,March First Brewing,Traditional Cider,Ohio,Modern
+15,490,2017,Modern,👍 Judges' Pick,Portland Cider Company,Apple,Oregon,Modern
+16,490,2017,Perry,🥇🥇 Double Gold,Portland Cider Company,Pearfect Perry,Oregon,Perry
+17,244,2017,Perry,🥇 Gold,Dragon's Head Cider,Perry,Washington,Perry
+18,998,2017,Perry,🥈 Silver,EdenVale Winery,Pear House Cider,Oregon,Perry
+19,635,2017,Perry,🥉 Bronze,Tieton Cider Works,Sparkling Perry,Washington,Perry
+20,827,2017,Perry,👍 Judges' Pick,Salt Spring Wild Cider,Pear,British Columbia,Perry
+21,553,2017,Perry,👍 Judges' Pick,Seattle Cider Company,2015 Perry,Washington,Perry
+22,592,2017,Perry,👍 Judges' Pick,Stem Ciders,Perry,Colorado,Perry
+23,387,2017,Still,🥇🥇 Double Gold,Liberty Ciderworks,Porter's Perfection SV,Washington,Still
+24,87,2017,Still,🥇 Gold,Angry Orchard,Understood in Motion 01,New York,Still
+25,749,2017,Still,🥈 Silver,Cidrerie Michel Jodoin,Rosalie Tranquille Rosé,Quebec,Still
+26,303,2017,Still,🥉 Bronze,Gowan's Heirloom Ciders,Estate Sierra Beauty,California,Still
+27,325,2017,Still,👍 Judges' Pick,Headwater Cider,Clesson,Massachusetts,Still
+28,432,2017,Still,👍 Judges' Pick,Mountain West Cider Company,Stillwater 6 Months Barrel-Aged,Utah,Still
+29,209,2017,Still,👍 Judges' Pick,Colorado Cider Company,Pato Feo,Colorado,Still
+30,749,2017,Single Varietal,🥇🥇 Double Gold,Cidrerie Michel Jodoin,Cidre Mousseux Rosé,Quebec,Single Varietal
+31,244,2017,Single Varietal,🥇 Gold,Dragon's Head Cider,Kingston Black,Washington,Single Varietal
+32,428,2017,Single Varietal,🥈 Silver,Montana CiderWorks,McIntosh,Montana,Single Varietal
+33,199,2017,Single Varietal,🥉 Bronze,Citizen Cider,Northern Spy,Vermont,Single Varietal
+34,244,2017,Single Varietal,👍 Judges' Pick,Dragon's Head Cider,Columbia Crabapple,Washington,Single Varietal
+35,387,2017,Single Varietal,👍 Judges' Pick,Liberty Ciderworks,Hewe's Virginia Crab SV,Washington,Single Varietal
+36,87,2017,Single Varietal,👍 Judges' Pick,Angry Orchard,Baldwin SVC,New York,Single Varietal
+37,312,2017,Stone Fruit,🥇🥇 Double Gold,Gypsy Circus,Vaudevillian,Tennessee,Fruit
+38,447,2017,Stone Fruit,🥇 Gold,Noble Cider,The Village Tart,North Carolina,Fruit
+39,414,2017,Stone Fruit,🥈 Silver,Mercier Orchards,Just Peachy,Georgia,Fruit
+40,603,2017,Stone Fruit,🥉 Bronze,Laughing Dog Brewing,Uncrushable Apricot,Idaho,Fruit
+41,635,2017,Stone Fruit,👍 Judges' Pick,Tieton Cider Works,Bourbon Peach,Washington,Fruit
+42,451,2017,Stone Fruit,👍 Judges' Pick,North Idaho Cider,Wild Cherry,Idaho,Fruit
+43,199,2017,Stone Fruit,👍 Judges' Pick,Citizen Cider,Companion,Vermont,Fruit
+44,664,2017,Fruit,🥇🥇 Double Gold,Vermont Cider Company,Citrus Freak,Vermont,Fruit
+45,67,2017,Fruit,🥇 Gold,2 Towns Ciderhouse,Two Thorns,Oregon,Fruit
+46,490,2017,Fruit,🥈 Silver,Portland Cider Company,Strawberry,Oregon,Fruit
+47,490,2017,Fruit,🥉 Bronze,Portland Cider Company,Pineapple,Oregon,Fruit
+48,67,2017,Fruit,👍 Judges' Pick,2 Towns Ciderhouse,Made Marion,Oregon,Fruit
+49,418,2017,Fruit,👍 Judges' Pick,Methow Valley Ciderhouse,Black Raven,Washington,Fruit
+50,664,2017,Fruit,👍 Judges' Pick,Vermont Cider Company,Pear,Vermont,Fruit
+51,585,2017,Hopped,🥇🥇 Double Gold,Square Mile Cider,Hopped Apple Cider,Oregon,Hopped
+52,725,2017,Hopped,🥇 Gold,BC Tree Fruits Cider,Broken Ladder Apples & Hops,British Columbia,Hopped
+53,635,2017,Hopped,🥈 Silver,Tieton Cider Works,Yakima Valley Dry Hopped,Washington,Hopped
+54,67,2017,Hopped,🥉 Bronze,2 Towns Ciderhouse,Hop & Stalk,Oregon,Hopped
+55,601,2017,Hopped,👍 Judges' Pick,Stowe Cider,Safety Meeting,Vermont,Hopped
+56,514,2017,Hopped,👍 Judges' Pick,Reverend Nat's Hard Cider,Hallelujah Hopricot,Oregon,Hopped
+57,418,2017,Hopped,👍 Judges' Pick,Methow Valley Ciderhouse,Howling Wolf,Washington,Hopped
+58,10,2017,Oak-Aged,🥇🥇 Double Gold,Blake's Hard Cider Co.,Sir Lushington,Michigan,Wood-Aged
+59,668,2017,Oak-Aged,🥇 Gold,Wandering Aengus Ciderworks,Oaked Dry,Oregon,Wood-Aged
+60,553,2017,Oak-Aged,🥈 Silver,Seattle Cider Company,Oaked Maple,Washington,Wood-Aged
+61,664,2017,Oak-Aged,🥉 Bronze,Vermont Cider Company,Cerise,Vermont,Wood-Aged
+62,664,2017,Oak-Aged,👍 Judges' Pick,Vermont Cider Company,Ingrained,Vermont,Wood-Aged
+63,67,2017,Oak-Aged,👍 Judges' Pick,2 Towns Ciderhouse,Return of the Mack,Oregon,Wood-Aged
+64,387,2017,Oak-Aged,👍 Judges' Pick,Liberty Ciderworks,Stonewall,Washington,Wood-Aged
+65,490,2017,Spiced/Botanical,🥇🥇 Double Gold,Portland Cider Company,Pumpkin Spice,Oregon,Botanical & Spiced
+66,603,2017,Spiced/Botanical,🥇 Gold,Laughing Dog Brewing,Sundance,Idaho,Botanical & Spiced
+67,553,2017,Spiced/Botanical,🥈 Silver,Seattle Cider Company,Basil Mint,Washington,Botanical & Spiced
+68,807,2017,Spiced/Botanical,🥉 Bronze,Lonetree Cider,Ginger Apple,British Columbia,Botanical & Spiced
+69,553,2017,Spiced/Botanical,👍 Judges' Pick,Seattle Cider Company,Gin Botanical,Washington,Botanical & Spiced
+70,67,2017,Spiced/Botanical,👍 Judges' Pick,2 Towns Ciderhouse,Nice & Naughty,Oregon,Botanical & Spiced
+71,312,2017,Spiced/Botanical,👍 Judges' Pick,Gypsy Circus,Tea Leaf Reader,Tennessee,Botanical & Spiced
+72,553,2017,Specialty,🥇🥇 Double Gold,Seattle Cider Company,Three Pepper,Washington,Specialty
+73,67,2017,Specialty,🥇 Gold,2 Towns Ciderhouse,Hollow Jack,Oregon,Specialty
+74,613,2017,Specialty,🥈 Silver,Swilled Dog Hard Cider,Caramel Apple,West Virginia,Specialty
+75,553,2017,Specialty,🥉 Bronze,Seattle Cider Company,Cold Brew,Washington,Specialty
+76,67,2017,Specialty,👍 Judges' Pick,2 Towns Ciderhouse,2015 La Mûre,Oregon,Specialty
+77,67,2017,Specialty,👍 Judges' Pick,2 Towns Ciderhouse,6th Anniversary,Oregon,Specialty
+78,514,2017,Specialty,👍 Judges' Pick,Reverend Nat's Hard Cider,Tassajara Peach Book,Oregon,Specialty
+79,749,2017,Dessert,🥇🥇 Double Gold,Cidrerie Michel Jodoin,Cidre de Glace Rosé,Quebec,Dessert & Fortified
+80,37,2017,Dessert,🥇 Gold,Northern Natural Cider House & Winery,Iced Apple Cider,Michigan,Dessert & Fortified
+81,255,2017,Dessert,🥈 Silver,Eden Ciders,2014 Brandy Barrel-Aged Heirloom Blend,Vermont,Dessert & Fortified
+82,255,2017,Dessert,🥉 Bronze,Eden Ciders,2014 Honeycrisp,Vermont,Dessert & Fortified
+83,635,2017,Dessert,👍 Judges' Pick,Tieton Cider Works,Tieton Frost,Washington,Dessert & Fortified
+84,864,2017,Dessert,👍 Judges' Pick,West Avenue Cider,North by West,Ontario,Dessert & Fortified
+85,10,2017,Dessert,👍 Judges' Pick,Blake's Hard Cider Co.,Amshire,Michigan,Dessert & Fortified
+86,126,2017,Fortified,🥇🥇 Double Gold,Big B's Hard Cider,Bourbon Barrel Aged Pommeau,Colorado,Dessert & Fortified
+87,209,2017,Fortified,🥇 Gold,Colorado Cider Company,Descuido,Colorado,Dessert & Fortified
+88,553,2017,Fortified,🥈 Silver,Seattle Cider Company,Pommeau,Washington,Dessert & Fortified
+89,570,2017,Fortified,🥉 Bronze,Snowdrift Cider Co.,Pommeau,Washington,Dessert & Fortified
+90,67,2017,Fortified,👍 Judges' Pick,2 Towns Ciderhouse,2014 Pommeau,Oregon,Dessert & Fortified
+91,749,2017,Fortified,👍 Judges' Pick,Cidrerie Michel Jodoin,Mistelle Doré,Quebec,Dessert & Fortified
+92,514,2017,Fortified,👍 Judges' Pick,Reverend Nat's Hard Cider,Wooden Hellfire,Oregon,Dessert & Fortified
+93,2598,2018,Heritage,🥇🥇 Double Gold,Shield Cider,Organic Demi-Sec,Texas,Heritage
+94,749,2018,Heritage,🥇 Gold,Cidrerie Michel Jodoin,Cidre Mousseux Rosé,Quebec,Heritage
+95,2053,2018,Heritage,🥈 Silver,Vergers de Romilly,Rosé,Normandy,Heritage
+96,84,2018,Heritage,🥉 Bronze,Alpenfire Cider,Ember Estate Bitter-Sweet,Washington,Heritage
+97,738,2018,Heritage,👍 Judges' Pick,Chain Yard Cider,Pippin Russet,Nova Scotia,Heritage
+98,497,2018,Heritage,👍 Judges' Pick,Ragged Hill Cider,Traditional Semi-Dry,Massachusetts,Heritage
+99,529,2018,Heritage,👍 Judges' Pick,Rootstock Cider & Spirits,2017 Heritage,New York,Heritage
+100,185,2018,Modern,🥇🥇 Double Gold,Castle Hill Cider,2016 Serendipity,Virginia,Modern
+101,530,2018,Modern,🥇 Gold,Rootwood Cider Co.,Lake Effect,Washington,Modern
+102,670,2018,Modern,🥈 Silver,Lake Chelan Winery,Golden Delicious,Washington,Modern
+103,490,2018,Modern,🥉 Bronze,Portland Cider Company,Sorta Sweet,Oregon,Modern
+104,738,2018,Modern,👍 Judges' Pick,Chain Yard Cider,Foundation,Nova Scotia,Modern
+105,749,2018,Modern,👍 Judges' Pick,Cidrerie Michel Jodoin,Cidre Mousseux Blanc,Quebec,Modern
+106,397,2018,Modern,👍 Judges' Pick,Lost Giants Cider Company,Dry,Washington,Modern
+107,1130,2018,Perry,🥇🥇 Double Gold,Oliver's Cider and Perry,Classic,Herefordshire,Perry
+108,1691,2018,Perry,🥇 Gold,Calvados Pierre Huet,Poiré Demi-Sec,Normandy,Perry
+109,490,2018,Perry,🥈 Silver,Portland Cider Company,Pearfect,Oregon,Perry
+110,244,2018,Perry,🥉 Bronze,Dragon's Head Cider,Perry,Washington,Perry
+111,96,2018,Perry,👍 Judges' Pick,Argus Cidery,Vinho Pearde,Texas,Perry
+112,214,2018,Perry,👍 Judges' Pick,Conneaut Cellars Winery,Sparkling Perry,Pennsylvania,Perry
+113,553,2018,Perry,👍 Judges' Pick,Seattle Cider Company,2015 Perry,Washington,Perry
+114,387,2018,Still,🥇🥇 Double Gold,Liberty Ciderworks,Porter's Perfection SV,Washington,Still
+115,84,2018,Still,🥇 Gold,Alpenfire Cider,Discovery Trail,Washington,Still
+116,255,2018,Still,🥇 Gold,Eden Ciders,Cinderella's Slipper,Vermont,Still
+117,303,2018,Still,🥇 Gold,Gowan's Heirloom Ciders,Sierra Beauty,California,Still
+118,749,2018,Still,🥈 Silver,Cidrerie Michel Jodoin,Cidre Tranquille Fort Rosé,Quebec,Still
+119,2325,2018,Still,🥉 Bronze,Donovan Orchards Estate Ciders,Gin Barrel Aged,New York,Still
+120,136,2018,Still,👍 Judges' Pick,Black Diamond Cider,2016 Solstice,New York,Still
+121,325,2018,Still,👍 Judges' Pick,Headwater Cider,Seven,Massachusetts,Still
+122,350,2018,Still,👍 Judges' Pick,Island Orchard Cider,Still Beauty,Wisconsin,Still
+123,84,2018,Single Varietal,🥇🥇 Double Gold,Alpenfire Cider,Glow Airlie Red,Washington,Single Varietal
+124,244,2018,Single Varietal,🥇 Gold,Dragon's Head Cider,Kingston Black,Washington,Single Varietal
+125,84,2018,Single Varietal,🥈 Silver,Alpenfire Cider,Foxwhelp Estate,Washington,Single Varietal
+126,97,2018,Single Varietal,🥉 Bronze,Arsenal Cider House,Broken Hearts Are For Apples,Pennsylvania,Single Varietal
+127,146,2018,Single Varietal,🥉 Bronze,Blue Bee Cider,Hewe's Crab,Virginia,Single Varietal
+128,194,2018,Single Varietal,👍 Judges' Pick,Cider Creek Hard Cider,Spy Games,New York,Single Varietal
+129,303,2018,Single Varietal,👍 Judges' Pick,Gowan's Heirloom Ciders,Macintosh,California,Single Varietal
+130,387,2018,Single Varietal,👍 Judges' Pick,Liberty Ciderworks,Heirloom Series McIntosh SV,Washington,Single Varietal
+131,194,2018,Sour,🥇🥇 Double Gold,Cider Creek Hard Cider,Dreams of Charlotte Series #1,New York,Sour
+132,96,2018,Sour,🥇 Gold,Argus Cidery,Ozark Brut,Texas,Sour
+133,661,2018,Sour,🥈 Silver,Urban Tree Hard Cider,Sidra Urbano,Georgia,Sour
+134,165,2018,Sour,🥉 Bronze,Brooklyn Cider House,Raw,New York,Sour
+135,1168,2018,Sour,👍 Judges' Pick,Bereziartua,Sidra,Basque Country,Sour
+136,138,2018,Sour,👍 Judges' Pick,Black Mountain Ciderworks,Black Scrumpy,North Carolina,Sour
+137,194,2018,Sour,👍 Judges' Pick,Cider Creek Hard Cider,Dreams of Charlotte Series #2,New York,Sour
+138,349,2018,Stone Fruit,🥇🥇 Double Gold,Ironbound Hard Cider,Devil's Harvest,New Jersey,Fruit
+139,118,2018,Stone Fruit,🥇 Gold,Bauman's Cider,Peach Raspberry,Oregon,Fruit
+140,569,2018,Stone Fruit,🥇 Gold,Snow Capped Cider,Sour Cherry,Colorado,Fruit
+141,63,2018,Stone Fruit,🥈 Silver,Virtue Cider,Michigan Cherry,Michigan,Fruit
+142,447,2018,Stone Fruit,🥉 Bronze,Noble Cider,Royal Peach,North Carolina,Fruit
+143,169,2018,Stone Fruit,👍 Judges' Pick,Brownrigg Hard Cider,Cherry Cardamom,Washington,Fruit
+144,447,2018,Stone Fruit,👍 Judges' Pick,Noble Cider,Village Tart,North Carolina,Fruit
+145,534,2018,Stone Fruit,👍 Judges' Pick,Runcible Cider,Cherry Twang,Oregon,Fruit
+146,67,2018,Fruit,🥇🥇 Double Gold,2 Towns Ciderhouse,Passion Statement,Oregon,Fruit
+147,670,2018,Fruit,🥇 Gold,Lake Chelan Winery,Raspberry,Washington,Fruit
+148,67,2018,Fruit,🥈 Silver,2 Towns Ciderhouse,Easy Peasy,Oregon,Fruit
+149,118,2018,Fruit,🥉 Bronze,Bauman's Cider,Loganberry,Oregon,Fruit
+150,193,2018,Fruit,🥉 Bronze,Cider Brothers,Pacific Coast Ciders Apple with Mango and Muscat,California,Fruit
+151,560,2018,Fruit,🥉 Bronze,Shoal Hope Ciderworks,Little Tart,Massachusetts,Fruit
+152,103,2018,Fruit,👍 Judges' Pick,Avid Cider,Blackberry,Oregon,Fruit
+153,211,2018,Fruit,👍 Judges' Pick,Common Cider Company,Blackberry Sangria,California,Fruit
+154,664,2018,Fruit,👍 Judges' Pick,Vermont Cider Company,Bubbly Pearsecco,Vermont,Fruit
+155,725,2018,Hopped,🥇🥇 Double Gold,BC Tree Fruits Cider,Broken Ladder Apples & Hops,British Columbia,Hopped
+156,612,2018,Hopped,🥇 Gold,Swift Cider,Pineapple Hop,Oregon,Hopped
+157,349,2018,Hopped,🥈 Silver,Ironbound Hard Cider,Woods Folly,New Jersey,Hopped
+158,585,2018,Hopped,🥉 Bronze,Square Mile Cider,Hopped,Oregon,Hopped
+159,501,2018,Hopped,👍 Judges' Pick,Rebel Seed Cidery,Colonial Jack,Delaware,Hopped
+160,530,2018,Hopped,👍 Judges' Pick,Rootwood Cider Co.,Hop Infused,Washington,Hopped
+161,643,2018,Hopped,👍 Judges' Pick,Tractor Brewing Company,Hopped,New Mexico,Hopped
+162,701,2018,Oak-Aged,🥇🥇 Double Gold,Wrangletown Cider Company,Oak Barrel-Aged,California,Wood-Aged
+163,553,2018,Oak-Aged,🥇 Gold,Seattle Cider Company,Oaked Maple,Washington,Wood-Aged
+164,10,2018,Oak-Aged,🥈 Silver,Blake's Hard Cider Co.,Sir Lushington,Michigan,Wood-Aged
+165,688,2018,Oak-Aged,🥉 Bronze,WildCraft Cider Works,Empire,Oregon,Wood-Aged
+166,306,2018,Oak-Aged,👍 Judges' Pick,Green Bench Brewing Co.,I Am Brut w/ Raspberry,Florida,Wood-Aged
+167,830,2018,Oak-Aged,👍 Judges' Pick,Sea Cider Farm & Ciderhouse,Rumrunner,British Columbia,Wood-Aged
+168,864,2018,Oak-Aged,👍 Judges' Pick,West Avenue Cider,Frequin Rouge,Ontario,Wood-Aged
+169,169,2018,Spiced/Botanical,🥇🥇 Double Gold,Brownrigg Hard Cider,Fig Leaf,Washington,Botanical & Spiced
+170,447,2018,Spiced/Botanical,🥇 Gold,Noble Cider,Spice Merchant,North Carolina,Botanical & Spiced
+171,585,2018,Spiced/Botanical,🥈 Silver,Square Mile Cider,Rosé,Oregon,Botanical & Spiced
+172,97,2018,Spiced/Botanical,🥉 Bronze,Arsenal Cider House,Grierson's Ginger,Pennsylvania,Botanical & Spiced
+173,192,2018,Spiced/Botanical,👍 Judges' Pick,Chatter Creek Winery,Chaider Clipper,Washington,Botanical & Spiced
+174,209,2018,Spiced/Botanical,👍 Judges' Pick,Colorado Cider Company,Pome Mel,Colorado,Botanical & Spiced
+175,62,2018,Spiced/Botanical,👍 Judges' Pick,Vander Mill,Totally Roasted,Michigan,Botanical & Spiced
+176,1618,2018,Specialty,🥇🥇 Double Gold,Kystin,Cuvée XVII Cidre à la Châtaigne,Brittany,Specialty
+177,738,2018,Specialty,🥇 Gold,Chain Yard Cider,Ginxberry,Nova Scotia,Specialty
+178,738,2018,Specialty,🥈 Silver,Chain Yard Cider,Rhubee Cyser,Nova Scotia,Specialty
+179,10,2018,Specialty,🥉 Bronze,Blake's Hard Cider Co.,El Chavo,Michigan,Specialty
+180,188,2018,Specialty,👍 Judges' Pick,Champlain Orchards,Mac & Maple,Vermont,Specialty
+181,553,2018,Specialty,👍 Judges' Pick,Seattle Cider Company,Olympic Honey,Washington,Specialty
+182,63,2018,Specialty,👍 Judges' Pick,Virtue Cider,Michigan Honey,Michigan,Specialty
+183,255,2018,Dessert,🥇🥇 Double Gold,Eden Ciders,Cellar Series #2 The Falstaff,Vermont,Dessert & Fortified
+184,2589,2018,Dessert,🥇 Gold,The Great Canadian Cider Company,Organic Ice Cider,Ontario,Dessert & Fortified
+185,749,2018,Dessert,🥈 Silver,Cidrerie Michel Jodoin,Cidre de Glace Rosé,Quebec,Dessert & Fortified
+186,864,2018,Dessert,🥉 Bronze,West Avenue Cider,North by West,Ontario,Dessert & Fortified
+187,776,2018,Dessert,👍 Judges' Pick,Domaine Pinnacle,Sparkling Ice Cider,Quebec,Dessert & Fortified
+188,282,2018,Dessert,👍 Judges' Pick,Fly Creek Cider Mill & Orchard,Apple Frost,New York,Dessert & Fortified
+189,387,2018,Dessert,👍 Judges' Pick,Liberty Ciderworks,Manchurian Crabapple SV,Washington,Dessert & Fortified
+190,67,2018,Fortified,🥇🥇 Double Gold,2 Towns Ciderhouse,2015 Pommeau,Oregon,Dessert & Fortified
+191,84,2018,Fortified,🥇 Gold,Alpenfire Cider,Rosy Pommeau,Washington,Dessert & Fortified
+192,244,2018,Fortified,🥈 Silver,Dragon's Head Cider,Pommeau,Washington,Dessert & Fortified
+193,214,2018,Fortified,🥉 Bronze,Conneaut Cellars Winery,Pommeau,Pennsylvania,Dessert & Fortified
+194,126,2018,Fortified,👍 Judges' Pick,Big B's Hard Cider,Bourbon Barrel Aged Pommeau,Colorado,Dessert & Fortified
+195,749,2018,Fortified,👍 Judges' Pick,Cidrerie Michel Jodoin,Vermouth de Pomme,Quebec,Dessert & Fortified
+196,214,2018,Fortified,👍 Judges' Pick,Conneaut Cellars Winery,Poirissimo,Pennsylvania,Dessert & Fortified
+197,1999,2019,Heritage,🥇🥇 Double Gold,Val de Rance,Cidre Brut,Brittany,Heritage
+198,387,2019,Heritage,🥇 Gold,Liberty Ciderworks,English Style,Washington,Heritage
+199,380,2019,Heritage,🥈 Silver,Lassen Traditional Cider,Farmhouse Dry,California,Heritage
+200,864,2019,Heritage,🥈 Silver,West Avenue Cider,Autumn,Ontario,Heritage
+201,530,2019,Heritage,🥉 Bronze,Rootwood Cider Co.,Heritage Style Estate Blend,Washington,Heritage
+202,497,2019,Heritage,👍 Judges' Pick,Ragged Hill Cider,Traditional Semi-Dry,Massachusetts,Heritage
+203,749,2019,Heritage,👍 Judges' Pick,Cidrerie Michel Jodoin,Cidre Rosé Tranquille Fort,Quebec,Heritage
+204,127,2019,Heritage,👍 Judges' Pick,Big Fish Cider Co.,Orchard Select,Virginia,Heritage
+205,490,2019,Modern,🥇🥇 Double Gold,Portland Cider Company,Sorta Sweet,Oregon,Modern
+206,67,2019,Modern,🥇 Gold,2 Towns Ciderhouse,BrightCider,Oregon,Modern
+207,97,2019,Modern,🥇 Gold,Arsenal Cider House,Archibald's Ado,Pennsylvania,Modern
+208,635,2019,Modern,🥈 Silver,Tieton Cider Works,Tieton Dry,Washington,Modern
+209,97,2019,Modern,🥈 Silver,Arsenal Cider House,Event Blend,Pennsylvania,Modern
+210,166,2019,Modern,🥉 Bronze,Brooks Dry Cider,Dry,California,Modern
+211,52,2019,Modern,👍 Judges' Pick,Starcut Ciders,Pulsar,Michigan,Modern
+212,553,2019,Modern,👍 Judges' Pick,Seattle Cider Company,Semi Sweet,Washington,Modern
+213,85,2019,Modern,👍 Judges' Pick,Alter Ego Cider,The Brut,Oregon,Modern
+214,2698,2019,Perry,🥇🥇 Double Gold,Ramborn Cider Co.,Perry,Luxembourg,Perry
+215,490,2019,Perry,🥇 Gold,Portland Cider Company,Pearfect,Oregon,Perry
+216,553,2019,Perry,🥈 Silver,Seattle Cider Company,Traditional,Washington,Perry
+217,998,2019,Perry,🥉 Bronze,EdenVale Winery,Eden Valley Orchards Pear House,Oregon,Perry
+218,905,2019,Perry,👍 Judges' Pick,Blossom Barn Cidery,Rogue Valley,Oregon,Perry
+219,530,2019,Perry,👍 Judges' Pick,Rootwood Cider Co.,Perry,Washington,Perry
+220,553,2019,Perry,👍 Judges' Pick,Seattle Cider Company,2015 Perry,Washington,Perry
+221,255,2019,Single Varietal,🥇🥇 Double Gold,Eden Ciders,Cellar Series #4 Guinevere's Pearls,Vermont,Single Varietal
+222,921,2019,Single Varietal,🥇 Gold,Loch Mór Cider Co.,Golden Russett,Ontario,Single Varietal
+223,1845,2019,Single Varietal,🥈 Silver,Cider Riot!,Kingston Black,Oregon,Single Varietal
+224,635,2019,Single Varietal,🥉 Bronze,Tieton Cider Works,Single Varietal Harrison,Washington,Single Varietal
+225,906,2019,Single Varietal,🥉 Bronze,Herb's Cider,Double Drag Tap Gravenstein,Washington,Single Varietal
+226,553,2019,Single Varietal,👍 Judges' Pick,Seattle Cider Company,Winter Banana,Washington,Single Varietal
+227,97,2019,Single Varietal,👍 Judges' Pick,Arsenal Cider House,Grimes Golden,Pennsylvania,Single Varietal
+228,192,2019,Single Varietal,👍 Judges' Pick,Chatter Creek Winery,Kingston Black,Washington,Single Varietal
+229,497,2019,Single Varietal,👍 Judges' Pick,Ragged Hill Cider,Honeycrisp,Massachusetts,Single Varietal
+230,497,2019,Rosé,🥇🥇 Double Gold,Ragged Hill Cider,Rasé,Massachusetts,Rosé
+231,553,2019,Rosé,🥇🥇 Double Gold,Seattle Cider Company,Red Currant,Washington,Rosé
+232,185,2019,Rosé,🥇 Gold,Castle Hill Cider,Elder Cherry,Virginia,Rosé
+233,339,2019,Rosé,🥈 Silver,Houston Cider Company,Rosé,Texas,Rosé
+234,1997,2019,Rosé,🥉 Bronze,Windfall Cider,Hail Mary,British Columbia,Rosé
+235,749,2019,Rosé,👍 Judges' Pick,Cidrerie Michel Jodoin,Cidre Rosé Mousseux,Quebec,Rosé
+236,349,2019,Rosé,👍 Judges' Pick,Ironbound Hard Cider,Pinelands Rosé,New Jersey,Rosé
+237,236,2019,Rosé,👍 Judges' Pick,Diskin Cider,Daydream,Tennessee,Rosé
+238,547,2019,Wood-Aged,🥇🥇 Double Gold,Saro Cider,Marmara,Nebraska,Wood-Aged
+239,415,2019,Wood-Aged,🥇 Gold,Meriwether Cider Company,Hardwood Normandy,Idaho,Wood-Aged
+240,10,2019,Wood-Aged,🥇 Gold,Blake's Hard Cider Co.,Barrel Reserve Wild Blueberry,Michigan,Wood-Aged
+241,553,2019,Wood-Aged,🥈 Silver,Seattle Cider Company,Red Wine Barrel-Aged Berry,Washington,Wood-Aged
+242,312,2019,Wood-Aged,🥉 Bronze,Gypsy Circus,PuppetMaster: Whiskey Barrel Vaudevillian,Tennessee,Wood-Aged
+243,236,2019,Wood-Aged,👍 Judges' Pick,Diskin Cider,BTC,Tennessee,Wood-Aged
+244,589,2019,Wood-Aged,👍 Judges' Pick,Brotherhood Winery,Rebel Reserve,New York,Wood-Aged
+245,635,2019,Wood-Aged,👍 Judges' Pick,Tieton Cider Works,Bourbon Barrel Peach Cider,Washington,Wood-Aged
+246,1673,2019,Sour,🥇🥇 Double Gold,Sidra Riestra,Sidra Natural Riestra,Asturias,Sour
+247,1673,2019,Sour,🥇 Gold,Sidra Riestra,Good Clean Funk,Asturias,Sour
+248,553,2019,Sour,🥇 Gold,Seattle Cider Company,Crimson Gold,Washington,Sour
+249,67,2019,Sour,🥈 Silver,2 Towns Ciderhouse,2017 La Mûre,Oregon,Sour
+250,161,2019,Sour,🥈 Silver,Bristols Cider,Skimmington,California,Sour
+251,221,2019,Sour,🥉 Bronze,Courthouse Creek Cider,Straight No Chaser,Virginia,Sour
+252,1672,2019,Sour,👍 Judges' Pick,Sidra Fanjul,Sidra Natural,Asturias,Sour
+253,194,2019,Sour,👍 Judges' Pick,Cider Creek Hard Cider,Dreams of Charlotte,New York,Sour
+254,491,2019,Sour,👍 Judges' Pick,Potter's Craft Cider,Raspberries & Brett,Virginia,Sour
+255,339,2019,Stone Fruit,🥇🥇 Double Gold,Houston Cider Company,Cherry,Texas,Fruit
+256,103,2019,Stone Fruit,🥇 Gold,Avid Cider,Apricot,Oregon,Fruit
+257,126,2019,Stone Fruit,🥈 Silver,Big B's Hard Cider,Peach Pickin Time,Colorado,Fruit
+258,118,2019,Stone Fruit,🥉 Bronze,Bauman's Cider,Peach Raspberry,Oregon,Fruit
+259,2212,2019,Stone Fruit,👍 Judges' Pick,Winsome Ciderworks,Pom Cherry,Oregon,Fruit
+260,569,2019,Stone Fruit,👍 Judges' Pick,Snow Capped Cider,Colorado Peach,Colorado,Fruit
+261,670,2019,Stone Fruit,👍 Judges' Pick,Lake Chelan Winery,Cherry,Washington,Fruit
+262,67,2019,Fruit,🥇🥇 Double Gold,2 Towns Ciderhouse,Camp Clementine,Oregon,Fruit
+263,389,2019,Fruit,🥇 Gold,Liquid Alchemy Beverages,Pineapple Experiment #13,Delaware,Fruit
+264,67,2019,Fruit,🥇 Gold,2 Towns Ciderhouse,Easy Squeezy,Oregon,Fruit
+265,998,2019,Fruit,🥈 Silver,EdenVale Winery,Eden Valley Orchards CranPerry,Oregon,Fruit
+266,1970,2019,Fruit,🥉 Bronze,Cyderish,B.O.M.B. Cider,Oregon,Fruit
+267,449,2019,Fruit,🥉 Bronze,North Canyon Cider Company,Pineapple Ginger,California,Fruit
+268,236,2019,Fruit,👍 Judges' Pick,Diskin Cider,Local AF,Tennessee,Fruit
+269,222,2019,Fruit,👍 Judges' Pick,Coyote Hole Craft Beverages,Sangria,Virginia,Fruit
+270,242,2019,Fruit,👍 Judges' Pick,Double Shovel Cider Company,Cider Mosa,Alaska,Fruit
+271,185,2019,Hopped,🥇🥇 Double Gold,Castle Hill Cider,All Hopped Up,Virginia,Hopped
+272,530,2019,Hopped,🥇 Gold,Rootwood Cider Co.,Hop Infused,Washington,Hopped
+273,738,2019,Hopped,🥈 Silver,Chain Yard Cider,Hopped Up,Nova Scotia,Hopped
+274,242,2019,Hopped,🥉 Bronze,Double Shovel Cider Company,Pineapple IPC,Alaska,Hopped
+275,585,2019,Hopped,👍 Judges' Pick,Square Mile Cider,Hopped,Oregon,Hopped
+276,908,2019,Hopped,👍 Judges' Pick,Union Hill Cider Company,Hopped & Hazy,Washington,Hopped
+277,349,2019,Hopped,👍 Judges' Pick,Ironbound Hard Cider,Highlands Farmhouse,New Jersey,Hopped
+278,415,2019,Spiced,🥇🥇 Double Gold,Meriwether Cider Company,Pineapple Habañero,Idaho,Botanical & Spiced
+279,146,2019,Spiced,🥇 Gold,Blue Bee Cider,Firecracker,Virginia,Botanical & Spiced
+280,118,2019,Spiced,🥈 Silver,Bauman's Cider,The Old Mule,Oregon,Botanical & Spiced
+281,97,2019,Spiced,🥉 Bronze,Arsenal Cider House,Grant's Flying Pumpkin,Pennsylvania,Botanical & Spiced
+282,253,2019,Spiced,👍 Judges' Pick,Eaglemount Wine & Cider,Brambleberry Bum,Washington,Botanical & Spiced
+283,199,2019,Spiced,👍 Judges' Pick,Citizen Cider,For Shore,Vermont,Botanical & Spiced
+284,553,2019,Spiced,👍 Judges' Pick,Seattle Cider Company,Punch Bowl,Washington,Botanical & Spiced
+285,447,2019,Spiced,👍 Judges' Pick,Noble Cider,The Journeyman,North Carolina,Botanical & Spiced
+286,635,2019,Botanical,🥇🥇 Double Gold,Tieton Cider Works,Lavender Honey,Washington,Botanical & Spiced
+287,553,2019,Botanical,🥇 Gold,Seattle Cider Company,Earl Grey,Washington,Botanical & Spiced
+288,126,2019,Botanical,🥈 Silver,Big B's Hard Cider,Ciaison Grand Gru,Colorado,Botanical & Spiced
+289,169,2019,Botanical,🥉 Bronze,Brownrigg Hard Cider,Ginger Fig Leaf,Washington,Botanical & Spiced
+290,585,2019,Botanical,👍 Judges' Pick,Square Mile Cider,Rosé,Oregon,Botanical & Spiced
+291,990,2019,Botanical,👍 Judges' Pick,Independent Perry,Lavender Perry,Washington,Botanical & Spiced
+292,389,2019,Botanical,👍 Judges' Pick,Liquid Alchemy Beverages,Deeply Rooted,Delaware,Botanical & Spiced
+293,738,2019,Specialty,🥇🥇 Double Gold,Chain Yard Cider,Rhubee Cyser,Nova Scotia,Specialty
+294,415,2019,Specialty,🥇 Gold,Meriwether Cider Company,Uncharted,Idaho,Specialty
+295,130,2019,Specialty,🥈 Silver,Bishop Cider Company,The Dark Cide,Texas,Specialty
+296,67,2019,Specialty,🥉 Bronze,2 Towns Ciderhouse,Hollow Jack'd,Oregon,Specialty
+297,738,2019,Specialty,👍 Judges' Pick,Chain Yard Cider,Ginxberry,Nova Scotia,Specialty
+298,130,2019,Specialty,👍 Judges' Pick,Bishop Cider Company,Apple Pineapple,Texas,Specialty
+299,130,2019,Specialty,👍 Judges' Pick,Bishop Cider Company,Texas Tea,Texas,Specialty
+300,67,2019,Dessert/Fortified,🥇🥇 Double Gold,2 Towns Ciderhouse,2018 Marissimo,Oregon,Dessert & Fortified
+301,118,2019,Dessert/Fortified,🥇 Gold,Bauman's Cider,Ice Cider,Oregon,Dessert & Fortified
+302,864,2019,Dessert/Fortified,🥈 Silver,West Avenue Cider,Northern Lights,Ontario,Dessert & Fortified
+303,921,2019,Dessert/Fortified,🥈 Silver,Loch Mór Cider Co.,Pommeau,Ontario,Dessert & Fortified
+304,67,2019,Dessert/Fortified,🥉 Bronze,2 Towns Ciderhouse,2017 Pommeau,Oregon,Dessert & Fortified
+305,75,2019,Dessert/Fortified,👍 Judges' Pick,1911 Established,2019 Pommeau,New York,Dessert & Fortified
+306,387,2019,Dessert/Fortified,👍 Judges' Pick,Liberty Ciderworks,Widdershins,Washington,Dessert & Fortified
+307,749,2019,Dessert/Fortified,👍 Judges' Pick,Cidrerie Michel Jodoin,Cidre de Glace Rosé,Quebec,Dessert & Fortified
+308,661,2019,Dessert/Fortified,👍 Judges' Pick,Urban Tree Hard Cider,Pommeau,Georgia,Dessert & Fortified
+309,179,2020,Heritage,🏆 Platinum,California Cider Company,ACE BlackJack 21 2020 Premium Craft Cider,California,Heritage
+310,274,2020,Heritage,🥇🥇 Double Gold,Fenceline Cider,Windfall,Colorado,Heritage
+311,303,2020,Heritage,🥇🥇 Double Gold,Gowan's Heirloom Ciders,Gravenstein,California,Heritage
+312,648,2020,Heritage,🥇 Gold,Tulip Valley Vineyard & Orchard,BurroLoco Traditional Dry,Washington,Heritage
+313,155,2020,Heritage,🥈 Silver,Botanist & Barrel,Foragers Delight - The Farmers Orchard,North Carolina,Heritage
+314,600,2020,Heritage,🥈 Silver,Stormalong Cider,Ashmead's Kernel,Massachusetts,Heritage
+315,703,2020,Heritage,🥈 Silver,Wyndridge Farm,Greenspy,Pennsylvania,Heritage
+316,447,2020,Heritage,👍 Judges' Pick,Noble Cider,Lewis Creek Old World,North Carolina,Heritage
+317,569,2020,Heritage,👍 Judges' Pick,Snow Capped Cider,Gold Rush,Colorado,Heritage
+318,635,2020,Heritage,👍 Judges' Pick,Tieton Cider Works,Golden Russet,Washington,Heritage
+319,697,2020,Modern,🏆 Platinum,Wise Bird Cider,Pomme Pomme,Kentucky,Modern
+320,415,2020,Modern,🥇🥇 Double Gold,Meriwether Cider Company,Foothills Semi-Dry,Idaho,Modern
+321,631,2020,Modern,🥇 Gold,Thor's Hard Cider,Semisweet,Minnesota,Modern
+322,97,2020,Modern,🥈 Silver,Arsenal Cider House,Archibalds Ado,Pennsylvania,Modern
+323,449,2020,Modern,🥈 Silver,North Canyon Cider Company,American Sweet,California,Modern
+324,904,2020,Modern,👍 Judges' Pick,Merchant's Daughter Cider,Clara's Reserve,New York,Modern
+325,414,2020,Modern,👍 Judges' Pick,Mercier Orchards,Grumpy Granny,Georgia,Modern
+326,908,2020,Modern,👍 Judges' Pick,Union Hill Cider Company,Hard Harvest,Washington,Modern
+327,244,2020,Perry,🏆 Platinum,Dragon's Head Cider,Sparkling Perry,Washington,Perry
+328,998,2020,Perry,🏆 Platinum,EdenVale Winery,Pear House Cider,Oregon,Perry
+329,648,2020,Perry,🥇🥇 Double Gold,Tulip Valley Vineyard & Orchard,BurroLoco Perry,Washington,Perry
+330,919,2020,Perry,🥇 Gold,Madrone Cellars & Cider,Perry,Washington,Perry
+331,350,2020,Perry,🥈 Silver,Island Orchard Cider,Pear Reserve,Wisconsin,Perry
+332,3346,2020,Perry,🥈 Silver,Twin Sisters Brewing Company,Perry,Washington,Perry
+333,111,2020,Perry,👍 Judges' Pick,Bad Granny Hard Cider,Nice Pear,Washington,Perry
+334,276,2020,Perry,👍 Judges' Pick,Finnriver Farm & Cidery,Perry,Washington,Perry
+335,635,2020,Perry,👍 Judges' Pick,Tieton Cider Works,Pure Pear,Washington,Perry
+336,858,2020,Natural,🏆 Platinum,Vergers Petit et Fils,Rabaska Classique,Quebec,Natural
+337,1673,2020,Natural,🏆 Platinum,Sidra Riestra,Sidra Natural Riestra,Asturias,Natural
+338,155,2020,Natural,🥇🥇 Double Gold,Botanist & Barrel,Basq in the Glory,North Carolina,Natural
+339,1673,2020,Natural,🥇 Gold,Sidra Riestra,Good Clean Funk,Asturias,Natural
+340,1672,2020,Natural,🥈 Silver,Sidra Fanjul,Sidra Natural Fanjul,Asturias,Natural
+341,1921,2020,Natural,🥈 Silver,Sidra Somarroza,Sidra Natural Somarroza,Cantabria,Natural
+342,155,2020,Natural,👍 Judges' Pick,Botanist & Barrel,Less is More Petillant Natural,North Carolina,Natural
+343,267,2020,Natural,👍 Judges' Pick,Fable Farm Fermentory,Fluxion,Vermont,Natural
+344,661,2020,Natural,👍 Judges' Pick,Urban Tree Hard Cider,Sidra Urbano,Georgia,Natural
+345,303,2020,Single Varietal,🏆 Platinum,Gowan's Heirloom Ciders,Gravenstein,California,Single Varietal
+346,858,2020,Single Varietal,🥇🥇 Double Gold,Vergers Petit et Fils,St-Hil Pomme,Quebec,Single Varietal
+347,497,2020,Single Varietal,🥇 Gold,Ragged Hill Cider,Honeycrisp,Massachusetts,Single Varietal
+348,303,2020,Single Varietal,🥈 Silver,Gowan's Heirloom Ciders,Sierra Beauty,California,Single Varietal
+349,271,2020,Single Varietal,👍 Judges' Pick,Ragged and Right Cider Project,First Pick - Gravenstein,Washington,Single Varietal
+350,908,2020,Single Varietal,👍 Judges' Pick,Union Hill Cider Company,Kingston Black,Washington,Single Varietal
+351,685,2020,Single Varietal,👍 Judges' Pick,Wild State Cider,Macintosh,Minnesota,Single Varietal
+352,276,2020,Wood-Aged,🏆 Platinum,Finnriver Farm & Cidery,Fire Barrel,Washington,Wood-Aged
+353,906,2020,Wood-Aged,🏆 Platinum,Herb's Cider,Concerto #2 - Wild Foraged Plum,Washington,Wood-Aged
+354,906,2020,Wood-Aged,🥇🥇 Double Gold,Herb's Cider,Concerto #1 - Grand Cuvée,Washington,Wood-Aged
+355,635,2020,Wood-Aged,🥇 Gold,Tieton Cider Works,Bourbon Barrel Cherry Cider,Washington,Wood-Aged
+356,704,2020,Wood-Aged,🥈 Silver,Yankee Cider Company,Ex-White Wine Ex-Tequila Barrel Aged,Connecticut,Wood-Aged
+357,126,2020,Wood-Aged,👍 Judges' Pick,Big B's Hard Cider,Grizzly Brand,Colorado,Wood-Aged
+358,230,2020,Wood-Aged,👍 Judges' Pick,Deep Roots Hard Cider,Barrel Reserve,Pennsylvania,Wood-Aged
+359,497,2020,Wood-Aged,👍 Judges' Pick,Ragged Hill Cider,Pommes d'Or,Massachusetts,Wood-Aged
+360,1885,2020,Rosé,🏆 Platinum,Alma Cider,Rosé,Washington,Rosé
+361,244,2020,Rosé,🥇🥇 Double Gold,Dragon's Head Cider,Rosé,Washington,Rosé
+362,569,2020,Rosé,🥇🥇 Double Gold,Snow Capped Cider,Rockies Rosé,Colorado,Rosé
+363,631,2020,Rosé,🥇 Gold,Thor's Hard Cider,Arctic Rosé,Minnesota,Rosé
+364,908,2020,Rosé,🥈 Silver,Union Hill Cider Company,Pinkheart,Washington,Rosé
+365,303,2020,Rosé,👍 Judges' Pick,Gowan's Heirloom Ciders,Rosé,California,Rosé
+366,687,2020,Rosé,👍 Judges' Pick,Hard Pressed Cider Co.,Henry Hotspur's Hard Pressed for Cider Rosé,California,Rosé
+367,1887,2020,Rosé,👍 Judges' Pick,Offset Ciderworks,Rosé,Washington,Rosé
+368,294,2020,Stone Fruit,🏆 Platinum,Glacial Till Vineyard & Winery,Lauretta,Nebraska,Fruit
+369,75,2020,Stone Fruit,🥇🥇 Double Gold,1911 Established,Black Cherry,New York,Fruit
+370,101,2020,Stone Fruit,🥇🥇 Double Gold,Ash & Elm Cider Company,Sunset Tart Cherry,Indiana,Fruit
+371,198,2020,Stone Fruit,🥇 Gold,Cinder Block Brewery,English Cherry Cider,Missouri,Fruit
+372,704,2020,Stone Fruit,🥈 Silver,Yankee Cider Company,Tart Cherry,Connecticut,Fruit
+373,111,2020,Stone Fruit,👍 Judges' Pick,Bad Granny Hard Cider,Rainier Cherry,Washington,Fruit
+374,1887,2020,Stone Fruit,👍 Judges' Pick,Offset Ciderworks,Plum,Washington,Fruit
+375,635,2020,Stone Fruit,👍 Judges' Pick,Tieton Cider Works,Apricot,Washington,Fruit
+376,587,2020,Fruit,🏆 Platinum,St. Vrain Cidery,Key Lime,Colorado,Fruit
+377,133,2020,Fruit,🥇🥇 Double Gold,Black Apple Hard Cider,Wild Berry,Arkansas,Fruit
+378,3345,2020,Fruit,🥇🥇 Double Gold,Mad Farmer Cider,Four Berry Pie,Michigan,Fruit
+379,10,2020,Fruit,🥇 Gold,Blake's Hard Cider Co.,Triple Jam,Michigan,Fruit
+380,236,2020,Fruit,🥇 Gold,Diskin Cider,Babe Magnet,Tennessee,Fruit
+381,998,2020,Fruit,🥇 Gold,EdenVale Winery,Pear House CranPerry,Oregon,Fruit
+382,179,2020,Fruit,🥈 Silver,California Cider Company,ACE Guava Craft,California,Fruit
+383,547,2020,Fruit,🥈 Silver,Saro Cider,Gold Hills Black Currant,Nebraska,Fruit
+384,482,2020,Fruit,🥈 Silver,Pivot Brewing Company,Sangria,Kentucky,Fruit
+385,294,2020,Fruit,👍 Judges' Pick,Glacial Till Vineyard & Winery,Passion Pineapple,Nebraska,Fruit
+386,1887,2020,Fruit,👍 Judges' Pick,Offset Ciderworks,Pink Guava,Washington,Fruit
+387,600,2020,Fruit,👍 Judges' Pick,Stormalong Cider,Light of the Sun,Massachusetts,Fruit
+388,635,2020,Botanical,🏆 Platinum,Tieton Cider Works,Lavender Honey Cider,Washington,Botanical & Spiced
+389,133,2020,Botanical,🥇🥇 Double Gold,Black Apple Hard Cider,Hibiscus,Arkansas,Botanical & Spiced
+390,490,2020,Botanical,🥇🥇 Double Gold,Portland Cider Company,Blueberry Bourbon Basil,Oregon,Botanical & Spiced
+391,907,2020,Botanical,🥇 Gold,Channel Marker Cider,Rosemary Cran Ginger,Washington,Botanical & Spiced
+392,124,2020,Botanical,🥈 Silver,Bent Ladder,Midwest Mojo,Ohio,Botanical & Spiced
+393,907,2020,Botanical,👍 Judges' Pick,Channel Marker Cider,Lavender Bergamot,Washington,Botanical & Spiced
+394,236,2020,Botanical,👍 Judges' Pick,Diskin Cider,Mayor Berry,Tennessee,Botanical & Spiced
+395,587,2020,Botanical,👍 Judges' Pick,St. Vrain Cidery,Blackberry Botanical,Colorado,Botanical & Spiced
+396,75,2020,Hopped,🏆 Platinum,1911 Established,New England IPC Hopped,New York,Hopped
+397,908,2020,Hopped,🥇🥇 Double Gold,Union Hill Cider Company,Hopped & Hazy,Washington,Hopped
+398,534,2020,Hopped,🥇 Gold,Runcible Cider,Hop Y'all,Oregon,Hopped
+399,632,2020,Hopped,🥇 Gold,Threadbare Cider,Dry Hopped,Pennsylvania,Hopped
+400,929,2020,Hopped,🥈 Silver,SLO Cider,Hopped,California,Hopped
+401,250,2020,Hopped,👍 Judges' Pick,Duluth Cider,Greenstone,Minnesota,Hopped
+402,353,2020,Hopped,👍 Judges' Pick,Atomic Dog Hard Cider,Dry Hopped,Pennsylvania,Hopped
+403,632,2020,Hopped,👍 Judges' Pick,Threadbare Cider,Sweet Raspberry,Pennsylvania,Hopped
+404,126,2020,Spiced,🏆 Platinum,Big B's Hard Cider,Snow Daze,Colorado,Botanical & Spiced
+405,915,2020,Spiced,🥇🥇 Double Gold,Cider Corps,Operation Strawberry Rhubarb Pie,Arizona,Botanical & Spiced
+406,133,2020,Spiced,🥇 Gold,Black Apple Hard Cider,Spiced,Arkansas,Botanical & Spiced
+407,1887,2020,Spiced,🥇 Gold,Offset Ciderworks,Horchata,Washington,Botanical & Spiced
+408,635,2020,Spiced,🥈 Silver,Tieton Cider Works,Cranberry Cider,Washington,Botanical & Spiced
+409,914,2020,Spiced,👍 Judges' Pick,Bend Cider Company,Huckleberry Ginger,Oregon,Botanical & Spiced
+410,587,2020,Spiced,👍 Judges' Pick,St. Vrain Cidery,Gingerbread,Colorado,Botanical & Spiced
+411,276,2020,Spiced,👍 Judges' Pick,Finnriver Farm & Cidery,Forest Ginger,Washington,Botanical & Spiced
+412,70,2020,Sour,🏆 Platinum,6 Mile Cellars,Sour Cherry,Pennsylvania,Sour
+413,704,2020,Sour,🥇🥇 Double Gold,Yankee Cider Company,Wild Fermented Reposado Barrel Aged,Connecticut,Sour
+414,75,2020,Sour,🥇 Gold,1911 Established,Sour Cherry,New York,Sour
+415,155,2020,Sour,🥈 Silver,Botanist & Barrel,Sour,North Carolina,Sour
+416,73,2020,Sour,👍 Judges' Pick,101 Cider House,Scrumpy,California,Sour
+417,267,2020,Sour,👍 Judges' Pick,Fable Farm Fermentory,Vinous Venus,Vermont,Sour
+418,389,2020,Specialty,🏆 Platinum,Liquid Alchemy Beverages,Deeply-Rooted,Delaware,Specialty
+419,631,2020,Specialty,🥇🥇 Double Gold,Thor's Hard Cider,Oh My Gourd,Minnesota,Specialty
+420,530,2020,Specialty,🥇 Gold,Rootwood Cider Co.,Pollinator,Washington,Specialty
+421,907,2020,Specialty,🥈 Silver,Channel Marker Cider,Honey Badger Cyser,Washington,Specialty
+422,188,2020,Specialty,👍 Judges' Pick,Champlain Orchards,Mac & Maple,Vermont,Specialty
+423,915,2020,Specialty,👍 Judges' Pick,Cider Corps,C-Bees,Arizona,Specialty
+424,915,2020,Specialty,👍 Judges' Pick,Cider Corps,Sailor Cherry,Arizona,Specialty
+425,185,2020,Dessert/Fortified,🏆 Platinum,Castle Hill Cider,1764 Port,Virginia,Dessert & Fortified
+426,932,2020,Dessert/Fortified,🥇🥇 Double Gold,Two K Farms,2018 Ice Cider,Michigan,Dessert & Fortified
+427,535,2020,Dessert/Fortified,🥇 Gold,Russell Orchards,J's Ice Cider,Massachusetts,Dessert & Fortified
+428,244,2020,Dessert/Fortified,🥈 Silver,Dragon's Head Cider,Pommeau,Washington,Dessert & Fortified
+429,921,2020,Dessert/Fortified,👍 Judges' Pick,Loch Mór Cider Co.,Pommeau,Ontario,Dessert & Fortified
+430,70,2020,Dessert/Fortified,👍 Judges' Pick,6 Mile Cellars,Yeti,Pennsylvania,Dessert & Fortified
+431,697,2020,Dessert/Fortified,👍 Judges' Pick,Wise Bird Cider,Pommeau,Kentucky,Dessert & Fortified
+432,308,2022,Heritage,🏆 Platinum,Greenwood Cider Company,Scrumpy,Washington,Heritage
+433,550,2022,Heritage,🥇🥇 Double Gold,Schilling Cider,Excelsior Imperial Apple,Washington,Heritage
+434,569,2022,Heritage,🥇 Gold,Snow Capped Cider,Ashmeads Kernel,Colorado,Heritage
+435,387,2022,Heritage,🥈 Silver,Liberty Ciderworks,55 Chain,Washington,Heritage
+436,244,2022,Heritage,👍 Judges' Pick,Dragon's Head Cider,Bittersweet Cider,Washington,Heritage
+437,456,2022,Heritage,👍 Judges' Pick,Old Hill Cider,Heritage,Virginia,Heritage
+438,569,2022,Heritage,👍 Judges' Pick,Snow Capped Cider,Wickson Crab,Colorado,Heritage
+439,635,2022,Perry,🏆 Platinum,Tieton Cider Works,Pure Pear,Washington,Perry
+440,244,2022,Perry,🥇🥇 Double Gold,Dragon's Head Cider,Sparkling Perry,Washington,Perry
+441,569,2022,Perry,🥇 Gold,Snow Capped Cider,Winter Pear,Colorado,Perry
+442,276,2022,Perry,🥈 Silver,Finnriver Farm & Cidery,Perry,Washington,Perry
+443,1887,2022,Perry,👍 Judges' Pick,Offset Ciderworks,Perry,Washington,Perry
+444,3346,2022,Perry,👍 Judges' Pick,Twin Sisters Brewing Company,Perry,Washington,Perry
+445,535,2022,Perry,👍 Judges' Pick,Russell Orchards,Perry,Massachusetts,Perry
+446,957,2022,Single Varietal,🏆 Platinum,Yonder Cider,Wenatchee Wave,Washington,Single Varietal
+447,685,2022,Single Varietal,🥇🥇 Double Gold,Wild State Cider,Sweetango,Minnesota,Single Varietal
+448,447,2022,Single Varietal,🥇 Gold,Noble Cider,Bella – Lewis Creek Orchard Reserve,North Carolina,Single Varietal
+449,1908,2022,Single Varietal,🥈 Silver,Mount Diablo Cider Company,Cox Orange Pippin,California,Single Varietal
+450,155,2022,Single Varietal,👍 Judges' Pick,Botanist & Barrel,Arkansas Black,North Carolina,Single Varietal
+451,387,2022,Single Varietal,👍 Judges' Pick,Liberty Ciderworks,Heirloom Series McIntosh,Washington,Single Varietal
+452,921,2022,Single Varietal,👍 Judges' Pick,Loch Mór Cider Co.,Harrison,Ontario,Single Varietal
+453,118,2022,Rosé,🏆 Platinum,Bauman's Cider,Mountain Rose,Oregon,Rosé
+454,188,2022,Rosé,🥇🥇 Double Gold,Champlain Orchards,Foxboro Rose,Vermont,Rosé
+455,750,2022,Rosé,🥇 Gold,Cidrerie Milton,CID Rosé,Quebec,Rosé
+456,631,2022,Rosé,🥇 Gold,Thor's Hard Cider,Arctic Rosé,Minnesota,Rosé
+457,415,2022,Rosé,🥈 Silver,Meriwether Cider Company,Rosé Cider,Idaho,Rosé
+458,447,2022,Rosé,👍 Judges' Pick,Noble Cider,Vino Rosé Cider,North Carolina,Rosé
+459,397,2022,Rosé,👍 Judges' Pick,Lost Giants Cider Company,Rosé,Washington,Rosé
+460,908,2022,Rosé,👍 Judges' Pick,Union Hill Cider Company,Pinkheart,Washington,Rosé
+461,1813,2022,Wood-Aged,🏆 Platinum,Clarksburg Cider,Bourbon Barrel Aged Mint Julep,New York,Wood-Aged
+462,454,2022,Wood-Aged,🥇🥇 Double Gold,Number 12 Cider,Barrel 44,Minnesota,Wood-Aged
+463,908,2022,Wood-Aged,🥇 Gold,Union Hill Cider Company,Whiskey Business,Washington,Wood-Aged
+464,589,2022,Wood-Aged,🥈 Silver,Brotherhood Winery,Rebel-Reserve,New York,Wood-Aged
+465,1885,2022,Wood-Aged,👍 Judges' Pick,Alma Cider,Wood-Aged,Washington,Wood-Aged
+466,1813,2022,Wood-Aged,👍 Judges' Pick,Clarksburg Cider,Bourbon Barrel Aged,New York,Wood-Aged
+467,929,2022,Wood-Aged,👍 Judges' Pick,SLO Cider,Oaked,California,Wood-Aged
+468,553,2022,Modern,🏆 Platinum,Seattle Cider Company,Honeycrisp,Washington,Modern
+469,67,2022,Modern,🥇🥇 Double Gold,2 Towns Ciderhouse,OutCider,Oregon,Modern
+470,957,2022,Modern,🥇 Gold,Yonder Cider,Vantage,Washington,Modern
+471,196,2022,Modern,🥈 Silver,Ciderboys,First Press,Wisconsin,Modern
+472,750,2022,Modern,👍 Judges' Pick,Cidrerie Milton,CID Cuivré,Quebec,Modern
+473,250,2022,Modern,👍 Judges' Pick,Duluth Cider,Gitch,Minnesota,Modern
+474,449,2022,Modern,👍 Judges' Pick,North Canyon Cider Company,American Semi-Sweet,California,Modern
+475,490,2022,Fruit,🏆 Platinum,Portland Cider Company,Peach Berry,Oregon,Fruit
+476,84,2022,Fruit,🥇🥇 Double Gold,Alpenfire Cider,Calypso,Washington,Fruit
+477,664,2022,Fruit,🥇 Gold,Vermont Cider Company,Wyders Pear,Vermont,Fruit
+478,179,2022,Fruit,🥈 Silver,California Cider Company,ACE Guava Craft Cider,California,Fruit
+479,196,2022,Fruit,👍 Judges' Pick,Ciderboys,Grand Mimosa,Wisconsin,Fruit
+480,415,2022,Fruit,👍 Judges' Pick,Meriwether Cider Company,Cranberry Crosscut,Idaho,Fruit
+481,447,2022,Fruit,👍 Judges' Pick,Noble Cider,Watermelon Mint Cider,North Carolina,Fruit
+482,67,2022,Pineapple,🏆 Platinum,2 Towns Ciderhouse,Pacific Pineapple,Oregon,Fruit
+483,196,2022,Pineapple,🥇🥇 Double Gold,Ciderboys,Pineapple Hula,Wisconsin,Fruit
+484,179,2022,Pineapple,🥇 Gold,California Cider Company,ACE Pineapple Craft Cider,California,Fruit
+485,685,2022,Pineapple,🥇 Gold,Wild State Cider,Hazy Pineapple,Minnesota,Fruit
+486,1757,2022,Pineapple,🥈 Silver,Odd Brothers Craft Cider,Los Dos,Michigan,Fruit
+487,553,2022,Pineapple,👍 Judges' Pick,Seattle Cider Company,Pineapple Agave,Washington,Fruit
+488,2239,2022,Pineapple,👍 Judges' Pick,Ola Brew,Kona Gold Cider,Hawaii,Fruit
+489,2239,2022,Pineapple,👍 Judges' Pick,Ola Brew,White Pineapple,Hawaii,Fruit
+490,75,2022,Berry,🏆 Platinum,1911 Established,Blueberry,New York,Fruit
+491,670,2022,Berry,🥇🥇 Double Gold,Lake Chelan Winery,Raspberry Cider,Washington,Fruit
+492,635,2022,Berry,🥇 Gold,Tieton Cider Works,Blueberry,Washington,Fruit
+493,685,2022,Berry,🥇 Gold,Wild State Cider,Honeyberry,Minnesota,Fruit
+494,196,2022,Berry,🥈 Silver,Ciderboys,Strawberry Magic,Wisconsin,Fruit
+495,10,2022,Berry,👍 Judges' Pick,Blake's Hard Cider Co.,Triple Jam,Michigan,Fruit
+496,196,2022,Berry,👍 Judges' Pick,Ciderboys,Blackberry Wild,Wisconsin,Fruit
+497,670,2022,Berry,👍 Judges' Pick,Lake Chelan Winery,Blackberry Cider,Washington,Fruit
+498,569,2022,Stone Fruit,🏆 Platinum,Snow Capped Cider,Plum Lemongrass,Colorado,Fruit
+499,2270,2022,Stone Fruit,🥇🥇 Double Gold,James Arthur Vineyards,Squeeze Play,Nebraska,Fruit
+500,421,2022,Stone Fruit,🥇 Gold,Mill Haus Cider,Apricot Peach,Washington,Fruit
+501,312,2022,Stone Fruit,🥈 Silver,Gypsy Circus,Vaudevillian,Tennessee,Fruit
+502,391,2022,Stone Fruit,👍 Judges' Pick,Locust Cider,Apricot,Washington,Fruit
+503,553,2022,Stone Fruit,👍 Judges' Pick,Seattle Cider Company,Spiced Peach,Washington,Fruit
+504,635,2022,Stone Fruit,👍 Judges' Pick,Tieton Cider Works,Cherry,Washington,Fruit
+505,661,2022,Spiced,🏆 Platinum,Urban Tree Hard Cider,Sweet Heat Haze,Georgia,Botanical & Spiced
+506,569,2022,Spiced,🥇🥇 Double Gold,Snow Capped Cider,Barrel Aged Spiced Peach,Colorado,Botanical & Spiced
+507,490,2022,Spiced,🥇 Gold,Portland Cider Company,Bloody Hell,Oregon,Botanical & Spiced
+508,807,2022,Spiced,🥈 Silver,Lonetree Cider,Ginger Apple Cider,British Columbia,Botanical & Spiced
+509,312,2022,Spiced,👍 Judges' Pick,Gypsy Circus,Peppercorn Vaudevillian,Tennessee,Botanical & Spiced
+510,1887,2022,Spiced,👍 Judges' Pick,Offset Ciderworks,Horchata,Washington,Botanical & Spiced
+511,591,2022,Spiced,👍 Judges' Pick,Steelhead Cider,Furious George Ginger,Washington,Botanical & Spiced
+512,534,2022,Botanical,🏆 Platinum,Runcible Cider,Bergamot Oak,Oregon,Botanical & Spiced
+513,312,2022,Botanical,🥇🥇 Double Gold,Gypsy Circus,Tea Leaf Reader,Tennessee,Botanical & Spiced
+514,569,2022,Botanical,🥇 Gold,Snow Capped Cider,Lavender Lemonade,Colorado,Botanical & Spiced
+515,541,2022,Botanical,🥈 Silver,Sandia Hard Cider,Lavender,New Mexico,Botanical & Spiced
+516,118,2022,Botanical,👍 Judges' Pick,Bauman's Cider,Strawberry Mojito,Oregon,Botanical & Spiced
+517,236,2022,Botanical,👍 Judges' Pick,Diskin Cider,Six One Five,Tennessee,Botanical & Spiced
+518,592,2022,Botanical,👍 Judges' Pick,Stem Ciders,Hibiscus,Colorado,Botanical & Spiced
+519,530,2022,Hopped,🏆 Platinum,Rootwood Cider Co.,Hop Infused,Washington,Hopped
+520,75,2022,Hopped,🥇🥇 Double Gold,1911 Established,New England IPC Hopped,New York,Hopped
+521,908,2022,Hopped,🥇 Gold,Union Hill Cider Company,Cascade,Washington,Hopped
+522,661,2022,Hopped,🥈 Silver,Urban Tree Hard Cider,Orange U an IPA,Georgia,Hopped
+523,185,2022,Hopped,👍 Judges' Pick,Castle Hill Cider,Dry Hopped,Virginia,Hopped
+524,308,2022,Hopped,👍 Judges' Pick,Greenwood Cider Company,Hops,Washington,Hopped
+525,339,2022,Hopped,👍 Judges' Pick,Houston Cider Company,Paradigm Shift,Texas,Hopped
+526,1757,2022,Specialty,🏆 Platinum,Odd Brothers Craft Cider,Key Lime Kyle,Michigan,Specialty
+527,294,2022,Specialty,🥇🥇 Double Gold,Glacial Till Vineyard & Winery,Hibiscus Ginger,Nebraska,Specialty
+528,1618,2022,Specialty,🥇 Gold,Kystin,Cuvée XVII Apple Chestnut Cider,Brittany,Specialty
+529,188,2022,Specialty,🥈 Silver,Champlain Orchards,Mac & Maple,Vermont,Specialty
+530,88,2022,Specialty,👍 Judges' Pick,Anna's Cider,Cucumber Ginger,California,Specialty
+531,947,2022,Specialty,👍 Judges' Pick,Beach Bee Meadery,Cranberry Cinnamon,New Jersey,Specialty
+532,490,2022,Specialty,👍 Judges' Pick,Portland Cider Company,Tangerine Dreamsicle,Oregon,Specialty
+533,2140,2022,Natural,🏆 Platinum,Maison Hérout,2019 AOC Cotentin Cuvée Tradition Brut,Normandy,Natural
+534,1873,2022,Natural,🥇🥇 Double Gold,Posterity Ciderworks,My Pét Dragon,California,Natural
+535,750,2022,Natural,🥇 Gold,Cidrerie Milton,Galia 2019,Quebec,Natural
+536,688,2022,Natural,🥇 Gold,WildCraft Cider Works,Tokyo Rose,Oregon,Natural
+537,155,2022,Natural,🥈 Silver,Botanist & Barrel,Cúrate Sidra Natural,North Carolina,Natural
+538,750,2022,Natural,👍 Judges' Pick,Cidrerie Milton,Gawett – Panne de Courant,Quebec,Natural
+539,255,2022,Natural,👍 Judges' Pick,Eden Ciders,Pétillant Natural Hard Cider,Vermont,Natural
+540,1171,2022,Natural,👍 Judges' Pick,Petritegi,Aparduna,Basque Country,Natural
+541,67,2022,Sour,🏆 Platinum,2 Towns Ciderhouse,2017 La Mure,Oregon,Sour
+542,750,2022,Sour,🥇🥇 Double Gold,Cidrerie Milton,Honeycrisp Sour,Quebec,Sour
+543,1887,2022,Sour,🥇 Gold,Offset Ciderworks,Summer Love,Washington,Sour
+544,387,2022,Sour,🥈 Silver,Liberty Ciderworks,Garratza,Washington,Sour
+545,1757,2022,Sour,👍 Judges' Pick,Odd Brothers Craft Cider,Sunday Sour Sunday,Michigan,Sour
+546,1873,2022,Sour,👍 Judges' Pick,Posterity Ciderworks,Raspberry Sour,California,Sour
+547,635,2022,Sour,👍 Judges' Pick,Tieton Cider Works,Sour Watermelon,Washington,Sour
+548,67,2022,Dessert,🏆 Platinum,2 Towns Ciderhouse,2020 Bleuveré,Oregon,Dessert & Fortified
+549,67,2022,Dessert,🥇🥇 Double Gold,2 Towns Ciderhouse,2020 Marissimo,Oregon,Dessert & Fortified
+550,255,2022,Dessert,🥇🥇 Double Gold,Eden Ciders,Northern Spy,Vermont,Dessert & Fortified
+551,1618,2022,Dessert,🥇 Gold,Kystin,Secret Ice Cider,Brittany,Dessert & Fortified
+552,350,2022,Dessert,🥈 Silver,Island Orchard Cider,Ice Cider,Wisconsin,Dessert & Fortified
+553,10,2022,Dessert,👍 Judges' Pick,Blake's Hard Cider Co.,Amshire,Michigan,Dessert & Fortified
+554,349,2022,Dessert,👍 Judges' Pick,Ironbound Hard Cider,Lemon Beebrush Fortified Cider,New Jersey,Dessert & Fortified
+555,454,2022,Dessert,👍 Judges' Pick,Number 12 Cider,Shackleton,Minnesota,Dessert & Fortified
+556,447,2023,Heritage – Dry,🏆 Platinum,Noble Cider,French Cidre – Lewis Creek Orchard Reserve,North Carolina,Heritage
+557,185,2023,Heritage – Dry,🥇🥇 Double Gold,Castle Hill Cider,Serendipity,Virginia,Heritage
+558,136,2023,Heritage – Dry,🥇 Gold,Black Diamond Cider,2021 Golden Russet / Porter's Perfection,New York,Heritage
+559,308,2023,Heritage – Dry,🥈 Silver,Greenwood Cider Company,Jersey Blend,Washington,Heritage
+560,447,2023,Heritage – Dry,👍 Judges' Pick,Noble Cider,English Cider – Lewis Creek Orchard Reserve,North Carolina,Heritage
+561,1060,2023,Heritage – Dry,👍 Judges' Pick,Seminary Hill Orchard & Cidery,2021 Cackling Hen,New York,Heritage
+562,490,2023,Heritage – Dry,👍 Judges' Pick,Portland Cider Company,Kermerrian,Oregon,Heritage
+563,75,2023,Heritage – Sweet,🏆 Platinum,1911 Established,Lafayette,New York,Heritage
+564,569,2023,Heritage – Sweet,🥇🥇 Double Gold,Snow Capped Cider,Gold Rush,Colorado,Heritage
+565,2037,2023,Heritage – Sweet,🥇 Gold,Empyrical Orchard & Cidery,La Raison Reserve,Washington,Heritage
+566,2039,2023,Heritage – Sweet,🥈 Silver,Kristof Farms,Reserve Cider,Oregon,Heritage
+567,10,2023,Single Varietal,🏆 Platinum,Blake's Hard Cider Co.,Orchard Reserve,Michigan,Single Varietal
+568,569,2023,Single Varietal,🥇🥇 Double Gold,Snow Capped Cider,Porter's Perfection,Colorado,Single Varietal
+569,274,2023,Single Varietal,🥇 Gold,Fenceline Cider,Harrison,Colorado,Single Varietal
+570,447,2023,Single Varietal,🥈 Silver,Noble Cider,Bella – Lewis Creek Orchard Reserve,North Carolina,Single Varietal
+571,118,2023,Single Varietal,👍 Judges' Pick,Bauman's Cider,Porter's Perfection Single Varietal,Oregon,Single Varietal
+572,569,2023,Single Varietal,👍 Judges' Pick,Snow Capped Cider,Golden Russet,Colorado,Single Varietal
+573,1084,2023,Single Varietal,👍 Judges' Pick,19 Acres Cider Co.,Honeycrisp,Oregon,Single Varietal
+574,569,2023,Perry,🏆 Platinum,Snow Capped Cider,Winter Pear,Colorado,Perry
+575,2037,2023,Perry,🥇🥇 Double Gold,Empyrical Orchard & Cidery,Principle,Washington,Perry
+576,662,2023,Perry,🥇 Gold,13 Brix Cider Bistro,Perry,Colorado,Perry
+577,957,2023,Perry,🥈 Silver,Yonder Cider,Barrel Aged Perry,Washington,Perry
+578,1885,2023,Perry,👍 Judges' Pick,Alma Cider,Perry,Washington,Perry
+579,600,2023,Perry,👍 Judges' Pick,Stormalong Cider,Berry Perry,Massachusetts,Perry
+580,241,2023,Perry,👍 Judges' Pick,Double Mountain Brewery & Cidery,Little Martha Old World Perry,Oregon,Perry
+581,1691,2023,Natural,🏆 Platinum,Calvados Pierre Huet,Cidre Bouché Brut,Normandy,Natural
+582,2140,2023,Natural,🥇🥇 Double Gold,Maison Hérout,Amour Brut,Normandy,Natural
+583,165,2023,Natural,🥇 Gold,Brooklyn Cider House,Raw,New York,Natural
+584,2140,2023,Natural,🥈 Silver,Maison Hérout,2019 Grande Cuvée Extra Brut,Normandy,Natural
+585,971,2023,Natural,👍 Judges' Pick,Space Time Mead & Cider Works,Ariane 5,Pennsylvania,Natural
+586,136,2023,Natural,👍 Judges' Pick,Black Diamond Cider,2021 Geneva Tremlett's,New York,Natural
+587,432,2023,Natural,👍 Judges' Pick,Mountain West Cider Company,Green Urban Lunch Box,Utah,Natural
+588,165,2023,Pét Nat,🏆 Platinum,Brooklyn Cider House,Three Of Life,New York,Pét Nat
+589,155,2023,Pét Nat,🥇🥇 Double Gold,Botanist & Barrel,2022 Not What we May Be,North Carolina,Pét Nat
+590,919,2023,Pét Nat,🥇 Gold,Madrone Cellars & Cider,Salish Trio,Washington,Pét Nat
+591,118,2023,Pét Nat,🥇 Gold,Bauman's Cider,McIntosh Pét Nat,Oregon,Pét Nat
+592,919,2023,Pét Nat,🥈 Silver,Madrone Cellars & Cider,The Local Blend,Washington,Pét Nat
+593,553,2023,Modern – Dry,🏆 Platinum,Seattle Cider Company,City Fruit,Washington,Modern
+594,241,2023,Modern – Dry,🥇🥇 Double Gold,Double Mountain Brewery & Cidery,Dry,Oregon,Modern
+595,553,2023,Modern – Dry,🥇🥇 Double Gold,Seattle Cider Company,Light Cider,Washington,Modern
+596,124,2023,Modern – Dry,🥇 Gold,Bent Ladder,Russet,Ohio,Modern
+597,10,2023,Modern – Dry,🥈 Silver,Blake's Hard Cider Co.,Gold Rush,Michigan,Modern
+598,67,2023,Modern – Dry,👍 Judges' Pick,2 Towns Ciderhouse,BrightCider,Oregon,Modern
+599,308,2023,Modern – Dry,👍 Judges' Pick,Greenwood Cider Company,Dry,Washington,Modern
+600,133,2023,Modern – Dry,👍 Judges' Pick,Black Apple Hard Cider,Dry Me!,Arkansas,Modern
+601,553,2023,Modern – Sweet,🏆 Platinum,Seattle Cider Company,Honeycrisp,Washington,Modern
+602,75,2023,Modern – Sweet,🥇🥇 Double Gold,1911 Established,Original,New York,Modern
+603,294,2023,Modern – Sweet,🥇 Gold,Glacial Till Vineyard & Winery,Original,Nebraska,Modern
+604,569,2023,Modern – Sweet,🥈 Silver,Snow Capped Cider,Pinova,Colorado,Modern
+605,553,2023,Modern – Sweet,👍 Judges' Pick,Seattle Cider Company,Semi Sweet,Washington,Modern
+606,165,2023,Modern – Sweet,👍 Judges' Pick,Brooklyn Cider House,Little Wild,New York,Modern
+607,118,2023,Modern – Sweet,👍 Judges' Pick,Bauman's Cider,Authentic Cider,Oregon,Modern
+608,345,2023,Imperial,🏆 Platinum,Incline Cider Company,Imperial Hazy Honeycrisp,Washington,Imperial
+609,67,2023,Imperial,🥇🥇 Double Gold,2 Towns Ciderhouse,Original Cosmic Crisp,Oregon,Imperial
+610,553,2023,Imperial,🥇 Gold,Seattle Cider Company,Odyssey,Washington,Imperial
+611,10,2023,Imperial,🥇 Gold,Blake's Hard Cider Co.,American Apple,Michigan,Imperial
+612,103,2023,Imperial,🥈 Silver,Avid Cider,Golden Delish,Oregon,Imperial
+613,2037,2023,Imperial,🥈 Silver,Empyrical Orchard & Cidery,Objective,Washington,Imperial
+614,550,2023,Imperial,👍 Judges' Pick,Schilling Cider,Excelsior Imperial Apple,Washington,Imperial
+615,103,2023,Imperial,👍 Judges' Pick,Avid Cider,Royal Apricot,Oregon,Imperial
+616,490,2023,Imperial,👍 Judges' Pick,Portland Cider Company,Imperial Dry,Oregon,Imperial
+617,1885,2023,Rosé,🏆 Platinum,Alma Cider,Rosé,Washington,Rosé
+618,67,2023,Rosé,🥇🥇 Double Gold,2 Towns Ciderhouse,Raspberry Cosmic Crisp,Oregon,Rosé
+619,550,2023,Rosé,🥇🥇 Double Gold,Schilling Cider,Excelsior Imperial Red Glo,Washington,Rosé
+620,118,2023,Rosé,🥇 Gold,Bauman's Cider,Mountain Rose Single Varietal,Oregon,Rosé
+621,188,2023,Rosé,🥈 Silver,Champlain Orchards,Redfield,Vermont,Rosé
+622,241,2023,Rosé,👍 Judges' Pick,Double Mountain Brewery & Cidery,Rosé Red Flesh,Oregon,Rosé
+623,308,2023,Rosé,👍 Judges' Pick,Greenwood Cider Company,Red Flesh,Washington,Rosé
+624,631,2023,Rosé,👍 Judges' Pick,Thor's Hard Cider,Arctic Rosé,Minnesota,Rosé
+625,118,2023,Fruit,🏆 Platinum,Bauman's Cider,Forbidden Fruit – Pinot Noir,Oregon,Fruit
+626,165,2023,Fruit,🥇🥇 Double Gold,Brooklyn Cider House,Rosé,New York,Fruit
+627,391,2023,Fruit,🥇🥇 Double Gold,Locust Cider,Watermelon,Washington,Fruit
+628,1084,2023,Fruit,🥇 Gold,19 Acres Cider Co.,Yuzu Plum,Oregon,Fruit
+629,348,2023,Fruit,🥈 Silver,Ironbark Ciderworks,Lestat,California,Fruit
+630,118,2023,Fruit,👍 Judges' Pick,Bauman's Cider,Orange Blossom Cider,Oregon,Fruit
+631,2037,2023,Fruit,👍 Judges' Pick,Empyrical Orchard & Cidery,Inversion,Washington,Fruit
+632,103,2023,Fruit,👍 Judges' Pick,Avid Cider,Blueberry Pomegranate,Oregon,Fruit
+633,87,2023,Berry,🏆 Platinum,Angry Orchard,Blueberry Rosé,New York,Fruit
+634,294,2023,Berry,🥇🥇 Double Gold,Glacial Till Vineyard & Winery,Blueberry,Nebraska,Fruit
+635,670,2023,Berry,🥇 Gold,Lake Chelan Winery,Blackberry,Washington,Fruit
+636,10,2023,Berry,🥈 Silver,Blake's Hard Cider Co.,Triple Jam,Michigan,Fruit
+637,447,2023,Berry,👍 Judges' Pick,Noble Cider,Wild Berry Knight,North Carolina,Fruit
+638,2105,2023,Berry,👍 Judges' Pick,Riley's Cidery,Berry Mac,British Columbia,Fruit
+639,99,2023,Berry,👍 Judges' Pick,Artifact Cider Project,Upta Camp,Massachusetts,Fruit
+640,415,2023,Stone Fruit,🏆 Platinum,Meriwether Cider Company,Plum Dandy,Idaho,Fruit
+641,421,2023,Stone Fruit,🥇🥇 Double Gold,Mill Haus Cider,Apricot Peach,Washington,Fruit
+642,1084,2023,Stone Fruit,🥇 Gold,19 Acres Cider Co.,Yuzu Plum,Oregon,Fruit
+643,569,2023,Stone Fruit,🥈 Silver,Snow Capped Cider,Plum & Lemongrass,Colorado,Fruit
+644,569,2023,Stone Fruit,👍 Judges' Pick,Snow Capped Cider,Sour Cherry,Colorado,Fruit
+645,10,2023,Stone Fruit,👍 Judges' Pick,Blake's Hard Cider Co.,Peach,Michigan,Fruit
+646,67,2023,Stone Fruit,👍 Judges' Pick,2 Towns Ciderhouse,"Cellar Series Oak Apricot, Nectarine & Honey",Oregon,Fruit
+647,550,2023,Tropical,🏆 Platinum,Schilling Cider,Big Zesty,Washington,Fruit
+648,67,2023,Tropical,🥇🥇 Double Gold,2 Towns Ciderhouse,Tropical Cosmic Crisp,Oregon,Fruit
+649,10,2023,Tropical,🥇🥇 Double Gold,Blake's Hard Cider Co.,Tropicolada,Michigan,Fruit
+650,294,2023,Tropical,🥇 Gold,Glacial Till Vineyard & Winery,Passion Pineapple,Nebraska,Fruit
+651,99,2023,Tropical,🥈 Silver,Artifact Cider Project,Juhu Beach,Massachusetts,Fruit
+652,449,2023,Tropical,🥈 Silver,North Canyon Cider Company,Pineapple Ginger,California,Fruit
+653,10,2023,Tropical,👍 Judges' Pick,Blake's Hard Cider Co.,Passion Seeker,Michigan,Fruit
+654,553,2023,Tropical,👍 Judges' Pick,Seattle Cider Company,Pineapple Agave,Washington,Fruit
+655,314,2023,Tropical,👍 Judges' Pick,Hale & True Cider Co.,POGA,Pennsylvania,Fruit
+656,67,2023,Hopped,🏆 Platinum,2 Towns Ciderhouse,Hip Hops,Oregon,Hopped
+657,432,2023,Hopped,🥇🥇 Double Gold,Mountain West Cider Company,Pomme Paloma Pink Boots Collab,Utah,Hopped
+658,118,2023,Hopped,🥇 Gold,Bauman's Cider,Idaho 7,Oregon,Hopped
+659,2181,2023,Hopped,🥈 Silver,Ponderosa Cider Co.,Hopricot,California,Hopped
+660,324,2023,Hopped,👍 Judges' Pick,Hazlitt 1852 Vineyards,Cider Tree with Citra Hops,New York,Hopped
+661,432,2023,Hopped,👍 Judges' Pick,Mountain West Cider Company,Cottonwood,Utah,Hopped
+662,294,2023,Hopped,👍 Judges' Pick,Glacial Till Vineyard & Winery,Hoppy Fruits,Nebraska,Hopped
+663,133,2023,Botanical,🏆 Platinum,Black Apple Hard Cider,Hibiscus,Arkansas,Botanical & Spiced
+664,1084,2023,Botanical,🥇🥇 Double Gold,19 Acres Cider Co.,Strawberry Hibiscus,Oregon,Botanical & Spiced
+665,947,2023,Botanical,🥇 Gold,Beach Bee Meadery,Apricot Sage,New Jersey,Botanical & Spiced
+666,1084,2023,Botanical,🥈 Silver,19 Acres Cider Co.,Cherry Rose,Oregon,Botanical & Spiced
+667,635,2023,Botanical,👍 Judges' Pick,Tieton Cider Works,Lavender Honey,Washington,Botanical & Spiced
+668,348,2023,Botanical,👍 Judges' Pick,Ironbark Ciderworks,Duchess,California,Botanical & Spiced
+669,88,2023,Botanical,👍 Judges' Pick,Anna's Cider,Rosé,California,Botanical & Spiced
+670,294,2023,Specialty,🏆 Platinum,Glacial Till Vineyard & Winery,Strawberry Rhubarb,Nebraska,Specialty
+671,294,2023,Specialty,🥇🥇 Double Gold,Glacial Till Vineyard & Winery,Chocolate Covered Strawberry,Nebraska,Specialty
+672,490,2023,Specialty,🥇 Gold,Portland Cider Company,Holy Habanero,Oregon,Specialty
+673,188,2023,Specialty,🥈 Silver,Champlain Orchards,Larrabee,Vermont,Specialty
+674,1757,2023,Specialty,👍 Judges' Pick,Odd Brothers Craft Cider,Sunday Sour,Michigan,Specialty
+675,88,2023,Specialty,👍 Judges' Pick,Anna's Cider,Cucumber Ginger,California,Specialty
+676,635,2023,Specialty,👍 Judges' Pick,Tieton Cider Works,Sour Watermelon,Washington,Specialty
+677,2208,2023,Cocktail-Inspired,🏆 Platinum,Soundbite Hard Cider,La Paloma,Washington,Cocktail-Inspired
+678,550,2023,Cocktail-Inspired,🥇🥇 Double Gold,Schilling Cider,Mountain Mule,Washington,Cocktail-Inspired
+679,118,2023,Cocktail-Inspired,🥇 Gold,Bauman's Cider,Strawberry Mojito,Oregon,Cocktail-Inspired
+680,957,2023,Cocktail-Inspired,🥈 Silver,Yonder Cider,Coulee,Washington,Cocktail-Inspired
+681,957,2023,Cocktail-Inspired,👍 Judges' Pick,Yonder Cider,Velvet Cashmere,Washington,Cocktail-Inspired
+682,490,2023,Cocktail-Inspired,👍 Judges' Pick,Portland Cider Company,Lemon Drop,Oregon,Cocktail-Inspired
+683,75,2023,Cocktail-Inspired,👍 Judges' Pick,1911 Established,Sangria,New York,Cocktail-Inspired
+684,10,2023,Spiced,🏆 Platinum,Blake's Hard Cider Co.,El Chavo,Michigan,Botanical & Spiced
+685,1084,2023,Spiced,🥇🥇 Double Gold,19 Acres Cider Co.,Yuletide,Oregon,Botanical & Spiced
+686,118,2023,Spiced,🥇 Gold,Bauman's Cider,Harvest Cider,Oregon,Botanical & Spiced
+687,670,2023,Spiced,🥈 Silver,Lake Chelan Winery,Apple Pie,Washington,Botanical & Spiced
+688,631,2023,Spiced,👍 Judges' Pick,Thor's Hard Cider,Ginger Fizz,Minnesota,Botanical & Spiced
+689,569,2023,Spiced,👍 Judges' Pick,Snow Capped Cider,JalaPEARño,Colorado,Botanical & Spiced
+690,631,2023,Spiced,👍 Judges' Pick,Thor's Hard Cider,El Thoro,Minnesota,Botanical & Spiced
+691,569,2023,Wood-Aged,🏆 Platinum,Snow Capped Cider,Blanc Mollet,Colorado,Wood-Aged
+692,908,2023,Wood-Aged,🥇🥇 Double Gold,Union Hill Cider Company,Sur Lie,Washington,Wood-Aged
+693,553,2023,Wood-Aged,🥇 Gold,Seattle Cider Company,Red-Wine Barrel Aged Berry,Washington,Wood-Aged
+694,635,2023,Wood-Aged,🥈 Silver,Tieton Cider Works,Bourbon Barrel Peach,Washington,Wood-Aged
+695,294,2023,Wood-Aged,👍 Judges' Pick,Glacial Till Vineyard & Winery,Cabin Nights,Nebraska,Wood-Aged
+696,1813,2023,Wood-Aged,👍 Judges' Pick,Clarksburg Cider,Cabernet Barrel-Aged,New York,Wood-Aged
+697,165,2023,Wood-Aged,👍 Judges' Pick,Brooklyn Cider House,Sapsong,New York,Wood-Aged
+698,124,2023,Dessert/Fortified,🏆 Platinum,Bent Ladder,Winter Crisp,Ohio,Dessert & Fortified
+699,185,2023,Dessert/Fortified,🏆 Platinum,Castle Hill Cider,Hewes Crab Pommeau Five Year Reserve,Virginia,Dessert & Fortified
+700,87,2023,Dessert/Fortified,🥇🥇 Double Gold,Angry Orchard,Pommeau,New York,Dessert & Fortified
+701,1060,2023,Dessert/Fortified,🥇 Gold,Seminary Hill Orchard & Cidery,Hen's Teeth,New York,Dessert & Fortified
+702,534,2023,Dessert/Fortified,🥈 Silver,Runcible Cider,ORE No. 001,Oregon,Dessert & Fortified
+703,136,2023,Dessert/Fortified,👍 Judges' Pick,Black Diamond Cider,2021 Porter's Pommeau,New York,Dessert & Fortified
+704,75,2023,Dessert/Fortified,👍 Judges' Pick,1911 Established,Pommeau,New York,Dessert & Fortified
+705,165,2023,Dessert/Fortified,👍 Judges' Pick,Brooklyn Cider House,Pommeau,New York,Dessert & Fortified
+706,67,2024,Non-Alcoholic,🏆 Platinum,2 Towns Ciderhouse,Sidekick N/A Cosmic Crisp,Oregon,Non-Alcoholic
+707,550,2024,Non-Alcoholic,🥇🥇 Double Gold,Schilling Cider,Excelsior Ground Control Cherry,Washington,Non-Alcoholic
+708,67,2024,Non-Alcoholic,🥇 Gold,2 Towns Ciderhouse,Sidekick N/A Pacific Pineapple,Oregon,Non-Alcoholic
+709,467,2024,Non-Alcoholic,🥈 Silver,Original Sin Cider,Widow’s Tea Cider,New York,Non-Alcoholic
+710,569,2024,High Tannin – Sweet,🏆 Platinum,Snow Capped Cider,Harrison,Colorado,Heritage
+711,569,2024,High Tannin – Sweet,🥇🥇 Double Gold,Snow Capped Cider,Ellis Bitter,Colorado,Heritage
+712,75,2024,High Tannin – Sweet,🥇 Gold,1911 Established,Lafayette Hard Cider,New York,Heritage
+713,569,2024,High Tannin – Sweet,🥈 Silver,Snow Capped Cider,Gold Rush,Colorado,Heritage
+714,569,2024,High Tannin – Dry,🏆 Platinum,Snow Capped Cider,Wilde Woods,Colorado,Heritage
+715,447,2024,High Tannin – Dry,🥇🥇 Double Gold,Noble Cider,French Cidre – Lewis Creek Orchard Reserve,North Carolina,Heritage
+716,255,2024,High Tannin – Dry,🥇 Gold,Eden Ciders,Stoke Red,Vermont,Heritage
+717,118,2024,High Tannin – Dry,🥈 Silver,Bauman's Cider,Fantastic Mr Foxwhelp,Oregon,Heritage
+718,1060,2024,High Tannin – Dry,👍 Judges' Pick,Seminary Hill Orchard & Cidery,Porter’s Perfection 2022,New York,Heritage
+719,569,2024,High Tannin – Dry,👍 Judges' Pick,Snow Capped Cider,6642',Colorado,Heritage
+720,569,2024,High Tannin – Dry,👍 Judges' Pick,Snow Capped Cider,Major,Colorado,Heritage
+721,569,2024,Single Varietal,🏆 Platinum,Snow Capped Cider,Winesap,Colorado,Single Varietal
+722,569,2024,Single Varietal,🥇🥇 Double Gold,Snow Capped Cider,Foxwhelp,Colorado,Single Varietal
+723,2039,2024,Single Varietal,🥇 Gold,Kristof Farms,Kingston Black SV,Oregon,Single Varietal
+724,569,2024,Single Varietal,🥈 Silver,Snow Capped Cider,Chisel Jersey,Colorado,Single Varietal
+725,1084,2024,Single Varietal,👍 Judges' Pick,19 Acres Cider Co.,Gravenstein,Oregon,Single Varietal
+726,255,2024,Single Varietal,👍 Judges' Pick,Eden Ciders,Kingston Black,Vermont,Single Varietal
+727,421,2024,Single Varietal,👍 Judges' Pick,Mill Haus Cider,Haus Dry,Washington,Single Varietal
+728,2037,2024,Perry,🏆 Platinum,Empyrical Orchard & Cidery,Pyriform,Washington,Perry
+729,569,2024,Perry,🥇🥇 Double Gold,Snow Capped Cider,Winter Pear,Colorado,Perry
+730,241,2024,Perry,🥇 Gold,Double Mountain Brewery & Cidery,Little Martha,Oregon,Perry
+731,2037,2024,Perry,🥇 Gold,Empyrical Orchard & Cidery,Query,Washington,Perry
+732,2037,2024,Perry,🥈 Silver,Empyrical Orchard & Cidery,Archive,Washington,Perry
+733,971,2024,Natural,🏆 Platinum,Space Time Mead & Cider Works,Leap Year,Pennsylvania,Natural
+734,414,2024,Natural,🥇🥇 Double Gold,Mercier Orchards,Legends,Georgia,Natural
+735,165,2024,Natural,🥇 Gold,Brooklyn Cider House,Solstice,New York,Natural
+736,165,2024,Natural,🥈 Silver,Brooklyn Cider House,Wild Rosé,New York,Natural
+737,155,2024,Pét Nat,🏆 Platinum,Botanist & Barrel,2023 ‘Not What We May Be’,North Carolina,Pét Nat
+738,354,2024,Pét Nat,🥇🥇 Double Gold,James Creek Cider House,Etude No 3 – Harrison,North Carolina,Pét Nat
+739,118,2024,Pét Nat,🥇 Gold,Bauman's Cider,Stoke Red Pet Nat,Oregon,Pét Nat
+740,165,2024,Pét Nat,🥈 Silver,Brooklyn Cider House,Opari,New York,Pét Nat
+741,118,2024,Rosé,🏆 Platinum,Bauman's Cider,Mountain Rose SV,Oregon,Rosé
+742,749,2024,Rosé,🥇🥇 Double Gold,Cidrerie Michel Jodoin,Boire la vie en Rose,Quebec,Rosé
+743,1885,2024,Rosé,🥇 Gold,Alma Cider,Rosé,Washington,Rosé
+744,635,2024,Rosé,🥈 Silver,Tieton Cider Works,Red-Fleshed,Washington,Rosé
+745,447,2024,Modern – Dry,🏆 Platinum,Noble Cider,Black & Gold,North Carolina,Modern
+746,550,2024,Modern – Dry,🥇🥇 Double Gold,Schilling Cider,Dryabolical,Washington,Modern
+747,569,2024,Modern – Dry,🥇 Gold,Snow Capped Cider,Winesap,Colorado,Modern
+748,810,2024,Modern – Dry,🥈 Silver,Merridale Ciderworks,Cowichan Dry,British Columbia,Modern
+749,1885,2024,Modern – Dry,👍 Judges' Pick,Alma Cider,Dry,Washington,Modern
+750,1060,2024,Modern – Dry,👍 Judges' Pick,Seminary Hill Orchard & Cidery,Spy Craft 2022,New York,Modern
+751,553,2024,Modern – Dry,👍 Judges' Pick,Seattle Cider Company,VIVID Tart Apple,Washington,Modern
+752,569,2024,Modern – Sweet,🏆 Platinum,Snow Capped Cider,Gravenstein,Colorado,Modern
+753,569,2024,Modern – Sweet,🥇🥇 Double Gold,Snow Capped Cider,The Russets,Colorado,Modern
+754,550,2024,Modern – Sweet,🥇 Gold,Schilling Cider,Local Legend,Washington,Modern
+755,569,2024,Modern – Sweet,🥈 Silver,Snow Capped Cider,Akane,Colorado,Modern
+756,118,2024,Modern – Sweet,👍 Judges' Pick,Bauman's Cider,Authentic,Oregon,Modern
+757,490,2024,Modern – Sweet,👍 Judges' Pick,Portland Cider Company,Original Gold,Oregon,Modern
+758,553,2024,Modern – Sweet,👍 Judges' Pick,Seattle Cider Company,Semi Sweet,Washington,Modern
+759,165,2024,Fruit,🏆 Platinum,Brooklyn Cider House,Rosé,New York,Fruit
+760,569,2024,Fruit,🥇🥇 Double Gold,Snow Capped Cider,Sparkling Rosé,Colorado,Fruit
+761,1056,2024,Fruit,🥇 Gold,Highpoint Cider,Prairie Punch,Idaho,Fruit
+762,449,2024,Fruit,🥈 Silver,North Canyon Cider Company,Pomegranate Hard Cider,California,Fruit
+763,345,2024,Fruit,👍 Judges' Pick,Incline Cider Company,Blood Orange,Washington,Fruit
+764,1887,2024,Fruit,👍 Judges' Pick,Offset Ciderworks,Pink Guava,Washington,Fruit
+765,553,2024,Fruit,👍 Judges' Pick,Seattle Cider Company,VIVID Juicy Pear,Washington,Fruit
+766,3349,2024,Berry,🏆 Platinum,OutWest Wines & Ciders,Blackberry Cider,Washington,Fruit
+767,415,2024,Berry,🥇🥇 Double Gold,Meriwether Cider Company,Black Currant Crush,Idaho,Fruit
+768,490,2024,Berry,🥇 Gold,Portland Cider Company,Pacific Berry,Oregon,Fruit
+769,3349,2024,Berry,🥈 Silver,OutWest Wines & Ciders,Raspberry Cider,Washington,Fruit
+770,635,2024,Berry,👍 Judges' Pick,Tieton Cider Works,Hazy Strawberry,Washington,Fruit
+771,1055,2024,Berry,👍 Judges' Pick,Vala's Orchard Cider,Blackberry,Nebraska,Fruit
+772,1055,2024,Berry,👍 Judges' Pick,Vala's Orchard Cider,Black Currants,Nebraska,Fruit
+773,133,2024,Stone Fruit,🏆 Platinum,Black Apple Hard Cider,Peach,Arkansas,Fruit
+774,810,2024,Stone Fruit,🥇🥇 Double Gold,Merridale Ciderworks,Merri Berri,British Columbia,Fruit
+775,569,2024,Stone Fruit,🥇🥇 Double Gold,Snow Capped Cider,Sour Cherry,Colorado,Fruit
+776,67,2024,Stone Fruit,🥇 Gold,2 Towns Ciderhouse,Apricot Cosmic Crisp,Oregon,Fruit
+777,2208,2024,Stone Fruit,🥇 Gold,Soundbite Hard Cider,The Plum Oolong Goodbye,Washington,Fruit
+778,421,2024,Stone Fruit,🥈 Silver,Mill Haus Cider,Apricot Peach,Washington,Fruit
+779,3349,2024,Stone Fruit,🥈 Silver,OutWest Wines & Ciders,Harvest Peach Cider,Washington,Fruit
+780,10,2024,Stone Fruit,👍 Judges' Pick,Blake's Hard Cider Co.,Peach Party,Michigan,Fruit
+781,198,2024,Stone Fruit,👍 Judges' Pick,Cinder Block Brewery,Fresh Pressed Cherry,Missouri,Fruit
+782,345,2024,Stone Fruit,👍 Judges' Pick,Incline Cider Company,White Peach,Washington,Fruit
+783,490,2024,Tropical,🏆 Platinum,Portland Cider Company,Passion Orange Guava,Oregon,Fruit
+784,67,2024,Tropical,🥇🥇 Double Gold,2 Towns Ciderhouse,Pacific Pineapple,Oregon,Fruit
+785,600,2024,Tropical,🥇 Gold,Stormalong Cider,POG Punch,Massachusetts,Fruit
+786,67,2024,Tropical,🥈 Silver,2 Towns Ciderhouse,Tropical Cosmic Crisp,Oregon,Fruit
+787,1084,2024,Tropical,👍 Judges' Pick,19 Acres Cider Co.,Pineapple Passion,Oregon,Fruit
+788,103,2024,Tropical,👍 Judges' Pick,Avid Cider,Pineapple Mango,Oregon,Fruit
+789,198,2024,Tropical,👍 Judges' Pick,Cinder Block Brewery,Fresh Pressed Pineapple,Missouri,Fruit
+790,550,2024,Imperial Cider (Apple Only),🏆 Platinum,Schilling Cider,Excelsior Imperial Apple,Washington,Imperial
+791,67,2024,Imperial Cider (Apple Only),🥇🥇 Double Gold,2 Towns Ciderhouse,Original Cosmic Crisp,Oregon,Imperial
+792,490,2024,Imperial Cider (Apple Only),🥇 Gold,Portland Cider Company,Imperial Abbey Apple,Oregon,Imperial
+793,553,2024,Imperial Cider (Apple Only),🥈 Silver,Seattle Cider Company,Odyssey,Washington,Imperial
+794,10,2024,Imperial Cider (Apple Only),👍 Judges' Pick,Blake's Hard Cider Co.,American Apple,Michigan,Imperial
+795,2325,2024,Imperial Cider (Apple Only),👍 Judges' Pick,Donovan Orchards Estate Ciders,Rye and Dry,New York,Imperial
+796,600,2024,Imperial Cider (Apple Only),👍 Judges' Pick,Stormalong Cider,Massive Appeal,Massachusetts,Imperial
+797,67,2024,Imperial Cider (With Adjuncts),🏆 Platinum,2 Towns Ciderhouse,The Bad Apple,Oregon,Imperial
+798,345,2024,Imperial Cider (With Adjuncts),🥇🥇 Double Gold,Incline Cider Company,The Tropics,Washington,Imperial
+799,490,2024,Imperial Cider (With Adjuncts),🥇 Gold,Portland Cider Company,Imperial Peach Tea,Oregon,Imperial
+800,67,2024,Imperial Cider (With Adjuncts),🥈 Silver,2 Towns Ciderhouse,Raspberry Cosmic Crisp,Oregon,Imperial
+801,569,2024,Co-Ferment,🏆 Platinum,Snow Capped Cider,Porter’s & Perry,Colorado,Co-Ferment
+802,569,2024,Co-Ferment,🥇🥇 Double Gold,Snow Capped Cider,White Wine Perry,Colorado,Co-Ferment
+803,350,2024,Co-Ferment,🥇 Gold,Island Orchard Cider,Apple Cherry,Wisconsin,Co-Ferment
+804,2039,2024,Co-Ferment,🥈 Silver,Kristof Farms,Kristof Noir,Oregon,Co-Ferment
+805,350,2024,Hopped,🏆 Platinum,Island Orchard Cider,Hopped Brut Apple,Wisconsin,Hopped
+806,209,2024,Hopped,🥇🥇 Double Gold,Colorado Cider Company,Grasshop-Ah,Colorado,Hopped
+807,1813,2024,Hopped,🥇 Gold,Clarksburg Cider,Galaxy Grove,New York,Hopped
+808,553,2024,Hopped,🥈 Silver,Seattle Cider Company,Mixtape,Washington,Hopped
+809,118,2024,Hopped,👍 Judges' Pick,Bauman's Cider,Idaho 7,Oregon,Hopped
+810,389,2024,Hopped,👍 Judges' Pick,Liquid Alchemy Beverages,Cash-Ually-Hoptimistic,Delaware,Hopped
+811,1074,2024,Hopped,👍 Judges' Pick,Papa Moon Vineyards & Winery,Hopped,Nebraska,Hopped
+812,569,2024,Botanical,🏆 Platinum,Snow Capped Cider,Plum Lemongrass,Colorado,Botanical & Spiced
+813,133,2024,Botanical,🥇🥇 Double Gold,Black Apple Hard Cider,Hibiscus,Arkansas,Botanical & Spiced
+814,415,2024,Botanical,🥇 Gold,Meriwether Cider Company,Bannock Street Buzz,Idaho,Botanical & Spiced
+815,67,2024,Botanical,🥈 Silver,2 Towns Ciderhouse,The Baddie,Oregon,Botanical & Spiced
+816,1084,2024,Botanical,👍 Judges' Pick,19 Acres Cider Co.,Strawberry Hibiscus,Oregon,Botanical & Spiced
+817,553,2024,Botanical,👍 Judges' Pick,Seattle Cider Company,Gin Botanical,Washington,Botanical & Spiced
+818,2241,2024,Botanical,👍 Judges' Pick,Snowbird Farm & Cidery,Brady Bottom Blackberry Basil,Washington,Botanical & Spiced
+819,550,2024,Spiced,🏆 Platinum,Schilling Cider,Excelsior Imperial Apple Pie,Washington,Botanical & Spiced
+820,976,2024,Spiced,🥇🥇 Double Gold,Sincere Cider,Ginger Agave,California,Botanical & Spiced
+821,415,2024,Spiced,🥇 Gold,Meriwether Cider Company,Ginger Root,Idaho,Botanical & Spiced
+822,345,2024,Spiced,🥈 Silver,Incline Cider Company,Maple Haze,Washington,Botanical & Spiced
+823,389,2024,Spiced,👍 Judges' Pick,Liquid Alchemy Beverages,Cinnical,Delaware,Botanical & Spiced
+824,3349,2024,Spiced,👍 Judges' Pick,OutWest Wines & Ciders,Lemon Ginger,Washington,Botanical & Spiced
+825,490,2024,Spiced,👍 Judges' Pick,Portland Cider Company,Pumpkin Spice,Oregon,Botanical & Spiced
+826,345,2024,Spiced – Pepper,🏆 Platinum,Incline Cider Company,Cucumber Jalapeño,Washington,Botanical & Spiced
+827,530,2024,Spiced – Pepper,🥇🥇 Double Gold,Rootwood Cider Co.,Ghost Chili,Washington,Botanical & Spiced
+828,10,2024,Spiced – Pepper,🥇 Gold,Blake's Hard Cider Co.,Watermelon Heatwave,Michigan,Botanical & Spiced
+829,389,2024,Spiced – Pepper,🥇 Gold,Liquid Alchemy Beverages,Cherry-ots-of-Fire,Delaware,Botanical & Spiced
+830,490,2024,Spiced – Pepper,🥈 Silver,Portland Cider Company,Key Lime Habanero,Oregon,Botanical & Spiced
+831,1074,2024,Cocktail Inspired,🏆 Platinum,Papa Moon Vineyards & Winery,Margarita,Nebraska,Cocktail-Inspired
+832,188,2024,Cocktail Inspired,🥇🥇 Double Gold,Champlain Orchards,Sidria,Vermont,Cocktail-Inspired
+833,749,2024,Cocktail Inspired,🥇 Gold,Cidrerie Michel Jodoin,Pomme on the Beach,Quebec,Cocktail-Inspired
+834,409,2024,Cocktail Inspired,🥈 Silver,McMenamins Edgefield Winery,Blood Orange Ginger,Oregon,Cocktail-Inspired
+835,530,2024,Specialty,🏆 Platinum,Rootwood Cider Co.,Pollinator,Washington,Specialty
+836,3350,2024,Specialty,🥇🥇 Double Gold,Hierophant Meadery,Counsel of Dryads,Washington,Specialty
+837,2208,2024,Specialty,🥇 Gold,Soundbite Hard Cider,Pickelback,Washington,Specialty
+838,2241,2024,Specialty,🥈 Silver,Snowbird Farm & Cidery,Lavender Haze,Washington,Specialty
+839,67,2024,Specialty,👍 Judges' Pick,2 Towns Ciderhouse,Plum Cherry Amburana,Oregon,Specialty
+840,345,2024,Specialty,👍 Judges' Pick,Incline Cider Company,Prickly Pear,Washington,Specialty
+841,391,2024,Specialty,👍 Judges' Pick,Locust Cider,Honey Pear,Washington,Specialty
+842,908,2024,Wood-Aged,🏆 Platinum,Union Hill Cider Company,Bour-Bon Voyage,Washington,Wood-Aged
+843,1084,2024,Wood-Aged,🥇🥇 Double Gold,19 Acres Cider Co.,Barrel-Aged,Oregon,Wood-Aged
+844,569,2024,Wood-Aged,🥇 Gold,Snow Capped Cider,Barrel Aged Kingston Black,Colorado,Wood-Aged
+845,118,2024,Wood-Aged,🥈 Silver,Bauman's Cider,Bourbon Vanilla Cider,Oregon,Wood-Aged
+846,350,2024,Wood-Aged,👍 Judges' Pick,Island Orchard Cider,Brut in a Barrel,Wisconsin,Wood-Aged
+847,2039,2024,Wood-Aged,👍 Judges' Pick,Kristof Farms,Kristof Reserve,Oregon,Wood-Aged
+848,1055,2024,Wood-Aged,👍 Judges' Pick,Vala's Orchard Cider,Blueberry Oak Reserve,Nebraska,Wood-Aged
+849,350,2024,Dessert/Fortified,🏆 Platinum,Island Orchard Cider,Pomona,Wisconsin,Dessert & Fortified
+850,1084,2024,Dessert/Fortified,🥇🥇 Double Gold,19 Acres Cider Co.,Pommeau,Oregon,Dessert & Fortified
+851,75,2024,Dessert/Fortified,🥇 Gold,1911 Established,Pommeau,New York,Dessert & Fortified
+852,908,2024,Dessert/Fortified,🥈 Silver,Union Hill Cider Company,Pommeau 24,Washington,Dessert & Fortified

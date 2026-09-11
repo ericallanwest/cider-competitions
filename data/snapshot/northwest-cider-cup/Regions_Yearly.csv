@@ -1,0 +1,47 @@
+Region,Year,🥇 Gold,🥈 Silver,🥉 Bronze,🏅 Total
+Oregon,2014,4,3,3,10
+Washington,2014,1,3,2,6
+British Columbia,2014,0,1,0,1
+Oregon,2015,4,6,4,14
+Washington,2015,2,1,3,6
+British Columbia,2015,1,0,1,2
+Oregon,2016,5,6,4,15
+Washington,2016,1,1,3,5
+British Columbia,2016,0,1,3,4
+Montana,2016,1,0,1,2
+Oregon,2017,6,4,7,17
+Washington,2017,0,4,3,7
+Montana,2017,2,1,0,3
+British Columbia,2017,0,1,2,3
+Idaho,2017,0,1,0,1
+Oregon,2018,12,8,10,30
+Washington,2018,2,5,3,10
+Montana,2018,1,2,2,5
+British Columbia,2018,1,0,0,1
+Idaho,2018,0,1,0,1
+Oregon,2019,8,11,7,26
+Washington,2019,6,4,8,18
+British Columbia,2019,0,2,0,2
+Idaho,2019,0,1,0,1
+Montana,2019,0,1,0,1
+Oregon,2021,10,6,6,22
+Washington,2021,4,7,6,17
+British Columbia,2021,2,1,1,4
+Montana,2021,0,2,0,2
+Washington,2022,10,10,11,31
+Oregon,2022,7,9,5,21
+British Columbia,2022,3,2,2,7
+Montana,2022,0,1,0,1
+Washington,2023,8,6,8,22
+Oregon,2023,7,9,4,20
+Idaho,2023,2,1,2,5
+British Columbia,2023,1,1,2,4
+Total,2014,5,7,5,17
+Total,2015,7,7,8,22
+Total,2016,7,8,11,26
+Total,2017,8,11,12,31
+Total,2018,16,16,15,47
+Total,2019,14,19,15,48
+Total,2021,16,16,13,45
+Total,2022,20,22,18,60
+Total,2023,18,17,16,51

@@ -1,0 +1,159 @@
+ID,Category,Medal,Producer,Product,Subcategory
+2,Flavoured,🏆 Trophy,Ydun Cider,Raw Cider - Orange Quince Cider,Cider with Fruits & Flowers
+3,Flavoured,🥈 Silver,Beard and Sabre,Dolores,Cider with Hops
+4,Flavoured,🥈 Silver,Celtic Marches,Celtic Marches Mango,Cider with Fruits & Flowers
+5,Flavoured,🥈 Silver,Ciderclan / Mosterei Möhl AG,Möhl Dry Hopped Apple Cider,Cider with Hops
+6,Flavoured,🥈 Silver,Ciderclan / Mosterei Möhl AG,Möhl Grapefruit Apple Cider,Cider with Fruits & Flowers
+7,Flavoured,🥈 Silver,Doggerland Craft Cider,Ad Hop,Cider with Hops
+8,Flavoured,🥈 Silver,Dudda's Tun Cider,Dudda's Tun Elderflower,Cider with Fruits & Flowers
+9,Flavoured,🥈 Silver,Hawkes Cider,Pineapple Punch,Cider with Fruits & Flowers
+10,Flavoured,🥈 Silver,Hogan's Cider,Hogan's Wild Elder Cider,Cider with Fruits & Flowers
+11,Flavoured,🥈 Silver,Les Celliers Associés,L'Authentique French Cider Ginger Lemon,Cider with Herbs & Spices
+12,Flavoured,🥈 Silver,Marks & Spencer,Braeburn Apple & Cherry,Cider with Fruits & Flowers
+13,Flavoured,🥈 Silver,Thistly Cross Cider,Thistly Cross Strawberry,Cider with Fruits & Flowers
+14,Flavoured,🥈 Silver,Turners Cider,Turners Elderflower Cider,Cider with Fruits & Flowers
+15,Flavoured,🥈 Silver,"Valle, Ballina y Fernandez SA (Grupo el Gaitero)",Gaitero Spanish Cider with Red Grape,Cider with Fruits & Flowers
+16,Flavoured,🥉 Bronze,Custom Drinks S.L.U.,Maeloc Blackberry,Cider with Fruits & Flowers
+17,Flavoured,🥉 Bronze,Custom Drinks S.L.U.,Maeloc Pineapple Pear,Cider with Fruits & Flowers
+18,Flavoured,🥉 Bronze,Dudda's Tun Cider,Dudda's Tun Cherry,Cider with Fruits & Flowers
+19,Flavoured,🥉 Bronze,Hawkes Cider,Sucker For Pumpkins,Cider with Herbs & Spices
+20,Flavoured,🥉 Bronze,Hogan's Cider,Hogan's Hip Hop Cider,Cider with Hops
+21,Flavoured,🥉 Bronze,Lost Orchards,Lost Orchards Scottish Dark Berries,Cider with Fruits & Flowers
+22,Flavoured,🥉 Bronze,Marks & Spencer,Devon Farmhouse Cider with Elderflower Infusion,Cider with Fruits & Flowers
+23,Flavoured,🥉 Bronze,Sheppy's Cider,Sheppy's Cider with Raspberry,Cider with Fruits & Flowers
+24,Flavoured,🥉 Bronze,Thistly Cross Cider,Thistly Cross Real Elderflower,Cider with Fruits & Flowers
+25,Flavoured,🥉 Bronze,Thistly Cross Cider,Thistly Cross Real Ginger,Cider with Herbs & Spices
+26,Flavoured,🥉 Bronze,Turners Cider,Turners Apple Pie Cider,Cider with Herbs & Spices
+27,Flavoured,🥉 Bronze,Ty Gwyn Cider,Ty Gwyn Cider 'Black and Browns' Blackcurrant Cider,Cider with Fruits & Flowers
+28,Ice Cider,🏆 Trophy,Cold Hand Winery,Malus Danica 2016,
+29,Ice Cider,🥈 Silver,Ramborn Cider Co.,Meadow Orchard Ice Cider,
+30,Ice Cider,🥉 Bronze,Angry Orchard Brewing Co,Ice Cider,
+31,Ice Cider,🥉 Bronze,"Valle, Ballina y Fernandez SA (Grupo el Gaitero)",1898,
+32,Low and No Alcohol,🏆 Trophy,Waitrose & Partners,Waitrose Low Alcohol Cider,
+33,Low and No Alcohol,🥇 Gold,Courtney's Drinks,Courtney's Light,
+34,Low and No Alcohol,🥈 Silver,Les Celliers Associés,L'Authentique French Cider Doux,
+35,Low and No Alcohol,🥈 Silver,Les Celliers Associés,Val de Rance Cru Breton Doux,
+36,Low and No Alcohol,🥈 Silver,Lost Orchards,Scottish Pure Apple Low Alcohol,
+37,Low and No Alcohol,🥈 Silver,Sheppy's Cider,Sheppy's Low Alcohol Classic Cider,
+38,Low and No Alcohol,🥈 Silver,Westons Cider,Stowford Press Low Alcohol Cider,
+39,Low and No Alcohol,🥉 Bronze,Celtic Marches,Holly GoLightly,
+40,Low and No Alcohol,🥉 Bronze,Hawkes Cider,Designated Apple Cider,
+41,Low and No Alcohol,🥉 Bronze,Hawkes Cider,Designated Cider - Mixed Berry,
+42,Naturally Sparkling,🏆 Trophy,Eclor Boissons,Ecusson Doux Bio,Bottle Conditioned (including French Style)
+43,Naturally Sparkling,🥇 Gold,Del Fatti Laura Ditta Individuale,Melagodo Extra-Dry,Bottle Fermented
+44,Naturally Sparkling,🥈 Silver,Cidre Le Brun Bigoud,Cidre Le Brun AOP Cornouaille,Bottle Fermented
+45,Naturally Sparkling,🥈 Silver,Cold Hand Winery,Vinter 2017,Bottle Fermented
+46,Naturally Sparkling,🥈 Silver,Eclor Boissons,Ecusson Rosé,Bottle Conditioned (including French Style)
+47,Naturally Sparkling,🥈 Silver,Hampshire Downs Fine Cider Company,Chalkdown Cider 2015,Bottle Fermented
+48,Naturally Sparkling,🥈 Silver,Hampshire Downs Fine Cider Company,Chalkdown Cider Extra Lees Aged,Bottle Fermented
+49,Naturally Sparkling,🥈 Silver,Hush Heath Estate,Jake's Orchard Cider,Bottle Fermented
+50,Naturally Sparkling,🥈 Silver,"Valle, Ballina y Fernandez SA (Grupo el Gaitero)",El Gaitero Black Label,Bottle Conditioned (including French Style)
+51,Naturally Sparkling,🥈 Silver,"Valle, Ballina y Fernandez SA (Grupo el Gaitero)",Pomarina Brut,Bottle Conditioned (including French Style)
+52,Naturally Sparkling,🥈 Silver,Ydun Cider,Raw Cider - Dumolobo,Bottle Fermented
+53,Naturally Sparkling,🥉 Bronze,Angry Orchard Brewing Co,Trois Pommes,Bottle Conditioned (including French Style)
+54,Naturally Sparkling,🥉 Bronze,Azienda Agricola Docendo Discitur di Provino Lale-Demoz,Alma Cider Extra Dry 2018 Pink Label,Bottle Fermented
+55,Naturally Sparkling,🥉 Bronze,Del Fatti Laura Ditta Individuale,Melagodo Brut,Bottle Fermented
+56,Naturally Sparkling,🥉 Bronze,Eclor Boissons,Ecusson Brut Bio,Bottle Conditioned (including French Style)
+57,Naturally Sparkling,🥉 Bronze,The Portsmouth Distillery Co,Fort Cyder,Bottle Conditioned (including French Style)
+58,New World Style,🏆 Trophy,ALDI Stores (Aust),Storm European Apple Cider,Sweet Cider
+59,New World Style,🥈 Silver,ALDI Stores (Aust),Devils Orchard Apple Cider,Dry Cider
+60,New World Style,🥈 Silver,Ceres Cider Company,Loxtonia Crispy Apple Cider,Medium Cider
+61,New World Style,🥈 Silver,Eclor Boissons,Louis Raison Original Crisp,Sweet Cider
+62,New World Style,🥈 Silver,Hush Heath Estate,Jake's Kentish Cider,Medium Cider
+63,New World Style,🥈 Silver,JR-East Aomori Business-Development Company A-Factory,Aomori Cidre Sparkling Dry,Dry Cider
+64,New World Style,🥈 Silver,JR-East Aomori Business-Development Company A-Factory,Aomori Cidre Sparkling Standard,Medium Cider
+65,New World Style,🥈 Silver,Nude Cider,Nude Cider Medium Dry,Medium Cider
+66,New World Style,🥈 Silver,Oldfields Cider / Lambswick Drinks Co.,Applefresco,Dry Cider
+67,New World Style,🥈 Silver,Oldfields Cider / Lambswick Drinks Co.,Oldfields Medium Dry,Dry Cider
+68,New World Style,🥈 Silver,Oldfields Cider / Lambswick Drinks Co.,Oldfields Original,Medium Cider
+69,New World Style,🥈 Silver,Porlock Cider Mill,Shepherd's Warning,Sweet Cider
+70,New World Style,🥈 Silver,Thatchers Cider Company,Thatchers Katy,Medium Cider
+71,New World Style,🥈 Silver,Thistly Cross Cider,Thistly Cross Original,Medium Cider
+72,New World Style,🥉 Bronze,Austrian Cider Company,Fuschlsee Cuvée,Dry Cider
+73,New World Style,🥉 Bronze,Ciderclan / Mosterei Möhl AG,Möhl Straight Apple Cider,Medium Cider
+74,New World Style,🥉 Bronze,Dudda's Tun Cider,Greenhorn,Medium Cider
+75,New World Style,🥉 Bronze,Eclor Boissons,Louis Raison Rouge Délice,Sweet Cider
+76,New World Style,🥉 Bronze,Highland Cider,Nøvar,Medium Cider
+77,New World Style,🥉 Bronze,JR-East Aomori Business-Development Company A-Factory,Aomori Cidre Sparkling Sweet,Sweet Cider
+78,New World Style,🥉 Bronze,Kelterei Heil,Cooper's Original Cider,Sweet Cider
+79,New World Style,🥉 Bronze,Kentish Pip,Craftsman,Medium Cider
+80,New World Style,🥉 Bronze,Kentish Pip,High Diver,Medium Cider
+81,New World Style,🥉 Bronze,"Kiezbaum (S. Grüner, I. Kunisch GbR)",Kiezbaum Cider Apple,Medium Cider
+82,New World Style,🥉 Bronze,Les Celliers Associés,Perle de Cidre Brut,Dry Cider
+83,New World Style,🥉 Bronze,Les Celliers Associés,Perle de Cidre Fruité,Sweet Cider
+84,New World Style,🥉 Bronze,Psydra,Maçãdelic,Dry Cider
+85,New World Style,🥉 Bronze,Turners Cider,Turners Medium-Dry Cider,Dry Cider
+86,New World Style,🥉 Bronze,Wise Owl Cider,Russet - Single Variety,Medium Cider
+87,Pear,🥈 Silver,"Kiezbaum (S. Grüner, I. Kunisch GbR)",Kiezbaum Cider Pear,Medium
+88,Pear,🥈 Silver,Les Celliers Associés,L'Authentique French Cider Pear,Medium
+89,Pear,🥈 Silver,Marks & Spencer,Vintage Pear Cider,Medium
+90,Pear,🥉 Bronze,ALDI Stores (Aust),Devils Orchard Pear Cider,Dry
+91,Pear,🥉 Bronze,Custom Drinks S.L.U.,Maeloc Pear,Medium
+92,Pear,🥉 Bronze,Waitrose & Partners,Waitrose Pear Cider,Medium
+93,Pear,🥉 Bronze,Wise Owl Cider,Lightly Sparkling Pear Cider,Medium
+94,Perry,🏆 Trophy,Hogan's Cider,Hogan's Perry,Medium
+95,Perry,🥈 Silver,Ramborn Cider Co.,Ramborn Perry,Medium
+96,Perry,🥈 Silver,Waitrose & Partners / Weston's Cider,Waitrose Westons English Vintage Perry Cider,Dry
+97,Perry,🥉 Bronze,Cidre Le Brun Bigoud,Poire Le Brun,Medium
+98,Rosé,🏆 Trophy,Hush Heath Estate,Jake's Orchard Cider - Rosé,
+99,Rosé,🥈 Silver,Asahi Breweries,Nikka Cidre Rose,
+100,Rosé,🥈 Silver,Cidentro Cider House / Cooks Cider,Cidentro Rosé Cider 2018,
+101,Rosé,🥉 Bronze,Les Celliers Associés,L'Authentique French Cider Rosé,
+102,Spanish Cider (Sidra Natural),🏆 Trophy,Angry Orchard Brewing Co,Edu,
+103,Spanish Cider (Sidra Natural),🥈 Silver,Custom Drinks S.L.U.,Maeloc Unfiltered Organic,
+104,Speciality,🏆 Trophy,Cold Hand Winery,Malus X Feminam 2016,
+105,Speciality,🥇 Gold,Ramborn Cider Co.,Luxembourgish Garden Quince,
+106,Speciality,🥈 Silver,Crafty Nectar,Crafty Nectar No.9,
+107,Speciality,🥈 Silver,Nohoval Wines / Nohoval Drinks Company,Apple Oak Wine,
+108,Speciality,🥉 Bronze,Fukushima Ouse Winery,Cidre 2018,
+109,Speciality,🥉 Bronze,J&R Armitage,The First Law,
+110,West Country Style,🏆 Trophy,Pips Cider,Pips Medium,Medium Cider
+111,West Country Style,🥇 Gold,Cidre Le Brun Bigoud,Cidre Le Brun Rose,Medium Cider
+112,West Country Style,🥇 Gold,Hogan's Cider,Hogan's Medium Cider,Medium Cider
+113,West Country Style,🥇 Gold,Les Celliers Associés,Val de Rance Cru Breton Brut,Medium Cider
+114,West Country Style,🥈 Silver,Aston Manor Cider,Friels First Press Vintage Cider,Dry Cider
+115,West Country Style,🥈 Silver,Aston Manor Cider,Malvern Cider Co. Malvern Gold Cider,Medium Cider
+116,West Country Style,🥈 Silver,Celtic Marches,Abrahalls Vintage,Medium Cider
+117,West Country Style,🥈 Silver,Cidentro Cider House / Cooks Cider,Cidentro Still Cider 2018,Dry Cider
+118,West Country Style,🥈 Silver,Cidre Bigoud,Cidre Lidl Artisanal Brut,Dry Cider
+119,West Country Style,🥈 Silver,Cidre Le Brun Bigoud,Cidre Le Brun Organic,Medium Cider
+120,West Country Style,🥈 Silver,Dunkertons Organic Cider,Craft Organic,Medium Cider
+121,West Country Style,🥈 Silver,Hogan's Cider,Hogan's Dry Cider,Dry Cider
+122,West Country Style,🥈 Silver,Les Celliers Associés / Cider Supply Company,Galipette Cidre Brut,Dry Cider
+123,West Country Style,🥈 Silver,Marks & Spencer,Somerset Oak Matured Vintage Cider,Medium Cider
+124,West Country Style,🥈 Silver,Perry's Cider,Barn Owl,Medium Cider
+125,West Country Style,🥈 Silver,Sandford Orchards,Creedy Vintage,Medium Cider
+126,West Country Style,🥈 Silver,Sandford Orchards,Devon Mist,Medium Cider
+127,West Country Style,🥈 Silver,Sheppy's Cider,Sheppy's Vintage Reserve Cider,Dry Cider
+128,West Country Style,🥈 Silver,The Taunton Cider Company,Taunton Original Medium Cider,Sweet Cider
+129,West Country Style,🥈 Silver,Waitrose & Partners,"Waitrose Westons English Vintage, Herefordshire",Dry Cider
+130,West Country Style,🥈 Silver,Westons Cider,Henry Westons Signature Vintage,Medium Cider
+131,West Country Style,🥈 Silver,Westons Cider,Henry Westons Vintage,Medium Cider
+132,West Country Style,🥉 Bronze,Angry Orchard Brewing Co,Bittersteve,Dry Cider
+133,West Country Style,🥉 Bronze,Celtic Marches,Abrahalls AD Dry,Medium Cider
+134,West Country Style,🥉 Bronze,Celtic Marches,Abrahalls AM Medium,Medium Cider
+135,West Country Style,🥉 Bronze,Cidentro Cider House / Cooks Cider,Cidentro Cider 2018,Dry Cider
+136,West Country Style,🥉 Bronze,Courtney's Drinks,Whimple Orchards,Medium Cider
+137,West Country Style,🥉 Bronze,Dunkertons Organic Cider,Black Fox Organic,Dry Cider
+138,West Country Style,🥉 Bronze,Hawkes Cider,Slam Funk,Dry Cider
+139,West Country Style,🥉 Bronze,Heineken UK,Bulmers Original,Medium Cider
+140,West Country Style,🥉 Bronze,Heineken UK,Orchard Thieves,Medium Cider
+141,West Country Style,🥉 Bronze,Heineken UK,Strongbow,Medium Cider
+142,West Country Style,🥉 Bronze,Heineken UK,Strongbow Cloudy Apple,Medium Cider
+143,West Country Style,🥉 Bronze,Kentish Pip,Skylark,Medium Cider
+144,West Country Style,🥉 Bronze,Les Celliers Associés,L'Authentique French Cider Brut,Medium Cider
+145,West Country Style,🥉 Bronze,Lidl GB,Woodgate Devonshire Scrumpy Apple Cider,Dry Cider
+146,West Country Style,🥉 Bronze,Lidl GB,Woodgate Premium West Country Vintage Cider,Medium Cider
+147,West Country Style,🥉 Bronze,Marks & Spencer,Devon Farmhouse Cider,Medium Cider
+148,West Country Style,🥉 Bronze,Marks & Spencer,Somerset Dabinett Apple Cider,Medium Cider
+149,West Country Style,🥉 Bronze,Marks & Spencer,Somerset Traditional Cider,Medium Cider
+150,West Country Style,🥉 Bronze,Marks & Spencer,Somerset Vintage Cider,Medium Cider
+151,West Country Style,🥉 Bronze,Perry's Cider,Redstreak,Medium Cider
+152,West Country Style,🥉 Bronze,Sandford Orchards,Devon Red,Medium Cider
+153,West Country Style,🥉 Bronze,Sheppy's Cider,Sheppy's 200 Special Edition Cider,Medium Cider
+154,West Country Style,🥉 Bronze,The Cotswold Cider Co.,No Brainer Dry Cloudy Sparkling Cider,Dry Cider
+155,West Country Style,🥉 Bronze,Ty Gwyn Cider,Ty Gwyn Cider Kingston Black Medium Dry Cider,Medium Cider
+156,West Country Style,🥉 Bronze,Westons Cider,Stowford Press Cloudy,Medium Cider
+157,Wood Aged,🥈 Silver,inCiderJapan G.K. / Farm & Cidery Kaneshige,Julien Farmer's Craft Cider - Barrel Aged,
+158,Wood Aged,🥉 Bronze,Hawkes Cider,Kentucky Bourbon Cider,
+159,Wood Aged,🥉 Bronze,Thistly Cross Cider,Thistly Cross Whisky Cask,

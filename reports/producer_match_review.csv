@@ -1,5 +1,4 @@
 producer_name,medals,competitions,region_in_results,country_in_results,confirm_wid,candidate1,wid1,where1,score1,candidate2,wid2,where2,score2,candidate3,wid3,where3,score3
-Chain Yard Urban Cidery,14,1,,,,Chain Yard Cider,738,"Halifax, Nova Scotia, Canada",0.708,Urban Orchard Cider Co.,2149,"Asheville, North Carolina, United States",0.39,Urban Apples Cidery,3303,"Westfield, Indiana, United States",0.35
 Moons Cider,14,1,,,,,,,,,,,,,,,
 Orchard 101,12,1,,,,101 Cider House,73,"Westlake Village, California, United States",0.5,Brew Lab 101 Beer & Cider Co.,1994,"Rio Rancho, New Mexico, United States",0.27,,,,
 Dr Rob Whale,11,1,,,,Dr. Höhl's,3586,"Maintal, Hesse, Germany",0.31,Rob Castle,3562,"Gloucester, Gloucestershire, England",0.295,Dr. Pilkington's,3424,"Willunga, South Australia, Australia",0.268
@@ -10,111 +9,71 @@ Strangey's Devon Cyder,10,1,,,,Gray's Devon Cider,1128,"Exeter, Devon, England",
 Dinnington Cider Press,9,1,,,,Potton Press Cider,1656,"Potton, Bedfordshire, England",0.457,Dunham Press Cider,2524,"Dunham Massey, Greater Manchester, England",0.429,Ex-Press Cider,2515,"Porlock, Somerset, England",0.4
 William Barnes,9,1,,,,William Penn Hard Cider,476,"Chadds Ford, Pennsylvania, United States",0.434,Barnes & Adams,1453,"Wotton-under-Edge, Gloucestershire, England",0.385,,,,
 Alex Hill,8,1,,,,Apple Hill Cidery,2583,"Lexington, Kentucky, United States",0.537,Castle Hill Cider,185,"Keswick, Virginia, United States",0.52,Chase Hill Cider,926,"Albany, New Hampshire, United States",0.495
-Kikusui Brewing,8,1,,,,Kikusui Brewing Co.,2016,"Iida, Nagano, Japan",1.0,Kickstand Brewing Company,1094,"Commerce Township, Michigan, United States",0.5,Mills Brewing,3243,"Berkeley, Gloucestershire, England",0.486
 Abbey Orchards,7,1,,,,Prinknash Abbey,1248,"Cranham, Gloucestershire, England",0.5,Ampleforth Abbey,1264,"York, North Yorkshire, England",0.49,,,,
 John and Naomi Wakelin,7,1,,,,John Worle Limited,1422,"Herefordshire, England",0.35,Uncle John's,61,"St Johns, Michigan, United States",0.307,,,,
 North Down Orchard,7,1,,,,North Idaho Cider,451,"Hayden, Idaho, United States",0.505,North Canyon Cider Company,449,"Camino, California, United States",0.491,Journey North Cider Co.,1896,"Bonnyville, Alberta, Canada",0.478
 Seven Trees Cider,7,1,,,,J. Trees Cellars,1843,"Tecumseh, Michigan, United States",0.365,Seven Birches Winery,977,"Lincoln, New Hampshire, United States",0.331,Seven Seeds Seidr,2594,"Forest Grove, Oregon, United States",0.293
-C.E.Petch Cidery and Distillery,6,1,,,,Cidrerie et Distillerie C.E.Petch,1924,"Hemmingford, Quebec, Canada",0.645,Distillery Lane Ciderworks,237,"Jefferson, Maryland, United States",0.394,The Portsmouth Distillery Co.,3527,"Southsea, Hampshire, England",0.393
 Chris Hecks,6,1,,,,Hecks Farmhouse Cider,1113,"Street, Somerset, England",0.446,,,,,,,,
-Die Mostbarone,6,1,,Austria,,,,,,,,,,,,,
 Molly's and Jasmine's Cider,6,1,,,,S. Martinelli & Co.,537,"Watsonville, California, United States",0.387,Campbell’s Orchards,719,"Carrying Place, Ontario, Canada",0.374,Nally's Cider,1535,"Invercargill, Southland, New Zealand",0.368
-Oliver’s Cider & Perry,6,1,Herefordshire,,,Oliver's Cider and Perry,1130,"Ocle Pychard, Herefordshire, England",1.0,Lindner's Cider,1886,"Hamden, New York, United States",0.482,Oliver Winery,461,"Bloomington, Indiana, United States",0.467
-Union Hill Cider Company,6,1,Washington,USA,,Union Hill Cider Co.,908,"East Wenatchee, Washington, United States",1.0,Union Cider,1300,"Cheltenham, Gloucestershire, England",0.567,Pond Hill Farm,943,"Harbor Springs, Michigan, United States",0.495
 Benjamin Jaffe - Dinnington Cider Press,5,1,,,,North American Press,982,"Santa Rosa, California, United States",0.304,Dunham Press Cider,2524,"Dunham Massey, Greater Manchester, England",0.287,Potton Press Cider,1656,"Potton, Bedfordshire, England",0.287
 Chris Conroy,5,1,,,,,,,,,,,,,,,
-Courtneys of Whimple,5,1,,,,Courtney’s of Whimple,2144,"Dunkeswell, Devon, England",0.611,Henry of Harcourt,1356,"Harcourt, Victoria, Australia",0.336,Hounds of Erie Winery,792,"Clear Creek, Ontario, Canada",0.315
 Over The Hill Cider,5,1,,,,Rose Hill Farm,979,"Red Hook, New York, United States",0.511,Moose Hill Cider,1814,"Oxford, Connecticut, United States",0.495,Old Hill Cider,456,"Timberville, Virginia, United States",0.482
 Paul Rendell,5,1,,,,Cidrerie Paul Coïc,1588,"Plonéis, Brittany, France",0.352,Coteau St-Paul,762,"Saint-Paul-d'Abbotsford, Quebec, Canada",0.304,Le Verger à Ti-Paul,803,"Saint-Elzéar, Quebec, Canada",0.281
 The Crest Cyder Company,5,1,,,,Angeles Crest Cider,2580,"Canoga Park, California, United States",0.522,,,,,,,,
-The Houghton Project,5,1,Herefordshire,,,Houghton Project,2780,"Bodenham, Herefordshire, England",1.0,Houghton Cider,1469,"Houghton, South Australia, Australia",0.567,The Cider Project,1806,"Buffalo, New York, United States",0.543
-Dancing Cider Company,4,1,,,,Dancing Cider Co.,1990,"Chungju, North Chungcheong, South Korea",1.0,,,,,,,,
-Harry's Cider Company,4,1,,,,Harry's Cider,1449,"Long Sutton, Somerset, England",1.0,Hart's Farm,2859,"Shoreham, Victoria, Australia",0.508,May's Cider,1280,"Ledbury, Herefordshire, England",0.467
 Jonathan Marsden,4,1,,,,,,,,,,,,,,,
-Kühbrein,4,1,,Austria,,Kühbrein Most,2396,"Gaal, Styria, Austria",0.605,,,,,,,,
-Nightingale Cider,4,1,,,,Nightingale Cider Company,2074,"Tenterden, Kent, England",1.0,Nightingale Bros.,2837,"Wandiligong, Victoria, Australia",0.626,,,,
-Peak Light Cider Company,4,1,Oregon,,,Peak Light Cider,916,"Sauvie Island, Oregon, United States",1.0,Harbor Light Brewery,1736,"South Haven, Michigan, United States",0.283,,,,
-Shuswap Cider Company,4,1,British Columbia,,,Shuswap Cider Co.,1980,"Salmon Arm, British Columbia, Canada",1.0,,,,,,,,
-Tinston Cider,4,1,,,,Tinston Wines & Ciders,1942,"Horsham, West Sussex, England",0.58,,,,,,,,
-Woodredding Cider and Perry,4,1,,,,Woodredding Farm Cider,1572,"Ross-on-Wye, Herefordshire, England",1.0,,,,,,,,
 Alan Berry,3,1,,,,Berry Farm Cider,1434,"Cullompton, Devon, England",0.567,The Berry,1271,"Walmer, Kent, England",0.567,Bayfield Berry Farm,2677,"Bayfield, Ontario, Canada",0.467
-BetterCider - Bristol University,3,1,,,,Serpentine Cider University Heights,2423,"San Diego, California, United States",0.351,Bristol Cider House,1290,"Bristol, Bristol, England",0.336,Bristol Cider Shop,1144,"Bristol, Bristol, England",0.321
+Appelsche,3,1,,Germany,,,,,,,,,,,,,
 Downside Perry,3,1,,,,,,,,,,,,,,,
-Ganley & Naish Cider,3,1,,,,Ganley & Naish,3233,"Kenn, Somerset, England",1.0,,,,,,,,
 Glyders Cider,3,1,,,,,,,,,,,,,,,
 Hayloft,3,1,,,,,,,,,,,,,,,
 Heritage Cider Limited,3,1,,,,Welsh Heritage Farms,316,"Lake Crystal, Minnesota, United States",0.591,Denmark Heritage Cider Company,3389,"Scotsdale, Western Australia, Australia",0.567,Patriots' Heritage Cider,912,"Schaghticoke, New York, United States",0.556
-Kristof Farms Cider,3,1,Oregon,,,Kristof Farms,2039,"Yamhill, Oregon, United States",1.0,,,,,,,,
 Molly & Jasmine's Cider,3,1,,,,S. Martinelli & Co.,537,"Watsonville, California, United States",0.387,Campbell’s Orchards,719,"Carrying Place, Ontario, Canada",0.374,Nally's Cider,1535,"Invercargill, Southland, New Zealand",0.368
 Riverside Cider,3,1,,,,,,,,,,,,,,,
 Tom Cernohous - Cidermil,3,1,,,,Tom's Tap and Brewhouse,3302,"Crewe, Cheshire, England",0.295,The Tom Cobley Tavern,2367,"Spreyton, Devon, England",0.284,Tom's Foolery Distillery,1877,"Burton, Ohio, United States",0.274
 Wyatts,3,1,,,,,,,,,,,,,,,
 Balti Sodai,2,1,,Lithuania,,Klumpės Sodai,3040,"Burbiškiai, Tauragė, Lithuania",0.433,,,,,,,,
 Draig Development,2,1,,,,,,,,,,,,,,,
-Gwatkin Cider Co.,2,1,Herefordshire,,,Gwatkin Cider,1215,"Abbey Dore, Herefordshire, England",1.0,,,,,,,,
-Hecks Cider,2,1,,,,Hecks Farmhouse Cider,1113,"Street, Somerset, England",0.5,,,,,,,,
 Jon Steadman,2,1,,,,,,,,,,,,,,,
-La Familia Cider Company,2,1,Oregon,,,La Familia Cider,2119,"Salem, Oregon, United States",1.0,Sidreria La Ballera,3241,"Villaviciosa, Asturias, Spain",0.44,La Garagista,377,"Barnard, Vermont, United States",0.418
 Lewis Henry,2,1,,,,Henry of Harcourt,1356,"Harcourt, Victoria, Australia",0.321,Henry Street Brewhouse,3189,"Kensington, Victoria, Australia",0.32,"Wildcide Hard Cider, Aurum Cider Company, Henry Hotspur's",687,"San Jose, California, United States",0.225
 Lisa Letchford,2,1,,,,,,,,,,,,,,,
 Lower Rydon,2,1,,,,,,,,,,,,,,,
 Mark Palfrey & Jonathan Pepper,2,1,,,,,,,,,,,,,,,
 Northleigh Cider,2,1,,,,,,,,,,,,,,,
-"OK,ADAM",2,1,,,,"OK,ADAM Hard Cider",2730,"Yokote, Akita, Japan",0.695,Roter Adam,3263,"Frankfurt, Hesse, Germany",0.482,OK Cider Co,455,"Oklahoma City, Oklahoma, United States",0.478
 Park Farm,2,1,,,,Stanley Park Brewing,843,"Delta, British Columbia, Canada",0.333,Hardywood Park Craft Brewery,890,"Richmond, Virginia, United States",0.25,,,,
-Ross-on-Wye Cider & Perry,2,1,Herefordshire,,,Ross on Wye Cider & Perry,1134,"Ross-on-Wye, Herefordshire, England",1.0,Ross-on-Wye Cider and Perry,1134.0,"Ross-on-Wye, Herefordshire, England",1.0,On Point Cider Company,3098,"Moccas, Herefordshire, England",0.318
-Showerings,2,1,,,,Showerings Cider Mill,1107,"Shepton Mallet, Somerset, England",0.62,,,,,,,,
-Three Peaks Winery,2,1,,,,Three Peaks,2832,"Ofunato, Iwate, Japan",0.703,Bear Creek Winery,2449,"Homer, Alaska, United States",0.417,Blacksmiths Winery,143,"Casco, Maine, United States",0.417
-TÁLAVA,2,1,,,,Tālava,2142,"Gulbene, Gulbene, Latvia",1.0,,,,,,,,
-Ventons Devon Cyder,2,1,,,,Ventons Devon Cider,1436,"Exeter, Devon, England",1.0,Hancock's Devon Cider,1239,"South Molton, Devon, England",0.407,Gray's Devon Cider,1128,"Exeter, Devon, England",0.374
 Wyldlands,2,1,,,,,,,,,,,,,,,
-19 Acres Cider,1,1,,,,19 Acres Cider Co.,1084,"Sherwood, Oregon, United States",1.0,Small Acres Cyder,1175,"Borenore, New South Wales, Australia",0.411,33 Acres Brewing Company,715,"Vancouver, British Columbia, Canada",0.35
-Bartestree Cider Co,1,1,Herefordshire,,,Bartestree Cider,2781,"Bartestree, Herefordshire, England",1.0,,,,,,,,
-Better Cider,1,1,,,,Better Cider UoB,3144,"Long Ashton, Somerset, England",0.6,,,,,,,,
 Buhre & Reuter,1,1,,Sweden,,,,,,,,,,,,,
 Camilla Humphries,1,1,,,,Camilla’s Crush Red Hill Cider,2841,"Red Hill, Victoria, Australia",0.354,,,,,,,,
-Cider Garden,1,1,,Australia,,Garden Cider Company,1545,"Chiddingfold, Surrey, England",1.0,"The Harp, Covent Garden",1289,"London, Greater London, England",0.4,Alpine Garden Winery,2446,"Bartlett, New Hampshire, United States",0.385
+Cider Garden,1,1,,,,Garden Cider Company,1545,"Chiddingfold, Surrey, England",1.0,"The Harp, Covent Garden",1289,"London, Greater London, England",0.4,Alpine Garden Winery,2446,"Bartlett, New Hampshire, United States",0.385
 Crest Cyder,1,1,,,,Angeles Crest Cider,2580,"Canoga Park, California, United States",0.522,,,,,,,,
-Fishbone,1,1,,Australia,,,,,,,,,,,,,
+Fishbone,1,1,,,,,,,,,,,,,,,
 Gabe Cook,1,1,,,,,,,,,,,,,,,
 Glastonbury Abbey,1,1,,,,Prinknash Abbey,1248,"Cranham, Gloucestershire, England",0.4,Ampleforth Abbey,1264,"York, North Yorkshire, England",0.394,,,,
-Golden Row Hard Cider,1,1,,,,Golden Row Cider,297,"Mt Hood, Oregon, United States",0.72,Golden Cider Company,3134,"Stockholm, Stockholm, Sweden",0.429,Bold Rock Hard Cider,153,"Nellysford, Virginia, United States",0.423
 Hartpury University Cider Project,1,1,,,,The Cider Project,1806,"Buffalo, New York, United States",0.365,Gravity Project,2509,"Saint Petersburg, Saint Petersburg, Russia",0.36,Artifact Cider Project,99,"Florence, Massachusetts, United States",0.355
-Hibi,1,1,,,,,,,,,,,,,,,
-Hikaru no Hata,1,1,,,,Hikaru no Hatake,2833,"Tomi, Nagano, Japan",0.673,Seek-No-Further Cidery,1817,"Granville, Ohio, United States",0.258,The Old No 7,1585,"Barnsley, South Yorkshire, England",0.229
 Ian Philp,1,1,,,,,,,,,,,,,,,
-Israel Hernández del Valle,1,1,Canary Islands,,,Sendero del Valle,3173,"Valleseco, Canary Islands, Spain",0.519,Sidra Del Valle,3713,"San Fernando, Buenos Aires, Argentina",0.506,Valle Ballina y Fernandez,1314,"Villaviciosa, Asturias, Spain",0.337
+Israel Hernández del Valle,1,1,Canary Islands,Spain,,Sendero del Valle,3173,"Valleseco, Canary Islands, Spain",0.519,Sidra Del Valle,3713,"San Fernando, Buenos Aires, Argentina",0.506,Valle Ballina y Fernandez,1314,"Villaviciosa, Asturias, Spain",0.337
 James and Becky Gerlis-Gray,1,1,,,,James Creek Cider House,354,"Cameron, North Carolina, United States",0.3,Archibald James,952,"Leavenworth, Washington, United States",0.288,Gray's Devon Cider,1128,"Exeter, Devon, England",0.283
 Juozas & Dange,1,1,,Lithuania,,,,,,,,,,,,,
+Keller Cider,1,1,,Switzerland,,,,,,,,,,,,,
 Kojiro Noen,1,1,,,,,,,,,,,,,,,
 Kojiro Orchards,1,1,,,,,,,,,,,,,,,
 Koshiro Noen,1,1,,,,,,,,,,,,,,,
 Martin Pagett,1,1,,,,Martin's Cidery,2717,"Nitra, Nitra, Slovakia",0.467,,,,,,,,
 Mount Vale,1,1,,,,Blackmore Vale Cider,3231,"Templecombe, Somerset, England",0.433,Marshwood Vale Cider,1262,"Bridport, Dorset, England",0.433,Mount Diablo Cider Company,1908,"Lafayette, California, United States",0.382
 Mount Vale Orchards,1,1,,,,Blackmore Vale Cider,3231,"Templecombe, Somerset, England",0.433,Marshwood Vale Cider,1262,"Bridport, Dorset, England",0.433,Mount Diablo Cider Company,1908,"Lafayette, California, United States",0.382
-Mugi to Budo,1,1,,,,"Grain & Grapes, Mugi to Budo",3227,"Ushiku, Ibaraki, Japan",0.619,Maison To,2937,"Foussais-Payré, Pays de la Loire, France",0.302,Step to Fruit,3039,"Novi Sad, Serbia",0.28
 Nerijus Kaučikas,1,1,,Lithuania,,,,,,,,,,,,,
 Orchards Farm,1,1,,,,The Cider Farm,622,"Mineral Point, Wisconsin, United States",0.328,,,,,,,,
 Pagetts Traditional Cider,1,1,,,,Lassen Traditional Cider,380,"Chico, California, United States",0.503,,,,,,,,
 Palestra Hidromiel,1,1,,,,,,,,,,,,,,,
 Peter Captainino,1,1,,,,,,,,,,,,,,,
 Pip Bailey,1,1,,,,Kentish Pip,2476,"Canterbury, Kent, England",0.39,,,,,,,,
-Pointy Head Cider (PHC),1,1,France,,,Pointy Head Cider,3204,"Aux-Aussat, Occitania, France",0.738,The Nag's Head,1354,"Reading, Berkshire, England",0.312,Taiwan Head Brewers,3661,"New Taipei City, Taiwan",0.285
 Pontymeddyg Cider,1,1,,,,,,,,,,,,,,,
-Portland Cider,1,1,,,,Portland Cider Company,490,"Clackamas, Oregon, United States",1.0,Portland Cider House,1029,"Portland, Oregon, United States",0.591,Portland Cider Company Westside Pub,2398,"Beaverton, Oregon, United States",0.421
-Posdata,1,1,,,,Posdata Sidra,2179,"Zapopan, Jalisco, Mexico",1.0,,,,,,,,
-Red Brick Road Cider,1,1,Australia,,,Red Brick Road Ciderhouse & Bar,1692,"Launceston, Tasmania, Australia",0.62,Brick River Cider,1068,"St. Louis, Missouri, United States",0.438,Riverview Road Cidery,2242,"Snohomish, Washington, United States",0.407
 Robin Bornoff,1,1,Herefordshire,,,,,,,,,,,,,,
 Sam Everitt,1,1,Herefordshire,,,Sam's Cider,1199,"Winkleigh, Devon, England",0.4,,,,,,,,
-Spreyton Cider Company,1,1,,,,Spreyton Cider Co.,1502,"Spreyton, Tasmania, Australia",1.0,,,,,,,,
 Strange Lady Cider,1,1,,,,Strange Brothers,3404,"Mt. Eden, Auckland, New Zealand",0.429,Pink Lady Cider Company,1688,"Thornbury, Victoria, Australia",0.429,Strange Fellows Brewing,2676,"Vancouver, British Columbia, Canada",0.356
 The Hayloft,1,1,,,,,,,,,,,,,,,
 The Orchard,1,1,,,,The Cidery,1177,"Bridgetown, Western Australia, Australia",0.39,The Cider Farm,622,"Mineral Point, Wisconsin, United States",0.374,,,,
-The Pippa,1,1,Asturias,,,,,,,,,,,,,,
-The Walnut House,1,1,,,,The Cider House,1036,"Portland, Maine, United States",0.535,Wilkins Farm House Cider,1124,"Wedmore, Somerset, England",0.488,Metal House Cider,417,"Ulster Park, New York, United States",0.478
+The Pippa,1,1,#N/A,#N/A,,,,,,,,,,,,,
 The Wharie Experience,1,1,,,,,,,,,,,,,,,
 Tom Cernohous,1,1,,,,The Tom Cobley Tavern,2367,"Spreyton, Devon, England",0.363,Tom's Tap and Brewhouse,3302,"Crewe, Cheshire, England",0.345,Tom's Foolery Distillery,1877,"Burton, Ohio, United States",0.315
-Tālava Sidrs,1,1,,,,Tālava,2142,"Gulbene, Gulbene, Latvia",0.567,Dārza Sidrs,2988,"Cēsis, Cēsis, Latvia",0.374,Ezera Sidrs,2993,"Riga, Riga, Latvia",0.374
 Watchet Cider Company,1,1,,,,,,,,,,,,,,,
-Wignac Cidre,1,1,,,,Wignac,2145,"Guignicourt-sur-Vence, Grand Est, France",1.0,,,,,,,,
 Win's Cider,1,1,,,,Wilson's Orchard & Farm,691,"Iowa City, Iowa, United States",0.508,Wilce's Cider,1154,"Ledbury, Herefordshire, England",0.467,Orchard's Cider and Perry,1136,"Chepstow, Gloucestershire, England",0.433

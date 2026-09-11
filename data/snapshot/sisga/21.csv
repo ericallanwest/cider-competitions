@@ -1,0 +1,87 @@
+ID,Style,Award,Entry,Producer,Region
+2,Dry Still Cider,🏆 Premium,Ati,Panizales de Mieres,Asturias
+3,Dry Still Cider,🥈 Silver,Sidra natural Carral,llagar Carral,León
+4,Dry Still Cider,🥈 Silver,Wild Cider,Elegast Cidery,Netherlands
+5,Dry Still Cider,🥈 Silver,Anne,Gartziategi,Basque Country
+6,Dry Still Cider,🥉 Bronze,L'Imprevu,Domaine de la Mare,France
+7,Dry Still Cider,🥉 Bronze,Sidra seca,Doggerland,Netherlands
+8,Dry Still Cider,🥉 Bronze,Noel-Henryk Nowakowsk,Cydr Rubinowy,Poland
+9,Dry Still Cider,🥉 Bronze,Natural,Txopinondo,France
+10,Dry Still Cider,🥉 Bronze,1947,Viuda de Angelón,Nava
+11,Semi-Dry Still Cider,🏆 Premium,Pussausais,Mr. Plume,Latvia
+12,Semi-Dry Still Cider,🥇 Gold,Exner craft cider,Gallinal Drinks,Asturias
+13,Semi-Dry Still Cider,🥈 Silver,Apple cider,Smiling dog,Czechia
+14,Sweet Still Cider,🏆 Premium,Craft Cider Holzapfel,Manufaktur Jörg Geiger,Germany
+15,Sweet Still Cider,🥇 Gold,100% natural,Manufaktur Jörg Geiger,Germany
+16,Sweet Still Cider,🥈 Silver,Sidra natural,Posma,Canary Islands
+17,Brut Sparkling Cider,🏆 Premium,Seidear,Christian Stolte,Scotland
+18,Brut Sparkling Cider,🥇 Gold,Sidra brut,Posma,Canary Islands
+19,Brut Sparkling Cider,🥇 Gold,Sidra brut,Sidra Fran,Asturias
+20,Brut Sparkling Cider,🥇 Gold,Brus 2020,Cydrownia Zywer,Poland
+21,Brut Sparkling Cider,🥈 Silver,Cox i paeren 2020,Aeblerov,Denmark
+22,Brut Sparkling Cider,🥈 Silver,Sparling,Mr Plume,Latvia
+23,Brut Sparkling Cider,🥈 Silver,Cider With Cabernet Pranc,Berryland,Ukraine
+24,Brut Sparkling Cider,🥈 Silver,Vrabec Seco,Cidérka,Czechia
+25,Brut Sparkling Cider,🥈 Silver,L'insoumis,Domaine de la Mare,France
+26,Brut Sparkling Cider,🥈 Silver,Kingston Black,Tall Ship Cider,Norway
+27,Brut Sparkling Cider,🥉 Bronze,Espumosa brut,El Lagar de Valleseco,Canary Islands
+28,Brut Sparkling Cider,🥉 Bronze,Vintage Cider 2020,Mr. Plume,Latvia
+29,Brut Sparkling Cider,🥉 Bronze,Metzen cider,Opre,Slovakia
+30,Brut Sparkling Cider,🥉 Bronze,Pom Sidro Creativo,Poms Sidro Creativo,Italy
+31,Brut Sparkling Cider,🥉 Bronze,Sidra Brut,Riestra,Asturias
+32,Brut Sparkling Cider,🥉 Bronze,Niebla espumosa brut,Bodegas Fra,Canary Islands
+33,Brut Sparkling Cider,🥉 Bronze,Sidra brut,Sidrada,Portugal
+34,Brut Sparkling Cider,🥉 Bronze,Unsinkable Sam,Tall Ship Cider,Norway
+35,Brut Sparkling Cider,🥉 Bronze,Petillant,Txopinondo,France
+36,Brut Sparkling Cider,🥉 Bronze,Barrel Fermented Cider,Berryland,Ukraine
+37,Brut Sparkling Cider,🥉 Bronze,Prau Monga,llagar Viuda de Angelón,Asturias
+38,Semi-Dry Sparkling Cider,🏆 Premium,Cidertalk by Provoco semiseca,Cider Sekt,Czechia
+39,Semi-Dry Sparkling Cider,🥇 Gold,Sidra semiseca,Riestra,Asturias
+40,Semi-Dry Sparkling Cider,🥈 Silver,Sojka Semiseco,Cidérka,Czechia
+41,Semi-Dry Sparkling Cider,🥈 Silver,Semiseca,Lagar de Vallesco,Canary Islands
+42,Semi-Dry Sparkling Cider,🥈 Silver,La Naveta,Paca y Tola,Asturias
+43,Semi-Dry Sparkling Cider,🥈 Silver,Artesanal espumante seca,Sidrería Alfa,Portugal
+44,Semi-Dry Sparkling Cider,🥈 Silver,Abolu,Talavas,Latvia
+45,Semi-Dry Sparkling Cider,🥉 Bronze,Sidra espumosa semiseca,Tencai,Chile
+46,Sweet Sparkling Cider,🏆 Premium,Cider Talk by Provoco amarga,Cider Sekt,Czechia
+47,Sweet Sparkling Cider,🥇 Gold,Sidra espumosa dulce,La Mala,Peru
+48,Sweet Sparkling Cider,🥈 Silver,Cider Talk by Provoco semidulce,Cider Sekt,Czechia
+49,Sweet Sparkling Cider,🥉 Bronze,Sidro di mele Frizzante,Azienda Agrícola Trerii,Italy
+50,Sweet Sparkling Cider,🥉 Bronze,Cidre Fermier,Pelletier,France
+51,Sweet Sparkling Cider,🥉 Bronze,Sidrs Sweet,Talavas,Latvia
+52,Sweet Sparkling Cider,🥉 Bronze,Sidrs Passion fruit,Talavas,Latvia
+53,Ice Cider,🏆 Premium,Valverán 20 Manzanas,Masaveu Bodegas,Asturias
+54,Ice Cider,🥇 Gold,Olivia,llagar Panizales,Asturias
+55,Ice Cider,🥇 Gold,Sidra de Hielo Panizales,Panizales,Asturias
+56,Ice Cider,🥈 Silver,Sidra de hielo con frutos rojos,Smiling Dog,Czechia
+57,Ice Cider,🥉 Bronze,Sidra de Hielo Cortina,Sidra Cortina,Asturias
+58,Perry,🏆 Premium,1797 C.-Bratbirnem sin alcohol,Manufaktur Jörg Geiger,Germany
+59,Perry,🥈 Silver,Wild Perry,Elegast Cidery,Netherlands
+60,Perry,🥈 Silver,Perada artesanal,Sidrada,Portugal
+61,Cider Liqueur,🏆 Premium,BP Licor de sidra,Manufaktur Jörg Geiger,Germany
+62,Cider Liqueur,🥇 Gold,Lecristallier,Maley,Italy
+63,Cider Spirits,🏆 Premium,Salvador del Obispo,Casería San Juan del Obispo,Asturias
+64,Cider Spirits,🥇 Gold,Idun,Talavas,Latvia
+65,Cider Spirits,🥈 Silver,Whymper 1865,Maley,Italy
+66,Cider Spirits,🥉 Bronze,Berroge,Txopinondo,France
+67,Cider Spirits,🥉 Bronze,Alquitara del Obispo,Casería San Juan del Obispo,Asturias
+68,Flavored Cider,🏆 Premium,SWO Cider,Manufaktur Jörg Geiger,Germany
+69,Flavored Cider,🥇 Gold,Sagar Krash Limoi,Petritegi,Basque Country
+70,Flavored Cider,🥈 Silver,Angelón Llimón,Viuda de Angelón,Asturias
+71,Flavored Cider,🥉 Bronze,Chiron,Castelo Branco,Portugal
+72,Flavored Cider,🥉 Bronze,Blueberry,Urban Farm Fermentory,United States
+73,Flavored Cider,🥉 Bronze,Seaweed,Urban Farm Fermentory,United States
+74,Flavored Cider,🥉 Bronze,Sagar Krash Sagar,Petritegi,Basque Country
+75,Aperitif Cider,🏆 Premium,!Wehmut,Manufaktur Jörg Geiger,Germany
+76,Aperitif Cider,🥇 Gold,Viesk,Panizales,Asturias
+77,Fire Cider,🏆 Premium,Su Sagardoa,Kuartango,Basque Country
+78,Fire Cider,🥇 Gold,Caldea,Panizales,Asturias
+79,Rosé Cider,🏆 Premium,Pomar Rosée,Viuda de Angelón,Asturias
+80,Hopped Cider,🏆 Premium,South Seas Cider,Tall Ship,Norway
+81,Hopped Cider,🥇 Gold,Brut Ipa,Mr. Plume,Latvia
+82,Hopped Cider,🥉 Bronze,Hoppy,llagar Hera,Galicia
+83,Hopped Cider,🥉 Bronze,Callabocas,Kuartango,Basque Country
+84,Hopped Cider,🥉 Bronze,Sidra con lúpulo,Oiharte,Basque Country
+85,Hopped Cider,🥉 Bronze,Fran Cider Lúpulo,Sidra Fran,Asturias
+86,Hopped Cider,🥉 Bronze,Nautical Stal,Tall Ship Cider,Norway
+87,Sparkling Brut Nature Cider,🏆 Premium,Ramos del Valle Brut Nature DOP,Sidra Fran de Lugones,Asturias

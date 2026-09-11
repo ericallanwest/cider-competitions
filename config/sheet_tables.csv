@@ -1,0 +1,20 @@
+competition_id,tab,status,notes
+australian-cider-awards,Data.csv,active,
+cidercraft-awards,Medals.csv,active,
+ciderworld-awards,Data.csv,active,covers 2018-2024; archive only had 2023-2024
+concours-des-cidres-de-normandie,Data.csv,active,
+concours-general-agricole,Data.csv,active,
+concours-regional-cidricole-de-bretagne,Data.csv,active,
+glintcap,Medals.csv,active,sheet stops at 2023; 2024 comes from the archive table
+good-food-awards,Data.csv,active,
+international-cider-awards,Data.csv,active,
+international-cider-challenge,Data.csv,active,
+japan-cider-cup,Data.csv,active,
+museum-of-cider,Data.csv,active,
+nordic-international-cider-awards,Data.csv,active,
+northwest-cider-cup,Medals.csv,active,
+royal-bath-and-west,Data.csv,active,
+royal-three-counties,Data.csv,active,NOT 24.csv - that tab has 1001 rows and no Year column
+sagardo-forum,Data.csv,active,
+sisga,Data.csv,active,
+us-open-cider-championship,Data.csv,active,

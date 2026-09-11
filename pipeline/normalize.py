@@ -19,6 +19,7 @@ CROSSWALKS = lib.ROOT / "crosswalks"
 
 # Column drift across competitions. First match wins.
 PRODUCER_COLS = ("Medalist", "Producer", "Entrant")
+SHEET_TABLES = lib.CONFIG / "sheet_tables.csv"
 ENTRY_COLS = ("Entry", "Product", "Cider Name")
 CATEGORY_COLS = ("Category", "Class", "Style", "Division")
 AWARD_COLS = ("Award", "Medal", "Place")
@@ -128,11 +129,29 @@ def main() -> None:
     styles = load_crosswalk("style_map.csv", "category_raw")
     countries = load_crosswalk("countries.csv", "raw")
 
-    tables = [t for t in lib.read_csv(lib.CONFIG / "archive_tables.csv") if t["status"] == "active"]
+    awards, missing, seen = [], [], {}
     archive_dir = lib.ARCHIVE / "tablepress-2025-04-17"
 
-    awards, missing, seen = [], [], {}
+    # Google Sheets is the source of truth, so a competition with a snapshot
+    # is read from there. The archive is the fallback for anything not yet
+    # fetched, plus GLINTCAP 2024 - that sheet stops at 2023.
+    sheet_tables = {t["competition_id"]: t for t in lib.read_csv(SHEET_TABLES)
+                    if t["status"] == "active"} if SHEET_TABLES.exists() else {}
+    from_sheets = set()
+    for comp, tbl in sorted(sheet_tables.items()):
+        path = lib.SNAPSHOT / comp / tbl["tab"]
+        if not path.exists():
+            missing.append(f"{comp}/{tbl['tab']}")
+            continue
+        from_sheets.add(comp)
+        for idx, row in enumerate(lib.read_csv(path), start=2):
+            awards.extend(map_row(row, comp, None, f"sheet:{comp}/{tbl['tab']}",
+                                  idx, vocab, styles, countries, seen))
+
+    covered = {(a["competition_id"], a["year"]) for a in awards}
+    tables = [t for t in lib.read_csv(lib.CONFIG / "archive_tables.csv") if t["status"] == "active"]
     for tbl in tables:
+        comp = tbl["competition_id"]
         matches = sorted(archive_dir.glob(tbl["file_glob"]))
         if not matches:
             missing.append(tbl["file_glob"])
@@ -140,13 +159,18 @@ def main() -> None:
         year = lib.to_year(tbl["year_from_file"])
         for path in matches:
             for idx, row in enumerate(lib.read_csv(path), start=2):
-                awards.extend(map_row(row, tbl["competition_id"], year, path.name,
-                                      idx, vocab, styles, countries, seen))
+                mapped = map_row(row, comp, year, path.name, idx,
+                                 vocab, styles, countries, seen)
+                # Only fill competition-years the sheets do not already cover,
+                # so the archive tops up GLINTCAP 2024 without duplicating 2005-2023.
+                awards.extend(m for m in mapped
+                              if comp not in from_sheets or (comp, m["year"]) not in covered)
 
     awards.sort(key=lambda r: (r["competition_id"], r["year"] or 0, r["producer_name"], r["award_id"]))
     lib.write_csv(lib.OUT / "awards.csv", awards, FIELDS)
 
-    print(f"awards.csv: {len(awards)} rows from {len(tables)} tables")
+    print(f"awards.csv: {len(awards)} rows "
+          f"({len(from_sheets)} competitions from Sheets, rest from archive)")
     if missing:
         print(f"  WARNING: {len(missing)} table globs matched nothing: {missing}", file=sys.stderr)
 

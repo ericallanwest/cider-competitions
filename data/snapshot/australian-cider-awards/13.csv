@@ -1,0 +1,74 @@
+ID,Producer,Product,Award,Class,BOC,Class Name
+1,Wiedmann & Groh – Ciderhaus,Champagnerennette 2011,Gold,1,1,Dry Cider
+2,Red Sails,Dry Cider,Silver,1,0,Dry Cider
+3,Borodell Vineyard,Heritage Cider,Silver,1,0,Dry Cider
+4,Small Acres Cyder,Somerset Still 2013,Silver,1,0,Dry Cider
+5,321 Cider,Learmonth Traditional Still Cider,Bronze,1,0,Dry Cider
+6,King Valley Cider Co.,Traditionally Tart Dry Cider,Bronze,1,0,Dry Cider
+7,Core Cider Company,Hardcore Traditional Cider,Bronze,1,0,Dry Cider
+8,Wiedmann & Groh – Ciderhaus,Trierer Weinapfel 2011,Gold,2,1,Medium Cider
+9,Little Creatures – Pipsqueak,Aspall Draught Cyder,Silver,2,0,Medium Cider
+10,Napoleone,Napoleone Apple Cider,Silver,2,0,Medium Cider
+11,Cerbaco,Cidre Brut Artisanal de Normandie la Pommeraie,Silver,2,0,Medium Cider
+12,LOBO Juice and Cider Co.,LOBO Apple Cider,Bronze,2,0,Medium Cider
+13,Oakvale Wines,Oakvale Apple Cider 2013,Bronze,2,0,Medium Cider
+14,Eclor – BAW,Duche de Longueville – Gros oeillet,Bronze,2,0,Medium Cider
+15,Cerbaco,Cidre Fouesnant Manoir Kinkiz,Bronze,2,0,Medium Cider
+16,Bilpin Cider Co,Blpin Original Cider,Bronze,2,0,Medium Cider
+17,Cerbaco,Cidre Brut Bouche – Le Pere Jules – Pays d’Auge,Bronze,2,0,Medium Cider
+18,Willie Smiths,Willie Smiths Organic Apple Cider,Bronze,2,0,Medium Cider
+19,The Australian Brewery,AB Fresh Press Cider,Bronze,2,0,Medium Cider
+20,Hills Cider Company,The Hills Cider Company – Apple,Bronze,2,0,Medium Cider
+21,Matilda Bay Brewing Company,Dirty Granny Matured Apple Cider,Bronze,2,0,Medium Cider
+22,Padthaway Estate,Spikie Norman,Bronze,2,0,Medium Cider
+23,Sitting Ducks Cider,Sitting Ducks Adelaide Hills Apple Cider,Bronze,2,0,Medium Cider
+24,Cerbaco,Cidre Doux Artisanal de Normandie la Pommeraie,Gold,3,1,Sweet Cider
+25,Eclor – BAW,Ecusson Cidre Doux,Silver,3,0,Sweet Cider
+26,Cider Productions,Apple Thief Granny Smith Cider,Bronze,3,0,Sweet Cider
+27,Graci / Harvey River,Graci Premium Cider Apple,Bronze,3,0,Sweet Cider
+28,Tilse’s – Roma – Apple Truck,Tilse’s Apple Truck Cider,Bronze,3,0,Sweet Cider
+29,Franklin Cider Co,Frank’s Summer Apple Cider,Bronze,3,0,Sweet Cider
+30,Barossa Valley Cider Co,Barossa Cider Co Squashed Apple,Bronze,3,0,Sweet Cider
+31,Stassen – Kollaras,Stassen “Over Ice” Apple Cider,Bronze,3,0,Sweet Cider
+32,Cerbaco,Cidre Cornouaille Manoir Kinkiz,Gold,4,1,Bottle Conditioned / Methode Champenoise Cider
+33,Small Acres Cyder,The Cat’s Pyjamas,Gold,4,0,Bottle Conditioned / Methode Champenoise Cider
+34,Small Acres Cyder,Small Acres Cyder 2011 Sparkling,Silver,4,0,Bottle Conditioned / Methode Champenoise Cider
+35,Core Cider Company,Core-rupted Traditional Apple,Silver,4,0,Bottle Conditioned / Methode Champenoise Cider
+36,Spreyton Cider Co,Spreyton Cider Co Vintage 2013,Bronze,4,0,Bottle Conditioned / Methode Champenoise Cider
+37,St Ronans,St Ronan’s Cider Apple,Bronze,4,0,Bottle Conditioned / Methode Champenoise Cider
+38,Kellybrook Winery,Kellybrook Winery Jazz Methode,Bronze,4,0,Bottle Conditioned / Methode Champenoise Cider
+39,Napoleone,Napoleone Methode Traditionelle Apple Cider,Bronze,4,0,Bottle Conditioned / Methode Champenoise Cider
+40,LOBO Juice and Cider Co.,Dry Pear,Bronze,5,1,Dry Perry
+41,Hills Cider Company,The Hills Cider Company – Pear,Gold,6,1,Medium Perry
+42,Bilpin Cider Co,Bilpin Pear Cider,Silver,6,0,Medium Perry
+43,Hillbilly Harvest,Hillbilly Pear Cider,Silver,6,0,Medium Perry
+44,Napoleone,Napoleone Pear Cider,Silver,6,0,Medium Perry
+45,Flying Brick Cider Co,Flying Brick PearCider,Bronze,6,0,Medium Perry
+46,Yarra Valley Cider Co,Yarra Valley Cider – Pure Pear,Bronze,6,0,Medium Perry
+47,Little Creatures – Pipsqueak,Pipsqueak Pear Cider,Bronze,6,0,Medium Perry
+48,Cerbaco,Poire “Fournier-Freres” la Pommeraie,Silver,7,1,Sweet Perry
+49,Cerbaco,Le Pere Jules Poire – Pays d’Auge,Silver,7,0,Sweet Perry
+50,Sitting Ducks Cider,Sitting Ducks Adelaide Hills Peary Cider,Bronze,7,0,Sweet Perry
+51,Franklin Cider Co,Frank’s Summer Pear Cider,Bronze,7,0,Sweet Perry
+52,Cider Productions,Apple Thief Pear William Cider,Bronze,7,0,Sweet Perry
+53,Graci / Harvey River,Graci Premium Cider Pear,Bronze,7,0,Sweet Perry
+54,St Ronans,St Ronan’s Cider Pear,Gold,8,1,Bottle Conditioned / Methode Champenoise Perry
+55,Small Acres Cyder,Small Acres Cyder 2012 Sparkling Perry,Silver,8,0,Bottle Conditioned / Methode Champenoise Perry
+56,Hills Cider Company,The Hills Cider Company – Traditional Perry,Bronze,8,0,Bottle Conditioned / Methode Champenoise Perry
+57,ZefferBrewing Co,Zeffer Dry Apple,Bronze,9,1,Dry Cider made using water and/or sugar in production
+58,Westons World Brands,Old Rosie,Bronze,9,0,Dry Cider made using water and/or sugar in production
+59,Mike Henney / Phoenix Beers,Henneys Dry Cider,Silver,10,1,Medium Cider made using water and/or sugar in production
+60,Redwood – Old Mout,Old Mout Cider – Scrumpy,Silver,10,0,Medium Cider made using water and/or sugar in production
+61,Mike Henney / Phoenix Beers,Henneys Vintage Cider,Bronze,10,0,Medium Cider made using water and/or sugar in production
+62,Westons World Brands,Henry Westons Vintage,Bronze,10,0,Medium Cider made using water and/or sugar in production
+63,Monteith’s – Drinkworks,Monteith’s Heritage Style Cider,Bronze,10,0,Medium Cider made using water and/or sugar in production
+64,Monteith’s – Drinkworks,Monteith’s Apple & Pear Cider,Bronze,10,0,Medium Cider made using water and/or sugar in production
+65,Mike Henney / Phoenix Beers,Henneys Sweet Cider,Silver,11,1,Sweet Cider made using water and/or sugar in production
+66,Westons World Brands,Wyld Wood Apple,Bronze,11,0,Sweet Cider made using water and/or sugar in production
+67,Cascade – CUB,Mercury Sweet,Bronze,11,0,Sweet Cider made using water and/or sugar in production
+68,West End Brewing Company,James Squire Perry,Bronze,14,1,Sweet Perry made using water and/or sugar in production
+69,Carlton & United CUB,Bulmers Pear Cider,Bronze,14,0,Sweet Perry made using water and/or sugar in production
+70,Magners / Suntory,Magners Pear Irish Cider,Bronze,14,0,Sweet Perry made using water and/or sugar in production
+71,Carlton & United CUB,Strongbow Pear Cider,Bronze,14,0,Sweet Perry made using water and/or sugar in production
+72,Paracombe Premium Perry,The Berg,Bronze,14,0,Sweet Perry made using water and/or sugar in production
+73,Tilse’s – Roma – Apple Truck,Tilses’s Pear Cider,Bronze,14,0,Sweet Perry made using water and/or sugar in production

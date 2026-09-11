@@ -19,11 +19,16 @@ MOJIBAKE = re.compile(r"Ã©|Ã¨|Ã¡|Ã­|Ã³|Ãº|Ã±|â€™|â€œ|â�
 SECRET = re.compile(r"AIza[0-9A-Za-z_-]{35}")
 CURRENT_YEAR = 2026
 
-# Known-good totals. A change here must be deliberate.
+# Known-good totals, now sourced from Google Sheets. A change here must be
+# deliberate: these are the numbers that catch a parser silently dropping rows.
 BASELINE = {
-    "glintcap": 8879,
+    "glintcap": 8885,                 # 8,072 from the sheet (2005-2023) + 813 archive 2024
     "australian-cider-awards": 1551,
+    "ciderworld-awards": 969,         # sheet covers 2018-2024; the archive had only 2023-2024
     "museum-of-cider": 73,
+    "japan-cider-cup": 138,
+    "northwest-cider-cup": 426,
+    "royal-three-counties": 67,       # from Data.csv, not the 1,001-row 24.csv tab
 }
 
 

@@ -109,11 +109,18 @@ def main() -> None:
     hits = 0
     for key, p in agg.items():
         # A confirmed alias wins over the name match it was created to fix.
+        # Prefer the World Cider Map ID the competition sheets carry: it is an
+        # explicit identity decision, where a name match is only an inference.
+        # 'X' is the deliberate sentinel for entrants that are not in the map.
         mkey = match_key(p["producer_name"])
-        wid = aliases.get(mkey)
-        found = geo_by_wid.get(wid) if wid else None
-        if wid and found:
-            p["wid"] = wid
+        alias_wid = aliases.get(mkey)
+        own_wid = p["wid"] if p["wid"] and p["wid"].upper() != "X" else ""
+        found = None
+        for candidate in (alias_wid, own_wid):
+            if candidate and candidate in geo_by_wid:
+                found = geo_by_wid[candidate]
+                p["wid"] = candidate
+                break
         found = found or geo.get(mkey)
         if found:
             town, region, country, lat, lon, src = found

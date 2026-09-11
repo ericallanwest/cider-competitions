@@ -1,0 +1,58 @@
+COUNTA of Award,Award,col2,col3,col4
+Category,🥇 Gold,🥈 Silver,🥉 Bronze,Grand Total
+Anything Goes,12,9,12,33
+Apple Cider Donut,1,1,1,3
+Apple Pie Spiced,9,9,8,26
+Apple/Pumpkin Pie Spiced,1,1,1,3
+Applewine,4,4,3,11
+Applewine / Ice Cider,4,3,3,10
+Applewine / Ice Cider / Imperial Cider,1,1,2,4
+Black Currant,2,2,2,6
+Blackberry,2,2,3,7
+Blueberry,2,2,2,6
+Brut,5,5,5,15
+Cherry,8,9,9,26
+Cranberry,5,5,6,16
+English Cider,4,4,3,11
+Fruit,11,11,12,34
+Fruit and Berry,10,14,9,33
+Grape,1,1,1,3
+Herbal,8,10,10,28
+Heritage Cider,6,6,5,17
+Heritage Cider – Dry,2,2,2,6
+Heritage Cider – Sweet,1,2,2,5
+Hopped,10,11,10,31
+Hopped / Herbal,1,1,1,3
+Ice Cider,1,1,,2
+Ice Cider / Apple Wine,1,,1,2
+Mango,1,1,1,3
+Mimosa,1,1,1,3
+Modern Cider – Dry,9,8,9,26
+Modern Cider – Sweet,6,7,8,21
+New England Cider,3,3,2,8
+New World Cider,4,4,4,12
+New World Perry,2,,,2
+Passionfruit,1,1,,2
+Peach,7,6,6,19
+Pear,2,2,2,6
+Pepper,2,1,1,4
+Perry,7,6,5,18
+Perry & Pear Cider,2,2,2,6
+Pie/Cobbler,1,1,1,3
+Pineapple,10,10,12,32
+Raspberry,1,1,1,3
+Rosé,5,5,7,17
+Rosé / Brut,1,1,1,3
+Sangria,6,5,5,16
+Single Varietal,10,8,8,26
+Specialty,13,11,10,34
+Spiced,10,10,12,32
+Strawberry,3,3,4,10
+Traditional Cider,6,8,5,19
+Traditional Cider – Dry (English),2,1,1,4
+Traditional Cider – Sweet (French),1,1,1,3
+Traditional Perry,2,2,2,6
+Tropical,1,1,1,3
+Unlimited,5,4,4,13
+Wood-Aged,9,9,9,27
+Grand Total,245,239,238,722

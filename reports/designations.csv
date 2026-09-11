@@ -1,192 +1,255 @@
 field,value,rows
+country,#N/A,2
+country,Argentina,2
 country,Armenia,2
-country,Australia,1423
-country,Austria,45
-country,Belgium,7
-country,Canada,128
+country,Australia,1439
+country,Austria,102
+country,Belgium,10
+country,Brazil,1
+country,Canada,106
+country,Chile,8
 country,China,1
+country,Croatia,2
 country,Cyprus,1
-country,Czechia,5
-country,Denmark,19
-country,England,109
-country,Estonia,8
-country,Finland,35
-country,France,62
-country,Germany,121
-country,Guernsey,1
+country,Czech Republic,8
+country,Czechia,67
+country,Denmark,56
+country,England,603
+country,Estonia,28
+country,Finland,47
+country,France,265
+country,Germany,429
+country,Guernsey,3
+country,Hungary,2
 country,Iceland,1
-country,Ireland,17
-country,Italy,28
-country,Japan,1
-country,Latvia,49
-country,Lithuania,6
-country,Luxembourg,16
-country,Netherlands,9
-country,New Zealand,48
-country,Northern Ireland,8
-country,Norway,193
-country,Poland,14
-country,Portugal,16
-country,Scotland,1
+country,India,10
+country,Ireland,58
+country,Italy,144
+country,Japan,46
+country,Kazakhstan,2
+country,Latvia,140
+country,Lebanon,7
+country,Lithuania,8
+country,Luxembourg,47
+country,Netherlands,40
+country,New Zealand,49
+country,Northern Ireland,27
+country,Norway,302
+country,Peru,2
+country,Poland,84
+country,Portugal,54
+country,Scotland,25
 country,Serbia,2
+country,Slovakia,5
 country,Slovenia,1
-country,South Africa,1
-country,Spain,112
-country,Sweden,50
-country,Switzerland,5
-country,USA,1432
-country,Ukraine,1
+country,South Africa,17
+country,South Korea,6
+country,Spain,531
+country,Sweden,59
+country,Switzerland,30
+country,USA,722
+country,Ukraine,7
 country,United Kingdom,6
-country,Wales,3
+country,Vietnam,2
+country,Wales,12
+region,#N/A,2
+region,Aberdeenshire,7
 region,Alaska,2
-region,Argentina,2
+region,Antwerp,1
+region,Aosta Valley,25
+region,Araucanía,4
 region,Arizona,11
 region,Arkansas,14
-region,Asturias,336
+region,Asturias,334
 region,Auckland,2
-region,Australia,29
+region,Australia,11
 region,Australian Capital Territory,12
-region,Austria,52
+region,Austria,31
 region,Auvergne-Rhône-Alpes,1
-region,Basque Country,196
-region,Belgium,4
-region,Brazil,1
-region,British Columbia,45
-region,Brittany,245
+region,Baden-Württemberg,64
+region,Banská Bystrica,1
+region,Basque Country,160
+region,Belgium,1
+region,Bragança,5
+region,British Columbia,52
+region,Brittany,251
 region,Buckinghamshire,1
-region,California,121
-region,Canada,19
+region,California,76
 region,Canary Islands,52
 region,Cantabria,15
 region,Capital Region,1
+region,Carlow,5
 region,Catalonia,22
+region,Central,42
+region,Central Bohemia,5
+region,Central Denmark,4
 region,Centre-Val de Loire,5
-region,Chile,10
-region,Colorado,99
+region,Chile,3
+region,Colorado,69
 region,Connecticut,3
-region,Croatia,2
-region,Czechia,71
+region,Cork,13
+region,Czechia,9
 region,Côtes-d'Armor,39
 region,Delaware,9
 region,Denbighshire,8
-region,Denmark,13
 region,Derbyshire,2
-region,Echternach,1
-region,England,507
-region,Estonia,19
+region,East,57
+region,East Yorkshire,5
+region,Echternach,6
+region,Emilia-Romagna,5
+region,England,30
+region,Estonia,5
+region,Faro,6
 region,Finistère,134
-region,Finland,14
+region,Finland,3
 region,Flintshire,3
 region,Florida,32
-region,France,212
+region,France,46
 region,Galicia,17
-region,Georgia,31
-region,Germany,150
+region,Georgia,29
+region,Germany,43
 region,Gloucestershire,11
 region,Grand Est,3
-region,Guernsey,2
-region,Hauts-de-France,3
+region,Greater London,1
+region,Greater Poland,4
+region,Groningen,1
+region,Gulbene,11
+region,Gunma,4
+region,Hauts-de-France,10
 region,Hawaii,5
 region,Hawke's Bay,12
 region,Herefordshire,100
-region,Hesse,5
-region,Hungary,2
+region,Hesse,7
 region,Idaho,26
 region,Ille-et-Vilaine,26
 region,Illinois,2
-region,India,10
 region,Indiana,1
 region,Iowa,1
-region,Ireland,31
-region,Italy,86
-region,Japan,34
+region,Ireland,4
+region,Italy,18
 region,Kalmar,1
-region,Kazakhstan,2
+region,Karlovy Vary,12
 region,Kent,1
-region,Kentucky,18
-region,Latvia,70
-region,Lebanon,10
+region,Kentucky,11
+region,Košice,2
+region,Kyiv,2
+region,Latvia,4
+region,Lebanon,3
+region,Leiria,4
+region,Lesser Poland,4
 region,León,9
-region,Lithuania,2
 region,Liège,1
 region,Loire-Atlantique,9
-region,Luxembourg,22
-region,Madeira,9
+region,Lombardy,3
+region,Los Ríos,3
+region,Lower Austria,5
+region,Lower Silesia,1
+region,Lower Silesian,7
+region,Lublin,6
+region,Luxembourg,5
+region,Madeira,17
 region,Madrid,1
-region,Maine,3
+region,Maine,15
 region,Maryland,3
-region,Massachusetts,42
-region,Michigan,76
+region,Masovian,24
+region,Massachusetts,27
+region,Michigan,72
 region,Minnesota,42
-region,Missouri,6
-region,Montana,15
+region,Missouri,3
+region,Montana,17
+region,Moravia-Silesia,2
 region,Morbihan,43
-region,Navarre,8
+region,Navarre,24
 region,Neath Port Talbot,1
 region,Nebraska,59
 region,Nelson,7
-region,Netherlands,43
+region,Netherlands,17
 region,New Hampshire,2
 region,New Jersey,10
 region,New Mexico,4
 region,New South Wales,315
-region,New York,114
-region,New Zealand,2
+region,New York,105
+region,New Zealand,1
 region,Newport,8
-region,Normandy,159
-region,North Carolina,57
+region,Normandy,167
+region,North,56
+region,North Carolina,53
+region,North Holland,3
 region,North Yorkshire,9
-region,Northern Ireland,19
-region,Norway,50
+region,Norway,30
 region,Nottinghamshire,18
+region,Nouvelle-Aquitaine,20
 region,Nova Scotia,7
-region,Ohio,30
+region,Ogre,23
+region,Ohio,29
+region,Olomouc,1
 region,Ontario,65
-region,Oregon,397
-region,Pays de la Loire,36
+region,Oregon,393
+region,Overijssel,3
+region,Oxfordshire,1
+region,Pays de la Loire,51
 region,Pennsylvania,60
 region,Peru,2
-region,Poland,85
-region,Portugal,39
+region,Piedmont,1
+region,Plzeň,5
+region,Podlaskie,3
+region,Poland,15
+region,Portugal,10
+region,Prague,2
+region,Pärnu,11
 region,Quebec,33
 region,Queensland,31
 region,Rhondda Cynon Taf,2
 region,Russia,1
-region,Scotland,24
-region,Slovakia,9
-region,Somerset,3
-region,South Africa,16
+region,Saarland,5
+region,Slovakia,4
+region,Smiltene,9
+region,Somerset,6
+region,South,39
 region,South Australia,248
-region,South Korea,6
-region,Spain,47
+region,South Bohemia,15
+region,South Kurzeme,1
+region,South Moravia,10
+region,Southwest Finland,7
+region,Styria,1
+region,Subcarpathian,12
 region,Suffolk,4
-region,Sweden,20
-region,Switzerland,7
+region,Sweden,11
+region,Switzerland,2
 region,Tasman,15
 region,Tasmania,252
-region,Tennessee,20
-region,Texas,18
+region,Tauragė,2
+region,Telemark,3
+region,Tennessee,17
+region,Texas,15
 region,Tipperary,10
-region,Ukraine,7
-region,United States,109
+region,Trentino-South Tyrol,8
+region,Ukraine,5
+region,United States,58
 region,Uruguay,1
 region,Utah,7
+region,Utrecht,8
 region,Vale of Glamorgan,4
-region,Veneto,5
-region,Vermont,98
+region,Valka,2
+region,Veneto,6
+region,Vermont,67
+region,Vestfold,4
+region,Viana do Castelo,1
 region,Victoria,394
-region,Vietnam,2
-region,Virginia,61
-region,Wales,9
-region,Washington,440
+region,Virginia,41
+region,Västerbotten,3
+region,Warwickshire,2
+region,Washington,408
 region,Wellington,1
+region,West,45
 region,West Coast,5
 region,West Midlands,2
 region,West Virginia,1
 region,Western Australia,164
 region,Western Cape,1
-region,Wisconsin,61
+region,Wisconsin,57
 region,Worcestershire,14
-region,Wyoming,5
-region,Île-de-France,13
+region,Zealand,1
+region,Zlín,1
+region,Île-de-France,28
 region,Örebro,2

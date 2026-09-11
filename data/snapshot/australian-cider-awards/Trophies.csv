@@ -1,0 +1,95 @@
+ID,Year,ID2,WID,Producer,Award,Medalist,Product,Score,Class,BOC,Class
+2,2011,1,1179,(Phoenix Beers) Henney's Cider Co,🏆 Best in Show,Henney's Cider,Henney's Dry Cider,,Dry Cider,1,Dry Cider
+18,2011,72,3409,(Liquid Ideas) Carlton and United,🏆 Best Australian Cider,Matilda Bay Brewing Company,Dirty Granny,,Medium Cider (using water and/or sugar),1,Medium Cider (using water and/or sugar)
+14,2011,55,1184,The Hills Cider Company,🏆 Best Australian Perry,The Hills Cider Company,Pear,,Medium Perry,1,Medium Perry
+16,2011,61,1176,Napoleone & Co / Punt Road,🏆 Best Australian Perry,Napoleone Cider,Pear Cider Traditionelle,,Bottle Conditioned / Methode Champenoise Perry,1,Bottle Conditioned / Methode Champenoise Perry
+34,2012,15,1179,Phoenix Beers,🏆 Best in Show,Henney's Cider,Henney’s Sweet Cider,,Sweet Cider,1,Sweet Cider
+25,2012,6,3422,Little Creatures,🏆 Best Australian Cider,Little Creatures,Pipsqueak Best Cider,,Medium Cider,1,Medium Cider
+50,2012,31,1427,St Ronan’s Cider,🏆 Best Australian Perry,St Ronan's Cider,Methode Traditionelle Pear Cider,,Bottle Conditioned / Methode Champenoise Perry,1,Bottle Conditioned / Methode Champenoise Perry
+97,2013,41,1184,Hills Cider Company,🏆 Champion of the Show,The Hills Cider Company,Pear,,Medium Perry,1,Medium Perry
+89,2013,33,1175,Small Acres Cyder,🏆 Champion Australian Cider,Small Acres Cyder,The Cat’s Pyjamas,,Bottle Conditioned / Methode Champenoise Cider,0,Bottle Conditioned / Methode Champenoise Cider
+97,2013,41,1184,Hills Cider Company,🏆 Champion Australian Perry,The Hills Cider Company,Pear,,Medium Perry,1,Medium Perry
+151,2014,58,1119,Thatchers Cider,🏆 Best in Show,Thatchers Cider,Thatchers Gold,55.5,Traditional Medium Cider,0,Traditional Medium Cider
+151,2014,58,1119,Thatchers Cider,🏆 Best Cider,Thatchers Cider,Thatchers Gold,55.5,Traditional Medium Cider,0,Traditional Medium Cider
+151,2014,58,1119,Thatchers Cider,🏆 Best International Cider or Perry,Thatchers Cider,Thatchers Gold,55.5,Traditional Medium Cider,0,Traditional Medium Cider
+182,2014,131,1176,Napoleone Cider,🏆 Best Perry,Napoleone Cider,Methode Traditionelle Pear Cider,55.5,Bottle Conditioned / Methode Champenoise Perry,1,Bottle Conditioned / Methode Champenoise Perry
+182,2014,131,1176,Napoleone Cider,🏆 Best Australian Cider or Perry,Napoleone Cider,Methode Traditionelle Pear Cider,55.5,Bottle Conditioned / Methode Champenoise Perry,1,Bottle Conditioned / Methode Champenoise Perry
+231,2015,71,1442,Willie Smith’s Cider,🏆 Best in Show,Willie Smith's,18 Varieties,92.5,Traditional Medium Cider,1,Traditional Medium Cider
+231,2015,71,1442,Willie Smith’s Cider,🏆 Best Cider,Willie Smith's,18 Varieties,92.5,Traditional Medium Cider,1,Traditional Medium Cider
+231,2015,71,1442,Willie Smith’s Cider,🏆 Best Australian Cider or Perry,Willie Smith's,18 Varieties,92.5,Traditional Medium Cider,1,Traditional Medium Cider
+359,2016,111,1442,Willie Smith's,🏆 Best in Show,Willie Smith's,French Blend,93,Traditional Medium Cider,1,Traditional Medium Cider
+359,2016,111,1442,Willie Smith's,🏆 Best Cider,Willie Smith's,French Blend,93,Traditional Medium Cider,1,Traditional Medium Cider
+397,2016,176,1175,Small Acres Cyder,🏆 Best Perry,Small Acres Cyder,2013 Sparkling Perry,93,Traditional Method Traditional Perry,1,Traditional Method Traditional Perry
+359,2016,111,1442,Willie Smith's,🏆 Best Australian Cider or Perry,Willie Smith's,French Blend,93,Traditional Medium Cider,1,Traditional Medium Cider
+340,2016,77,1227,Square Keg,🏆 Best International Cider or Perry,Aspall,Aspall Draught,87,New World Medium Cider,0,New World Medium Cider
+468,2017,72,3419,Magners,🏆 Best in Show,Magners,Original Apple,94,New World Medium Cider,1,New World Medium Cider
+548,2017,169,1427,St Ronan's,🏆 Best Traditional Cider,St Ronan's Cider,Methode Traditionelle Heritage,93,Tradtional Method Traditional Cider,1,Tradtional Method Traditional Cider
+468,2017,72,3419,Magners,🏆 Best New World Cider,Magners,Original Apple,94,New World Medium Cider,1,New World Medium Cider
+574,2017,200,2844,Carmel Cider,🏆 Best Perry,Carmel Cider Co.,Pear,87,New World Method Traditional Perry,1,New World Method Traditional Perry
+588,2017,223,1189,LOBO Cider,🏆 Best Cider and Perry Blend,Lobo Cider,LOBO Apple & Pear,86,Apple and Pear Blends,1,Apple and Pear Blends
+594,2017,230,1175,Small Acres Cyder,🏆 Best Intensified/Distilled Cider or Perry,Small Acres Cyder,2015 Pomona Ice,86,Ice Cider or Perry,1,Ice Cider or Perry
+548,2017,169,1427,St Ronan's,🏆 Best Australian Cider or Perry,St Ronan's Cider,Methode Traditionelle Heritage,93,Tradtional Method Traditional Cider,1,Tradtional Method Traditional Cider
+468,2017,72,3419,Magners,🏆 Best International Cider or Perry,Magners,Original Apple,94,New World Medium Cider,1,New World Medium Cider
+,2017,,,,🏆 Most Successful Small Producer,Small Acres Cyder,,,,,
+,2017,,,,🏆 Most Successful Larger Producer,Westons Cider,,,,,
+,2017,,,,🏆 Champion of the Industry,Drew Henry,,,,,
+723,2018,161,1442,William Smith & Sons,🏆 Best in Show,Willie Smith's,Kingston Black Cider,93,Traditional Medium Sweet Cider,1,Traditional Medium Sweet Cider
+723,2018,161,1442,William Smith & Sons,🏆 Best Traditional Cider,Willie Smith's,Kingston Black Cider,93,Traditional Medium Sweet Cider,1,Traditional Medium Sweet Cider
+637,2018,52,1131,Westons,🏆 Best New World Cider,Westons Cider,Caple Road,94,New World Medium Cider,1,New World Medium Cider
+734,2018,175,3175,Fils De Pømme,🏆 Best Perry,Fils de Pomme,L’Épatant,93,New World Medium Perry,1,New World Medium Perry
+784,2018,243,1175,Small Acres Cyder,🏆 Best Intensified/Distilled Cider or Perry,Small Acres Cyder,2010 Pommeau,92.5,Pommeau,1,Pommeau
+723,2018,161,1442,William Smith & Sons,🏆 Best Australian Cider or Perry,Willie Smith's,Kingston Black Cider,93,Traditional Medium Sweet Cider,1,Traditional Medium Sweet Cider
+637,2018,52,1131,Westons,🏆 Best International Cider or Perry,Westons Cider,Caple Road,94,New World Medium Cider,1,New World Medium Cider
+,2018,,,,🏆 Most Successful Small Producer,Small Acres Cyder,,,,,
+,2018,,,,🏆 Most Successful Larger Producer,Willie Smith's,,,,,
+,2018,,,,🏆 Champion of the Industry,David Pickering,,,,,
+831,2019,41,2838,The Barossa Valley Cider Company,🏆 Best in Show,Barossa Cider Co.,Squashed Apple Cider,97.0,New World Medium Sweet Cider,1,New World Medium Sweet Cider
+831,2019,41,2838,The Barossa Valley Cider Company,🏆 Best New World Cider,Barossa Cider Co.,Squashed Apple Cider,97.0,New World Medium Sweet Cider,1,New World Medium Sweet Cider
+879,2019,89,2862,Kangaroo Island Ciders,🏆 Best Traditional Cider,Kangaroo Island Ciders,Colony Cove 2018 Draught Cider,97.0,Traditional Medium Sweet Cider,1,Traditional Medium Sweet Cider
+909,2019,119,1175,Small Acres Cyder,🏆 Best Perry,Small Acres Cyder,2017 Sparkling Perry,92.5,New World ‘Method Traditional’ Perry (disgorged),1,New World ‘Method Traditional’ Perry (disgorged)
+941,2019,151,1442,William Smith and Sons,🏆 Best Intensified/Distilled Cider or Perry,Willie Smith's,Charles Oates Distilling Apple Blanco,92.5,Apple or Pear Spirits - Eau de Vie,1,Apple or Pear Spirits - Eau de Vie
+831,2019,41,2838,The Barossa Valley Cider Company,🏆 Best Australian Cider or Perry,Barossa Cider Co.,Squashed Apple Cider,97.0,New World Medium Sweet Cider,1,New World Medium Sweet Cider
+812,2019,22,2817,Cester Camillo Pty Ltd,🏆 Best International Cider or Perry,Cester Camillo,Sidro Del Bosco,94.0,New World Medium Cider,1,New World Medium Cider
+,2019,,,,🏆 Most Successful Small Producer,Small Acres Cyder,,,,,
+,2019,,,,🏆 Most Successful Larger Producer,Willie Smith's,,,,,
+,2019,,,,🏆 Champion of the Industry,Dr Clive Crossley and Lynne Uptin OAM,,,,,
+1056,2021,110,2838,The Barossa Valley Cider Company,🏆 Best in Show,Barossa Cider Co.,Cloudy Cider,94,Apple and Pear Blends,1,Apple and Pear Blends
+954,2021,8,2817,Sidro Del Bosco (Cester Camillo),🏆 Best New World Cider,Cester Camillo,Sidro Del Bosco,94,New World Cider - Medium,1,New World Cider - Medium
+1005,2021,59,1186,Daylesford Cider,🏆 Best Traditional Cider,Daylesford Cider Company,Wild,96,Traditional Cider - Medium,1,Traditional Cider - Medium
+1031,2021,85,1184,The Hills Cider Company,🏆 Best New World Perry,The Hills Cider Company,Pear,93,New World Perry - Medium,1,New World Perry - Medium
+1043,2021,97,1504,Core Cider,🏆 Best Traditional Perry,Core Cider,Perilous,92.5,MT Traditional Perry (Disgorged),1,MT Traditional Perry (Disgorged)
+1056,2021,110,2838,The Barossa Valley Cider Company,🏆 Best Specialty Cider or Perry,Barossa Cider Co.,Cloudy Cider,94,Apple and Pear Blends,1,Apple and Pear Blends
+1096,2021,150,1502,Spreyton Cider Co,🏆 Best Intensified/Distilled Cider or Perry,Spreyton Cider Co.,Fancy Apple Brandy,92.5,Aged Spirit,1,Aged Spirit
+1056,2021,110,2838,The Barossa Valley Cider Company,🏆 Best Australian Cider or Perry,Barossa Cider Co.,Cloudy Cider,94,Apple and Pear Blends,1,Apple and Pear Blends
+954,2021,8,2817,Sidro Del Bosco (Cester Camillo),🏆 Best International Cider or Perry,Cester Camillo,Sidro Del Bosco,94,New World Cider - Medium,1,New World Cider - Medium
+,2021,,,,🏆 Most Successful Small Producer,Sidewood Estate,,,,,
+,2021,,,,🏆 Most Successful Larger Producer,Spreyton Cider Co.,,,,,
+1152,2022,54,1442,William Smith & Sons,🏆 Best in Show,Willie Smith's,Heritage Blend Apple Cider,93,Traditional Cider - Medium,1,Traditional Cider - Medium
+1109,2022,11,1184,The Hills Cider Company,🏆 Best New World Cider,The Hills Cider Company,Apple Cider,93,New World Cider - Medium,1,New World Cider - Medium
+1152,2022,54,1442,William Smith & Sons,🏆 Best Traditional Cider,Willie Smith's,Heritage Blend Apple Cider,93,Traditional Cider - Medium,1,Traditional Cider - Medium
+1191,2022,93,1504,Core Cider,🏆 Best Perry,Core Cider,Perilous 2020,92.5,Traditional Perry - Méthode Traditionnelle (Disgorged),1,Traditional Perry - Méthode Traditionnelle (Disgorged)
+1197,2022,99,2869,Roleystone Brewing Co,🏆 Best Specialty Cider or Perry,Roleystone Brewing Company,Rosé Cheeks,92.5,Cider or Perry with Fruit,1,Cider or Perry with Fruit
+1219,2022,121,2844,Carmel Cider Company,🏆 Best Intensified/Distilled Cider or Perry,Carmel Cider Co.,Apple Brandy,90,Aged Spirit,1,Aged Spirit
+,2022,,,,🏆 Most Successful Small Producer,Lobo Cider,,,,,
+,2022,,,,🏆 Most Successful Larger Producer,Willie Smith's,,,,,
+,2022,,,,🏆 Champion of the Industry,Andrew Lea,,,,,
+1348,2023,127,2699,Plenty,🏆 Best in Show,Plenty Cider,Apple + Blueberry,95,Cider or Perry with Fruit,1,Cider or Perry with Fruit
+1242,2023,21,2860,Hillbilly Cider,🏆 Best New World Cider,Hillbilly Cider,Apple,95,New World Cider - Medium Sweet,1,New World Cider - Medium Sweet
+1275,2023,54,2701,Simple,🏆 Best Traditional Cider,Simple Cider,Wild Heritage Blend,94,Traditional Cider - Dry,1,Traditional Cider - Dry
+1322,2023,101,1176,Napoleone Cider,🏆 Best Perry,Napoleone Cider,Pear Cider,93,New World Perry - Medium,1,New World Perry - Medium
+1348,2023,127,2699,Plenty,🏆 Best Specialty Cider or Perry,Plenty Cider,Apple + Blueberry,95,Cider or Perry with Fruit,1,Cider or Perry with Fruit
+1386,2023,165,2844,Carmel Cider,🏆 Best Intensified/Distilled Cider or Perry,Carmel Cider Co.,Apple Brandy,93,Aged Apple or Pear Spirit,1,Aged Apple or Pear Spirit
+1287,2023,66,1432,Peckham's,🏆 Best International Cider or Perry,Peckham's Cider,Stoke Red,90,Traditional Cider - Medium,0,Traditional Cider - Medium
+,2023,,,,🏆 Most Successful Small Producer,Plenty Cider,,,,,
+,2023,,,,🏆 Most Successful Larger Producer,Hillbilly Cider,,,,,
+,2023,,,,🏆 Champion of the Industry,Max Allen,,,,,
+,2024,,,,🏆 Best in Show,Hills Cider,Pear,96,New World Perry - Medium,,New World Perry - Medium
+,2024,,,,🏆 Best New World Cider,Plenty Cider,Original,95,New World Cider - Medium,,New World Cider - Medium
+,2024,,,,🏆 Best Traditional Cider,LOBO,Lenswulf 2019,96,Traditional Cider - Dry,,Traditional Cider - Dry
+,2024,,,,🏆 Best Perry,Hills Cider,Pear,96,New World Perry - Medium,,New World Perry - Medium
+,2024,,,,🏆 Best Specialty Cider or Perry,The Wild Beyond,Barrel-Aged Raspberry Sour Cider,95,Cider or Perry with Fruit,,Cider or Perry with Fruit
+,2024,,,,🏆 Best Intensified/Distilled Cider or Perry,LOBO,Apple Brandy – Lobodos,94,Aged Apple or Pear Spirit,,Aged Apple or Pear Spirit
+,2024,,,,🏆 Best International Cider or Perry,Peckham's Cidery and Orchard,Chisel Jersey 2023,97,Traditional Cider - Medium,,Traditional Cider - Medium
+,2024,,,,🏆 Most Successful Small Producer,Plenty Cider,,,,,
+,2024,,,,🏆 Most Successful Larger Producer,Hillbilly Cider,,,,,
+,2024,,,,🏆 Best Single Variety Cider - David Pickering Memorial Trophy,The Apple Thief,Kingston Black,92.5,Traditional Cider - Medium Sweet,,Traditional Cider - Medium Sweet
