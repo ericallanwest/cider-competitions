@@ -2,6 +2,7 @@ category_raw,style_group,notes
 Botanical,Botanical Cider,
 Botanical Cider,Botanical Cider,from GLINTCAP Style_Crosswalk
 Cider or Perry with Botanicals,Botanical Cider,
+Cider with Botanicals,Botanical Cider,
 Spiced,Botanical Cider,
 Spiced Cider,Botanical Cider,from GLINTCAP Style_Crosswalk
 Dessert/Fortified,Fortified Cider,
@@ -30,6 +31,9 @@ Mixed & Flavoured,Fruit Cider,
 Pineapple,Fruit Cider,
 Stone Fruit,Fruit Cider,
 Tropical,Fruit Cider,Cidercraft
+Cider Apple Class - Dry,Heritage Cider,
+Cider Apple Class - Medium,Heritage Cider,
+Cider Apple Class - Sweet,Heritage Cider,
 HEIRLOOM CIDER – DRY,Heritage Cider,GLINTCAP 2025 renamed Heritage to Heirloom
 HEIRLOOM CIDER – SWEET,Heritage Cider,GLINTCAP 2025 renamed Heritage to Heirloom
 Heritage,Heritage Cider,
@@ -43,6 +47,10 @@ High Tannin – Dry,Heritage Cider,Cidercraft
 High Tannin – Sweet,Heritage Cider,Cidercraft
 Single Varietal,Heritage Cider,
 Single Variety Cider,Heritage Cider,
+Tannic Cider - Dry,Heritage Cider,
+Tannic Cider - Medium,Heritage Cider,
+Tannic Cider - Sweet,Heritage Cider,
+Tannin Driven Cider,Heritage Cider,
 Tannin Led Cider,Heritage Cider,
 Hopped,Hopped Cider,
 Hopped Cider,Hopped Cider,from GLINTCAP Style_Crosswalk
@@ -51,6 +59,7 @@ Ice Cider,Ice Cider,from GLINTCAP Style_Crosswalk
 Ice Cider or Perry,Ice Cider,
 Ice Wine,Ice Cider,
 Acid Dominant,Modern Cider,
+Acid Driven Cider Class,Modern Cider,
 Acid Led Cider,Modern Cider,
 Brut Sparkling Cider,Modern Cider,
 Cidre,Modern Cider,
@@ -66,6 +75,7 @@ Modern Cider,Modern Cider,from GLINTCAP Style_Crosswalk
 Modern Cider (Dry),Modern Cider,
 Modern Cider (Sweet),Modern Cider,
 Modern Cider - Dry,Modern Cider,from GLINTCAP Style_Crosswalk
+Modern Cider - Medium,Modern Cider,
 Modern Cider - Sweet,Modern Cider,from GLINTCAP Style_Crosswalk
 Modern – Sweet,Modern Cider,Cidercraft
 Modern-Dry,Modern Cider,Cidercraft
@@ -83,6 +93,11 @@ New World Medium Cider,Modern Cider,
 New World Medium Sweet Cider,Modern Cider,
 New World Style Cider,Modern Cider,
 New World Sweet Cider,Modern Cider,
+Open Apple Class - Dry,Modern Cider,
+Open Apple Class - Medium,Modern Cider,
+Open Apple Class - Sweet,Modern Cider,
+Open Class,Modern Cider,
+Open Class Cider,Modern Cider,
 Open Class Dry,Modern Cider,
 Open Class Medium,Modern Cider,
 Open Class Sweet,Modern Cider,
@@ -97,13 +112,16 @@ New World Perry,Modern Perry,from GLINTCAP Style_Crosswalk
 Natural Asturian Cider,Natural Cider,
 Natural Basque Cider,Natural Cider,
 Natural Cider,Natural Cider,from GLINTCAP Style_Crosswalk
+Naturally Sparkling,Natural Cider,
 Naturally Sparkling Cider,Natural Cider,
 Sidra Natural,Natural Cider,
 Sour Cider,Natural Cider,from GLINTCAP Style_Crosswalk
 Spanish Cider,Natural Cider,from GLINTCAP Style_Crosswalk
 Alcohol Free,Non-Alcoholic,
 LOW & NO ALCOHOL CIDER,Non-Alcoholic,
+Low & No Cider and Perry,Non-Alcoholic,
 Low Alcohol / Alcohol Removed,Non-Alcoholic,Cidercraft
+Low Alcohol Cider (1.2-3.5% ABV),Non-Alcoholic,
 Low and No Alcohol Cider,Non-Alcoholic,
 Low/No Alcohol Cider,Non-Alcoholic,GLINTCAP 2026
 No/Low Alc Cider or Perry,Non-Alcoholic,
@@ -127,7 +145,10 @@ Rose Cider,Rosé Cider,
 Rosé,Rosé Cider,
 Rosé Cider,Rosé Cider,from GLINTCAP Style_Crosswalk
 Applewine,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk
+Best Presented Packaged Cider or Perry,Specialty Cider and Perry,
 Cocktail Inspired,Specialty Cider and Perry,Cidercraft
+Culinary/Dessert Cider - Dry,Specialty Cider and Perry,
+Culinary/Dessert Cider - Medium/Sweet,Specialty Cider and Perry,
 Cyser,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk
 Dessert,Specialty Cider and Perry,
 Dessert Cider,Specialty Cider and Perry,

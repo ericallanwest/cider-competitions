@@ -26,8 +26,9 @@ BASELINE = {
     "glintcap": 10273,                # 8,072 sheet + 813 archive 2024 + 730 for 2025 + 658 for 2026
     "australian-cider-awards": 1722,  # 1,551 through 2024 + 171 for 2025
     "ciderworld-awards": 969,         # sheet covers 2018-2024; the archive had only 2023-2024
+    "international-cider-awards": 193, # 157 through 2024 + 36 for 2026
     "cidercraft-awards": 1120,        # 851 through 2024 + 138 for 2025 + 131 for 2026
-    "museum-of-cider": 73,
+    "museum-of-cider": 111,          # 73 through 2024 + 38 for 2026
     "japan-cider-cup": 138,
     "northwest-cider-cup": 426,
     "royal-three-counties": 67,       # from Data.csv, not the 1,001-row 24.csv tab

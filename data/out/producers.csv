@@ -1,5 +1,5 @@
 producer_id,producer_name,wid,awards,medals,first_year,last_year,competitions,town,region,country,latitude,longitude,geo_source,website,google
-2-towns-ciderhouse,2 Towns Ciderhouse,67,369,343,2012,2026,6,Corvallis,Oregon,USA,44.563505,-123.226185,world_cider_map,http://www.2townsciderhouse.com/,https://maps.google.com/?cid=10429935694700508047
+2-towns-ciderhouse,2 Towns Ciderhouse,67,371,345,2012,2026,6,Corvallis,Oregon,USA,44.563505,-123.226185,world_cider_map,http://www.2townsciderhouse.com/,https://maps.google.com/?cid=10429935694700508047
 snow-capped-cider,Snow Capped Cider,569,350,273,2017,2026,3,Cedaredge,Colorado,USA,38.898619,-107.924961,world_cider_map,http://www.snowcappedcider.com/,https://maps.google.com/?cid=373602255640136887
 angry-orchard,Angry Orchard,87,258,248,2013,2024,11,New York,New York,USA,41.587128,-74.221692,world_cider_map,https://www.angryorchard.com/,https://maps.google.com/?cid=17467507983407382578
 seattle-cider-company,Seattle Cider Company,553,236,206,2015,2026,4,Seattle,Washington,USA,47.560327,-122.337605,world_cider_map,http://www.seattlecidercompany.com/,https://maps.google.com/?cid=10339393864619567754
@@ -33,12 +33,12 @@ glacial-till-vineyard-winery,Glacial Till Vineyard & Winery,294,72,66,2018,2024,
 northville-winery-and-brewing-company,Northville Winery and Brewing Company,38,69,65,2008,2024,1,Northville,Michigan,USA,42.437271,-83.475242,world_cider_map,,
 cidre-le-brun,Cidre Le Brun,1586,63,63,2016,2024,4,Plovan,Brittany,France,47.925263,-4.344798,world_cider_map,https://cidrelebrun.com/,https://maps.google.com/?cid=5387381455239409930
 island-orchard-cider,Island Orchard Cider,350,69,63,2015,2026,2,Ellison Bay,Wisconsin,USA,45.256318,-87.071244,world_cider_map,,
+annapolis-cider-company,Annapolis Cider Company,718,66,62,2017,2026,2,Wolfville,Nova Scotia,Canada,45.09178,-64.360279,world_cider_map,,
 crispin-cider-company,Crispin Cider Company,225,64,62,2006,2021,1,Colfax,California,USA,39.089006,-120.950642,world_cider_map,,
 lobo-cider,Lobo Cider,1189,62,62,2012,2024,1,Lenswood,South Australia,Australia,-34.9198542,138.8289368,world_cider_map,https://www.lobocider.com.au/,
 portland-cider-company,Portland Cider Company,490,73,62,2013,2025,5,Clackamas,Oregon,USA,45.415288,-122.572714,world_cider_map,http://portlandcider.com/,https://maps.google.com/?cid=5897814277091816079
 stem-ciders,Stem Ciders,592,71,61,2014,2024,3,Denver,Colorado,USA,39.761635,-104.983791,world_cider_map,http://stemciders.com/,https://maps.google.com/?cid=14948853403840338868
 threadbare-cider,Threadbare Cider,632,64,61,2018,2024,2,Pittsburgh,Pennsylvania,USA,40.460471,-79.988895,world_cider_map,,
-annapolis-cider-company,Annapolis Cider Company,718,64,60,2017,2026,1,Wolfville,Nova Scotia,Canada,45.09178,-64.360279,world_cider_map,,
 bold-rock-hard-cider,Bold Rock Hard Cider,153,61,60,2016,2025,2,Nellysford,North Carolina,USA,37.881384,-78.904992,world_cider_map,https://boldrock.com/,https://maps.google.com/?cid=10604087929796439877
 raven-s-moon-craft-cider,Raven's Moon Craft Cider,729,59,59,2018,2024,1,Courtenay,British Columbia,Canada,49.692391,-125.040645,world_cider_map,,
 schilling-cider,Schilling Cider,550,65,58,2015,2026,4,Auburn,Washington,USA,47.347243,-122.233995,world_cider_map,https://schillingcider.com/,https://maps.google.com/?cid=12281308087911884522
@@ -48,6 +48,7 @@ cidrerie-ch-teau-l-zergu,Cidrerie Château Lézergué,1487,56,56,2017,2024,2,Erg
 sapsucker-farms-yellow-belly-cidery,Sapsucker Farms Yellow Belly Cidery,545,57,56,2016,2026,2,Mora,Minnesota,USA,45.8970174,-93.152247,world_cider_map,https://www.sapsuckerfarms.com/,https://maps.google.com/?cid=10529182272851607589
 stormalong-cider,Stormalong Cider,600,67,55,2015,2026,4,Sherborn,Massachusetts,USA,42.231425,-71.362237,world_cider_map,https://www.stormalong.com/,https://maps.google.com/?cid=9791117786097773397
 swift-cider,Swift Cider,612,55,55,2016,2023,3,Portland,Oregon,USA,45.5791984,-122.6641214,world_cider_map,https://www.swiftcider.com/,
+bauman-s-cider,Bauman’s Cider,118,62,54,2024,2026,4,Gervais,OR,USA,45.1079661,-122.8693386,world_cider_map,,
 brooklyn-cider-house,Brooklyn Cider House,165,63,54,2016,2025,4,New Paltz,New York,USA,41.757256,-74.04958,world_cider_map,http://brooklynciderhouse.com/,https://maps.google.com/?cid=3244654366527486527
 ramborn-cider-co,Ramborn Cider Co.,2698,55,54,2017,2025,8,Born,Luxembourg,Luxembourg,49.7599024,6.5135119,world_cider_map,https://www.ramborn.com/,https://maps.google.com/?cid=16691194016355154342
 hillbilly-cider,Hillbilly Cider,2860,53,53,2012,2025,1,Bilpin,New South Wales,Australia,-33.5050517,150.5450351,world_cider_map,https://hillbillycider.com.au/,https://maps.google.com/?cid=904695025997043027
@@ -56,7 +57,6 @@ st-vrain-cidery,St. Vrain Cidery,587,55,52,2016,2024,2,Longmont,Colorado,USA,40.
 sidra-somarroza,Sidra Somarroza,1921,52,51,2016,2024,7,Renedo de Piélagos,Cantabria,Spain,43.3529633,-3.9604843,world_cider_map,https://sidrasomarroza.es/,https://maps.google.com/?cid=7109045394192195825
 sidra-trabanco,Sidra Trabanco,1674,53,50,2014,2024,4,Llavandera,Asturias,Spain,43.4704387,-5.6447197,world_cider_map,https://www.sidratrabanco.com/,https://maps.google.com/?cid=8706552013547802387
 weidmann-groh,Weidmann & Groh,1343,53,50,2012,2024,4,Friedberg-Ockstadt,Hesse,Germany,50.3305754,8.7244989,world_cider_map,https://weidmann-groh.de/,https://maps.google.com/?cid=6569120976887073603
-bauman-s-cider,Bauman’s Cider,118,57,49,2024,2026,3,Gervais,OR,USA,45.1079661,-122.8693386,world_cider_map,,
 the-hills-cider-company,The Hills Cider Company,1184,49,49,2011,2024,2,North Adelaide,South Australia,Australia,-35.0133029,138.8931757,world_cider_map,,https://maps.google.com/?cid=40048064327732560
 incline-cider-company,Incline Cider Company,345,57,48,2016,2025,4,Tacoma,Washington,USA,47.307323,-122.228453,world_cider_map,http://www.inclinecider.com/,https://maps.google.com/?cid=504944612388443997
 thatchers-cider,Thatchers Cider,1119,49,48,2013,2024,7,Sandford,Somerset,England,51.3328274,-2.8330779,world_cider_map,https://www.thatcherscider.co.uk/,https://maps.google.com/?cid=15191093037076298219
@@ -130,13 +130,13 @@ the-cider-farm,The Cider Farm,622,35,31,2014,2026,2,Mineral Point,Central,USA,42
 gowan-s-heirloom-ciders,Gowan's Heirloom Ciders,303,40,30,2017,2023,3,Philo,California,USA,39.0869042,-123.4751758,world_cider_map,http://www.gowansheirloomcider.com/,https://maps.google.com/?cid=14585432541984297394
 kangaroo-island-ciders,Kangaroo Island Ciders,2862,30,30,2012,2025,1,MacGillivray,South Australia,Australia,-35.7852747,137.5522015,world_cider_map,https://www.kangarooislandciders.com.au/,https://maps.google.com/?cid=7120331639179318476
 rootstock-ciderworks,Rootstock Ciderworks,529,32,30,2015,2022,1,Williamson,New York,USA,43.201215,-77.224684,world_cider_map,,
+stonewell-cider,Stonewell Cider,1265,32,30,2016,2026,4,Cork,Cork,Ireland,51.8093009,-8.3699975,world_cider_map,https://www.stonewellcider.com/,https://maps.google.com/?cid=6638378960827420170
 westcott-bay-cider,Westcott Bay Cider,675,32,30,2006,2019,1,Friday Harbor,Washington,USA,48.603122,-123.162475,world_cider_map,,
 woodchuck-cider,Woodchuck Cider,664,38,30,2025,2026,3,Middlebury,VT,USA,44.034072,-73.172778,world_cider_map,,
 ciderhuset-balholm,Ciderhuset Balholm,1534,29,29,2019,2023,2,Balestrand,Vestland,Norway,61.201556,6.526675,world_cider_map,https://www.ciderhuset.no/,https://maps.google.com/?cid=12671775028436675444
 distillerie-du-gorvello,Distillerie du Gorvello,1595,29,29,2017,2024,2,Sulniac,Morbihan,France,47.6343178,-2.5911456,world_cider_map,https://www.distilleriedugorvello.fr/,https://maps.google.com/?cid=13385362377425184430
 number-12-cider,Number 12 Cider,454,30,29,2016,2024,2,Minneapolis,Minnesota,USA,44.9852933,-93.2796211,world_cider_map,,
 seppelbauer,Seppelbauer,1548,32,29,2015,2023,3,Amstetten,Austria,Austria,48.0927034,14.9042506,world_cider_map,https://www.seppelbauer.at/,
-stonewell-cider,Stonewell Cider,1265,31,29,2016,2024,4,Kinsale,Cork,Ireland,51.8093009,-8.3699975,world_cider_map,https://www.stonewellcider.com/,https://maps.google.com/?cid=6638378960827420170
 sydney-brewery,Sydney Brewery,2875,29,29,2015,2025,1,Surry Hills,New South Wales,Australia,-33.8819999,151.2098009,world_cider_map,https://sydneybrewery.com/,https://maps.google.com/?cid=6674617705014025022
 barossa-cider-co,Barossa Cider Co.,2838,28,28,2013,2024,1,Nuriootpa,South Australia,Australia,-34.479051,138.9579419,world_cider_map,https://barossavalleyciderco.com/,
 black-diamond-cider,Black Diamond Cider,136,36,28,2017,2026,2,Trumansburg,New York,USA,42.547829,-76.655099,world_cider_map,,
@@ -199,6 +199,7 @@ ulvik-frukt-cideri,Ulvik Frukt & Cideri,1414,23,23,2019,2023,3,Ulvik,Norway,Norw
 dunkertons-cider-and-perry,Dunkertons Cider and Perry,1133,26,22,2016,2024,4,Cheltenham,Herefordshire,England,51.8771374,-2.0279869,world_cider_map,https://www.dunkertonscider.co.uk/,https://maps.google.com/?cid=4719921113153419800
 le-pressoir-d-or,Le Pressoir d'Or,2689,22,22,2018,2024,3,Frenelles-en-Vexin,Normandy,France,49.2934642,1.4849943,world_cider_map,http://www.pressoirdor.com/,https://maps.google.com/?cid=11174929092699381803
 mooma,Mooma,2752,24,22,2016,2024,3,Palau-sator,Catalonia,Spain,42.0007312,3.133318,world_cider_map,https://mooma.cat/,https://maps.google.com/?cid=11350926811080988766
+sandford-orchards,Sandford Orchards,1243,24,22,2018,2026,4,Crediton,Devon,England,50.7886749,-3.6453966,world_cider_map,https://www.sandfordorchards.co.uk/,https://maps.google.com/?cid=2784404680033020235
 alpenfire-cider,Alpenfire Cider,84,23,21,2011,2025,3,Port Townsend,Washington,USA,48.082401,-122.87609,world_cider_map,https://www.alpenfirecider.com/,https://maps.google.com/?cid=13194604853315575065
 apple-valley-cider-company,Apple Valley Cider Company,93,22,21,2019,2024,2,Penrose,Colorado,USA,38.425243,-105.026257,world_cider_map,http://www.applevalleycider.com/,https://maps.google.com/?cid=8798456079688966999
 bent-ladder,Bent Ladder,124,23,21,2019,2025,3,Doylestown,Ohio,USA,40.9646071,-81.739989,world_cider_map,http://bentladder.com/,https://maps.google.com/?cid=5886580381731979881
@@ -213,10 +214,10 @@ kelterei-heil,Kelterei Heil,1574,21,21,2017,2024,4,Laubuseschbach,Germany,German
 paha-cider,Paha Cider,2221,21,21,2024,2026,1,Waverly,Iowa,USA,42.7013869,-92.414852,world_cider_map,,
 peat-s-original-cider,Peat's Original Cider,1771,23,21,2018,2024,1,Stevensville,Michigan,USA,42.0052528,-86.5306091,world_cider_map,,
 rawlins-family-cider,Rawlins Family Cider,2531,24,21,2023,2024,1,Horton,Somerset,England,50.9300166,-2.9585196,world_cider_map,,
-sandford-orchards,Sandford Orchards,1243,23,21,2018,2024,4,Crediton,Devon,England,50.7886749,-3.6453966,world_cider_map,https://www.sandfordorchards.co.uk/,https://maps.google.com/?cid=2784404680033020235
 square-mile-cider,Square Mile Cider,585,24,21,2013,2019,3,Portland,Oregon,USA,45.541124,-122.676595,world_cider_map,https://www.squaremilecider.com/,https://maps.google.com/?cid=1334101927022279814
 teal-cider,Teal Cider,1875,21,21,2017,2021,1,Dolores,Colorado,USA,37.4715586,-108.6286897,world_cider_map,,
 a-factory-aomori-cidre,A-Factory Aomori Cidre,3097,20,20,2018,2024,1,Hirosaki,Aomori,Japan,40.5984287,140.47284,world_cider_map,,
+alde-sider,Alde Sider,2546,22,20,2020,2026,5,Nå,Norway,Norway,60.2448984,6.5638617,world_cider_map,https://www.aldesider.no/,https://maps.google.com/?cid=7838999053969928967
 blackgrass-ciderworks,Blackgrass Ciderworks,26,20,20,2021,2023,2,Birmingham,Michigan,USA,42.543611,-83.195536,world_cider_map,https://www.blackgrasscider.com/,https://maps.google.com/?cid=706094858439654713
 brickworks-ciderhouse,Brickworks Ciderhouse,733,21,20,2016,2022,1,Toronto,Ontario,Canada,43.718379,-79.312625,world_cider_map,,
 cider-riot,Cider Riot!,1845,21,20,2014,2019,3,Portland,Oregon,USA,45.523854,-122.657297,world_cider_map,,
@@ -256,7 +257,6 @@ rhinegeist-brewery,Rhinegeist Brewery,515,18,18,2016,2022,2,Cincinnati,Ohio,USA,
 seminary-hill-orchard-cidery,Seminary Hill Orchard & Cidery,1060,21,18,2022,2026,2,Callicoon,New York,USA,41.7743187,-75.0549915,world_cider_map,,
 sonoma-cider,Sonoma Cider,1085,18,18,2014,2017,2,Fresno,California,USA,36.7270581,-119.7906887,world_cider_map,https://www.sonomacider.com/,https://maps.google.com/?cid=17157123449258669495
 windswept-orchard-cider,Windswept Orchard Cider,1915,19,18,2017,2022,1,Meaford,Ontario,Canada,44.5544537,-80.5405778,world_cider_map,,
-alde-sider,Alde Sider,2546,19,17,2020,2026,5,Nå,Norway,Norway,60.2448984,6.5638617,world_cider_map,https://www.aldesider.no/,https://maps.google.com/?cid=7838999053969928967
 bereziartua,Bereziartua,1168,18,17,2015,2024,4,Astigarraga,Basque Country,Spain,43.2829301,-1.9400682,world_cider_map,http://www.bereziartuasagardoa.com/,https://maps.google.com/?cid=4287840169739792051
 brady-s-lookout-cider,Brady's Lookout Cider,1918,17,17,2016,2024,1,Rosevears,Tasmania,Australia,-41.340095,147.0000822,world_cider_map,https://www.bradyslookoutcider.com.au/,https://maps.google.com/?cid=17861747211596541785
 brinkhall-sparkling,Brinkhall Sparkling,1917,17,17,2017,2023,4,Halikko,Southwest Finland,Finland,60.4236854,23.0462561,world_cider_map,https://bsp.fi/,https://maps.google.com/?cid=10856204128601037922
@@ -296,6 +296,7 @@ duluth-cider,Duluth Cider,250,19,16,2019,2025,3,Duluth,Minnesota,USA,46.764947,-
 esoterra-ciderworks,EsoTerra Ciderworks,996,18,16,2021,2022,1,Dolores,Colorado,USA,37.4761004,-108.4837559,world_cider_map,,
 little-apple-cidery,Little Apple Cidery,1012,16,16,2021,2026,1,Hillsdale,New York,USA,42.2158739,-73.5186273,world_cider_map,,
 mock-red-hill,Mock Red Hill,1185,16,16,2014,2023,1,Red Hill,Victoria,Australia,-38.3738505,144.993723,world_cider_map,https://www.mockredhill.com.au/,https://maps.google.com/?cid=10552205982251777171
+pips-cider,Pips Cider,1381,19,16,2017,2026,4,Dorstone,Herefordshire,England,52.0666607,-3.0090619,world_cider_map,http://www.pipscider.com/,https://maps.google.com/?cid=16039788259014934478
 rossbach-cider,Rossbach Cider,1542,16,16,2015,2022,2,Hranice,Karlovy Vary,Czechia,50.3053478,12.1753565,world_cider_map,http://www.rossbach.cz/,
 runcible-cider,Runcible Cider,534,18,16,2017,2023,3,Mosier,Oregon,USA,45.673003,-121.408294,world_cider_map,https://www.runciblecider.com/,https://maps.google.com/?cid=15182592417091165603
 white-winter-winery,White Winter Winery,681,16,16,2005,2024,2,Iron River,Wisconsin,USA,46.565581,-91.418129,world_cider_map,https://whitewinter.com/,https://maps.google.com/?cid=13642608818447326025
@@ -316,6 +317,7 @@ elk-horn-brewery-ciderhouse,Elk Horn Brewery & Ciderhouse,257,17,15,2016,2022,2,
 famille-guesdon,Famille Guesdon,2697,15,15,2020,2024,1,Saint-Cyr-du-Bailleul,Normandy,France,48.5746579,-0.7975042,world_cider_map,https://famille-guesdon.com/,https://maps.google.com/?cid=13182761816105385497
 lagar-de-valleseco,Lagar de Valleseco,3083,16,15,2020,2024,2,Valleseco,Canary Islands,Spain,28.0703635,-15.5600184,world_cider_map,,https://maps.google.com/?cid=6485664555068943913
 m-rb-du,Mūrbūdu,2167,17,15,2021,2023,3,Ērģeme,Valka,Latvia,57.8135254,25.8232241,world_cider_map,https://www.nenormalssidrs.lv/,https://maps.google.com/?cid=15847061061259139900
+napton-cidery,Napton Cidery,2027,15,15,2018,2026,3,Southam,Warwickshire,England,52.2422487,-1.325063,world_cider_map,,
 scenic-road-cider-co,Scenic Road Cider Co.,828,17,15,2017,2022,2,Kelowna,British Columbia,Canada,49.931257,-119.421347,world_cider_map,https://scenicroadcider.com/,https://maps.google.com/?cid=1733637164282947547
 shiny-apple-cider,Shiny Apple Cider,831,15,15,2016,2023,1,Niagara-on-the-Lake,Ontario,Canada,43.223863,-79.1714889,world_cider_map,,
 slabtown-cider-co,Slabtown Cider Co.,2104,15,15,2023,2023,1,Uxbridge,Ontario,Canada,44.0606307,-79.1247329,world_cider_map,,
@@ -339,9 +341,7 @@ ferme-du-theil,Ferme du Theil,2879,14,14,2017,2024,2,Andouillé,Pays de la Loire
 kristof-farms,Kristof Farms,2039,19,14,2022,2025,5,Yamhill,Oregon,USA,45.3833849,-123.153384,world_cider_map,https://www.kristoffarms.com/,
 lenswood-cider-co,Lenswood Cider Co.,2863,14,14,2021,2024,1,Lenswood,South Australia,Australia,-34.94118,138.8195355,world_cider_map,https://www.lenswoodciderco.com.au/,
 moons-cider,Moons Cider,X,14,14,2023,2024,1,,,,,,none,,
-napton-cidery,Napton Cidery,2027,14,14,2018,2024,2,Southam,Warwickshire,England,52.2422487,-1.325063,world_cider_map,,
 paladeus,Paladeus,3024,15,14,2018,2023,5,Auer,Italy,Italy,46.3487132,11.2974342,world_cider_map,http://www.paladeus.it/,https://maps.google.com/?cid=8605615739361573597
-pips-cider,Pips Cider,1381,17,14,2017,2024,4,Dorstone,Herefordshire,England,52.0666607,-3.0090619,world_cider_map,http://www.pipscider.com/,https://maps.google.com/?cid=16039788259014934478
 rootwood-cider-co,Rootwood Cider Co.,530,18,14,2018,2024,2,Manson,Washington,USA,47.88489,-120.159129,world_cider_map,http://www.rootwoodcider.com/,https://maps.google.com/?cid=1905642347995959494
 sidra-la-naveta,Sidra La Naveta,2754,15,14,2017,2023,2,Nava,Asturias,Spain,43.358071,-5.506408,world_cider_map,https://lanaveta.com/,https://maps.google.com/?cid=18265458060195810621
 sidra-posma,Sidra Posma,3081,17,14,2014,2024,2,El Sauzal,Canary Islands,Spain,28.4740184,-16.4337954,world_cider_map,,
@@ -399,6 +399,7 @@ henney-s-cider,Henney's Cider,1179,12,12,2009,2014,2,Bishops Frome,Herefordshire
 isastegi,Isastegi,1546,12,12,2017,2024,3,Tolosa,Basque Country,Spain,43.120554,-2.09486,world_cider_map,https://www.isastegi.com/,https://maps.google.com/?cid=3927960308349571227
 lassen-traditional-cider,Lassen Traditional Cider,380,18,12,2017,2023,3,Chico,California,USA,39.714697,-121.820272,world_cider_map,https://www.lassencider.com/,https://maps.google.com/?cid=10315637006146688710
 le-p-re-jules,Le Père Jules,1384,15,12,2013,2017,2,Saint Desir de Lisieux,Normandy,France,49.157696,0.1960087,world_cider_map,http://www.calvados-leperejules.com/,https://maps.google.com/?cid=13505988202545080748
+little-pomona,Little Pomona,1880,13,12,2018,2026,4,Bromyard,Herefordshire,United Kingdom,52.1692482,-2.4944892,world_cider_map,https://littlepomona.com/,https://maps.google.com/?cid=1246096540068808621
 loader-s-cider,Loader's Cider,2990,12,12,2024,2024,1,Taunton,Somerset,England,51.0344431,-3.1825594,world_cider_map,,
 niagara-college-teaching-winery,Niagara College Teaching Winery,812,12,12,2016,2025,1,Niagara-on-the-Lake,Ontario,Canada,43.150451,-79.165647,world_cider_map,https://www.ncteachingwinery.ca/,https://maps.google.com/?cid=2529664632400053188
 northern-natural-cider-house-winery,Northern Natural Cider House & Winery,37,12,12,2013,2017,2,Kaleva,Michigan,USA,44.3464985,-86.1020865,world_cider_map,,
@@ -407,6 +408,7 @@ pacory,Pacory,1582,12,12,2020,2024,1,Mantilly,Normandy,France,48.5314059,-0.7951
 ridge-cider-co,Ridge Cider Co.,1802,12,12,2016,2019,1,Grant,Michigan,USA,43.308463,-85.809504,world_cider_map,,
 southdown-cider,Southdown Cider,3151,12,12,2023,2023,1,Shepton Montague,Somerset,England,51.0761907,-2.4546243,world_cider_map,,
 taunton-cider-company,Taunton Cider Company,3520,13,12,2018,2021,1,Crewkerne,Somerset,England,50.8656004,-2.7974336,world_cider_map,,
+tempted-cider,Tempted Cider,1459,13,12,2017,2026,4,Lisburn,Antrim,Ireland,54.5086985,-6.1311345,world_cider_map,https://www.temptedcider.com/,https://maps.google.com/?cid=4479314919661417093
 tideview-cider,Tideview Cider,1851,13,12,2009,2014,1,Greenwich,Nova Scotia,Canada,45.08312,-64.402318,world_cider_map,,
 vala-s-orchard-cider-co,Vala’s Orchard Cider Co.,,12,12,2025,2026,2,,Nebraska,,,,none,,
 bere-cider-company,Bere Cider Company,1448,16,11,2023,2024,2,Langport,Somerset,England,51.0774,-2.847342,world_cider_map,,
@@ -425,9 +427,10 @@ high-limb-hard-cider,High Limb Hard Cider,330,11,11,2021,2024,2,Plymouth,Massach
 hitchcox-cider,Hitchcox Cider,1657,11,11,2023,2024,2,Chalgrove,Oxfordshire,England,51.6810825,-1.0608779,world_cider_map,,
 jachmann-cider,Jachmann Cider,1698,11,11,2014,2018,1,Loxton North,South Australia,Australia,-34.4016872,140.5994732,world_cider_map,https://jachmann.com.au/,
 lepola-drinks,Lepola Drinks,3015,12,11,2022,2024,4,Ylönkylä,Finland,Finland,60.1705262,22.9621416,world_cider_map,https://lepoladrinks.fi/,https://maps.google.com/?cid=10912023971262858580
-little-pomona,Little Pomona,1880,12,11,2018,2024,4,Bromyard,Herefordshire,United Kingdom,52.1692482,-2.4944892,world_cider_map,https://littlepomona.com/,https://maps.google.com/?cid=1246096540068808621
 llagares-valver-n,Llagares Valverán,1471,12,11,2013,2024,3,Sariego,Asturias,Spain,43.4052509,-5.526005,world_cider_map,https://llagaresvalveran.com/,https://maps.google.com/?cid=10125751207643631112
 lucia-maria-melchiori,Lucia Maria Melchiori,2092,12,11,2020,2023,4,Predaia,Trentino-South Tyrol,Italy,46.3193865,11.0960328,world_cider_map,https://sidroitaliano.it/,https://maps.google.com/?cid=15784129180909501372
+mac-ivors-cider,Mac Ivors Cider,1457,11,11,2013,2026,2,County Armagh,Armagh,Northern Ireland,54.4457975,-6.5934788,world_cider_map,https://macivors.com/,https://maps.google.com/?cid=11494220960590509719
+newton-court-cider,Newton Court Cider,1882,11,11,2016,2026,3,Leominster,Herefordshire,England,52.1830142,-2.717924,world_cider_map,https://www.newtoncourtcider.com/,https://maps.google.com/?cid=16599711403513185285
 omcider,OmCider,2753,11,11,2022,2024,4,Hjelmeland,Norway,Norway,59.2272141,6.2126591,world_cider_map,https://omcider.no/,https://maps.google.com/?cid=1800091822223931241
 ponderosa-cider-co,Ponderosa Cider Co.,2181,11,11,2023,2025,3,Auburn,California,USA,38.8916572,-121.0684595,world_cider_map,https://www.ponderosacider.com/,https://maps.google.com/?cid=8393289263225208220
 red-island-cider,Red Island Cider,1898,12,11,2021,2025,1,Charlottetown,Prince Edward Island,Canada,46.2453598,-63.1244046,world_cider_map,,
@@ -464,7 +467,6 @@ kaneb-orchards,Kaneb Orchards,362,10,10,2015,2024,1,Massena,New York,USA,44.9454
 kentish-pip,Kentish Pip,2476,10,10,2020,2024,2,Canterbury,Kent,England,51.26836,1.1390634,world_cider_map,,
 kilmegan-cider,Kilmegan Cider,3111,10,10,2018,2023,2,Newcastle,Down,Northern Ireland,54.2647881,-5.8813588,world_cider_map,https://kilmegancider.com/,https://maps.google.com/?cid=3112578667047542739
 le-clos-des-citots,Le Clos des Citots,3102,10,10,2017,2023,2,Heurteauville,Normandy,France,49.4573681,0.8128167,world_cider_map,https://www.leclosdescitots.fr/,https://maps.google.com/?cid=3330784351320305206
-mac-ivors-cider,Mac Ivors Cider,1457,10,10,2013,2022,2,Portadown,Armagh,Northern Ireland,54.4457975,-6.5934788,world_cider_map,https://macivors.com/,https://maps.google.com/?cid=11494220960590509719
 maiden-rock-winery-cidery,Maiden Rock Winery & Cidery,401,12,10,2011,2023,1,Stockholm,Wisconsin,USA,44.515238,-92.268117,world_cider_map,,
 methow-valley-ciderhouse,Methow Valley Ciderhouse,418,13,10,2013,2018,2,Winthrop,Washington,USA,48.477133,-120.186948,world_cider_map,,
 obst-weingut-br-ggenwirth,Obst- & Weingut Brüggenwirth,2828,11,10,2021,2024,2,Hohnhorst,Lower Saxony,Germany,52.35643,9.34768,world_cider_map,,
@@ -536,7 +538,6 @@ sidro-melagodo,Sidro MelaGodo,3078,11,9,2018,2022,4,Grosotto,Lombardy,Italy,46.2
 sly-clyde-ciderworks,Sly Clyde Ciderworks,566,9,9,2019,2021,1,Hampton,Virginia,USA,37.01651,-76.319663,world_cider_map,,
 sxollie,Sxollie,2504,11,9,2017,2024,2,London,Greater London,England,51.5142422,-0.3050244,world_cider_map,https://sxollie.com/,https://maps.google.com/?cid=10777151726289454626
 sycamore-ranch-vineyard-winery,Sycamore Ranch Vineyard & Winery,1014,9,9,2021,2021,1,Crestline,California,USA,34.2532057,-117.2588613,world_cider_map,,
-tempted-cider,Tempted Cider,1459,10,9,2017,2021,4,Lisburn,Antrim,Ireland,54.5086985,-6.1311345,world_cider_map,https://www.temptedcider.com/,https://maps.google.com/?cid=4479314919661417093
 the-newt-in-somerset,The Newt in Somerset,2384,9,9,2020,2022,2,Castle Cary,Somerset,England,51.0812007,-2.490817,world_cider_map,,
 three-oaks-cider,Three Oaks Cider,1490,9,9,2015,2024,1,Salisbury,South Australia,Australia,-34.783048,138.639759,world_cider_map,https://www.threeoakscider.com/,
 treasury-cider,Treasury Cider,644,10,9,2025,2026,2,Hopewell Junction,NY,USA,41.517826,-73.823327,world_cider_map,,
@@ -584,7 +585,6 @@ les-vergers-du-quesnay,Les Vergers du Quesnay,3370,8,8,2017,2024,2,Pissy-Pôvill
 lyme-bay-winery,Lyme Bay Winery,1198,8,8,2018,2021,1,Axminster,Devon,England,50.7634689,-3.0655113,world_cider_map,,
 mawby-vineyards,Mawby Vineyards,28,8,8,2016,2018,1,Suttons Bay,Michigan,USA,44.913676,-85.65229,world_cider_map,,
 monkey-house-cider,Monkey House Cider,3209,8,8,2021,2023,2,Berwick-upon-Tweed,Northumberland,England,55.7867682,-2.017275,world_cider_map,,
-newton-court-cider,Newton Court Cider,1882,8,8,2016,2024,3,Leominster,Herefordshire,England,52.1830142,-2.717924,world_cider_map,https://www.newtoncourtcider.com/,https://maps.google.com/?cid=16599711403513185285
 papa-moon-ciders,Papa Moon Ciders,,9,8,2025,2026,3,Scottsbluff,NE,,,,none,,
 ploughman-cider,Ploughman Cider,484,8,8,2019,2022,1,Gettysburg,Pennsylvania,USA,39.8305603,-77.231414,world_cider_map,,
 posterity-ciderworks,Posterity Ciderworks,1873,12,8,2021,2023,3,Mokelumne Hill,California,USA,38.2969506,-120.7076974,world_cider_map,https://posterityciderworks.com/,https://maps.google.com/?cid=12556482300952119386
@@ -632,6 +632,7 @@ cidrerie-dujardin,Cidrerie Dujardin,1142,7,7,2020,2024,1,Condé-sur-Vire,Normand
 cidrerie-mckeown,Cidrerie McKeown,748,7,7,2017,2022,1,Rougemont,Quebec,Canada,45.44444,-73.069221,world_cider_map,,
 cigar-city-cider-mead,Cigar City Cider & Mead,197,7,7,2014,2022,2,Tampa,Florida,USA,27.960748,-82.443199,world_cider_map,http://www.cigarcitycider.com/,https://maps.google.com/?cid=105555702494086229
 clear-fork-cider,Clear Fork Cider,202,8,7,2017,2021,1,Paonia,Colorado,USA,38.8682283,-107.5980751,world_cider_map,,
+cornish-orchards,Cornish Orchards,1137,7,7,2015,2026,2,Duloe,Cornwall,England,50.3964689,-4.4742393,world_cider_map,https://www.cornishorchards.co.uk/,https://maps.google.com/?cid=1088039469048966117
 critz-farms,Critz Farms,226,7,7,2016,2019,1,Cazenovia,New York,USA,42.880641,-75.873523,world_cider_map,,
 crow-river-winery,Crow River Winery,,7,7,2025,2026,1,,,,,,none,,
 crucible-cider,Crucible Cider,2850,7,7,2014,2021,1,Forrest,Victoria,Australia,-38.5072427,143.6841826,world_cider_map,,
@@ -659,6 +660,7 @@ l-aubini-re,L'Aubinière,2481,7,7,2023,2023,1,Janzé,France,France,47.9662222,-1
 la-mordue,La Mordue,3183,7,7,2019,2024,1,Issy-les-Moulineaux,Île-de-France,France,48.8280299,2.2657359,world_cider_map,,
 lien-g-rd,Lien Gård,3017,7,7,2022,2023,2,Akkerhaugen,Telemark,Norway,59.3711465,9.2627557,world_cider_map,https://www.liengard-telemark.no/,https://maps.google.com/?cid=9873512223911132771
 lindner-s-cider,Lindner's Cider,1886,7,7,2021,2021,1,Hamden,New York,USA,42.170095,-75.018056,world_cider_map,,
+llanblethian-orchards,Llanblethian Orchards,2337,7,7,2023,2026,1,Cowbridge,Vale of Glamorgan,Wales,51.4579608,-3.4742943,world_cider_map,https://llancider.wales/,https://maps.google.com/?cid=14251523282683018794
 loxtonia-cider,Loxtonia Cider,2503,8,7,2019,2023,1,Ceres,Western Cape,South Africa,-33.391127,19.3710833,world_cider_map,,
 luke-s-cider,Luke's Cider,2371,7,7,2023,2024,1,London,Greater London,England,51.5885574,-0.0044107,world_cider_map,,
 merrydown,Merrydown,3504,7,7,2013,2022,2,Brockworth,Gloucestershire,England,51.848812,-2.1752467,world_cider_map,https://www.merrydown.co.uk/,
@@ -708,7 +710,6 @@ clafeld-cider-house,Clafeld Cider House,757,6,6,2017,2020,1,Waupoos,Ontario,Cana
 copper-kings,Copper & Kings,,6,6,2026,2026,1,,,,,,none,,
 corey-lake-orchards,Corey Lake Orchards,16,7,6,2017,2018,1,Three Rivers,Michigan,USA,41.919986,-85.718213,world_cider_map,,
 cornish-cider-company,Cornish Cider Company,898,7,6,2019,2025,1,Cornish,Maine,USA,43.7971541,-70.7995635,world_cider_map,,
-cornish-orchards,Cornish Orchards,1137,6,6,2015,2023,2,Liskeard,Cornwall,England,50.3964689,-4.4742393,world_cider_map,https://www.cornishorchards.co.uk/,https://maps.google.com/?cid=1088039469048966117
 dee-ciders,Dee Ciders,3279,6,6,2024,2024,2,Connah's Quay,Flintshire,Wales,53.2075432,-3.0648367,world_cider_map,,
 devoto-orchards-cider,Devoto Orchards Cider,1857,6,6,2013,2015,1,Sebastopol,California,USA,38.388874,-122.865391,world_cider_map,,
 draper-girls-cider-co,Draper Girls Cider Co.,2209,6,6,2018,2019,1,Parkdale,Oregon,USA,45.5498509,-121.5707139,world_cider_map,http://www.drapergirlsfarm.com/,https://maps.google.com/?cid=6165797375002364096
@@ -725,6 +726,7 @@ harding-kologiske-sideri,Harding Økologiske Sideri,1415,6,6,2022,2023,1,Grimo,V
 heartland-ciderworks,Heartland Ciderworks,2076,7,6,2023,2024,3,Rickreall,North,USA,44.9264472,-123.2292953,world_cider_map,,
 hera-cider,Hera Cider,3089,6,6,2021,2023,2,Vigo,Galicia,Spain,42.2466648,-8.7054926,world_cider_map,https://heracider.com/,https://maps.google.com/?cid=2781404824572044242
 ironbark-ciderworks,Ironbark Ciderworks,348,7,6,2023,2023,2,Claremont,California,USA,34.10859,-117.701704,world_cider_map,,
+isaac-cider,Isaac Cider,3232,6,6,2023,2026,2,Beaminster,Dorset,England,50.7983703,-2.7396283,world_cider_map,,
 kaiju-beer,Kaiju! Beer,3195,6,6,2015,2023,1,Huntingdale,Victoria,Australia,-37.9109742,145.1075402,world_cider_map,https://kaijubeer.com.au/,https://maps.google.com/?cid=487547657947015054
 kekionga-craft-company,Kekionga Craft Company,367,6,6,2018,2019,1,Fort Wayne,Indiana,USA,41.098914,-85.044471,world_cider_map,,
 kellybrook-winery,Kellybrook Winery,1420,6,6,2012,2017,1,Wonga Park,Victoria,Australia,-37.7252514,145.2789473,world_cider_map,https://www.kellybrookwinery.com.au/,https://maps.google.com/?cid=11638840488142948775
@@ -791,6 +793,7 @@ bizio,Bizio,2751,5,5,2022,2023,2,Iurreta,Basque Country,Spain,43.1798316,-2.6608
 blue-barn-cidery,Blue Barn Cidery,145,5,5,2023,2025,1,Hilton,New York,USA,43.272706,-77.749524,world_cider_map,https://www.bluebarncidery.com/,https://maps.google.com/?cid=8104758114885529003
 bollhayes-cider,Bollhayes Cider,2382,5,5,2023,2023,1,Clayhidon,Devon,England,50.9194404,-3.1916198,world_cider_map,,
 bowen-cider-house,Bowen Cider House,2088,5,5,2023,2024,1,Bowen Island,British Columbia,Canada,49.3639259,-123.3817062,world_cider_map,,
+butford-organics,Butford Organics,1140,5,5,2023,2026,2,Bodenham,Herefordshire,England,52.1802405,-2.6693955,world_cider_map,https://butfordorganics.co.uk/,https://maps.google.com/?cid=16494845033472918948
 calvados-pierre-huet,Calvados Pierre Huet,1691,6,5,2018,2023,3,Cambremer,Normandy,France,49.1476519,0.0462976,world_cider_map,,
 carlow-brewing-company,Carlow Brewing Company,1460,5,5,2024,2024,1,Bagenalstown,Carlow,Ireland,52.6971962,-6.9762235,world_cider_map,https://www.carlowbrewing.com/,https://maps.google.com/?cid=15929028342107779755
 cester-camillo,Cester Camillo,2817,5,5,2017,2023,1,Nervesa della Battaglia,Veneto,Italy,45.8126934,12.2322108,world_cider_map,https://cestercamillo.it/,https://maps.google.com/?cid=8941056702037722200
@@ -819,6 +822,7 @@ eris-brewery-and-cider-house,Eris Brewery And Cider House,262,5,5,2025,2025,1,Ch
 funk-drinks-co,Funk Drinks Co.,2854,5,5,2024,2024,1,Henley Brook,Western Australia,Australia,-31.8781416,115.9686002,world_cider_map,,
 healey-s-cornish-cyder-farm,Healey's Cornish Cyder Farm,1152,5,5,2021,2023,1,Truro,Cornwall,England,50.312002,-5.133238,world_cider_map,,
 hecks-farmhouse-cider,Hecks Farmhouse Cider,1113,5,5,2023,2023,1,Street,Somerset,England,51.1209522,-2.7415338,world_cider_map,,
+henhope-cider,Henhope Cider,3205,8,5,2023,2026,2,Upper Dormington,Herefordshire,England,52.0538908,-2.5987188,world_cider_map,,
 hoity-toity-cellars,Hoity Toity Cellars,791,5,5,2012,2015,1,Mildmay,Ontario,Canada,44.093675,-81.143186,world_cider_map,,
 horn-cider,Horn Cider,3344,6,5,2018,2022,2,Låsby,Central Denmark,Denmark,56.1442594,9.7785135,world_cider_map,https://www.horncider.dk/,https://maps.google.com/?cid=5079202173016040511
 independent-perry,Independent Perry,990,6,5,2019,2019,3,Dryden,Washington,USA,47.5533258,-120.5686382,world_cider_map,,
@@ -957,19 +961,20 @@ granite-belt-cider-company,Granite Belt Cider Company,3390,4,4,2016,2018,1,Warwi
 gravity-distribution-ltd,Gravity Distribution Ltd,,4,4,2025,2026,1,,,,,,none,,
 gravity-vineyards-and-winery,Gravity Vineyards and Winery,1004,4,4,2021,2021,1,Baroda,Michigan,USA,41.933548,-86.4391475,world_cider_map,,
 greenwood-cider-company,Greenwood Cider Company,308,8,4,2018,2023,2,Seattle,Washington,USA,47.631204,-122.375137,world_cider_map,,
+gregg-s-pit-cider-perry,Gregg’s Pit Cider & Perry,,4,4,2026,2026,1,Much Marcle,Herefordshire,,,,none,,
 griffin-cider-works,Griffin Cider Works,309,4,4,2013,2017,1,Westlake,Ohio,USA,41.470266,-81.896853,world_cider_map,,
+gwatkin-cider,Gwatkin Cider,1215,4,4,2023,2026,2,Abbeydore,Herefordshire,England,52.001609,-2.908359,world_cider_map,https://gwatkincider.co.uk/,https://maps.google.com/?cid=17407558906326157260
+gwatkin-cider-co-ltd,Gwatkin Cider Co Ltd,,4,4,2026,2026,1,Abbey Dore,Herefordshire,,,,none,,
 haldenhof,Haldenhof,3267,4,4,2019,2024,1,Aalen,Baden-Württemberg,Germany,48.879992,10.1110507,world_cider_map,,
 hardscrabble-cider,Hardscrabble Cider,320,4,4,2016,2016,1,North Salem,New York,USA,41.349727,-73.635051,world_cider_map,,
 harry-s-cider-company,Harry's Cider Company,1449,4,4,2024,2024,1,Long Sutton,Somerset,England,51.0308306,-2.767782,world_cider_map,,
 haselberger,Haselberger,3105,4,4,2023,2023,1,St. Valentin,Austria,Austria,48.1210315,14.531135,world_cider_map,https://www.haselberger-most.at/,https://maps.google.com/?cid=786849473018101989
 haugsfrukt,Haugsfrukt,3382,4,4,2021,2022,1,Lærdal,Vestland,Norway,61.0883734,7.5230743,world_cider_map,,
-henhope-cider,Henhope Cider,3205,7,4,2023,2023,2,Upper Dormington,Herefordshire,England,52.0538908,-2.5987188,world_cider_map,,
 hills-cider,Hills Cider,,4,4,2025,2025,1,,,,,,none,,
 honey-s-cider,Honey's Cider,1450,4,4,2023,2024,1,Midford,Somerset,England,51.3443217,-2.3452842,world_cider_map,,
 houston-cider-company,Houston Cider Company,339,5,4,2019,2022,2,Houston,Texas,USA,29.803677,-95.386979,world_cider_map,https://www.houstoncidertx.com/,https://maps.google.com/?cid=9879541345239427997
 hudson-valley-farmhouse-cider,Hudson Valley Farmhouse Cider,341,4,4,2018,2018,1,Staatsburg,New York,USA,41.858265,-73.807785,world_cider_map,,
 incider,Incider,3259,4,4,2021,2024,1,Baar,Zug,Switzerland,47.1978983,8.539192,world_cider_map,,
-isaac-cider,Isaac Cider,3232,4,4,2023,2023,1,Beaminster,Dorset,England,50.7983703,-2.7396283,world_cider_map,,
 jonathan-marsden,Jonathan Marsden,X,4,4,2023,2024,1,,,,,,none,,
 kermorgann,Kermorgann,2886,4,4,2020,2024,1,Plaintel,Brittany,France,48.4345851,-2.8034718,world_cider_map,,https://maps.google.com/?cid=16728634547598501219
 lehman-s-orchards,Lehman's Orchards,31,4,4,2009,2011,1,Buchanan,Michigan,USA,41.8286715,-86.3576005,world_cider_map,,
@@ -978,7 +983,6 @@ lepaan-viinitila,Lepaan Viinitila,3009,4,4,2022,2023,1,Lepaa,Kanta-Häme,Finland
 les-vergers-de-kermabo,Les Vergers de Kermabo,3365,4,4,2018,2024,1,Guidel,Morbihan,France,47.7591971,-3.4958059,world_cider_map,https://www.cidre-fermier-morbihan.com/,
 lidl-gb,Lidl GB,3538,4,4,2020,2021,1,Surbiton,Greater London,England,51.3760323,-0.2779415,world_cider_map,,
 little-creatures,Little Creatures,3422,4,4,2012,2014,1,Fremantle,Western Australia,Australia,-37.6520889,145.5220837,world_cider_map,https://littlecreatures.com.au/,https://maps.google.com/?cid=1864054459948406266
-llanblethian-orchards,Llanblethian Orchards,2337,4,4,2023,2024,1,Cowbridge,Vale of Glamorgan,Wales,51.4579608,-3.4742943,world_cider_map,https://llancider.wales/,https://maps.google.com/?cid=14251523282683018794
 lost-pippin,Lost Pippin,1491,4,4,2015,2016,1,Richmond,Tasmania,Australia,-42.776302,147.416668,world_cider_map,https://lostpippin.com.au/,
 maffei,Maffei,3157,4,4,2018,2020,1,Kurtinig an der Weinstraße,Trentino-South Tyrol,Italy,46.2671992,11.2215986,world_cider_map,,
 manjimup-cider-co,Manjimup Cider Co.,3198,4,4,2019,2023,1,Manjimup,Western Australia,Australia,-34.2537415,116.1499473,world_cider_map,,
@@ -1009,6 +1013,7 @@ pinter,Pinter,3524,4,4,2021,2022,1,Burton-on-Trent,Staffordshire,England,52.7895
 porter-s-hard-cider-company,Porter’s Hard Cider Company,,4,4,2026,2026,1,,,,,,none,,
 raw-cider,RAW Cider,3526,5,4,2020,2024,2,Jerslev,North Denmark,Denmark,55.9758197,12.294988,world_cider_map,,
 raw-cider-company,Raw Cider Company,2070,6,4,2025,2025,1,Dayton,Oregon,USA,45.2418018,-123.0575241,world_cider_map,,
+robin-bornoff,Robin Bornoff,X,4,4,2023,2026,1,Ross-on-Wye,Herefordshire,,,,none,,
 roleystone-brewing-company,Roleystone Brewing Company,2869,4,4,2019,2023,1,Roleystone,Western Australia,Australia,-32.1259944,116.0605632,world_cider_map,https://www.roleystonebrewingco.com/,https://maps.google.com/?cid=8363645666309319654
 rosecker-streuobst,Rosecker Streuobst,3064,4,4,2022,2023,1,Tübingen,Baden-Württemberg,Germany,48.5405371,8.9849016,world_cider_map,,
 rushford-meadery-winery,Rushford Meadery & Winery,895,4,4,2019,2023,1,Omro,Wisconsin,USA,44.0627484,-88.8189843,world_cider_map,,
@@ -1056,6 +1061,7 @@ acme-cider-co,Acme Cider Co.,1835,3,3,2016,2017,1,Ada,Michigan,USA,43.030658,-85
 adam-s-evening-cider,Adam's Evening Cider,3399,3,3,2019,2019,1,Yarra Glen,Victoria,Australia,-37.6571292,145.3745877,world_cider_map,,
 ainoa-winery,Ainoa Winery,2999,3,3,2023,2023,1,Hollola,Päijät-Häme,Finland,60.9116384,25.625337,world_cider_map,https://ainoawinery.com/,https://maps.google.com/?cid=9038287289493115977
 alan-berry,Alan Berry,X,3,3,2024,2024,1,,,,,,none,,
+alistair-smith,Alistair Smith,,3,3,2026,2026,1,Eastwood,Nottinghamshire,,,,none,,
 alpine-cider,Alpine Cider,2837,3,3,2016,2017,1,Wandiligong,Victoria,Australia,-36.7886683,146.9756865,world_cider_map,https://alpinecider.com.au/,https://maps.google.com/?cid=8047391799601806918
 ambix-spirits,Ambix Spirits,2135,5,3,2023,2025,1,Sebastopol,California,USA,38.4250521,-122.8319794,world_cider_map,,
 amble-g-rd,Amble Gård,3000,3,3,2023,2023,1,Kaupanger,Vestland,Norway,61.1803968,7.2685827,world_cider_map,https://amblegaard.no/,https://maps.google.com/?cid=6355481952602453534
@@ -1067,6 +1073,7 @@ apple-barrel-orchards,Apple Barrel Orchards,2286,3,3,2023,2024,1,Penn Yan,New Yo
 apple-county-cider-co,Apple County Cider Co,2388,3,3,2019,2019,1,Newcastle,Monmouthshire,Wales,51.8679719,-2.7892975,world_cider_map,,
 ara-jo-monte,Araújo Monte,3619,3,3,2016,2017,2,Ponte de Lima,Portugal,Portugal,41.7807911,-8.6408923,world_cider_map,,
 atomic-dog-hard-cider,Atomic Dog Hard Cider,353,4,3,2017,2022,2,Gettysburg,Pennsylvania,USA,39.7911774,-77.2006855,world_cider_map,https://atomicdoghardcider.com/,https://maps.google.com/?cid=7169999648774734369
+austringer-cider,Austringer Cider,2394,3,3,2023,2026,1,Cwmafan,Neath Port Talbot,Wales,51.6486406,-3.6827766,world_cider_map,https://www.austringercider.co.uk/,
 backstabber-finest-cider,Backstabber Finest Cider,2826,3,3,2018,2020,1,Herznach,Aargau,Switzerland,47.4750911,8.0499746,world_cider_map,,
 banditry-cider,Banditry Cider,2085,3,3,2023,2023,1,Gibsons,British Columbia,Canada,49.40261,-123.5296301,world_cider_map,,
 barossa-cider-co,Barossa Cider Co,,3,3,2025,2025,1,,,,,,none,,
@@ -1082,7 +1089,6 @@ breton-michel,Breton Michel,3309,3,3,2023,2024,1,La Ferté-Macé,Normandy,France
 bringeb-rlandet,Bringebærlandet,3609,3,3,2022,2022,1,Drøbak,Akershus,Norway,59.6676418,10.6894523,world_cider_map,https://bringebarlandet.no/,https://maps.google.com/?cid=4598585383797969331
 buhagen,Buhagen,3608,3,3,2022,2022,1,Skiftun,Rogaland,Norway,59.2776753,6.1423639,world_cider_map,https://buhagen-kultur.no/,https://maps.google.com/?cid=13061266213598446649
 bullevie-cidre,Bullevie Cidre,2564,3,3,2018,2019,1,Fodorovskoye,Leningrad Oblast,Russia,59.654978,30.5509418,world_cider_map,,
-butford-organics,Butford Organics,1140,3,3,2023,2024,2,Bodenham,Herefordshire,England,52.1802405,-2.6693955,world_cider_map,https://butfordorganics.co.uk/,https://maps.google.com/?cid=16494845033472918948
 b-hm-ciderwerkstatt,Böhm Ciderwerkstatt,2975,4,3,2023,2024,2,Mulfingen,Baden-Württemberg,Germany,49.3756292,9.803374,world_cider_map,https://www.boehm-cider.de/,https://maps.google.com/?cid=4561270118581123333
 calango,Calango,3724,3,3,2025,2025,1,,,,,,none,,
 calvados-hugues-desfri-ches,Calvados Hugues Desfrièches,3481,3,3,2018,2019,1,Sainte-Marguerite-de-Carrouges,Normandy,France,48.5964843,-0.1379257,world_cider_map,https://www.calvados-huguesdesfrieches.org/,https://maps.google.com/?cid=4874502887438845939
@@ -1125,7 +1131,6 @@ glyders-cider,Glyders Cider,X,3,3,2023,2023,1,,,,,,none,,
 gnarly-pippin-cider-house,Gnarly Pippin Cider House,1894,3,3,2021,2021,1,Cleveland Heights,Ohio,USA,41.503749,-81.5658554,world_cider_map,,
 goat-rock-cider-company,Goat Rock Cider Company,1011,4,3,2020,2022,2,Petaluma,West,USA,38.2734373,-122.6643955,world_cider_map,https://www.goatrockcider.com/,https://maps.google.com/?cid=1379702709501392841
 godfrey-run-cider-mill,Godfrey Run Cider Mill,1070,3,3,2021,2021,1,Lake City,Pennsylvania,USA,42.036151,-80.3082175,world_cider_map,,
-gwatkin-cider,Gwatkin Cider,1215,3,3,2023,2024,2,Abbey Dore,Herefordshire,England,52.001609,-2.908359,world_cider_map,https://gwatkincider.co.uk/,https://maps.google.com/?cid=17407558906326157260
 halfpenny-green-cider,Halfpenny Green Cider,2443,3,3,2023,2023,1,Bobbington,Staffordshire,England,52.5119243,-2.2654474,world_cider_map,,
 hansen-tasmania,Hansen Tasmania,3417,3,3,2017,2019,1,Grove,Tasmania,Australia,-42.989663,147.0932436,world_cider_map,,
 harry-s-cider,Harry's Cider,1449,3,3,2018,2023,2,Long Sutton,Somerset,England,51.0308306,-2.767782,world_cider_map,,
@@ -1391,8 +1396,10 @@ hedgerow-cidery,Hedgerow Cidery,3373,2,2,2015,2015,2,Dallas,Oregon,USA,44.912118
 herb-s-cider,Herb's Cider,906,3,2,2019,2020,1,Bellingham,Washington,USA,48.7737787,-122.5240419,world_cider_map,,
 himachal,Himachal,2570,2,2,2016,2017,1,Burnley,Lancashire,England,53.80675,-2.21805,world_cider_map,,
 hofkellerei-lackner,Hofkellerei Lackner,3254,2,2,2024,2024,1,Walding,Upper Austria,Austria,48.3490681,14.1254242,world_cider_map,,
+hogan-s-cider,Hogan’s Cider,,2,2,2026,2026,1,Alcester,Warwickshire,England,52.2205461,-1.8336097,world_cider_map,,
 hohenloher-schaumweine,Hohenloher Schaumweine,3240,2,2,2018,2018,1,Langenburg,Baden-Württemberg,Germany,49.2751911,9.833152,world_cider_map,,
 hoila-cider,Hoila Cider,3385,2,2,2018,2020,1,Bolzano,Trentino-South Tyrol,Italy,46.5109091,11.3456743,world_cider_map,,
+h-ld-moed-cidery,Hâld Moed Cidery,2981,2,2,2022,2026,2,Fryslân,The Netherlands,Netherlands,52.8793948,5.476302,world_cider_map,,
 idiot-brothers,Idiot Brothers,,2,2,2026,2026,1,,,,,,none,,
 incide-drinks,InCide Drinks,3570,2,2,2019,2020,1,Korb,Baden-Württemberg,Germany,48.83878,9.36335,world_cider_map,,
 ironbound-hard-cider,Ironbound Hard Cider,349,5,2,2018,2022,1,Asbury,New Jersey,USA,40.627611,-75.042357,world_cider_map,,
@@ -1468,6 +1475,7 @@ pankrazhofer,Pankrazhofer,1351,2,2,2021,2021,1,Tragwein,Upper Austria,Austria,48
 park-farm,Park Farm,X,2,2,2023,2023,1,,,,,,none,,
 paynter-s-cider,Paynter's Cider,2004,2,2,2019,2019,1,Havelock North,Hawke's Bay,New Zealand,-39.665185,176.8531411,world_cider_map,,
 peacock-cider,Peacock Cider,3531,2,2,2019,2019,1,Aylesford,Kent,England,51.3096846,0.4473419,world_cider_map,,
+peckham-s-cidery-orchard,Peckham’s Cidery & Orchard,,2,2,2026,2026,1,Upper Moutere,,New Zealand,,,none,,
 penn-brewery,Penn Brewery,3122,2,2,2023,2025,1,Pittsburgh,Pennsylvania,USA,40.4571715,-79.9915052,world_cider_map,https://www.pennbrew.com/,https://maps.google.com/?cid=2498749404751387893
 pom-sidro-creativo,Pom Sidro Creativo,3158,2,2,2021,2021,2,Volvera,Italy,Italy,44.9592134,7.5132075,world_cider_map,https://www.sidropom.com/,https://maps.google.com/?cid=17454691130515952955
 portland-cider,Portland Cider,490,2,2,2024,2026,2,Clackamas,OR,USA,45.415288,-122.572714,world_cider_map,,
@@ -1478,6 +1486,7 @@ raw-cider-co,RAW Cider Co.,2070,2,2,2022,2022,2,Dayton,Oregon,USA,45.2418018,-12
 rebel-cider,Rebel Cider,3192,2,2,2021,2023,1,Brighton,Victoria,Australia,-37.9043935,144.997032,world_cider_map,,
 red-brick-road-ciderhouse-bar,Red Brick Road Ciderhouse & Bar,1692,2,2,2015,2015,1,Launceston,Tasmania,Australia,-41.4362859,147.1407738,world_cider_map,,
 red-top-winery,Red Top Winery,1716,2,2,2021,2021,1,Baroda,Michigan,USA,41.9260552,-86.4463222,world_cider_map,,
+redvers-cider-perry,Redvers Cider & Perry,2493,2,2,2023,2026,1,Ledbury,Herefordshire,England,52.081005,-2.572941,world_cider_map,https://redverscider.co.uk/,
 rice-lake-hard-cider,Rice Lake Hard Cider,1888,2,2,2021,2021,1,Baltimore,Ontario,Canada,44.017223,-78.1461123,world_cider_map,,
 roc-hard-partners,Roc Hard Partners,149,2,2,2025,2025,1,,,,,,none,,
 rogue-ales-spirits,Rogue Ales & Spirits,527,2,2,2014,2016,2,Newport,Oregon,USA,44.620258,-124.052403,world_cider_map,,
@@ -1507,6 +1516,7 @@ sitting-ducks-cider,Sitting Ducks Cider,3396,2,2,2013,2013,1,Nuriootpa,South Aus
 six-byrd-cider,Six Byrd Cider,,2,2,2025,2025,1,,Arizona,,,,none,,
 six-river-cider,Six River Cider,,2,2,2025,2025,1,,,,,,none,,
 slightly-furry,Slightly Furry,,3,2,2026,2026,1,Seattle,WA,USA,47.5943333,-122.3110059,world_cider_map,,
+small-cider,Small Cider,,2,2,2026,2026,2,Uppsala,,Sweden,,,none,,
 smythphillips-company,Smythphillips Company,43,2,2,2025,2025,1,St Johns,Michigan,USA,43.1177,-84.563483,world_cider_map,,
 sodo-sidrine,Sodo sidrine,,2,2,2026,2026,1,,,,,,none,,
 son-of-the-smith-hard-cider,Son of the Smith Hard Cider,1992,2,2,2021,2024,2,Omachi,Nagano,Japan,36.538683,137.840128,world_cider_map,https://www.hardcider.jp/,https://maps.google.com/?cid=17747425634228385236
@@ -1595,7 +1605,8 @@ argus-cidery,Argus Cidery,96,5,1,2016,2019,2,Austin,Texas,USA,30.1755719,-97.783
 arizona,Arizona,,1,1,2025,2025,1,,,,,,none,,
 arktos-meadery,Arktos Meadery,1933,1,1,2016,2016,1,Grand Rapids,Michigan,USA,42.9705088,-85.6806922,world_cider_map,,
 atelier-de-la-p-pie,Atelier de la Pépie,2911,1,1,2024,2024,1,Pluherlin,Morbihan,France,47.6979741,-2.3549415,world_cider_map,https://atelierdelapepie.com/,https://maps.google.com/?cid=8968765589278602927
-austringer-cider,Austringer Cider,2394,1,1,2023,2023,1,Cwmafan,Neath Port Talbot,Wales,51.6486406,-3.6827766,world_cider_map,https://www.austringercider.co.uk/,
+azienda-agricola-ca-du-ratto,Azienda Agricola Ca’ du Ratto,,1,1,2026,2026,1,Genova,,Italy,,,none,,
+azienda-agricola-substrato,Azienda Agricola Substrato,,1,1,2026,2026,1,Sondrio,,Italy,,,none,,
 beardspoon-cider,BEARDspoon Cider,3280,1,1,2024,2024,1,Sellindge,Kent,England,51.104657,1.00815,world_cider_map,,
 bacha-cidre,Bacha! Cidre,2763,1,1,2020,2020,1,Lobeč,Central Bohemia,Czechia,50.4584975,14.6697377,world_cider_map,http://cidrebach.cz/,https://maps.google.com/?cid=11982087198368302725
 back-bay-brew-house,Back Bay Brew House,2121,1,1,2022,2022,1,Virginia Beach,Virginia,USA,36.7828111,-76.1908064,world_cider_map,https://backbayfarmhouse.com/,https://maps.google.com/?cid=720468098893736903
@@ -1617,7 +1628,9 @@ blindwood-cider,Blindwood Cider,144,1,1,2019,2019,1,Berkeley,California,USA,37.7
 blue-mountain-cider-company,Blue Mountain Cider Company,147,1,1,2014,2014,1,Milton-Freewater,Oregon,USA,45.937382,-118.391288,world_cider_map,https://drinkcider.com/,https://maps.google.com/?cid=2440645858088809767
 boston-beer-company,Boston Beer Company,2567,1,1,2007,2007,1,Boston,Massachusetts,USA,42.3146507,-71.1032193,world_cider_map,,
 botanist-and-barrel,Botanist and Barrel,,2,1,2026,2026,1,Cedar Grove,NC,,,,none,,
+brady-s-lookout-cider,Brady’s Lookout Cider,,1,1,2026,2026,1,Tasmania,Tasmania,Australia,-41.340095,147.0000822,world_cider_map,,
 brasserie-distillerie-veyrat,Brasserie Distillerie Veyrat,3480,1,1,2022,2022,1,Marcellaz-Albanais,Auvergne-Rhône-Alpes,France,45.8659912,5.9733739,world_cider_map,https://brasserie-veyrat.com/,https://maps.google.com/?cid=12472640117038294003
+brecon-beacons-cider,Brecon Beacons Cider,,1,1,2026,2026,1,Brecon,Powys,,,,none,,
 brennerei-b-hler,Brennerei Bühler,3068,1,1,2023,2023,1,Marbach am Neckar,Baden-Württemberg,Germany,48.9438018,9.2684461,world_cider_map,,
 bress-wines,Bress Wines,1350,1,1,2016,2016,1,Harcourt,Victoria,Australia,-36.971856,144.256845,world_cider_map,,
 bristols-cider,Bristols Cider,161,1,1,2019,2019,1,Atascadero,California,USA,35.504991,-120.691698,world_cider_map,,
@@ -1629,6 +1642,7 @@ bumblebee-cider,BumbleBee Cider,3707,1,1,2024,2024,1,Goring,Oxfordshire,England,
 buschenschank-lippitz,Buschenschank Lippitz,3547,2,1,2021,2021,2,St. Paul im Lavanttal,Austria,Austria,46.707996,14.821846,world_cider_map,https://www.facebook.com/Buschenschank,https://maps.google.com/?cid=5239535978282621551
 bute-cider,Bute Cider,3005,1,1,2023,2023,1,Umeå,Västerbotten,Sweden,63.8258471,20.2630354,world_cider_map,http://www.butecider.se/,
 byron-bay-wild-cider,Byron Bay Wild Cider,3445,1,1,2019,2019,1,Yatala,Queensland,Australia,-27.7454582,153.2182686,world_cider_map,,
+c-c-group-bulmers-ireland,C & C Group – Bulmers Ireland,,1,1,2026,2026,1,Tipperary,,Ireland,,,none,,
 chilan,CHILAN,3218,1,1,2024,2024,1,Hatsukaichi,Hiroshima,Japan,34.3234357,132.3108092,world_cider_map,,
 calonge,Calonge,1627,1,1,2023,2023,1,Donostia,Basque Country,Spain,43.3086372,-2.036848,world_cider_map,https://www.calongesagardotegia.es/,https://maps.google.com/?cid=17297324039807359448
 camilla-humphries,Camilla Humphries,X,1,1,2024,2024,1,,,,,,none,,
@@ -1679,6 +1693,7 @@ crest-cyder,Crest Cyder,X,1,1,2024,2024,1,,,,,,none,,
 crooked-cider,Crooked Cider,3532,1,1,2018,2018,1,Wakefield,Tasman,New Zealand,-41.4011628,173.0491097,world_cider_map,,
 curious-brewery,Curious Brewery,3530,1,1,2019,2019,1,Ashford,Kent,England,51.143954,0.8723689,world_cider_map,,
 custard-co,Custard & Co,3377,1,1,2022,2022,1,Donnybrook,Western Australia,Australia,-33.615491,115.8221741,world_cider_map,,
+cydr-ignacow,Cydr Ignacow,,1,1,2026,2026,1,,Poland,,,,none,,
 cydr-ignac-w,Cydr Ignaców,1665,1,1,2016,2016,1,Ignaców,Greater Poland,Poland,51.372867,17.868255,world_cider_map,http://www.cydrignacow.pl/,
 cydr-opoczka,Cydr Opoczka,3600,1,1,2020,2020,1,Opoczka Mała,Lublin,Poland,50.8810086,21.8421513,world_cider_map,,
 cydr-stark-w,Cydr Starków,3710,1,1,2024,2024,1,Starków,Lower Silesia,Poland,50.3697009,16.5784049,world_cider_map,,
@@ -1707,6 +1722,7 @@ el-noc-u,El Nocéu,3629,1,1,2017,2017,1,La Cuesta,Asturias,Spain,43.414748,-5.54
 el-pilo-u,El Piloñu,3091,1,1,2023,2023,1,Nava,Asturias,Spain,43.3570431,-5.5118313,world_cider_map,,https://maps.google.com/?cid=16273384405779146543
 elemental-cider,Elemental Cider,2334,1,1,2024,2024,1,Ōtaki,Wellington,New Zealand,-40.7380974,175.1640373,world_cider_map,,
 elephants-rock-cider-company,Elephants Rock Cider Company,1187,1,1,2011,2011,1,Denmark,Western Australia,Australia,-34.993069,117.177557,world_cider_map,https://www.denmarkgoodfoodfactory.com.au/,https://maps.google.com/?cid=151466976562038455
+english-wine-project,English Wine Project,,1,1,2026,2026,1,Derby,Derbyshire,England,52.9440446,-1.473554,world_cider_map,,
 entre-deux-monts,Entre-Deux-Monts,3512,1,1,2021,2021,1,Heuvelland,West Flanders,Belgium,50.784743,2.75242,world_cider_map,,
 epona,Epona,1890,1,1,2021,2021,1,Woodland,Washington,USA,45.9446269,-122.6949361,world_cider_map,,
 etude-no-5,Etude No 5,354,1,1,2025,2025,1,Cameron,North Carolina,USA,35.336069,-79.245782,world_cider_map,,
@@ -1721,6 +1737,8 @@ fernbank-creek-cidery,Fernbank Creek Cidery,3425,1,1,2019,2019,1,Port Macquarie,
 finnriver-farm-cider,Finnriver Farm & Cider,,1,1,2026,2026,1,Chimicum,WA,,,,none,,
 fishbone,Fishbone,X,1,1,2017,2017,1,,,,,,none,,
 fogtown-brewing-company,Fogtown Brewing Company,,1,1,2026,2026,1,Ellsworth,Maine,USA,44.5397889,-68.4214354,world_cider_map,,
+forbuden-frukt,Forbuden Frukt,,1,1,2026,2026,1,Finnøy,,Norway,,,none,,
+forty-acres-ltd,Forty Acres Ltd,,1,1,2026,2026,1,Trentino,,Italy,,,none,,
 fourth-coast-ciderworks,Fourth Coast Ciderworks,23,1,1,2019,2019,1,Lake Orion,Michigan,USA,42.7457157,-83.2832693,world_cider_map,,
 fowey-valley,Fowey Valley,3245,1,1,2022,2022,1,Lostwithiel,Cornwall,England,50.4100383,-4.6669979,world_cider_map,,
 fran-ois-roger,François Roger,3486,1,1,2023,2023,1,Mesnil-en-Ouche,Normandy,France,48.97927,0.610402,world_cider_map,https://lesvergersdelafouquerie.jimdofree.com/,
@@ -1750,11 +1768,15 @@ hallonm-en,Hallonmäen,,1,1,2025,2025,1,,,,,,none,,
 hallvard-s-rheim-evjestad,Hallvard Sørheim Evjestad,3615,1,1,2022,2022,1,Skjolden,Vestland,Norway,61.4244075,7.4938561,world_cider_map,,
 happy-valley-ciderworks,Happy Valley Ciderworks,3363,1,1,2019,2019,1,Clackamas,Oregon,USA,45.4085601,-122.5467339,world_cider_map,,
 hard-way-cider-co,Hard Way Cider Co.,1879,1,1,2019,2019,1,Kingston,Ontario,Canada,44.241888,-76.5736795,world_cider_map,,
+hares-hatch,Hares Hatch,,1,1,2026,2026,1,Lugwardine,Herefordshire,,,,none,,
+harry-whiting,Harry Whiting,,1,1,2026,2026,1,Taunton,Somerset,,,,none,,
 hartpury-university-cider-project,Hartpury University Cider Project,X,1,1,2024,2024,1,,,,,,none,,
 harvest-moon,Harvest Moon,354,1,1,2025,2025,1,Cameron,North Carolina,USA,35.336069,-79.245782,world_cider_map,,
 hawkes-brewdog-usa,Hawkes / BrewDog USA,2096,1,1,2019,2019,1,Canal Winchester,Ohio,USA,39.8472128,-82.8257715,world_cider_map,https://www.brewdog.com/usa/brewdog-dogtap-columbus,https://maps.google.com/?cid=3806023017261021678
+haye-farm-cider,Haye Farm Cider,,1,1,2026,2026,1,Lostwithiel,Cornwall,England,50.3647367,-4.6269822,world_cider_map,,
 hazeldean-forest-farm,Hazeldean Forest Farm,3392,1,1,2012,2012,1,Ellinbank,Victoria,Australia,-38.2427039,145.956453,world_cider_map,,
 hebnes-vingard,Hebnes Vingard,3167,1,1,2023,2023,1,Hebnes,Rogaland,Norway,59.3575867,5.9673059,world_cider_map,https://www.hebnesvingard.no/,
+heineken-beverages-sa-pty-ltd,Heineken Beverages SA (Pty) Ltd,,1,1,2026,2026,1,Gauteng,,South Africa,,,none,,
 henry-street-brewhouse,Henry Street Brewhouse,3189,1,1,2023,2023,1,Kensington,Victoria,Australia,-37.7980191,144.934435,world_cider_map,,
 hewletts-mill,Hewletts Mill,3502,1,1,2021,2021,1,Galhampton,Somerset,England,51.0566366,-2.5160713,world_cider_map,,
 hibi,Hibi,3214,1,1,2024,2024,1,Shinjō,Yamagata,Japan,38.834833,140.310788,world_cider_map,,
@@ -1765,7 +1787,6 @@ hikaru-no-hatake,Hikaru no Hatake,2833,1,1,2023,2023,1,Tomi,Nagano,Japan,36.3746
 hogs-back-brewery,Hogs Back Brewery,3533,1,1,2019,2019,1,Tongham,Surrey,England,51.2286822,-0.7322324,world_cider_map,,
 hope-estate,Hope Estate,3435,1,1,2019,2019,1,Pokolbin,New South Wales,Australia,-32.767729,151.3120505,world_cider_map,https://www.hopeestate.com.au/,https://maps.google.com/?cid=2618263440002047371
 howie-s-cider,Howie's Cider,3701,1,1,2024,2024,1,London,Greater London,England,51.4595827,-0.1671379,world_cider_map,,
-h-ld-moed-cidery,Hâld Moed Cidery,2981,1,1,2022,2022,1,Hemelum,Friesland,Netherlands,52.8793948,5.476302,world_cider_map,,
 ian-philp,Ian Philp,X,1,1,2024,2024,1,,,,,,none,,
 idun-cider,Idun Cider,3362,1,1,2019,2019,1,Seattle,Washington,USA,47.6354265,-122.3397861,world_cider_map,,
 il-torsolo,Il Torsolo,3215,1,1,2024,2024,1,Terruggia,Piedmont,Italy,45.0765685,8.4518828,world_cider_map,,
@@ -1903,13 +1924,13 @@ rebel-seed-cidery,Rebel Seed Cidery,501,2,1,2016,2018,2,Marydel,Delaware,USA,39.
 red-brick-road-cider,Red Brick Road Cider,1692,1,1,2017,2017,1,Launceston,Australia,Australia,-41.4362859,147.1407738,world_cider_map,https://www.redbrickroadcider.com.au/,
 red-door-brewing-company,Red Door Brewing Company,901,1,1,2019,2019,1,Albuquerque,New Mexico,USA,35.0848892,-106.6532389,world_cider_map,,
 red-love-secco,Red Love Secco,2396,1,1,2025,2025,1,Gaal,Styria,Austria,47.2673244,14.7332229,world_cider_map,,
-redvers-cider-perry,Redvers Cider & Perry,2493,1,1,2023,2023,1,Ledbury,Herefordshire,England,52.081005,-2.572941,world_cider_map,https://redverscider.co.uk/,
 reinhart-s-cider,Reinhart's Cider,2026,1,1,2018,2018,1,Stayner,Ontario,Canada,44.4209888,-80.0971399,world_cider_map,,
 rennie-s-winslow-cider,Rennie’s Winslow Cider,3207,1,1,2023,2023,1,Winslow,Buckinghamshire,England,51.944859,-0.878737,world_cider_map,,
 rider-ranch,Rider Ranch,517,1,1,2018,2018,1,Los Gatos,California,USA,37.122006,-121.977594,world_cider_map,,
-robin-bornoff,Robin Bornoff,X,1,1,2023,2023,1,Ross-on-Wye,Herefordshire,,,,none,,
 robinsons-cider,Robinsons Cider,1529,1,1,2023,2023,1,Tenbury Wells,Herefordshire,England,52.3161762,-2.639219,world_cider_map,,
 rock-n-wool-winery,Rock N Wool Winery,1075,1,1,2021,2021,1,Poynette,Wisconsin,USA,43.4264281,-89.3907181,world_cider_map,,
+roland-woodman,Roland Woodman,,1,1,2026,2026,1,Llwynmawr,North Wales,,,,none,,
+rosie-s-triple-d-cider,Rosie’s Triple D Cider,,1,1,2026,2026,1,Wrexham,Denbighshire,Wales,53.0508675,-3.2120122,world_cider_map,,
 rove-winery-at-the-gallagher-estate,Rove Winery at the Gallagher Estate,,3,1,2025,2025,1,,,,,,none,,
 rufino,Rufino,2513,1,1,2017,2017,1,Hernani,Basque Country,Spain,43.266262,-1.9642462,world_cider_map,https://www.rufinosagardotegia.com/,https://maps.google.com/?cid=15885220870479223557
 slo-cider,SLO Cider,929,2,1,2020,2022,1,San Luis Obispo,California,USA,35.2600119,-120.6443921,world_cider_map,,
@@ -1935,7 +1956,6 @@ silo-distillery,Silo Distillery,939,2,1,2019,2020,2,Windsor,East,USA,43.5143504,
 skittery-cider,Skittery Cider,1231,1,1,2024,2024,1,Ledbury,Herefordshire,England,52.0264686,-2.500881,world_cider_map,,
 skyborry-cider-perry,Skyborry Cider & Perry,2525,2,1,2023,2023,1,Knighton,Powys,Wales,52.3555786,-3.0633831,world_cider_map,,
 slaughterhouse-craft-cider-mead,Slaughterhouse Craft Cider & Mead,,1,1,2024,2024,1,Prince George,British Columbia,Canada,53.8182393,-123.0477032,world_cider_map,,
-small-cider,Small Cider,,1,1,2026,2026,1,,,,,,none,,
 smashed-drynks,Smashed Drynks,3505,1,1,2021,2021,1,Bradford,West Yorkshire,England,53.7482995,-1.7643309,world_cider_map,https://www.smasheddrynks.co.uk/,
 smokin-banjo,Smokin Banjo,,1,1,2026,2026,1,Gatlinburg,TN,,,,none,,
 socal-ciderworks,SoCal CiderWorks,2581,1,1,2017,2017,1,Los Angeles,California,USA,34.1385139,-118.2103626,world_cider_map,,
@@ -1977,6 +1997,7 @@ three-brothers-wineries-estates,Three Brothers Wineries & Estates,633,1,1,2015,2
 three-peaks,Three Peaks,2832,1,1,2023,2023,1,Ofunato,Iwate,Japan,39.0631899,141.7232762,world_cider_map,,
 tin-hat-cider,Tin Hat Cider,640,1,1,2018,2018,1,Warren,Vermont,USA,44.087237,-72.715339,world_cider_map,,
 tom-cernohous,Tom Cernohous,X,1,1,2023,2023,1,,,,,,none,,
+tom-wallis,Tom Wallis,,1,1,2026,2026,1,Winforton,Herefordshire,,,,none,,
 topa-cidre,Topa Cidre,3099,1,1,2018,2018,1,Bidart,Nouvelle-Aquitaine,France,43.4302923,-1.5726717,world_cider_map,https://www.topa-cidre.com/,https://maps.google.com/?cid=10484194815167161209
 trattore,Trattore,,1,1,2025,2025,1,,,,,,none,,
 treehive,Treehive,,1,1,2024,2024,1,Brocton,Illinois,USA,39.7155705,-87.9333654,world_cider_map,,

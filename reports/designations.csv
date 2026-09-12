@@ -2,11 +2,11 @@ field,value,rows
 country,#N/A,2
 country,Argentina,2
 country,Armenia,2
-country,Australia,1439
+country,Australia,1440
 country,Austria,102
 country,Belgium,10
 country,Brazil,1
-country,Canada,106
+country,Canada,108
 country,Chile,8
 country,China,1
 country,Croatia,2
@@ -14,7 +14,7 @@ country,Cyprus,1
 country,Czech Republic,8
 country,Czechia,67
 country,Denmark,56
-country,England,603
+country,England,612
 country,Estonia,28
 country,Finland,47
 country,France,265
@@ -23,8 +23,8 @@ country,Guernsey,3
 country,Hungary,2
 country,Iceland,1
 country,India,10
-country,Ireland,58
-country,Italy,144
+country,Ireland,60
+country,Italy,147
 country,Japan,46
 country,Kazakhstan,2
 country,Latvia,140
@@ -32,9 +32,9 @@ country,Lebanon,7
 country,Lithuania,8
 country,Luxembourg,47
 country,Netherlands,40
-country,New Zealand,49
-country,Northern Ireland,27
-country,Norway,302
+country,New Zealand,51
+country,Northern Ireland,31
+country,Norway,306
 country,Peru,2
 country,Poland,84
 country,Portugal,54
@@ -42,12 +42,12 @@ country,Scotland,25
 country,Serbia,2
 country,Slovakia,5
 country,Slovenia,1
-country,South Africa,17
+country,South Africa,18
 country,South Korea,6
 country,Spain,531
-country,Sweden,59
+country,Sweden,60
 country,Switzerland,30
-country,USA,722
+country,USA,729
 country,Ukraine,7
 country,United Kingdom,6
 country,Vietnam,2
@@ -93,12 +93,15 @@ region,Chile,3
 region,Colorado,69
 region,Connecticut,3
 region,Cork,13
+region,Cornwall,2
 region,Czechia,9
 region,Côtes-d'Armor,39
 region,Delaware,9
-region,Denbighshire,8
+region,Denbighshire,9
 region,Derbyshire,2
 region,Dessert / Fortified,1
+region,Devon,1
+region,Dorset,2
 region,East,57
 region,East Yorkshire,5
 region,Echternach,6
@@ -115,6 +118,7 @@ region,GA,1
 region,Galicia,17
 region,Georgia,32
 region,Germany,43
+region,Glamorgan,2
 region,Gloucestershire,11
 region,Grand Est,3
 region,Greater London,1
@@ -125,7 +129,7 @@ region,Gunma,4
 region,Hauts-de-France,10
 region,Hawaii,5
 region,Hawke's Bay,12
-region,Herefordshire,100
+region,Herefordshire,124
 region,Hesse,7
 region,Idaho,26
 region,Ille-et-Vilaine,26
@@ -189,13 +193,14 @@ region,Normandy,167
 region,North,56
 region,North Carolina,54
 region,North Holland,3
+region,North Wales,1
 region,North Yorkshire,9
 region,Norway,30
-region,Nottinghamshire,18
+region,Nottinghamshire,21
 region,Nouvelle-Aquitaine,20
 region,Nova Scotia,7
 region,OH,2
-region,OR,35
+region,OR,42
 region,Ogre,23
 region,Ohio,33
 region,Olomouc,1
@@ -210,8 +215,9 @@ region,Peru,2
 region,Piedmont,1
 region,Plzeň,5
 region,Podlaskie,3
-region,Poland,15
+region,Poland,16
 region,Portugal,10
+region,Powys,1
 region,Prague,2
 region,Pärnu,11
 region,Quebec,33
@@ -221,7 +227,7 @@ region,Russia,1
 region,Saarland,5
 region,Slovakia,4
 region,Smiltene,9
-region,Somerset,6
+region,Somerset,7
 region,South,39
 region,South Australia,248
 region,South Bohemia,15
@@ -240,6 +246,7 @@ region,Tauragė,2
 region,Telemark,3
 region,Tennessee,18
 region,Texas,15
+region,The Netherlands,1
 region,Tipperary,10
 region,Trentino-South Tyrol,8
 region,Ukraine,6
@@ -249,7 +256,7 @@ region,Utah,7
 region,Utrecht,8
 region,VA,2
 region,VT,20
-region,Vale of Glamorgan,4
+region,Vale of Glamorgan,7
 region,Valka,2
 region,Veneto,6
 region,Vermont,71
