@@ -27,6 +27,7 @@ BASELINE = {
     "australian-cider-awards": 1722,  # 1,551 through 2024 + 171 for 2025
     "ciderworld-awards": 969,         # sheet covers 2018-2024; the archive had only 2023-2024
     "international-cider-awards": 193, # 157 through 2024 + 36 for 2026
+    "concours-regional-cidricole-de-bretagne": 356,  # 251 + 48 (2025) + 57 (2026)
     "cidercraft-awards": 1120,        # 851 through 2024 + 138 for 2025 + 131 for 2026
     "museum-of-cider": 111,          # 73 through 2024 + 38 for 2026
     "japan-cider-cup": 138,

@@ -13,8 +13,8 @@ ciderworld-awards,2025,pending,,Frankfurt - April
 ciderworld-awards,2026,pending,,
 concours-general-agricole,2025,pending,,Paris - February/March
 concours-general-agricole,2026,pending,,
-concours-regional-cidricole-de-bretagne,2025,pending,,
-concours-regional-cidricole-de-bretagne,2026,pending,,
+concours-regional-cidricole-de-bretagne,2025,published,https://www.maisoncidricoledebretagne.bzh/palmares-2025-concours-regional-cidricole/,10th edition; 17 of a stated 18 categories awarded medals
+concours-regional-cidricole-de-bretagne,2026,published,https://www.maisoncidricoledebretagne.bzh/palmares-2026-produits-cidricoles/,11th edition; 17 categories, matches the site
 concours-des-cidres-de-normandie,2025,pending,,
 concours-des-cidres-de-normandie,2026,pending,,
 good-food-awards,2025,pending,,
@@ -22,7 +22,7 @@ good-food-awards,2026,pending,,
 international-cider-awards,2025,pending,,
 international-cider-awards,2026,published,https://www.brewingawards.org/uncategorized/international-cider-awards-2026-medal-winners/,results published as HTML tables
 international-cider-challenge,2025,pending,,
-international-cider-challenge,2026,pending,,
+international-cider-challenge,2026,blocked,https://www.internationalciderchallenge.com/page/results-2026-taste,results page renders client-side; saved copy also carried a third-party API key so it was not kept
 japan-cider-cup,2025,pending,,
 japan-cider-cup,2026,pending,,
 museum-of-cider,2025,pending,,

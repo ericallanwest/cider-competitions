@@ -9,6 +9,8 @@ Dessert/Fortified,Fortified Cider,
 Fortified,Fortified Cider,
 Fortified Cider,Fortified Cider,from GLINTCAP Style_Crosswalk
 Pommeau,Fortified Cider,from GLINTCAP Style_Crosswalk
+Pommeau de Moins de 3 Ans,Fortified Cider,Bretagne
+Pommeau de Plus de 3 Ans,Fortified Cider,Bretagne
 Apple and Pear Blends,Fruit Cider,
 Berry,Fruit Cider,
 Cider or Perry with Fruit,Fruit Cider,
@@ -118,6 +120,9 @@ Sidra Natural,Natural Cider,
 Sour Cider,Natural Cider,from GLINTCAP Style_Crosswalk
 Spanish Cider,Natural Cider,from GLINTCAP Style_Crosswalk
 Alcohol Free,Non-Alcoholic,
+Jus de Pomme Petillant,Non-Alcoholic,Bretagne
+Jus de Pomme Pétillant,Non-Alcoholic,Bretagne
+Jus de Pomme Tranquille,Non-Alcoholic,Bretagne
 LOW & NO ALCOHOL CIDER,Non-Alcoholic,
 Low & No Cider and Perry,Non-Alcoholic,
 Low Alcohol / Alcohol Removed,Non-Alcoholic,Cidercraft
@@ -173,16 +178,28 @@ Specialty Cider and Perry – Sweet,Specialty Cider and Perry,GLINTCAP 2026
 Aged Apple or Pear Spirit,Spirits,
 Brandy,Spirits,from GLINTCAP Style_Crosswalk
 Eau de Vie (Apple or Pear Spirit),Spirits,
+Eau de Vie de Cidre de Moins de 4 Ans,Spirits,Bretagne
+Eau de Vie de Cidre de Plus de 4 Ans,Spirits,Bretagne
 Eau de vie,Spirits,from GLINTCAP Style_Crosswalk
 Spirit,Spirits,
 Spirits,Spirits,from GLINTCAP Style_Crosswalk
 Brut Cider,Traditional Cider,
+Cidre AOP Cornouaille,Traditional Cider,Bretagne
+Cidre Artisanal Brut,Traditional Cider,Bretagne
+Cidre Artisanal Demi-Sec,Traditional Cider,Bretagne
+Cidre Artisanal Extra-Brut,Traditional Cider,Bretagne
 Cidre Artisanal ou de Marque Brut,Traditional Cider,
 Cidre Artisanal ou de Marque Doux,Traditional Cider,
 Cidre Bouché,Traditional Cider,
 Cidre Fermier Brut,Traditional Cider,
 Cidre Fermier Demi-Sec,Traditional Cider,
 Cidre Fermier Doux,Traditional Cider,
+Cidre Fermier Extra-Brut,Traditional Cider,Bretagne
+Cidre IGP Brut,Traditional Cider,Bretagne
+Cidre IGP Demi-Sec,Traditional Cider,Bretagne
+Cidre de Pays Brut,Traditional Cider,Bretagne
+Cidre de Pays Demi-Sec,Traditional Cider,Bretagne
+Cidre de Pays Extra Brut,Traditional Cider,Bretagne
 Dry Still Cider,Traditional Cider,
 English Cider,Traditional Cider,from GLINTCAP Style_Crosswalk
 Farmhouse Dry,Traditional Cider,
