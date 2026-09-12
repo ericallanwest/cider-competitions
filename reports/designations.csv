@@ -53,6 +53,7 @@ country,United Kingdom,6
 country,Vietnam,2
 country,Wales,12
 region,#N/A,2
+region,AZ,5
 region,Aberdeenshire,7
 region,Alaska,2
 region,Antwerp,1
@@ -66,6 +67,7 @@ region,Australia,11
 region,Australian Capital Territory,12
 region,Austria,31
 region,Auvergne-Rhône-Alpes,1
+region,BC,2
 region,Baden-Württemberg,64
 region,Banská Bystrica,1
 region,Basque Country,160
@@ -74,6 +76,9 @@ region,Bragança,5
 region,British Columbia,52
 region,Brittany,251
 region,Buckinghamshire,1
+region,CA,9
+region,CO,59
+region,CT,11
 region,California,78
 region,Canary Islands,52
 region,Cantabria,15
@@ -93,6 +98,7 @@ region,Côtes-d'Armor,39
 region,Delaware,9
 region,Denbighshire,8
 region,Derbyshire,2
+region,Dessert / Fortified,1
 region,East,57
 region,East Yorkshire,5
 region,Echternach,6
@@ -105,6 +111,7 @@ region,Finland,3
 region,Flintshire,3
 region,Florida,32
 region,France,46
+region,GA,1
 region,Galicia,17
 region,Georgia,32
 region,Germany,43
@@ -127,6 +134,7 @@ region,Indiana,1
 region,Iowa,1
 region,Ireland,4
 region,Italy,18
+region,KS,5
 region,Kalmar,1
 region,Karlovy Vary,12
 region,Kent,1
@@ -147,6 +155,8 @@ region,Lower Silesia,1
 region,Lower Silesian,7
 region,Lublin,6
 region,Luxembourg,5
+region,MA,2
+region,MI,3
 region,Madeira,17
 region,Madrid,1
 region,Maine,15
@@ -159,6 +169,10 @@ region,Missouri,3
 region,Montana,17
 region,Moravia-Silesia,2
 region,Morbihan,43
+region,NC,6
+region,NE,8
+region,NJ,4
+region,NY,14
 region,Navarre,24
 region,Neath Port Talbot,1
 region,Nebraska,71
@@ -180,6 +194,8 @@ region,Norway,30
 region,Nottinghamshire,18
 region,Nouvelle-Aquitaine,20
 region,Nova Scotia,7
+region,OH,2
+region,OR,35
 region,Ogre,23
 region,Ohio,33
 region,Olomouc,1
@@ -187,6 +203,7 @@ region,Ontario,70
 region,Oregon,393
 region,Overijssel,3
 region,Oxfordshire,1
+region,PA,2
 region,Pays de la Loire,51
 region,Pennsylvania,73
 region,Peru,2
@@ -216,6 +233,7 @@ region,Subcarpathian,12
 region,Suffolk,4
 region,Sweden,11
 region,Switzerland,2
+region,TN,5
 region,Tasman,15
 region,Tasmania,252
 region,Tauragė,2
@@ -224,20 +242,24 @@ region,Tennessee,18
 region,Texas,15
 region,Tipperary,10
 region,Trentino-South Tyrol,8
-region,Ukraine,5
+region,Ukraine,6
 region,United States,58
 region,Uruguay,1
 region,Utah,7
 region,Utrecht,8
+region,VA,2
+region,VT,20
 region,Vale of Glamorgan,4
 region,Valka,2
 region,Veneto,6
-region,Vermont,70
+region,Vermont,71
 region,Vestfold,4
 region,Viana do Castelo,1
 region,Victoria,394
 region,Virginia,43
 region,Västerbotten,3
+region,WA,65
+region,WI,6
 region,Warwickshire,2
 region,Washington,414
 region,Wellington,1

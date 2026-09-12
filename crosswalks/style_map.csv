@@ -11,6 +11,8 @@ Pommeau,Fortified Cider,from GLINTCAP Style_Crosswalk
 Apple and Pear Blends,Fruit Cider,
 Berry,Fruit Cider,
 Cider or Perry with Fruit,Fruit Cider,
+Co-Ferments,Fruit Cider,Cidercraft
+Co-Ferments: Fruit / Stone Fruit,Fruit Cider,Cidercraft
 FRUIT CIDER – DRY,Fruit Cider,
 FRUIT CIDER – SWEET,Fruit Cider,
 Flavored Cider,Fruit Cider,
@@ -27,6 +29,7 @@ Fruit Cider or Perry,Fruit Cider,
 Mixed & Flavoured,Fruit Cider,
 Pineapple,Fruit Cider,
 Stone Fruit,Fruit Cider,
+Tropical,Fruit Cider,Cidercraft
 HEIRLOOM CIDER – DRY,Heritage Cider,GLINTCAP 2025 renamed Heritage to Heirloom
 HEIRLOOM CIDER – SWEET,Heritage Cider,GLINTCAP 2025 renamed Heritage to Heirloom
 Heritage,Heritage Cider,
@@ -34,6 +37,10 @@ Heritage Cider,Heritage Cider,from GLINTCAP Style_Crosswalk
 Heritage Cider - Dry,Heritage Cider,from GLINTCAP Style_Crosswalk
 Heritage Cider - Medium,Heritage Cider,
 Heritage Cider - Sweet,Heritage Cider,from GLINTCAP Style_Crosswalk
+High Tannin Dry,Heritage Cider,Cidercraft
+High Tannin Sweet,Heritage Cider,Cidercraft
+High Tannin – Dry,Heritage Cider,Cidercraft
+High Tannin – Sweet,Heritage Cider,Cidercraft
 Single Varietal,Heritage Cider,
 Single Variety Cider,Heritage Cider,
 Tannin Led Cider,Heritage Cider,
@@ -60,6 +67,9 @@ Modern Cider (Dry),Modern Cider,
 Modern Cider (Sweet),Modern Cider,
 Modern Cider - Dry,Modern Cider,from GLINTCAP Style_Crosswalk
 Modern Cider - Sweet,Modern Cider,from GLINTCAP Style_Crosswalk
+Modern – Sweet,Modern Cider,Cidercraft
+Modern-Dry,Modern Cider,Cidercraft
+Modern-Sweet,Modern Cider,Cidercraft
 New World Cider,Modern Cider,from GLINTCAP Style_Crosswalk
 New World Cider - Medium,Modern Cider,
 New World Cider - Medium Sweet,Modern Cider,
@@ -93,6 +103,7 @@ Sour Cider,Natural Cider,from GLINTCAP Style_Crosswalk
 Spanish Cider,Natural Cider,from GLINTCAP Style_Crosswalk
 Alcohol Free,Non-Alcoholic,
 LOW & NO ALCOHOL CIDER,Non-Alcoholic,
+Low Alcohol / Alcohol Removed,Non-Alcoholic,Cidercraft
 Low and No Alcohol Cider,Non-Alcoholic,
 Low/No Alcohol Cider,Non-Alcoholic,GLINTCAP 2026
 No/Low Alc Cider or Perry,Non-Alcoholic,
@@ -116,11 +127,14 @@ Rose Cider,Rosé Cider,
 Rosé,Rosé Cider,
 Rosé Cider,Rosé Cider,from GLINTCAP Style_Crosswalk
 Applewine,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk
+Cocktail Inspired,Specialty Cider and Perry,Cidercraft
 Cyser,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk
 Dessert,Specialty Cider and Perry,
 Dessert Cider,Specialty Cider and Perry,
 Experimental Cider or Perry,Specialty Cider and Perry,
 Fruit Beer,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk
+Imperial Cider (Apple Only),Specialty Cider and Perry,Cidercraft
+Imperial Cider – (Adjuncts),Specialty Cider and Perry,Cidercraft
 Mead,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk
 New England Cider,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk
 Non Alcoholic Sparkling Cider,Specialty Cider and Perry,from GLINTCAP Style_Crosswalk

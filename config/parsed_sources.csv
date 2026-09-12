@@ -1,3 +1,5 @@
 source_id,competition_id,year,path,parser,tab,status,notes
 glintcap-2026,glintcap,2026,data/source/web/glintcap/2026/commercial.html,glintcap_web,results.csv,active,commercial division only
 us-open-cider-championship-2025,us-open-cider-championship,2025,data/source/web/us-open-cider-championship/2025/results.html,us_open_web,results.csv,active,
+cidercraft-awards-2026,cidercraft-awards,2026,data/source/web/cidercraft-awards/2026/sip.html,cidercraft_web,results.csv,active,9th annual; full list via Sip Magazine
+cidercraft-awards-2025,cidercraft-awards,2025,data/source/web/cidercraft-awards/2025/results.html,cidercraft_web,results.csv,active,8th annual

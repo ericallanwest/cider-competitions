@@ -26,6 +26,7 @@ BASELINE = {
     "glintcap": 10273,                # 8,072 sheet + 813 archive 2024 + 730 for 2025 + 658 for 2026
     "australian-cider-awards": 1722,  # 1,551 through 2024 + 171 for 2025
     "ciderworld-awards": 969,         # sheet covers 2018-2024; the archive had only 2023-2024
+    "cidercraft-awards": 1120,        # 851 through 2024 + 138 for 2025 + 131 for 2026
     "museum-of-cider": 73,
     "japan-cider-cup": 138,
     "northwest-cider-cup": 426,
