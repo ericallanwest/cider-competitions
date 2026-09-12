@@ -95,6 +95,21 @@ def main() -> int:
                     f"{', '.join(leaked[:5])}"
                     f"{' …' if len(leaked) > 5 else ''}")
 
+    # The backfill checklist must describe reality. A row marked published with
+    # no awards behind it is how a tracker quietly starts lying - and that
+    # already happened once, when a competition_id that is a substring of
+    # another was overwritten by a careless find-and-replace.
+    years_cfg = lib.CONFIG / "competition_years.csv"
+    if years_cfg.exists():
+        present = {(r["competition_id"], r["year"]) for r in rows}
+        claimed = [f'{r["competition_id"]} {r["year"]}'
+                   for r in lib.read_csv(years_cfg)
+                   if r["status"] == "published"
+                   and (r["competition_id"], r["year"]) not in present]
+        if claimed:
+            hard.append(f"competition_years.csv marks {len(claimed)} year(s) published "
+                        f"with no awards in the data: {', '.join(claimed)}")
+
     unmapped = collections.Counter(r["award_raw"] for r in rows if r["award_kind"] == "unmapped")
     if unmapped:
         hard.append(f"{sum(unmapped.values())} rows with unmapped awards (closed set - should be 0)")
