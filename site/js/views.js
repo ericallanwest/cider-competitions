@@ -148,20 +148,6 @@ function makeYearsClickable(fig, onYear) {
   });
 }
 
-function tally(rows) {
-  const m = new Map();
-  for (const r of rows) {
-    const n = r.producer && r.producer.n;
-    if (!n) continue;
-    const t = m.get(n) || {name: n, total: 0};
-    t.total++;
-    const tier = tierOf(r);
-    t[tier] = (t[tier] || 0) + 1;
-    m.set(n, t);
-  }
-  return [...m.values()].sort((a, b) => b.total - a.total);
-}
-
 function awardLabel(r) {
   return `${esc(awardGlyph(r))} ${esc(awardName(awardValue(r)))}`.trim();
 }
@@ -191,7 +177,10 @@ function makeSortable(table, data, keys, render) {
     dir = (c === last) ? -dir : 1;
     last = c;
     const key = keys[c];
-    render([...data].sort((a, b) => {
+    // `data` may be a getter, so sorting reorders what is on screen rather
+    // than throwing away a search the reader has already typed.
+    const list = typeof data === 'function' ? data() : data;
+    render([...list].sort((a, b) => {
       const x = key(a), y = key(b);
       return (x > y ? 1 : x < y ? -1 : 0) * dir;
     }));
@@ -539,15 +528,54 @@ function prodScope(st) {
   return {p: all.length ? all[0].producer : null, all, rows: apply(all, {...st, q: ''})};
 }
 
+const PRODUCER_CAP = 250;
+
+/** The producer league: who has won what, and where. This is the ranking the
+ *  competition page used to carry, which never belonged there - it is about
+ *  producers, so it lives with them, and here it can be filtered and sorted. */
+function producerRows(rows) {
+  const m = new Map();
+  for (const r of rows) {
+    const name = r.producer && r.producer.n;
+    if (!name) continue;
+    let t = m.get(name);
+    if (!t) {
+      t = {name, p: r.producer, awards: 0, comps: new Set(), years: new Set()};
+      m.set(name, t);
+    }
+    t.awards++;
+    t[tierOf(r)] = (t[tierOf(r)] || 0) + 1;
+    t.comps.add(r.comp.id);
+    if (r.year) t.years.add(r.year);
+  }
+  return [...m.values()].map(t => {
+    const ys = [...t.years].sort((a, b) => a - b);
+    return {...t, competitions: t.comps.size,
+            from: ys[0] || 0, to: ys[ys.length - 1] || 0,
+            where: (t.p && (t.p.ct || t.p.r)) || ''};
+  }).sort((a, b) => b.awards - a.awards || a.name.localeCompare(b.name));
+}
+
 export function producer() {
   const st = readState();
   if (!st.q) {
-    const top = tally(D.rows).slice(0, 60);
+    const rows = apply(D.rows, {...st, q: ''});
+    const tiers = tiersIn(rows);
+    const filtered = rows.length !== D.rows.length;
+    const heads = ['Producer', 'Awards', ...tiers.map(t => t.label),
+                   'Competitions', 'Years', 'Where'];
     return `<h2>Producers</h2>
-    <p class="sub">Ranked by total awards across all competitions.</p>
-    <div class="filters"><input type="search" id="f-q" placeholder="Search producers"></div>
-    <div class="cards">${top.map(t => `<a class="card" href="#/producer?q=${encodeURIComponent(t.name)}">
-      <b>${esc(t.name)}</b><span>${t.total} awards</span></a>`).join('')}</div>`;
+    <p class="sub">Ranked by awards${filtered ? ' matching these filters' : ''}.
+       Every producer in the dataset, including those with no pin on the map.</p>
+    ${filterBar(st, {search: false})}
+    <div class="filters" style="margin-top:-.4rem">
+      <input type="search" id="f-find" placeholder="Find a producer">
+      <span class="note" id="prod-count"></span>
+    </div>
+    ${rows.length ? `<div class="wrap"><table id="prod"><thead><tr>
+      ${heads.map((h, i) => `<th data-col="${i}"${i ? ' class="n"' : ''}>${esc(h)}</th>`).join('')}
+    </tr></thead><tbody></tbody></table></div>`
+    : `<p class="note">No awards match these filters. <a href="#/producer">Clear them</a>.</p>`}`;
   }
   const {p, all, rows} = prodScope(st);
   if (!p) {
@@ -591,20 +619,56 @@ export function producer() {
 }
 producer.after = () => {
   const st = readState();
-  const q = el('f-q');
-  // The index page's box filters the cards in place; the detail page has none,
-  // because ?q= there names the producer rather than searching.
-  if (q && !st.q) q.addEventListener('input', e => {
-    const v = e.target.value.toLowerCase();
-    document.querySelectorAll('.card').forEach(c => {
-      c.style.display = c.textContent.toLowerCase().includes(v) ? '' : 'none';
-    });
-  });
-  if (!st.q) return;
+  if (!st.q) { wireFilters(); wireProducerTable(); return; }
   const {all, rows} = prodScope(st);
   wireFilters(all);
   medalsByYear(rows, el('ch-prod'), all);
 };
+
+function wireProducerTable() {
+  const table = el('prod');
+  if (!table) return;
+  const st = readState();
+  const rows = apply(D.rows, {...st, q: ''});
+  const tiers = tiersIn(rows);
+  const all = producerRows(rows);
+  const body = table.tBodies[0];
+  const count = el('prod-count');
+
+  // `find` narrows the whole ranking before it is capped, so a producer far
+  // down the list is still reachable by name.
+  let shown = all;
+  const render = list => {
+    shown = list;
+    body.innerHTML = list.slice(0, PRODUCER_CAP).map(t => `<tr>
+      <td><a href="#/producer?q=${encodeURIComponent(t.name)}">${esc(t.name)}</a></td>
+      <td class="n">${num(t.awards)}</td>
+      ${tiers.map(x => `<td class="n">${t[x.id] ? num(t[x.id]) : ''}</td>`).join('')}
+      <td class="n">${t.competitions}</td>
+      <td class="n">${t.from ? (t.from === t.to ? t.from : `${t.from}&ndash;${t.to}`) : ''}</td>
+      <td>${esc(t.where)}</td>
+    </tr>`).join('');
+    if (count) {
+      count.textContent = list.length > PRODUCER_CAP
+        ? `Showing the top ${PRODUCER_CAP} of ${num(list.length)} producers.`
+        : `${num(list.length)} producer${list.length === 1 ? '' : 's'}.`;
+    }
+  };
+  render(all);
+
+  makeSortable(table, () => shown, [t => t.name, t => t.awards,
+    ...tiers.map(x => t => t[x.id] || 0),
+    t => t.competitions, t => t.from, t => t.where], render);
+
+  const find = el('f-find');
+  let timer;
+  if (find) find.addEventListener('input', e => {
+    clearTimeout(timer);
+    const v = e.target.value.trim().toLowerCase();
+    timer = setTimeout(() => render(
+      v ? all.filter(t => t.name.toLowerCase().includes(v)) : all), 150);
+  });
+}
 
 let mapObj = null;
 // The element MapLibre owns. Every filter change re-renders the view, which
