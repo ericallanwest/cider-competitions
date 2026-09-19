@@ -14,9 +14,12 @@ WID-bearing producer elsewhere in the dataset are listed first as
 are `new-or-misspelt` and carry the three closest World Cider Map candidates,
 which is where a second record for a cidery you already have will be hiding.
 
-Nothing here edits anything. Put the right id in confirm_wid, then copy the
-row into crosswalks/producer_aliases.csv the same way as for
-suggest_matches.py, whose scoring this reuses.
+Nothing here edits anything. Put the right id in confirm_wid, then feed the
+reviewed file to apply_review.py, which records the decisions in
+crosswalks/producer_aliases.csv. Scoring is suggest_matches.py's.
+
+A producer resolved by an earlier review comes back as matches-known-producer
+with in_aliases set, so a decision is asked for once and only once.
 
     python pipeline/review_parsed.py
     python pipeline/review_parsed.py --candidates 5
@@ -63,16 +66,17 @@ def main() -> None:
         print("No live awards came from a parsed source.")
         return
 
-    # Producers the dataset can already identify, from anywhere a person has
-    # assigned a WID. A crawled name matching one of these is the easy case.
+    # Producers the dataset can already identify. Read from producers.csv, not
+    # from the award rows: that is where a confirmed alias has been applied, so
+    # a producer resolved by yesterday's review stops being asked about today.
+    producers = lib.read_csv(lib.OUT / "producers.csv")
     known = {}
-    for a in awards:
-        wid = lib.clean(a["wid"])
+    for p in producers:
+        wid = lib.clean(p["wid"])
         if wid and wid.upper() != "X":
-            known.setdefault(lib.clean(a["producer_name"]).casefold(), (wid, a["producer_name"]))
+            known[lib.clean(p["producer_name"]).casefold()] = (wid, p["producer_name"])
 
-    mapped = {lib.clean(p["producer_name"]).casefold(): p["latitude"]
-              for p in lib.read_csv(lib.OUT / "producers.csv")}
+    mapped = {lib.clean(p["producer_name"]).casefold(): p["latitude"] for p in producers}
     already = {lib.clean(r["producer_name"]).casefold()
                for r in (lib.read_csv(ALIASES) if ALIASES.exists() else [])}
 

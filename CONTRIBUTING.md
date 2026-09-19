@@ -49,6 +49,20 @@ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json   # never commit this
    second record for a cidery you already have will be hiding. Regenerate it
    with `python pipeline/review_parsed.py`.
 
+   Review it wherever is comfortable, a spreadsheet included, then bring the
+   decisions back:
+
+   ```bash
+   python pipeline/apply_review.py reviewed.csv --dry-run   # read it first
+   python pipeline/apply_review.py reviewed.csv
+   python pipeline/run_all.py
+   ```
+
+   Only rows with a `confirm_wid` are touched, so a half-finished review
+   applies cleanly and can be run again as more rows are filled in. It refuses
+   an ID the map does not contain and refuses to repoint an alias that already
+   says something else, both being likelier to be a typo than a decision.
+
    Rows from a parser are labelled `parsed:` in `awards.csv`, and rows from a
    sheet `sheet:`, so the two never look alike.
 
