@@ -4,3 +4,10 @@
 * text=auto eol=lf
 *.png binary
 *.jpg binary
+
+# Captured source pages and PDFs are archival copies: keep their bytes exactly
+# as fetched so the sha256 in data/source/web/manifest.csv stays true.
+data/source/web/** -text
+data/source/web/manifest.csv text eol=lf
+data/source/web/*/manifest.csv text eol=lf
+data/source/web/README.md text eol=lf

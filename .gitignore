@@ -26,3 +26,12 @@ data/snapshot/_lookups/
 # is committed. Competition grain tabs ARE committed - fetch.py pulls only the
 # tab named in sheet_tables.csv, so nothing incidental comes with them.
 data/snapshot/_lookups/
+
+# Saved source pages stay local. data/source/web/ mirrors 160+ MB of other
+# people's competition announcements for archival use. What is committed is
+# the manifest: which URL each file came from, when, how big, and its hash.
+# The rule matches <competition>/<year>/<file> and so leaves the manifests and
+# this directory's README tracked. The handful of pages the parsers read were
+# committed before this rule and stay tracked, since .gitignore has no say
+# over files already in the index.
+data/source/web/*/*/*

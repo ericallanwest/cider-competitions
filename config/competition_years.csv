@@ -2,38 +2,38 @@ competition_id,year,status,source_url,notes
 glintcap,2025,published,https://michiganciders.com/1640-2/,ingested from the GLINTCAP 2025 Results sheet
 glintcap,2026,published,https://michiganciders.com/glintcap-2026-commercial-results/,parsed from the results page
 australian-cider-awards,2025,published,,ingested from the 2025 results sheet
-australian-cider-awards,2026,pending,,usually held in October - may not have run yet
+australian-cider-awards,2026,pending,,held in October - not yet run as of 2026-09-15
 us-open-cider-championship,2025,published,https://theusopenchampionships.com/2025-u-s-open-cider-championship-medal-winners/,parsed from the results page
-us-open-cider-championship,2026,pending,,usually held in November
-northwest-cider-cup,2025,blocked,https://www.nwcider.com/northwest-cider-cup/winners/,"full list is JS-rendered and in a Winner's Guide; Cidercraft reports 57 medals, 18 categories, 29 cideries"
-northwest-cider-cup,2026,pending,,
+us-open-cider-championship,2026,pending,,held in November - not yet run as of 2026-09-15
+northwest-cider-cup,2025,pending,https://www.nwcider.com/northwest-cider-cup/winners/,official Winner's Guide PDF and server-rendered awards table captured 2026-09-13; not yet ingested
+northwest-cider-cup,2026,pending,https://www.nwcider.com/2026-nw-cider-cup-winners-announced/,official Winner's Guide PDF captured 2026-09-13; not yet ingested
 cidercraft-awards,2025,published,https://cidercraftmag.com/announcing-the-winners-of-the-8th-annual-cidercraft-awards/,8th annual; verified against the published Snow Capped tally
 cidercraft-awards,2026,published,https://sipmagazine.com/announcing-the-9th-annual-cidercraft-award-winners/,9th annual; full list via Sip Magazine
-ciderworld-awards,2025,pending,,Frankfurt - April
-ciderworld-awards,2026,pending,,
-concours-general-agricole,2025,pending,,Paris - February/March
-concours-general-agricole,2026,pending,,
+ciderworld-awards,2025,pending,https://web.archive.org/web/20251210151506/https://cider-world.de/en/2025-award-eng/,category ranking PDFs captured 2026-09-13; not yet ingested
+ciderworld-awards,2026,pending,https://cider-world.de/en/start/,category ranking PDFs captured 2026-09-13; not yet ingested
+concours-general-agricole,2025,pending,https://palmares.concours-general-agricole.fr/,"official 'Cidres et Poirés' palmarès exported by hand 2026-09-15 and registered; ready to ingest"
+concours-general-agricole,2026,pending,https://palmares.concours-general-agricole.fr/,"official 'Cidres et Poirés' palmarès exported by hand 2026-09-15 and registered; ready to ingest"
 concours-regional-cidricole-de-bretagne,2025,published,https://www.maisoncidricoledebretagne.bzh/palmares-2025-concours-regional-cidricole/,10th edition; 17 of a stated 18 categories awarded medals
-concours-regional-cidricole-de-bretagne,2026,published,https://www.maisoncidricoledebretagne.bzh/palmares-2026-produits-cidricoles/,11th edition; 17 categories, matches the site
-concours-des-cidres-de-normandie,2025,pending,,
-concours-des-cidres-de-normandie,2026,pending,,
-good-food-awards,2025,pending,,
-good-food-awards,2026,pending,,
-international-cider-awards,2025,pending,,
+concours-regional-cidricole-de-bretagne,2026,published,https://www.maisoncidricoledebretagne.bzh/palmares-2026-produits-cidricoles/,11th edition; 17 categories
+concours-des-cidres-de-normandie,2025,pending,https://web.archive.org/web/20250720190943/https://www.maison-cidricole-normandie.fr/article/concours-des-cidres-de-normandie-2025-retrouvez-tous-les-resultats,palmarès page and PDF captured 2026-09-13; not yet ingested
+concours-des-cidres-de-normandie,2026,pending,https://www.cuisine-et-des-tendances.com/2026/06/23/concours-des-cidres-de-normandie-2026/,full palmarès captured 2026-09-15 from press (MCN site is behind Cloudflare); not yet ingested
+good-food-awards,2025,pending,https://web.archive.org/web/20250116080402/https://goodfoodfdn.org/awards/finalists/,winners and finalists pages captured 2026-09-13; not yet ingested
+good-food-awards,2026,pending,https://web.archive.org/web/20260116123647/https://goodfoodfdn.org/awards/finalists/,winners and finalists pages captured 2026-09-13; not yet ingested
+international-cider-awards,2025,not-held,,"no 2025 edition - the awards ran 2021, 2024, 2026"
 international-cider-awards,2026,published,https://www.brewingawards.org/uncategorized/international-cider-awards-2026-medal-winners/,results published as HTML tables
-international-cider-challenge,2025,pending,,
+international-cider-challenge,2025,pending,https://evessio.s3.eu-west-1.amazonaws.com/customer/38fdd951-ed5d-49f2-82f3-ed13e29bcfce/results/Agile_ICC_Taste_all_20250820_cached.json,results JSON (the data file the results page loads) captured 2026-09-13; not yet ingested
 international-cider-challenge,2026,blocked,https://www.internationalciderchallenge.com/page/results-2026-taste,results page renders client-side; saved copy also carried a third-party API key so it was not kept
-japan-cider-cup,2025,pending,,
-japan-cider-cup,2026,pending,,
-museum-of-cider,2025,pending,,
+japan-cider-cup,2025,pending,https://www.japancidercup.com/wp-content/uploads/JCC-2025-RESULTS.pdf,official results PDF captured 2026-09-13; not yet ingested
+japan-cider-cup,2026,pending,https://www.japancidercup.com/wp-content/uploads/JCC-2026-RESULTS.pdf,official results PDF captured 2026-09-13; not yet ingested
+museum-of-cider,2025,pending,https://web.archive.org/web/20251010192057/https://www.cidermuseum.co.uk/whats-on/cider-perry-competition/,Wayback copy of the competition page as of 2025-10-10 captured 2026-09-13; not yet ingested
 museum-of-cider,2026,published,https://www.cidermuseum.co.uk/whats-on/cider-perry-competition/,112 entries from 35 cidermakers; no entry names published
-nordic-international-cider-awards,2025,pending,,no results published since 2023 - may be dormant
-nordic-international-cider-awards,2026,pending,,no results published since 2023 - may be dormant
-royal-bath-and-west,2025,pending,,
-royal-bath-and-west,2026,pending,,
-royal-three-counties,2025,pending,,
-royal-three-counties,2026,pending,,
-sagardo-forum,2025,pending,,biennial - odd years only
+nordic-international-cider-awards,2025,not-held,,"no 2024, 2025 or 2026 edition found; organiser pages still describe 2022 Bergen and 2023 Riga"
+nordic-international-cider-awards,2026,not-held,,"no 2024, 2025 or 2026 edition found; organiser pages still describe 2022 Bergen and 2023 Riga"
+royal-bath-and-west,2025,pending,https://britishciderchampionships.com/results,results PDF captured 2026-09-13; not yet ingested
+royal-bath-and-west,2026,pending,https://britishciderchampionships.com/results,results PDF captured 2026-09-13; not yet ingested
+royal-three-counties,2025,pending,https://web.archive.org/web/20251017180507/https://royalthreecounties.co.uk/compete/,results PDF captured 2026-09-13; not yet ingested
+royal-three-counties,2026,pending,https://tccpa.co.uk/the-winners-of-the-2026-international-cider-championships-at-the-royal-three-counties-show/,organiser's class-by-class results post captured 2026-09-13; not yet ingested
+sagardo-forum,2025,pending,https://sagardoarenlurraldea.eus/es/sagardo-forum/concurso-sidra-internacional/,VI Sagardo Forum all-medals PDF captured 2026-09-13; not yet ingested
 sagardo-forum,2026,not-held,,biennial - no even-year edition
-sisga,2025,pending,,
-sisga,2026,pending,,
+sisga,2025,pending,https://www.lasidra.net/es/clasificacion-premios-sisga25/,XV SISGA clasificación captured 2026-09-13; not yet ingested
+sisga,2026,pending,,SISGA'26 runs 24-27 Sept 2026 in Xixón; awards presented 27 Sept - check lasidra.net after that
