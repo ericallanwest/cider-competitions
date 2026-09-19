@@ -50,6 +50,7 @@ Cidrerie Verger Bilodeau,matches-known-producer,6,glintcap 2026,753,yes,,,,,,,,,
 Empyrical Orchard & Cidery,matches-known-producer,6,glintcap 2026,2037,yes,,,,,,,,,,,,,,
 Farm Club,matches-known-producer,6,glintcap 2026,2082,yes,,,,,,,,,,,,,,
 Grey & Gold Cider,matches-known-producer,6,glintcap 2026,1782,yes,,,,,,,,,,,,,,
+Ciderboys Hard Cider,matches-known-producer,6,us-open-cider-championship 2025,196,yes,yes,,,,,,,,,,,,,
 Country Boy Brewing,matches-known-producer,6,us-open-cider-championship 2025,220,yes,,,,,,,,,,,,,,
 Ciderboys Cider Co.,matches-known-producer,5,cidercraft-awards 2025; cidercraft-awards 2026,196,yes,yes,,,,,,,,,,,,,
 Island Orchard Cider,matches-known-producer,5,cidercraft-awards 2025; glintcap 2026,350,yes,,,,,,,,,,,,,,
@@ -63,7 +64,6 @@ Michigan Wine Company LLC,matches-known-producer,5,glintcap 2026,1749,yes,yes,,,
 Sapsucker Farms Yellow Belly Cidery,matches-known-producer,5,glintcap 2026; us-open-cider-championship 2025,545,yes,,,,,,,,,,,,,,
 Seminary Hill Orchard & Cidery,matches-known-producer,5,glintcap 2026,1060,yes,,,,,,,,,,,,,,
 Two K Farms,matches-known-producer,5,glintcap 2026,932,yes,,,,,,,,,,,,,,
-Ciderboys Hard Cider,matches-known-producer,5,us-open-cider-championship 2025,196,yes,yes,,,,,,,,,,,,,
 Incline Cider Company,matches-known-producer,4,cidercraft-awards 2025,345,yes,,,,,,,,,,,,,,
 Mount Diablo Cider Company,matches-known-producer,4,cidercraft-awards 2025; glintcap 2026,1908,yes,,,,,,,,,,,,,,
 Seattle Cider Co.,matches-known-producer,4,cidercraft-awards 2025,553,yes,yes,,,,,,,,,,,,,
@@ -110,6 +110,7 @@ Tempted Cider,matches-known-producer,3,international-cider-awards 2026,1459,yes,
 Llanblethian Orchards,matches-known-producer,3,museum-of-cider 2026,2337,yes,,,,,,,,,,,,,,
 Newton Court Cider,matches-known-producer,3,museum-of-cider 2026,1882,yes,,,,,,,,,,,,,,
 Blue Barn Cidery,matches-known-producer,3,us-open-cider-championship 2025,145,yes,,,,,,,,,,,,,,
+Six Byrd Cider,matches-known-producer,3,us-open-cider-championship 2025,1937,yes,yes,,,,,,,,,,,,,
 Sons of Toil Brewing,matches-known-producer,3,us-open-cider-championship 2025,575,yes,yes,,,,,,,,,,,,,
 Beach Bee Meadery,matches-known-producer,2,cidercraft-awards 2025; us-open-cider-championship 2025,947,yes,,,,,,,,,,,,,,
 Bull Run Cider,matches-known-producer,2,cidercraft-awards 2025,173,yes,,,,,,,,,,,,,,
@@ -156,7 +157,6 @@ Pips Cider,matches-known-producer,2,museum-of-cider 2026,1381,yes,,,,,,,,,,,,,,
 ACE Cider,matches-known-producer,2,us-open-cider-championship 2025,3129,yes,,,,,,,,,,,,,,
 Bold Rock Hard Cider,matches-known-producer,2,us-open-cider-championship 2025,153,yes,,,,,,,,,,,,,,
 FX Matt Brewing Co.,matches-known-producer,2,us-open-cider-championship 2025,408,yes,yes,,,,,,,,,,,,,
-Six Byrd Cider,matches-known-producer,2,us-open-cider-championship 2025,1937,yes,yes,,,,,,,,,,,,,
 "White Winter Mead, Cider, Spirits",matches-known-producer,2,us-open-cider-championship 2025,681,yes,yes,,,,,,,,,,,,,
 2 Towns Ciderhous,matches-known-producer,1,cidercraft-awards 2025,67,yes,yes,,,,,,,,,,,,,
 Brooklyn Cider House,matches-known-producer,1,cidercraft-awards 2025,165,yes,,,,,,,,,,,,,,
@@ -262,14 +262,13 @@ Gravity Distribution Ltd,new-or-misspelt,2,glintcap 2026,,no,,,Meyswiss Distribu
 Oak Tree Orchard,new-or-misspelt,3,glintcap 2026,,no,,,Stone Tree Farm & Cidery,873,"Unity, Maine, United States",0.467,Big Tree Cider,1389,"Hartley, Kent, England",0.45,Hazlitt Cider Tree,324,"Naples, New York, United States",0.44
 South Porch Cider,new-or-misspelt,3,glintcap 2026,,no,,,South City Ciderworks,577,"San Bruno, California, United States",0.467,South Hill Cider,578,"Ithaca, New York, United States",0.467,North 2 South Cider Works,448,"Lake City, Georgia, United States",0.36
 Stars Front Cider,new-or-misspelt,3,glintcap 2026,,no,,,Front Road Ciderworks,730,"Williams, Ontario, Canada",0.467,Front Road Cellars at Blueberry Hill,730,"Williams, Ontario, Canada",0.205,,,,
-Wisconsin,new-or-misspelt,1,us-open-cider-championship 2025,,no,,,Cider House of Wisconsin,1804,"McFarland, Wisconsin, United States",0.467,,,,,,,,
 Purely Pomme,new-or-misspelt,5,glintcap 2026,,no,,,Pomme Cider Shop,2309,"Sonoma, California, United States",0.455,Verger Croque-Pomme,852,"Thurso, Quebec, Canada",0.356,Fils de Pomme,3175,"Paris, Île-de-France, France",0.31
 Alistair Smith,new-or-misspelt,3,museum-of-cider 2026,,no,,,Sisson & Smith,3041,"Eastwood, Nottinghamshire, England",0.446,Smith Hayne Orchards,2379,"Cheriton Fitzpaine, Devon, England",0.424,Smith & Forge Hard Cider,568,"Memphis, Tennessee, United States",0.363
-Old Mountain Wine Company,new-or-misspelt,4,cidercraft-awards 2026; glintcap 2026,,no,,,Mountain West Cider Company,432,"Salt Lake City, Utah, United States",0.443,Moonland Wine,2190,"Berkeley, California, United States",0.443,Spire Mountain Ciders,581,"Olympia, Washington, United States",0.434
+Old Mountain Wine Company,new-or-misspelt,4,cidercraft-awards 2026; glintcap 2026,,no,,,Moonland Wine,2190,"Berkeley, California, United States",0.443,Mountain West Cider Company,432,"Salt Lake City, Utah, United States",0.443,Spire Mountain Ciders,581,"Olympia, Washington, United States",0.434
 Harry Whiting,new-or-misspelt,1,museum-of-cider 2026,,no,,,Harry's Cider,1449,"Long Sutton, Somerset, England",0.44,,,,,,,,
 Everleigh Vineyards and Brewing Co,new-or-misspelt,1,glintcap 2026,,no,,,Teaghlaigh Vineyards,973,"Rapidan, Virginia, United States",0.422,Persephone Brewing Company,818,"Gibsons, British Columbia, Canada",0.399,Orleans Brewing Co.,1780,"Orléans, Ontario, Canada",0.398
 Forty Acres Ltd,new-or-misspelt,1,international-cider-awards 2026,,no,,,Small Acres Cyder,1175,"Borenore, New South Wales, Australia",0.418,19 Acres Cider Co.,1084,"Sherwood, Oregon, United States",0.411,33 Acres Brewing Company,715,"Vancouver, British Columbia, Canada",0.357
-Copper & Kings,new-or-misspelt,6,glintcap 2026,,no,,,Kings Mill Cider,936,"Stirling, Ontario, Canada",0.382,Copper Crow Distillery,1985,"Bayfield, Wisconsin, United States",0.362,Copper Hop Brewing Company,1758,"St. Clair Shores, Michigan, United States",0.337
+Copper & Kings,new-or-misspelt,6,glintcap 2026,,no,,,Kings Mill Cider,936,"Stirling, Ontario, Canada",0.382,Copper Crow Distillery,1985,"Bayfield, Wisconsin, United States",0.362,Kings Highway Fine Cider,372,"Millerton, New York, United States",0.337
 Mixed Meadia Wines,new-or-misspelt,5,glintcap 2026,,no,,,Pennard Wines and Cider,1115,"Shepton Mallet, Somerset, England",0.382,Muwin Estate Wines,734,"New Ross, Nova Scotia, Canada",0.364,Marzae Wines,3347,"Acton, Massachusetts, United States",0.363
 Smokin Banjo Wine Co,new-or-misspelt,3,glintcap 2026,,no,,,Banjo Cider,1727,"Uxbridge, Ontario, Canada",0.382,Daring Wine Company,2311,"Stuart, Virginia, United States",0.379,Sun Break Wine and Cider,968,"Corvallis, Oregon, United States",0.378
 Chapron Cidres Sorre,new-or-misspelt,2,concours-regional-cidricole-de-bretagne 2025,,no,,,Cidre Sorre,1371,"Plerguer, Brittany, France",0.36,Cidres Nicol,1612,"Surzur, Brittany, France",0.35,Cidres Fleuri,2776,"Dunham, Quebec, Canada",0.344
@@ -285,5 +284,4 @@ NoWhere,new-or-misspelt,1,cidercraft-awards 2026,,no,,,,,,,,,,,,,,
 Verdant Cider,new-or-misspelt,1,glintcap 2026,,no,,,,,,,,,,,,,,
 Brecon Beacons Cider,new-or-misspelt,1,museum-of-cider 2026,,no,,,,,,,,,,,,,,
 Hares Hatch,new-or-misspelt,1,museum-of-cider 2026,,no,,,,,,,,,,,,,,
-Arizona,new-or-misspelt,1,us-open-cider-championship 2025,,no,,,,,,,,,,,,,,
 Wyders Cider,new-or-misspelt,1,us-open-cider-championship 2025,,no,,,,,,,,,,,,,,

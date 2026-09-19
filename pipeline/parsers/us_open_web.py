@@ -10,6 +10,12 @@ per medal.
 Lines run "TIER: Entry - Producer - Region", all with en dashes. Region is a
 US state or Canadian province, which is the designation the competition
 publishes; it is passed through rather than resolved to a country here.
+
+The page sometimes drops a dash, leaving "Cranberry Spice Six Byrd Cider -
+Arizona" where the producer has run into the cider name. A naive split reads
+the state as the producer, which is how Arizona and Wisconsin came to be
+listed as cideries. Producers seen on well-formed lines are collected first,
+so a short line can be cut at the producer it ends with.
 """
 import html
 import re
@@ -28,9 +34,39 @@ def _text(fragment: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", fragment))).strip()
 
 
+def _split(parts: list[str], known: list[str]) -> tuple[str, str, str]:
+    """(entry, producer, region) from a line's dash-separated parts."""
+    if len(parts) >= 3:
+        # Entry names occasionally contain a dash; producers rarely do.
+        return " – ".join(parts[:-2]), parts[-2], parts[-1]
+    # Two parts: the producer's dash is missing, so the trailing field is the
+    # region and the producer is still inside the first. Cut it at the longest
+    # producer this page has shown elsewhere.
+    head = parts[0].strip()
+    for producer in known:
+        if len(head) > len(producer) and head.casefold().endswith(producer.casefold()):
+            return head[: -len(producer)].strip(" –-"), head[-len(producer):], parts[1]
+    return head, parts[1], ""
+
+
 def parse(path, year: int, warn=print) -> list[dict]:
     raw = path.read_text(encoding="utf-8", errors="replace")
     rows = []
+    # Producers from lines that kept all their dashes, longest first so
+    # "Ciderboys Hard Cider" is preferred over "Ciderboys".
+    known: list[str] = []
+
+    for para in PARA.findall(raw):
+        if not HAS_TIER.search(_text(para)):
+            continue
+        for chunk in re.split(r"<br\s*/?>", STRONG.sub("", para, count=1), flags=re.I):
+            hit = TIER.match(_text(chunk))
+            if not hit:
+                continue
+            parts = DASH.split(hit.group(2).strip())
+            if len(parts) >= 3 and parts[-2].strip():
+                known.append(parts[-2].strip())
+    known = sorted(set(known), key=len, reverse=True)
 
     for para in PARA.findall(raw):
         if not HAS_TIER.search(_text(para)):
@@ -54,12 +90,9 @@ def parse(path, year: int, warn=print) -> list[dict]:
             if len(parts) < 2:
                 warn(f"    unparsed line under {category!r}: {line[:70]}")
                 continue
-            # Trailing field is the region when there are three or more parts;
-            # entry names occasionally contain a dash, producers rarely do.
-            if len(parts) >= 3:
-                entry, producer, region = " – ".join(parts[:-2]), parts[-2], parts[-1]
-            else:
-                entry, producer, region = parts[0], parts[1], ""
+            entry, producer, region = _split(parts, known)
+            if len(parts) == 2:
+                warn(f"    missing dash, read as {producer!r} in {region or '?'}: {line[:64]}")
 
             rows.append({
                 "Year": year, "Style": category, "Medal": tier,

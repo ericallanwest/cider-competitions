@@ -63,6 +63,14 @@ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json   # never commit this
    an ID the map does not contain and refuses to repoint an alias that already
    says something else, both being likelier to be a typo than a decision.
 
+   What is left once the matching is done is a different job. `python
+   pipeline/new_producers.py` writes `reports/new_producers.csv`: the
+   producers with no plausible map entry at all, in the map's own column order
+   so the left-hand block pastes straight in, with the evidence beside it.
+   Read the `looks_like` column first - the amateur classes enter people
+   rather than businesses, and a person belongs in the sheet as `X`, not in
+   the map.
+
    Rows from a parser are labelled `parsed:` in `awards.csv`, and rows from a
    sheet `sheet:`, so the two never look alike.
 
