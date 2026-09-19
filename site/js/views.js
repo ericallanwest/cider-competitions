@@ -181,6 +181,23 @@ function resultsTable(showComp) {
 
 const RESULT_CAP = 400;
 
+/** Click a header to sort by it; click again to reverse. `keys[i]` extracts
+ *  the sort value for column i. */
+function makeSortable(table, data, keys, render) {
+  let dir = 1, last = -1;
+  table.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
+    const c = +th.dataset.col;
+    if (!keys[c]) return;
+    dir = (c === last) ? -dir : 1;
+    last = c;
+    const key = keys[c];
+    render([...data].sort((a, b) => {
+      const x = key(a), y = key(b);
+      return (x > y ? 1 : x < y ? -1 : 0) * dir;
+    }));
+  }));
+}
+
 function wireResultsTable(rows, showComp) {
   const table = el('tbl');
   if (!table) return;
@@ -201,18 +218,88 @@ function wireResultsTable(rows, showComp) {
       ? `Showing the first ${RESULT_CAP} of ${num(rows.length)} awards. Narrow the filters to see the rest.`
       : `${num(rows.length)} award${rows.length === 1 ? '' : 's'}.`;
   }
-  let dir = 1, last = -1;
-  table.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
-    const c = +th.dataset.col;
-    dir = (c === last) ? -dir : 1;
-    last = c;
-    const rank = r => `${TIER_ORDER.indexOf(tierOf(r))}${awardName(awardValue(r))}`;
-    const cols = [r => r.year, showComp ? (r => r.comp.name) : null,
-                  r => (r.producer && r.producer.n) || '', r => r.entry, rank, r => r.style]
-      .filter(Boolean);
-    const key = cols[c];
-    render([...rows].sort((a, b) => (key(a) > key(b) ? 1 : key(a) < key(b) ? -1 : 0) * dir));
-  }));
+  const rank = r => `${TIER_ORDER.indexOf(tierOf(r))}${awardName(awardValue(r))}`;
+  makeSortable(table, rows, [r => r.year, showComp ? (r => r.comp.name) : null,
+    r => (r.producer && r.producer.n) || '', r => r.entry, rank, r => r.style]
+    .filter(Boolean), render);
+}
+
+/** One row per competition: how big, how long-running, how selective, how far
+ *  its entries travel, how much ground it judges. Comparing the competitions
+ *  to each other is the one thing no other view can do. */
+function leagueRows(rows) {
+  const by = new Map();
+  for (const r of rows) {
+    let t = by.get(r.comp.id);
+    if (!t) {
+      t = {comp: r.comp, awards: 0, top: 0, years: new Set(),
+           producers: new Set(), countries: new Set(), styles: new Set()};
+      by.set(r.comp.id, t);
+    }
+    t.awards++;
+    const tier = tierOf(r);
+    // "Gold or above" counts the gold tier and everything that outranks it,
+    // so a Best in Class or a Double Gold counts once, like the gold it is.
+    if (tier === 'top' || tier === 'gold') t.top++;
+    if (r.year) t.years.add(r.year);
+    const p = r.producer;
+    if (p && p.n) t.producers.add(p.n);
+    if (p && p.ct) t.countries.add(p.ct);
+    if (r.style) t.styles.add(r.style);
+  }
+  return [...by.values()].map(t => {
+    const ys = [...t.years].sort((a, b) => a - b);
+    return {
+      id: t.comp.id, name: t.comp.name,
+      editions: t.years.size,
+      from: ys[0] || 0, to: ys[ys.length - 1] || 0,
+      awards: t.awards,
+      producers: t.producers.size,
+      selectivity: t.awards ? t.top / t.awards : 0,
+      countries: t.countries.size,
+      styles: t.styles.size,
+    };
+  }).sort((a, b) => b.awards - a.awards);
+}
+
+const LEAGUE_HEADS = [
+  ['Competition', ''], ['Editions', 'n'], ['Years', 'n'], ['Awards', 'n'],
+  ['Producers', 'n'], ['Gold or above', 'n'], ['Countries', 'n'], ['Styles', 'n'],
+];
+
+function leagueTable() {
+  return `<h2 style="font-size:1.05rem">Competitions compared</h2>
+  <div class="wrap"><table id="league"><thead><tr>
+    ${LEAGUE_HEADS.map(([h, cls], i) =>
+      `<th data-col="${i}"${cls ? ` class="${cls}"` : ''}>${h}</th>`).join('')}
+  </tr></thead><tbody></tbody></table></div>
+  <p class="note">Gold or above is the share of a competition's awards at the gold tier
+     or better, trophies included. It is the closest thing here to how hard a competition
+     is to win, and it varies more than anything else on this page. Countries counts the
+     producers matched to the World Cider Map, so a year still awaiting that match shows
+     fewer countries than it drew &mdash; read it as a floor, not a total.</p>`;
+}
+
+function wireLeagueTable(rows) {
+  const table = el('league');
+  if (!table) return;
+  const data = leagueRows(rows);
+  const body = table.tBodies[0];
+  const render = rs => {
+    body.innerHTML = rs.map(t => `<tr>
+      <td><a href="#/competition?comp=${t.id}">${esc(t.name)}</a></td>
+      <td class="n">${t.editions}</td>
+      <td class="n">${t.from ? `${t.from}&ndash;${t.to}` : ''}</td>
+      <td class="n">${num(t.awards)}</td>
+      <td class="n">${num(t.producers)}</td>
+      <td class="n">${Math.round(t.selectivity * 100)}%</td>
+      <td class="n">${t.countries}</td>
+      <td class="n">${t.styles}</td>
+    </tr>`).join('');
+  };
+  render(data);
+  makeSortable(table, data, [t => t.name, t => t.editions, t => t.from, t => t.awards,
+    t => t.producers, t => t.selectivity, t => t.countries, t => t.styles], render);
 }
 
 export function home() {
@@ -295,13 +382,13 @@ export function competition() {
      ${c ? '' : `&middot; ${num(nComps)} competition${nComps === 1 ? '' : 's'}`}</p>
   ${filterBar(st, {scope: all})}
   ${rows.length ? `<div class="chart" id="ch-comp"></div>
-  <h2 style="font-size:1.05rem">Most decorated</h2>
+  ${c ? `<h2 style="font-size:1.05rem">Most decorated</h2>
   <div class="wrap"><table><thead><tr><th>Producer</th><th>Awards</th>
     ${tiers.map(t => `<th>${esc(t.label)}</th>`).join('')}
   </tr></thead><tbody>${top.map(t => `<tr>
     <td><a href="#/producer?q=${encodeURIComponent(t.name)}">${esc(t.name)}</a></td>
     <td>${t.total}</td>${tiers.map(x => `<td>${t[x.id] || ''}</td>`).join('')}
-  </tr>`).join('')}</tbody></table></div>
+  </tr>`).join('')}</tbody></table></div>` : leagueTable()}
   ${resultsTable(!c)}`
   : `<p class="note">No awards match these filters.
      <a href="#/competition${c ? `?comp=${c.id}` : ''}">Clear them</a>.</p>`}`;
@@ -310,6 +397,7 @@ competition.after = () => {
   const {c, all, rows} = compScope(readState());
   wireFilters();
   medalsByYear(rows, el('ch-comp'), all);
+  if (!c) wireLeagueTable(rows);
   wireResultsTable(rows, !c);
 };
 
