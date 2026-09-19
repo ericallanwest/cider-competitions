@@ -21,7 +21,6 @@ header{display:flex;align-items:baseline;gap:1.5rem;flex-wrap:wrap;
   padding:.9rem 1.25rem;border-bottom:1px solid var(--line);background:var(--panel);
   position:sticky;top:0;z-index:20}
 header h1{font-size:1.05rem;margin:0;letter-spacing:.02em}
-header h1 span{color:var(--muted);font-weight:400}
 nav{display:flex;gap:.35rem;flex-wrap:wrap}
 nav a{padding:.3rem .7rem;border-radius:999px;text-decoration:none;color:var(--muted);font-size:.87rem}
 nav a:hover{background:var(--accent-soft);color:var(--accent)}
