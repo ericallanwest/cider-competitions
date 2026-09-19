@@ -60,8 +60,28 @@ def _producer(raw: str) -> tuple[str, str]:
     return text, dept
 
 
+# The palmarès lives in the post body. Everything after it - the cookie
+# banner most of all - is still paragraphs, and this parser carries the last
+# category and medal forward until the next heading, so an unbounded walk
+# happily recorded "Nous utilisons des cookies..." as a silver medallist in
+# apple juice. Four such rows reached the published dataset.
+CONTENT = re.compile(r'<div[^>]+class="[^"]*entry-content[^"]*"[^>]*>(.*)', re.S | re.I)
+CONTENT_END = re.compile(r"</article|<aside|<footer|class=\"[^\"]*(?:gdpr|cookie)", re.I)
+
+
+def _body(raw: str, warn) -> str:
+    """The post body alone, so page furniture cannot be read as results."""
+    hit = CONTENT.search(raw)
+    if not hit:
+        warn("  bretagne: no entry-content found; reading the whole page")
+        return raw
+    rest = hit.group(1)
+    stop = CONTENT_END.search(rest)
+    return rest[: stop.start()] if stop else rest
+
+
 def parse(path, year: int, warn=print) -> list[dict]:
-    raw = path.read_text(encoding="utf-8", errors="replace")
+    raw = _body(path.read_text(encoding="utf-8", errors="replace"), warn)
     rows, category, medal = [], "", ""
 
     for inner in PARA.findall(raw):

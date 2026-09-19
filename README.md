@@ -54,4 +54,5 @@ designation, and those are resolved in an editable crosswalk — never inferred 
 | `pipeline/` | the ETL |
 | `data/reference/` | producer coordinates, committed so every machine agrees |
 | `reports/` | validator output, committed so regressions show in diffs |
+| `reports/parsed_producer_review.csv` | producers a parser introduced, for WID review |
 | `site/` | the GitHub Pages site (vanilla HTML/JS/CSS, no build step) |

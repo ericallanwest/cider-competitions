@@ -146,9 +146,16 @@ def main() -> None:
     for tbl in sheet_tables:
         src, comp = tbl["source_id"], tbl["competition_id"]
         # A source is either fetched from Sheets or parsed from a saved page.
+        # The label says which: a sheet row carries a WID somebody assigned,
+        # a parsed row was matched on the producer's name and nobody has
+        # checked it yet. Calling both "sheet:" hid that difference for 1,190
+        # awards, so they look alike in awards.csv and in any report built on
+        # it. reports/parsed_producer_review.csv is where that gets resolved.
         path = lib.SNAPSHOT / src / tbl["tab"]
+        origin = "sheet"
         if not path.exists():
             path = lib.ROOT / "data" / "parsed" / src / tbl["tab"]
+            origin = "parsed"
         if not path.exists():
             missing.append(f"{src}/{tbl['tab']}")
             continue
@@ -156,7 +163,7 @@ def main() -> None:
         # A fixed year covers one-off result sheets whose tab has no Year column.
         fixed_year = lib.to_year(tbl["year"])
         for idx, row in enumerate(lib.read_csv(path), start=2):
-            awards.extend(map_row(row, comp, fixed_year, f"sheet:{src}/{tbl['tab']}",
+            awards.extend(map_row(row, comp, fixed_year, f"{origin}:{src}/{tbl['tab']}",
                                   idx, vocab, styles, countries, seen))
 
     covered = {(a["competition_id"], a["year"]) for a in awards}
@@ -180,8 +187,13 @@ def main() -> None:
     awards.sort(key=lambda r: (r["competition_id"], r["year"] or 0, r["producer_name"], r["award_id"]))
     lib.write_csv(lib.OUT / "awards.csv", awards, FIELDS)
 
+    parsed_rows = sum(1 for a in awards if a["source_file"].startswith("parsed:"))
     print(f"awards.csv: {len(awards)} rows "
-          f"({len(from_sheets)} competitions from Sheets, rest from archive)")
+          f"({len(from_sheets)} competitions from Sheets or parsed pages, "
+          f"rest from archive)")
+    if parsed_rows:
+        print(f"  {parsed_rows} rows came from parsed pages and carry no assigned WID "
+              f"- see reports/parsed_producer_review.csv")
     if missing:
         print(f"  WARNING: {len(missing)} table globs matched nothing: {missing}", file=sys.stderr)
 

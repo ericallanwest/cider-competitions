@@ -40,6 +40,18 @@ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json   # never commit this
    working from the top is the fastest way to cut the `Unclassified` share.
    Add what you decide to the matching file in `crosswalks/`.
 
+   If the year came from a parser rather than a sheet, also read
+   `reports/parsed_producer_review.csv`. A sheet row carries a WID you
+   assigned; a parsed row carries only a producer name, so identity was
+   decided by string matching. That report lists every producer the parsers
+   introduced, the ones that already match a WID first, then the unresolved
+   ones with their closest World Cider Map candidates - which is where a
+   second record for a cidery you already have will be hiding. Regenerate it
+   with `python pipeline/review_parsed.py`.
+
+   Rows from a parser are labelled `parsed:` in `awards.csv`, and rows from a
+   sheet `sheet:`, so the two never look alike.
+
 5. **Commit.** `git diff data/out/awards.csv` shows exactly what changed. If a
    number moved that you did not expect, something is wrong — check before
    committing.
