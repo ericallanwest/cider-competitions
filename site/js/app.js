@@ -7,14 +7,22 @@ const ROUTES = {
   map: views.map,
   competition: views.competition,
   producer: views.producer,
-  explore: views.explore,
 };
+
+// Explore was folded into the competition page, which now does the same job
+// with "All competitions" selected. Old links land there rather than on 404.
+const MOVED = {explore: 'competition'};
 
 const main = document.getElementById('view');
 let current = null;
 
 function route() {
   const path = location.hash.replace(/^#\/?/, '').split('?')[0];
+  if (MOVED[path]) {
+    const qs = location.hash.split('?')[1];
+    location.replace(`#/${MOVED[path]}${qs ? '?' + qs : ''}`);
+    return;
+  }
   const view = ROUTES[path] || views.home;
 
   // MapLibre holds a canvas tied to a DOM node that we are about to replace.

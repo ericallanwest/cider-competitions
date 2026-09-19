@@ -52,6 +52,25 @@ export const tierOf = r =>
 // by its own name, so "Best in Class" is selectable where a competition awards it.
 export const awardValue = r => r.medal || (r.special ? 'special:' + r.special : '');
 
+// The emoji each award carries on the source spreadsheets, looked up on a
+// loosened key: the sheets write "double gold" and "judges' pick" where the
+// data says double_gold and judges_pick, so an exact match finds neither and
+// those awards used to render with no emoji at all.
+const glyphKey = s => (s || '').toLowerCase().replace(/[_'’-]/g, ' ')
+  .replace(/\s+/g, ' ').trim();
+let glyphs = null;
+
+export function awardGlyph(r){
+  if (!glyphs){
+    glyphs = new Map();
+    for (const [k, v] of Object.entries(D.dims.medal_display || {})){
+      if (v) glyphs.set(glyphKey(k), v);
+    }
+  }
+  // The special award names the honour; the medal level is the fallback.
+  return glyphs.get(glyphKey(r.special)) || glyphs.get(glyphKey(r.medal)) || '';
+}
+
 // Only for names title-casing cannot reach on its own.
 const AWARD_NAMES = {judges_pick: "Judges' Pick"};
 

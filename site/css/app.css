@@ -61,8 +61,9 @@ tbody tr:hover{background:var(--accent-soft)}
 .card span{color:var(--muted);font-size:.83rem}
 .chart{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.7rem;margin:1rem 0;overflow-x:auto}
 .note{color:var(--muted);font-size:.82rem;margin-top:.8rem}
-.pill{display:inline-block;padding:.05rem .45rem;border-radius:999px;background:var(--accent-soft);
-  color:var(--accent);font-size:.76rem;margin-right:.25rem}
+.pill{display:inline-block;padding:.08rem .5rem;border-radius:999px;background:var(--accent-soft);
+  color:var(--accent);font-size:.76rem;margin:0 .25rem .3rem 0;text-decoration:none}
+a.pill:hover{background:var(--accent);color:#fff}
 .maplibregl-popup-content{background:var(--panel);color:var(--ink);border-radius:9px;
   font:inherit;padding:.6rem .75rem;box-shadow:0 3px 14px rgba(0,0,0,.18)}
 .maplibregl-popup-content b{display:block;margin-bottom:.2rem}
