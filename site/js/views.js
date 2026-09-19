@@ -356,6 +356,107 @@ home.after = () => {
   });
 };
 
+/** Share of awards at the gold tier or above: the closest thing the data has
+ *  to how hard a competition is to win. */
+function selectivity(rows) {
+  if (!rows.length) return null;
+  const top = rows.filter(r => {
+    const t = tierOf(r);
+    return t === 'top' || t === 'gold';
+  }).length;
+  return top / rows.length;
+}
+
+let rankCache = null;
+
+/** Where a competition sits among all of them on selectivity. A percentage on
+ *  its own means little; "the third lowest share of nineteen" is the useful
+ *  form, and only this page can say it. Ranked low share first, so rank 1 is
+ *  the competition most sparing with its golds, and ranked on the full record
+ *  rather than the filtered view, so it does not move as you narrow the year. */
+function selectivityRank(id) {
+  if (!rankCache) {
+    const ranked = D.dims.competitions
+      .map(c => ({id: c.id, s: selectivity(D.rows.filter(r => r.comp.id === c.id)) ?? 0}))
+      .sort((a, b) => a.s - b.s);
+    rankCache = ranked.map((x, i) => ({...x, rank: i + 1, of: ranked.length}));
+  }
+  return rankCache.find(x => x.id === id);
+}
+
+const ordinal = n => {
+  const tens = n % 100;
+  if (tens >= 11 && tens <= 13) return `${n}th`;
+  return `${n}${({1: 'st', 2: 'nd', 3: 'rd'})[n % 10] || 'th'}`;
+};
+
+/** Say a rank from whichever end is closer, so the extremes read as "the
+ *  lowest" rather than "the 1st lowest", and 17th of 19 as "3rd highest". */
+function rankPhrase(rank, of) {
+  if (rank === 1) return `the lowest of ${of}`;
+  if (rank === of) return `the highest of ${of}`;
+  return rank * 2 <= of
+    ? `the ${ordinal(rank)} lowest of ${of}`
+    : `the ${ordinal(of - rank + 1)} highest of ${of}`;
+}
+
+/** The trophies of one edition: Best in Class, Champion, Winner. The headline
+ *  result of a year, and the thing a producer tally cannot tell you. */
+function topHonours(rows) {
+  const trophies = rows.filter(r => r.kind === 'trophy' && r.year);
+  if (!trophies.length) return null;
+  const year = Math.max(...trophies.map(r => r.year));
+  const items = trophies.filter(r => r.year === year)
+    .sort((a, b) => (a.category || '').localeCompare(b.category || ''));
+  return {year, items, editions: new Set(trophies.map(r => r.year)).size};
+}
+
+/** The competition's own class names, which say what it thinks cider is. */
+function categoriesIn(rows) {
+  const m = new Map();
+  for (const r of rows) if (r.category) m.set(r.category, (m.get(r.category) || 0) + 1);
+  return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
+/** Countries where the competition draws from more than one, regions where it
+ *  does not - a national competition is better described by its regions. */
+function originsIn(rows) {
+  const countries = new Map(), regions = new Map();
+  const add = (map, key, name) => {
+    if (!key) return;
+    const set = map.get(key) || new Set();
+    set.add(name);
+    map.set(key, set);
+  };
+  for (const r of rows) {
+    const p = r.producer;
+    if (!p || !p.n) continue;
+    add(countries, p.ct, p.n);
+    add(regions, p.r, p.n);
+  }
+  const wide = countries.size > 1;
+  const use = wide ? countries : regions;
+  return {
+    label: wide ? 'country' : 'region',
+    items: [...use.entries()].map(([k, v]) => [k, v.size])
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])),
+  };
+}
+
+/** A capped list of name/count pairs, with the tail summarised rather than cut. */
+function countList(items, cap, unit) {
+  if (!items.length) return '';
+  const shown = items.slice(0, cap);
+  const rest = items.slice(cap);
+  const restTotal = rest.reduce((n, [, v]) => n + v, 0);
+  return `<ul class="tallies">
+    ${shown.map(([name, n]) =>
+      `<li><span>${esc(name)}</span><b>${num(n)}</b></li>`).join('')}
+    ${rest.length ? `<li class="more"><span>and ${num(rest.length)} more</span>
+      <b>${num(restTotal)}</b></li>` : ''}
+  </ul><p class="note">${num(items.length)} ${unit}${items.length === 1 ? '' : 's'} in all.</p>`;
+}
+
 /** One competition's rows, or every competition's when none is chosen.
  *  `c` is null for "All competitions", which is a real selection here - not a
  *  fallback to the first competition in the list. */
@@ -373,22 +474,50 @@ export function competition() {
   const producers = new Set(rows.map(r => r.producer && r.producer.n).filter(Boolean)).size;
   const filtered = rows.length !== all.length;
   const span = years.length ? `${years[years.length - 1]}&ndash;${years[0]}` : 'no years';
-  const top = tally(rows).slice(0, 15);
   const nComps = c ? 0 : compsIn(rows).length;
+  const sel = selectivity(rows);
+  const rank = c ? selectivityRank(c.id) : null;
+  const honours = c ? topHonours(rows) : null;
+  const cats = c ? categoriesIn(rows) : [];
+  const origins = c ? originsIn(rows) : {label: '', items: []};
+  const countries = new Set(rows.map(r => r.producer && r.producer.ct).filter(Boolean)).size;
   return `<h2>${c ? esc(c.name) : 'All competitions'}</h2>
   <p class="sub">${filtered ? `${num(rows.length)} of ${num(all.length)} awards`
                             : `${num(all.length)} awards`}
      &middot; ${span} &middot; ${num(producers)} producer${producers === 1 ? '' : 's'}
      ${c ? '' : `&middot; ${num(nComps)} competition${nComps === 1 ? '' : 's'}`}</p>
   ${filterBar(st, {scope: all})}
-  ${rows.length ? `<div class="chart" id="ch-comp"></div>
-  ${c ? `<h2 style="font-size:1.05rem">Most decorated</h2>
-  <div class="wrap"><table><thead><tr><th>Producer</th><th>Awards</th>
-    ${tiers.map(t => `<th>${esc(t.label)}</th>`).join('')}
-  </tr></thead><tbody>${top.map(t => `<tr>
-    <td><a href="#/producer?q=${encodeURIComponent(t.name)}">${esc(t.name)}</a></td>
-    <td>${t.total}</td>${tiers.map(x => `<td>${t[x.id] || ''}</td>`).join('')}
-  </tr>`).join('')}</tbody></table></div>` : leagueTable()}
+  ${rows.length ? `${c ? `<div class="stats">
+    <div class="stat"><b>${num(rows.length)}</b><span>awards</span></div>
+    <div class="stat"><b>${num(years.length)}</b><span>edition${years.length === 1 ? '' : 's'}</span></div>
+    ${st.award ? '' : `<div class="stat"><b>${Math.round(sel * 100)}%</b>
+      <span>gold or above</span></div>`}
+    <div class="stat"><b>${num(producers)}</b><span>producers</span></div>
+    ${countries ? `<div class="stat"><b>${num(countries)}</b><span>countries</span></div>` : ''}
+  </div>
+  ${rank ? `<p class="note" style="margin-top:-.6rem">Across its whole record, gold or
+     better accounts for ${Math.round(rank.s * 100)}% of its awards,
+     ${rankPhrase(rank.rank, rank.of)} competitions.</p>` : ''}` : ''}
+  <div class="chart" id="ch-comp"></div>
+  ${c ? `
+  ${honours ? `<h2 style="font-size:1.05rem">Top honours, ${honours.year}</h2>
+  <div class="wrap"><table><thead><tr><th>Award</th><th>Producer</th><th>Cider</th><th>Class</th>
+  </tr></thead><tbody>${honours.items.map(r => `<tr>
+    <td>${awardLabel(r)}</td>
+    <td><a href="#/producer?q=${encodeURIComponent((r.producer && r.producer.n) || '')}">${
+      esc((r.producer && r.producer.n) || '')}</a></td>
+    <td>${esc(r.entry)}</td><td>${esc(r.category)}</td>
+  </tr>`).join('')}</tbody></table></div>
+  <p class="note">The trophies of one edition${honours.editions > 1
+    ? `. Pick a year to see another of the ${num(honours.editions)} on record` : ''}.</p>` : ''}
+  <div class="split">
+    ${cats.length ? `<section><h2 style="font-size:1.05rem">What it judges</h2>
+      ${countList(cats, 12, 'class')}</section>` : ''}
+    ${origins.items.length ? `<section><h2 style="font-size:1.05rem">Where entries come from</h2>
+      ${countList(origins.items, 12, origins.label)}
+      <p class="note">Producers matched to the World Cider Map, so this is a floor.</p>
+      </section>` : ''}
+  </div>` : leagueTable()}
   ${resultsTable(!c)}`
   : `<p class="note">No awards match these filters.
      <a href="#/competition${c ? `?comp=${c.id}` : ''}">Clear them</a>.</p>`}`;
