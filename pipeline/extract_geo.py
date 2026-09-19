@@ -32,6 +32,17 @@ GLINTCAP_XLSX = Path(
 )
 
 
+def wid_of(value) -> str:
+    """The map's ID as an integer string.
+
+    A numeric cell comes back as "133.0", which then matches nothing: every
+    other source writes the ID as "133". Thirteen producers were unreachable
+    by ID because of it.
+    """
+    text = lib.clean(value)
+    return re.sub(r"\.0$", "", text)
+
+
 def read_xlsx(path: Path, sheet_index: int) -> list[dict]:
     """Minimal xlsx reader, so this one bootstrap file needs no openpyxl."""
     with zipfile.ZipFile(path) as z:
@@ -75,7 +86,7 @@ def main() -> None:
                 name = lib.clean(r.get(field, ""))
                 if name and name.casefold() not in out:
                     out[name.casefold()] = {
-                        "name": name, "wid": lib.clean(r.get("ID", "")),
+                        "name": name, "wid": wid_of(r.get("ID", "")),
                         "town": lib.clean(r.get("Town_City", "")),
                         "region": lib.clean(r.get("Region", "")),
                         "country": lib.clean(r.get("Country", "")),
@@ -91,7 +102,7 @@ def main() -> None:
             lat, lon = lib.clean(r.get("Latitude", "")), lib.clean(r.get("Longitude", ""))
             if name and lat and lon and name.casefold() not in out:
                 out[name.casefold()] = {
-                    "name": name, "wid": lib.clean(r.get("WID", "")),
+                    "name": name, "wid": wid_of(r.get("WID", "")),
                     "town": lib.clean(r.get("City", "")),
                     "region": lib.clean(r.get("Region", "")),
                     "country": lib.clean(r.get("Country", "")),

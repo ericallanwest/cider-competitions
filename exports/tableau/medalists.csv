@@ -20,7 +20,7 @@ WID,Medalist,Region,Country,Latitude,Longitude
 19,Farmhaus Cider Co.,Michigan,USA,42.936623,-85.909009
 97,Arsenal Cider House,Pennsylvania,USA,40.465108,-79.96092
 750,Cidrerie Milton,Quebec,Canada,45.483424,-72.759531
-1999,Les Celliers Associés,Brittany,France,48.5085682,-1.9533612
+1999,Les Celliers Associés,Brittany,France,48.5085681999999,-1.9533612
 63,Virtue Cider,Michigan,USA,42.57688,-86.15187
 196,Ciderboys,Wisconsin,USA,44.510454,-89.573583
 255,Eden Ciders,Vermont,USA,44.935976,-72.209246
@@ -1261,7 +1261,7 @@ X,Tom Cernohous - Cidermil,,,,
 2477,Turners Cider,Kent,England,51.1850479,0.4916776
 2015,Ugly Apple,Ontario,Canada,45.0409655,-76.511907
 3066,VOG Products,Trentino-South Tyrol,Italy,46.4126341,11.3262286
-1999,Val de Rance,Brittany,France,48.5085682,-1.9533612
+1999,Val de Rance,Brittany,France,48.5085681999999,-1.9533612
 3620,Valduro,Asturias,Spain,43.5247676,-7.0277708
 1897,Valley Cider Company,British Columbia,Canada,48.8370145,-123.7089745
 3037,Veinimäe,Võru,Estonia,57.9234321,26.7188981
@@ -1336,7 +1336,7 @@ X,Balti Sodai,,Lithuania,,
 2928,Cidrerie Le Maître,Côtes-d'Armor,France,48.2654322,-3.3701702
 2938,Cidrerie Maison de Perguet,Finistère,France,47.8766473,-4.0502647
 1645,Cidrerie Tudker,Côtes-d'Armor,France,48.7803061,-3.4458511
-1999,Cidrerie Val de Rance,22,France,48.5085682,-1.9533612
+1999,Cidrerie Val de Rance,22,France,48.5085681999999,-1.9533612
 2726,Cidrerie de Tromelin,Finistère,France,48.0340115,-4.3900332
 3487,Cidrerie de la Chesnaie,Normandy,France,49.4998284,-1.5186345
 2687,Cidrerie de l’Apothicaire,29,France,47.7857655,-3.5707414
