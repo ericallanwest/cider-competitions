@@ -26,11 +26,73 @@ export async function load(){
   return D;
 }
 
-export const MEDAL_ORDER = ['double_gold','gold','silver','bronze','commended'];
 export const MEDAL_LABEL = {double_gold:'Double Gold',gold:'Gold',silver:'Silver',
   bronze:'Bronze',commended:'Commended'};
-export const TIER_COLOR = {double_gold:'var(--t1)',gold:'var(--t2)',silver:'var(--t3)',
-  bronze:'var(--t4)',commended:'var(--t5)'};
 
-export const titleCase = s => (s||'').replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+// Award tiers. Trophies and nominations (Best in Class, Platinum, Judges' Pick,
+// Finalist) carry no medal level at all - 1,572 rows, every Good Food Awards
+// row among them - so anything keyed on medal alone drops them silently.
+// Tiering on (medal, special) keeps them visible and ranked.
+export const TIER_ORDER = ['top','gold','silver','bronze','other'];
+export const TIER_COLOR = {top:'var(--t1)',gold:'var(--t2)',silver:'var(--t3)',
+  bronze:'var(--t4)',other:'var(--t5)'};
+
+// Specials that outrank a gold medal. Everything else without a medal level
+// (judges' picks, finalists, honorable mentions) ranks below bronze.
+const ABOVE_GOLD = new Set(['best_in_show','best_of_show','best_in_class','best_of_category',
+  'champion','supreme_champion','reserve','platinum','premium','trophy','winner']);
+
+export const tierOf = r =>
+  r.medal === 'double_gold' ? 'top'
+  : r.medal === 'commended' ? 'other'
+  : r.medal ? r.medal
+  : ABOVE_GOLD.has(r.special) ? 'top' : 'other';
+
+// The value the award filter stores. Medals filter by level, everything else
+// by its own name, so "Best in Class" is selectable where a competition awards it.
+export const awardValue = r => r.medal || (r.special ? 'special:' + r.special : '');
+
+// Only for names title-casing cannot reach on its own.
+const AWARD_NAMES = {judges_pick: "Judges' Pick"};
+
+export const awardName = v => v.startsWith('special:')
+  ? (AWARD_NAMES[v.slice(8)] || titleCase(v.slice(8)))
+  : (MEDAL_LABEL[v] || titleCase(v));
+
+const tierOfValue = v => v.startsWith('special:')
+  ? (ABOVE_GOLD.has(v.slice(8)) ? 'top' : 'other')
+  : tierOf({medal: v, special: ''});
+
+/** Award options present in `rows`, ranked. Used to build the dropdown. */
+export function awardOptions(rows){
+  const present = new Set();
+  for (const r of rows){ const v = awardValue(r); if (v) present.add(v); }
+  return [...present]
+    .map(v => ({value: v, label: awardName(v), tier: tierOfValue(v)}))
+    .sort((a,b) => TIER_ORDER.indexOf(a.tier) - TIER_ORDER.indexOf(b.tier)
+                   || a.label.localeCompare(b.label));
+}
+
+/** Name a tier after the awards actually in it, so a chart legend reads
+ *  "Best in Class" for GLINTCAP and "Winner" for the Good Food Awards, and
+ *  only says "Double Gold" where a Double Gold is really among them. */
+export function tierLabel(tier, rows){
+  if (tier !== 'top' && tier !== 'other') return MEDAL_LABEL[tier];
+  const level = tier === 'top' ? 'Double Gold' : 'Commended';
+  const names = new Set();
+  let hasLevel = false;
+  for (const r of rows){
+    if (tierOf(r) !== tier) continue;
+    if (r.medal) hasLevel = true; else names.add(awardName(awardValue(r)));
+  }
+  if (!names.size) return level;                          // just the medal level
+  if (names.size === 1 && !hasLevel) return [...names][0];  // just one trophy
+  if (tier === 'other') return 'Other awards';
+  return hasLevel ? `Trophies & ${level}` : 'Trophies';
+}
+
+// Joining words stay lowercase: "Best in Class", not "Best In Class".
+const SMALL_WORDS = new Set(['in','of','the','and','a','de','du']);
+export const titleCase = s => (s||'').replace(/_/g,' ')
+  .replace(/\b[\w']+/g, (w,i) => i && SMALL_WORDS.has(w) ? w : w[0].toUpperCase()+w.slice(1));
 export const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));

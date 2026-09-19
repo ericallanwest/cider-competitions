@@ -1,31 +1,61 @@
-import {D, MEDAL_ORDER, MEDAL_LABEL, TIER_COLOR, titleCase, esc} from './data.js';
-import {readState, writeState, apply} from './filters.js';
+import {D, MEDAL_LABEL, TIER_ORDER, TIER_COLOR, tierOf, tierLabel,
+        awardValue, awardName, awardOptions, titleCase, esc} from './data.js';
+import {readState, writeState, apply, matchesAward} from './filters.js';
 
 const el = id => document.getElementById(id);
 const num = n => n.toLocaleString();
 const cssVar = k => getComputedStyle(document.body).getPropertyValue(k).trim() || '#888';
-const tierColor = m => cssVar(TIER_COLOR[m].slice(4, -1));
+const tierColor = t => cssVar(TIER_COLOR[t].slice(4, -1));
 
-function filterBar(st, {style = true} = {}) {
-  const years = [...new Set(D.rows.map(r => r.year))].filter(Boolean).sort((a, b) => b - a);
+/** Rows the dropdowns describe: everything, or one competition's awards.
+ *  Options come from the competition alone, never from the other filters, so
+ *  picking a year can never empty the award list and strand you. */
+const scopeOf = st => st.comp ? D.rows.filter(r => r.comp.id === st.comp) : D.rows;
+
+/** Tiers present in `rows`, ranked, with the label each one should carry. */
+const tiersIn = rows => TIER_ORDER.filter(t => rows.some(r => tierOf(r) === t))
+  .map(t => ({id: t, label: tierLabel(t, rows)}));
+
+function filterBar(st, {style = true, scope = null} = {}) {
+  const rows = scope || scopeOf(st);
+  const years = [...new Set(rows.map(r => r.year))].filter(Boolean).sort((a, b) => b - a);
+  const styles = [...new Set(rows.map(r => r.style))].filter(Boolean).sort();
+  const awards = awardOptions(rows);
   const opt = (v, label, cur) =>
     `<option value="${esc(v)}"${String(v) === String(cur) ? ' selected' : ''}>${esc(label)}</option>`;
   return `<div class="filters">
-    <select id="f-comp"><option value="">All competitions</option>
+    <select id="f-comp" aria-label="Competition"><option value="">All competitions</option>
       ${D.dims.competitions.map(c => opt(c.id, c.name, st.comp)).join('')}</select>
-    <select id="f-year"><option value="">All years</option>
+    <select id="f-year" aria-label="Year"><option value="">All years</option>
       ${years.map(y => opt(y, y, st.year)).join('')}</select>
-    <select id="f-medal"><option value="">All awards</option>
-      ${MEDAL_ORDER.filter(m => D.dims.medals.includes(m)).map(m => opt(m, MEDAL_LABEL[m], st.medal)).join('')}</select>
-    ${style ? `<select id="f-style"><option value="">All styles</option>
-      ${D.dims.styles.map(s => opt(s, s, st.style)).join('')}</select>` : ''}
+    <select id="f-award" aria-label="Award"><option value="">All awards</option>
+      ${awards.map(a => opt(a.value, a.label, st.award)).join('')}</select>
+    ${style && styles.length > 1 ? `<select id="f-style" aria-label="Style"><option value="">All styles</option>
+      ${styles.map(s => opt(s, s, st.style)).join('')}</select>` : ''}
     <input type="search" id="f-q" placeholder="Search producer or cider" value="${esc(st.q)}">
   </div>`;
 }
 
 function wireFilters() {
   const bind = (id, key) => el(id) && el(id).addEventListener('change', e => writeState({[key]: e.target.value}));
-  bind('f-comp', 'comp'); bind('f-year', 'year'); bind('f-medal', 'medal'); bind('f-style', 'style');
+  bind('f-year', 'year'); bind('f-award', 'award'); bind('f-style', 'style');
+
+  // Changing competition drops any filter the new one has no rows for, so you
+  // never land on an empty page holding a value its dropdown no longer offers.
+  const comp = el('f-comp');
+  if (comp) comp.addEventListener('change', e => {
+    const id = e.target.value;
+    const rows = id ? D.rows.filter(r => r.comp.id === id) : D.rows;
+    const st = readState();
+    const keep = (v, ok) => (v && ok ? v : '');
+    writeState({
+      comp: id,
+      year: keep(st.year, rows.some(r => String(r.year) === st.year)),
+      award: keep(st.award, rows.some(r => matchesAward(r, st.award))),
+      style: keep(st.style, rows.some(r => r.style === st.style)),
+    });
+  });
+
   let timer;
   const q = el('f-q');
   if (q) q.addEventListener('input', e => {
@@ -37,16 +67,18 @@ function wireFilters() {
 
 function medalsByYear(rows, node) {
   if (!node) return;
-  const data = rows.filter(r => r.medal).map(r => ({year: r.year, medal: MEDAL_LABEL[r.medal] || r.medal}));
-  if (!data.length) { node.remove(); return; }
-  const tiers = MEDAL_ORDER.filter(m => D.dims.medals.includes(m));
+  const withYear = rows.filter(r => r.year);
+  if (!withYear.length) { node.remove(); return; }
+  const tiers = tiersIn(withYear);
+  const label = Object.fromEntries(tiers.map(t => [t.id, t.label]));
+  const data = withYear.map(r => ({year: r.year, tier: label[tierOf(r)]}));
   node.replaceChildren(Plot.plot({
     height: 210, marginLeft: 46,
     x: {tickFormat: 'd', label: null},
     y: {label: 'awards', grid: true},
-    color: {domain: tiers.map(m => MEDAL_LABEL[m]), range: tiers.map(tierColor), legend: true},
+    color: {domain: tiers.map(t => t.label), range: tiers.map(t => tierColor(t.id)), legend: true},
     marks: [
-      Plot.rectY(data, Plot.groupX({y: 'count'}, {x: 'year', fill: 'medal', interval: 1, tip: true})),
+      Plot.rectY(data, Plot.groupX({y: 'count'}, {x: 'year', fill: 'tier', interval: 1, tip: true})),
       Plot.ruleY([0]),
     ],
   }));
@@ -59,14 +91,16 @@ function tally(rows) {
     if (!n) continue;
     const t = m.get(n) || {name: n, total: 0};
     t.total++;
-    if (r.medal) t[r.medal] = (t[r.medal] || 0) + 1;
+    const tier = tierOf(r);
+    t[tier] = (t[tier] || 0) + 1;
     m.set(n, t);
   }
   return [...m.values()].sort((a, b) => b.total - a.total);
 }
 
 function awardLabel(r) {
-  const glyph = D.dims.medal_display[r.medal] || '';
+  const key = r.medal || (r.special || '').replace(/_/g, ' ');
+  const glyph = D.dims.medal_display[key] || '';
   const word = r.special ? titleCase(r.special) : (MEDAL_LABEL[r.medal] || '');
   return `${esc(glyph)} ${esc(word)}`.trim();
 }
@@ -102,8 +136,8 @@ export function map() {
   return `<h2>Medalists map</h2>
   <p class="sub">Every producer with a known location. Circle size shows total awards.</p>
   ${filterBar(st)}<div id="map"></div>
-  <div class="legend">${MEDAL_ORDER.filter(m => D.dims.medals.includes(m))
-    .map(m => `<span><i style="background:${TIER_COLOR[m]}"></i>${MEDAL_LABEL[m]}</span>`).join('')}
+  <div class="legend">${tiersIn(scopeOf(st))
+    .map(t => `<span><i style="background:${TIER_COLOR[t.id]}"></i>${esc(t.label)}</span>`).join('')}
     <span>Circle area &prop; awards</span></div>
   <p class="note" id="map-note"></p>`;
 }
@@ -139,40 +173,47 @@ explore.after = () => {
     const c = +th.dataset.col;
     dir = (c === last) ? -dir : 1;
     last = c;
-    const key = r => [r.year, r.comp.name, (r.producer && r.producer.n) || '', r.entry, r.medal, r.style][c];
+    const rank = r => `${TIER_ORDER.indexOf(tierOf(r))}${awardName(awardValue(r))}`;
+    const key = r => [r.year, r.comp.name, (r.producer && r.producer.n) || '', r.entry, rank(r), r.style][c];
     render([...rows].sort((a, b) => (key(a) > key(b) ? 1 : key(a) < key(b) ? -1 : 0) * dir));
   }));
 };
 
+/** The competition whose page we are on, and its rows before/after filtering. */
+function compScope(st) {
+  const c = D.dims.competitions.find(x => x.id === st.comp) || D.dims.competitions[0];
+  const all = D.rows.filter(r => r.comp.id === c.id);
+  return {c, all, rows: apply(all, {...st, comp: ''})};
+}
+
 export function competition() {
   const st = readState();
-  const c = D.dims.competitions.find(x => x.id === st.comp) || D.dims.competitions[0];
-  const rows = D.rows.filter(r => r.comp.id === c.id);
+  const {c, all, rows} = compScope(st);
   const years = [...new Set(rows.map(r => r.year))].filter(Boolean).sort((a, b) => b - a);
-  const tiers = MEDAL_ORDER.filter(m => D.dims.medals.includes(m));
+  const tiers = tiersIn(rows);
+  const producers = new Set(rows.map(r => r.producer && r.producer.n).filter(Boolean)).size;
+  const filtered = rows.length !== all.length;
+  const span = years.length ? `${years[years.length - 1]}&ndash;${years[0]}` : 'no years';
   const top = tally(rows).slice(0, 15);
   return `<h2>${esc(c.name)}</h2>
-  <p class="sub">${num(rows.length)} awards &middot; ${years[years.length - 1]}&ndash;${years[0]}
-     &middot; ${new Set(rows.map(r => r.producer && r.producer.n)).size} producers</p>
-  <div class="filters"><select id="f-comp">
-    ${D.dims.competitions.map(x =>
-      `<option value="${x.id}"${x.id === c.id ? ' selected' : ''}>${esc(x.name)}</option>`).join('')}
-  </select></div>
-  <div class="chart" id="ch-comp"></div>
+  <p class="sub">${filtered ? `${num(rows.length)} of ${num(all.length)} awards`
+                            : `${num(all.length)} awards`}
+     &middot; ${span} &middot; ${num(producers)} producer${producers === 1 ? '' : 's'}</p>
+  ${filterBar({...st, comp: c.id}, {scope: all})}
+  ${rows.length ? `<div class="chart" id="ch-comp"></div>
   <h2 style="font-size:1.05rem">Most decorated</h2>
   <div class="wrap"><table><thead><tr><th>Producer</th><th>Awards</th>
-    ${tiers.map(m => `<th>${MEDAL_LABEL[m]}</th>`).join('')}
+    ${tiers.map(t => `<th>${esc(t.label)}</th>`).join('')}
   </tr></thead><tbody>${top.map(t => `<tr>
     <td><a href="#/producer?q=${encodeURIComponent(t.name)}">${esc(t.name)}</a></td>
-    <td>${t.total}</td>${tiers.map(m => `<td>${t[m] || ''}</td>`).join('')}
-  </tr>`).join('')}</tbody></table></div>`;
+    <td>${t.total}</td>${tiers.map(x => `<td>${t[x.id] || ''}</td>`).join('')}
+  </tr>`).join('')}</tbody></table></div>`
+  : `<p class="note">No awards match these filters.
+     <a href="#/competition?comp=${c.id}">Clear them</a>.</p>`}`;
 }
 competition.after = () => {
-  const sel = el('f-comp');
-  if (sel) sel.addEventListener('change', e => writeState({comp: e.target.value}));
-  const st = readState();
-  const c = D.dims.competitions.find(x => x.id === st.comp) || D.dims.competitions[0];
-  medalsByYear(D.rows.filter(r => r.comp.id === c.id), el('ch-comp'));
+  wireFilters();
+  medalsByYear(compScope(readState()).rows, el('ch-comp'));
 };
 
 export function producer() {
@@ -236,7 +277,7 @@ function drawMap() {
     if (!p || p.lat == null || p.lon == null) continue;
     const t = agg.get(p.n) || {p, n: 0, best: 99};
     t.n++;
-    const rank = MEDAL_ORDER.indexOf(r.medal);
+    const rank = TIER_ORDER.indexOf(tierOf(r));
     if (rank >= 0 && rank < t.best) t.best = rank;
     agg.set(p.n, t);
   }
@@ -245,7 +286,7 @@ function drawMap() {
     geometry: {type: 'Point', coordinates: [t.p.lon, t.p.lat]},
     properties: {
       name: t.p.n, n: t.n,
-      tier: MEDAL_ORDER[t.best] || 'commended',
+      tier: TIER_ORDER[t.best] || 'other',
       place: [t.p.t, t.p.r, t.p.ct].filter(Boolean).join(', '),
     },
   }));
@@ -260,7 +301,7 @@ function drawMap() {
   }
 
   const colors = ['match', ['get', 'tier'],
-    'double_gold', cssVar('--t1'), 'gold', cssVar('--t2'), 'silver', cssVar('--t3'),
+    'top', cssVar('--t1'), 'gold', cssVar('--t2'), 'silver', cssVar('--t3'),
     'bronze', cssVar('--t4'), cssVar('--t5')];
 
   const data = {type: 'FeatureCollection', features: feats};

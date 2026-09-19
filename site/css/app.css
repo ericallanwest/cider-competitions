@@ -1,13 +1,17 @@
 :root{
   --bg:#fbfaf7; --panel:#fff; --ink:#1d1b16; --muted:#6b6559; --line:#e2ddd2;
   --accent:#7a2e2e; --accent-soft:#f0e6e0;
-  /* Ordinal ramp for award tiers. Deliberately not metallic: gold/silver/bronze
-     fail contrast and are hard to separate for colourblind viewers. */
-  --t1:#4b2142; --t2:#9c3f5d; --t3:#d4714f; --t4:#e8a33d; --t5:#b9b4a6;
+  /* Award tiers, named after the medals they stand for so a reader can decode
+     the chart without the legend. t1 covers everything above gold - Double
+     Gold, Best in Class, trophies - and is the one tier with no metal to
+     borrow, so it takes a plum that still reads as "higher than gold".
+     t5 is everything below bronze; it stays a warm grey, kept darker than
+     silver so the two do not blur together. */
+  --t1:#b17aa1; --t2:#feaf2e; --t3:#c0c0c0; --t4:#d5893d; --t5:#8a8578;
 }
 @media (prefers-color-scheme:dark){
   :root{--bg:#16150f;--panel:#201e17;--ink:#f0ece2;--muted:#a49d8d;--line:#333026;
-        --accent:#d98b6a;--accent-soft:#2c241f;--t5:#5d584c;}
+        --accent:#d98b6a;--accent-soft:#2c241f;--t5:#6f6a5d;}
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
@@ -38,10 +42,17 @@ select,input[type=search]{font:inherit;padding:.38rem .55rem;border:1px solid va
 .legend i{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.3rem;vertical-align:-1px}
 table{width:100%;border-collapse:collapse;font-size:.88rem;background:var(--panel)}
 th,td{text-align:left;padding:.45rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
-th{position:sticky;top:52px;background:var(--panel);cursor:pointer;white-space:nowrap;font-size:.8rem;
-  text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+/* Sticks to the top of .wrap, which is the scroll container - not to the
+   viewport. An offset here (it used to be 52px, to clear the page header)
+   is measured from .wrap's own top edge, so it pushed the header row down
+   over the first rows of the table instead of holding it clear of anything. */
+th{position:sticky;top:0;z-index:1;background:var(--panel);cursor:pointer;white-space:nowrap;
+  font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+  /* border-collapse drops the borders of sticky cells once they detach. */
+  border-bottom:0;box-shadow:inset 0 -1px 0 var(--line)}
 tbody tr:hover{background:var(--accent-soft)}
-.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+/* Long tables scroll inside the panel, so the header above stays put. */
+.wrap{overflow:auto;max-height:min(74vh,760px);border:1px solid var(--line);border-radius:10px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.7rem}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.8rem .9rem;
   text-decoration:none;color:inherit;display:block}
