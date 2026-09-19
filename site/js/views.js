@@ -75,24 +75,49 @@ function wireFilters(universe = D.rows) {
   });
 }
 
-function medalsByYear(rows, node) {
+/** `universe` is the view's rows before filtering. It fixes the year axis, so
+ *  bars keep their width and their place when a filter thins them out. */
+function medalsByYear(rows, node, universe = rows) {
   if (!node) return;
   const withYear = rows.filter(r => r.year);
   if (!withYear.length) { node.remove(); return; }
   const tiers = tiersIn(withYear);
   const label = Object.fromEntries(tiers.map(t => [t.id, t.label]));
-  const data = withYear.map(r => ({year: r.year, tier: label[tierOf(r)]}));
   const order = tiers.map(t => t.label);   // highest prestige first
+
+  // Years are bands, not numbers on a line. A competition year sits wholly
+  // inside one calendar year, so the bar belongs over its label rather than
+  // in the span after it, and the tip should say 2025, not "2,025-2,026".
+  // Strings keep the number formatter away from the year entirely.
+  const span = universe.map(r => r.year).filter(Boolean);
+  const lo = Math.min(...span), hi = Math.max(...span);
+  const domain = [];
+  for (let y = lo; y <= hi; y++) domain.push(String(y));
+  // Gaps stay visible: a year the competition was not held keeps its empty slot.
+  const step = domain.length > 14 ? 2 : 1;
+  const ticks = domain.filter((_, i) => (domain.length - 1 - i) % step === 0);
+  // Field names surface as the tip's row labels, so they read as words.
+  const data = withYear.map(r => ({year: String(r.year), award: label[tierOf(r)]}));
+
+  // Awards come in whole numbers, so a filtered-down chart topping out at 3
+  // gets ticks at 0..3 rather than every half.
+  const perYear = new Map();
+  for (const d of data) perYear.set(d.year, (perYear.get(d.year) || 0) + 1);
+  const peak = Math.max(0, ...perYear.values());
+  const yScale = peak <= 8
+    ? {ticks: Array.from({length: peak + 1}, (_, i) => i), tickFormat: 'd'}
+    : {tickFormat: 'd'};
+
   node.replaceChildren(Plot.plot({
     height: 210, marginLeft: 46,
-    x: {tickFormat: 'd', label: null},
-    y: {label: 'awards', grid: true},
+    x: {domain, ticks, label: null},
+    y: {label: 'awards', grid: true, ...yScale},
     color: {domain: order, range: tiers.map(t => tierColor(t.id)), legend: true},
     marks: [
       // Stacked so the top award sits on the axis and the humblest rides on
       // top: a bar reads as a podium, widest honour first.
-      Plot.rectY(data, Plot.groupX({y: 'count'},
-        {x: 'year', fill: 'tier', interval: 1, tip: true, order, reverse: true})),
+      Plot.barY(data, Plot.groupX({y: 'count'},
+        {x: 'year', fill: 'award', tip: true, order, reverse: true})),
       Plot.ruleY([0]),
     ],
   }));
@@ -241,9 +266,9 @@ export function competition() {
      <a href="#/competition${c ? `?comp=${c.id}` : ''}">Clear them</a>.</p>`}`;
 }
 competition.after = () => {
-  const {c, rows} = compScope(readState());
+  const {c, all, rows} = compScope(readState());
   wireFilters();
-  medalsByYear(rows, el('ch-comp'));
+  medalsByYear(rows, el('ch-comp'), all);
   wireResultsTable(rows, !c);
 };
 
@@ -320,7 +345,7 @@ producer.after = () => {
   if (!st.q) return;
   const {all, rows} = prodScope(st);
   wireFilters(all);
-  medalsByYear(rows, el('ch-prod'));
+  medalsByYear(rows, el('ch-prod'), all);
 };
 
 let mapObj = null;
