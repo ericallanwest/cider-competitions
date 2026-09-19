@@ -4,29 +4,30 @@ import * as views from './views.js';
 const ROUTES = {
   '': views.home,
   home: views.home,
-  map: views.map,
   competition: views.competition,
   producer: views.producer,
 };
 
-// Explore was folded into the competition page, which now does the same job
-// with "All competitions" selected. Old links land there rather than on 404.
-const MOVED = {explore: 'competition'};
+// Views that were folded into others. Explore became the competition page with
+// "All competitions" selected; the map became the top of the landing page.
+// Old links land there rather than on a 404.
+const MOVED = {explore: 'competition', map: ''};
 
 const main = document.getElementById('view');
 let current = null;
 
 function route() {
   const path = location.hash.replace(/^#\/?/, '').split('?')[0];
-  if (MOVED[path]) {
+  if (path in MOVED) {
     const qs = location.hash.split('?')[1];
     location.replace(`#/${MOVED[path]}${qs ? '?' + qs : ''}`);
     return;
   }
   const view = ROUTES[path] || views.home;
 
-  // MapLibre holds a canvas tied to a DOM node that we are about to replace.
-  if (current === views.map && view !== views.map) views.teardownMap();
+  // MapLibre holds a live WebGL context and render loop; the landing page is
+  // the only view that shows it, so leaving is where it gets released.
+  if (current === views.home && view !== views.home) views.teardownMap();
   current = view;
 
   document.querySelectorAll('nav a').forEach(a => {

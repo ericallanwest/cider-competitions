@@ -76,8 +76,9 @@ function wireFilters(universe = D.rows) {
 }
 
 /** `universe` is the view's rows before filtering. It fixes the year axis, so
- *  bars keep their width and their place when a filter thins them out. */
-function medalsByYear(rows, node, universe = rows) {
+ *  bars keep their width and their place when a filter thins them out.
+ *  `onYear`, if given, makes the bars an input as well as an output. */
+function medalsByYear(rows, node, universe = rows, onYear = null) {
   if (!node) return;
   const withYear = rows.filter(r => r.year);
   if (!withYear.length) { node.remove(); return; }
@@ -108,7 +109,7 @@ function medalsByYear(rows, node, universe = rows) {
     ? {ticks: Array.from({length: peak + 1}, (_, i) => i), tickFormat: 'd'}
     : {tickFormat: 'd'};
 
-  node.replaceChildren(Plot.plot({
+  const fig = Plot.plot({
     height: 210, marginLeft: 46,
     x: {domain, ticks, label: null},
     y: {label: 'awards', grid: true, ...yScale},
@@ -120,7 +121,31 @@ function medalsByYear(rows, node, universe = rows) {
         {x: 'year', fill: 'award', tip: true, order, reverse: true})),
       Plot.ruleY([0]),
     ],
-  }));
+  });
+  node.replaceChildren(fig);
+  if (onYear) makeYearsClickable(fig, onYear);
+}
+
+/** Turn the chart into a filter control: click anywhere in a year's column to
+ *  select that year. Hit-testing runs off the band scale rather than the bars
+ *  themselves, so the empty years are clickable too, and a year with no awards
+ *  is as easy to leave as to reach. */
+function makeYearsClickable(fig, onYear) {
+  const x = typeof fig.scale === 'function' ? fig.scale('x') : null;
+  if (!x || !x.bandwidth || typeof x.apply !== 'function') return;
+  const svg = [...fig.querySelectorAll('svg')]
+    .find(s => s.querySelector('[aria-label*="x-axis"]')) || fig.querySelector('svg');
+  if (!svg) return;
+  svg.style.cursor = 'pointer';
+  svg.addEventListener('click', ev => {
+    const box = svg.getBoundingClientRect();
+    const at = ev.clientX - box.left;
+    const hit = x.domain.find(v => {
+      const left = x.apply(v);
+      return at >= left && at <= left + x.bandwidth;
+    });
+    if (hit != null) onYear(String(hit));
+  });
 }
 
 function tally(rows) {
@@ -191,42 +216,58 @@ function wireResultsTable(rows, showComp) {
 }
 
 export function home() {
-  const m = D.meta;
+  const st = readState();
+  const rows = apply(D.rows, st);
+  const filtered = rows.length !== D.rows.length;
+  const years = [...new Set(rows.map(r => r.year))].filter(Boolean).sort((a, b) => a - b);
+  const producers = new Set(rows.map(r => r.producer && r.producer.n).filter(Boolean));
+  const mapped = new Set(rows.filter(r => r.producer && r.producer.lat != null)
+    .map(r => r.producer.n));
+  const share = producers.size ? Math.round(mapped.size / producers.size * 100) : 0;
   return `<h2>Cider competition results, worldwide</h2>
-  <p class="sub">Medals and awards from ${m.competitions} major hard cider competitions,
-     ${m.year_min}&ndash;${m.year_max}.</p>
+  <p class="sub">Medals and awards from ${D.meta.competitions} major hard cider competitions,
+     ${D.meta.year_min}&ndash;${D.meta.year_max}. Filter once; the map and the chart both follow.</p>
+  ${filterBar(st)}
   <div class="stats">
-    <div class="stat"><b>${num(m.awards)}</b><span>awards</span></div>
-    <div class="stat"><b>${num(m.producers)}</b><span>producers</span></div>
-    <div class="stat"><b>${m.competitions}</b><span>competitions</span></div>
-    <div class="stat"><b>${m.year_min}&ndash;${m.year_max}</b><span>years</span></div>
-    <div class="stat"><b>${Math.round(m.geocoded_share * 100)}%</b><span>mapped</span></div>
+    <div class="stat"><b>${num(rows.length)}</b><span>awards</span></div>
+    <div class="stat"><b>${num(producers.size)}</b><span>producers</span></div>
+    <div class="stat"><b>${num(compsIn(rows).length)}</b><span>competitions</span></div>
+    <div class="stat"><b>${years.length ? `${years[0]}&ndash;${years[years.length - 1]}` : '&mdash;'}</b>
+      <span>years</span></div>
+    <div class="stat"><b>${share}%</b><span>mapped</span></div>
   </div>
+  ${rows.length ? `<div id="map" class="map-home"></div>
+  <div class="legend">${tiersIn(rows)
+    .map(t => `<span><i style="background:${TIER_COLOR[t.id]}"></i>${esc(t.label)}</span>`).join('')}
+    <span>Circle area &prop; awards</span></div>
+  <p class="note" id="map-note"></p>
   <div class="chart" id="ch-home"></div>
-  <h2 style="font-size:1.05rem">Competitions</h2>
-  <div class="cards">${D.dims.competitions.map(c => {
-    const rs = D.rows.filter(r => r.comp.id === c.id);
+  <p class="note">Click a year to filter to it. The mapped share reflects producers matched to
+     the World Cider Map; unmapped producers still appear in every table and count, they simply
+     have no pin.</p>`
+  : `<p class="note">No awards match these filters. <a href="#/">Clear them</a>.</p>`}
+  ${st.comp ? '' : `<h2 style="font-size:1.05rem">Competitions</h2>
+  <div class="cards">${compsIn(rows).map(c => {
+    const rs = rows.filter(r => r.comp.id === c.id);
     const ys = rs.map(r => r.year).filter(Boolean);
     const span = ys.length ? `${Math.min(...ys)}&ndash;${Math.max(...ys)}` : '';
     return `<a class="card" href="#/competition?comp=${c.id}"><b>${esc(c.name)}</b>
       <span>${num(rs.length)} awards &middot; ${span}</span></a>`;
-  }).join('')}</div>
-  <p class="note">The mapped share reflects producers matched to the World Cider Map.
-     Unmapped producers still appear in every table and count &mdash; they simply have no pin.</p>`;
+  }).join('')}</div>`}`;
 }
-home.after = () => medalsByYear(D.rows, el('ch-home'));
-
-export function map() {
-  const st = readState();
-  return `<h2>Medalists map</h2>
-  <p class="sub">Every producer with a known location. Circle size shows total awards.</p>
-  ${filterBar(st)}<div id="map"></div>
-  <div class="legend">${tiersIn(scopeOf(st))
-    .map(t => `<span><i style="background:${TIER_COLOR[t.id]}"></i>${esc(t.label)}</span>`).join('')}
-    <span>Circle area &prop; awards</span></div>
-  <p class="note" id="map-note"></p>`;
-}
-map.after = () => { wireFilters(); drawMap(); };
+home.after = () => {
+  wireFilters();
+  const rows = apply(D.rows, readState());
+  if (!rows.length) return;
+  drawMap();
+  // The axis follows the chosen competition, exactly as it does on the
+  // competition page, so the same competition charts the same way in both.
+  // Year, award and style filters leave it alone, so thinning the results
+  // empties slots instead of resizing bars.
+  medalsByYear(rows, el('ch-home'), scopeOf(readState()), year => {
+    writeState({year: year === readState().year ? '' : year});
+  });
+};
 
 /** One competition's rows, or every competition's when none is chosen.
  *  `c` is null for "All competitions", which is a real selection here - not a
@@ -412,6 +453,7 @@ function drawMap(slotId = 'map') {
     // The node may have just been re-parented into a new slot of a different
     // size; MapLibre only learns that when told.
     mapObj.resize();
+    frameFeatures(feats);
     return;
   }
 
@@ -442,7 +484,33 @@ function drawMap(slotId = 'map') {
     });
     mapObj.on('mouseenter', 'pts', () => { mapObj.getCanvas().style.cursor = 'pointer'; });
     mapObj.on('mouseleave', 'pts', () => { mapObj.getCanvas().style.cursor = ''; });
+    frameFeatures(feats);
   });
+}
+
+const WORLD = {center: [-30, 42], zoom: 1.4};
+let framedFor = null;
+
+/** Move the map to the filtered results, so narrowing to a Breton competition
+ *  lands on Brittany rather than leaving three pins in the Atlantic. Keyed on
+ *  the filter state, not on every redraw, so panning around afterwards is not
+ *  fought; clearing the filters returns to the world view. */
+function frameFeatures(feats) {
+  if (!mapObj) return;
+  const st = readState();
+  const key = [st.comp, st.year, st.award, st.style, st.q].join('\u0001');
+  if (key === framedFor) return;
+  framedFor = key;
+  const filtering = Boolean(st.comp || st.year || st.award || st.style || st.q);
+  if (!filtering) { mapObj.easeTo({...WORLD, duration: 600}); return; }
+  if (!feats.length) return;
+  let w = 180, s = 90, e = -180, n = -90;
+  for (const f of feats) {
+    const [lon, lat] = f.geometry.coordinates;
+    if (lon < w) w = lon; if (lon > e) e = lon;
+    if (lat < s) s = lat; if (lat > n) n = lat;
+  }
+  mapObj.fitBounds([[w, s], [e, n]], {padding: 60, maxZoom: 8, duration: 600});
 }
 
 export function teardownMap() {
@@ -453,4 +521,7 @@ export function teardownMap() {
   mapObj = null;
   if (mapEl) mapEl.remove();
   mapEl = null;
+  // The next map is a new one, so it has not framed anything yet. Without
+  // this, coming back to a filtered landing page leaves the world view.
+  framedFor = null;
 }

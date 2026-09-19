@@ -38,6 +38,8 @@ h2{font-size:1.3rem;margin:0 0 .2rem}
 select,input[type=search]{font:inherit;padding:.38rem .55rem;border:1px solid var(--line);
   border-radius:7px;background:var(--panel);color:var(--ink)}
 #map{height:min(66vh,620px);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+/* Shorter where the chart shares the page, so both are visible at once. */
+.map-home{height:min(46vh,440px)}
 /* MapLibre's own node, re-parented across re-renders, so it fills the slot. */
 .map-canvas{width:100%;height:100%}
 .legend{display:flex;gap:.8rem;flex-wrap:wrap;color:var(--muted);font-size:.8rem;margin-top:.5rem}
