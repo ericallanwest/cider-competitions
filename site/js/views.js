@@ -22,12 +22,20 @@ const compsIn = rows => {
   return D.dims.competitions.filter(c => ids.has(c.id));
 };
 
-function filterBar(st, {style = true, search = true, scope = null, comps = null} = {}) {
+function filterBar(st, {style = true, award = true, place = false,
+                       search = true, scope = null, comps = null} = {}) {
   const rows = scope || scopeOf(st);
   const years = [...new Set(rows.map(r => r.year))].filter(Boolean).sort((a, b) => b - a);
   const styles = [...new Set(rows.map(r => r.style))].filter(Boolean).sort();
   const awards = awardOptions(rows);
   const list = comps || D.dims.competitions;
+  const countries = [...new Set(rows.map(r => r.producer && r.producer.ct)
+    .filter(Boolean))].sort();
+  // Regions narrow to the chosen country: there are 346 of them worldwide,
+  // which is a list nobody reads, against a handful inside one country.
+  const regions = [...new Set(rows
+    .filter(r => r.producer && (!st.country || r.producer.ct === st.country))
+    .map(r => r.producer && r.producer.r).filter(Boolean))].sort();
   const opt = (v, label, cur) =>
     `<option value="${esc(v)}"${String(v) === String(cur) ? ' selected' : ''}>${esc(label)}</option>`;
   return `<div class="filters">
@@ -35,10 +43,16 @@ function filterBar(st, {style = true, search = true, scope = null, comps = null}
       ${list.map(c => opt(c.id, c.name, st.comp)).join('')}</select>` : ''}
     <select id="f-year" aria-label="Year"><option value="">All years</option>
       ${years.map(y => opt(y, y, st.year)).join('')}</select>
-    <select id="f-award" aria-label="Award"><option value="">All awards</option>
-      ${awards.map(a => opt(a.value, a.label, st.award)).join('')}</select>
+    ${award ? `<select id="f-award" aria-label="Award"><option value="">All awards</option>
+      ${awards.map(a => opt(a.value, a.label, st.award)).join('')}</select>` : ''}
     ${style && styles.length > 1 ? `<select id="f-style" aria-label="Style"><option value="">All styles</option>
       ${styles.map(s => opt(s, s, st.style)).join('')}</select>` : ''}
+    ${place && countries.length > 1 ? `<select id="f-country" aria-label="Country">
+      <option value="">All countries</option>
+      ${countries.map(x => opt(x, x, st.country)).join('')}</select>` : ''}
+    ${place && regions.length > 1 ? `<select id="f-region" aria-label="Region">
+      <option value="">All regions</option>
+      ${regions.map(x => opt(x, x, st.region)).join('')}</select>` : ''}
     ${search ? `<input type="search" id="f-q" placeholder="Search producer or cider"
       value="${esc(st.q)}">` : ''}
   </div>`;
@@ -49,6 +63,18 @@ function filterBar(st, {style = true, search = true, scope = null, comps = null}
 function wireFilters(universe = D.rows) {
   const bind = (id, key) => el(id) && el(id).addEventListener('change', e => writeState({[key]: e.target.value}));
   bind('f-year', 'year'); bind('f-award', 'award'); bind('f-style', 'style');
+  bind('f-region', 'region');
+
+  // Picking a country drops a region that is not in it, the same way picking a
+  // competition drops filters it has no rows for.
+  const country = el('f-country');
+  if (country) country.addEventListener('change', e => {
+    const ct = e.target.value;
+    const st = readState();
+    const stillThere = !st.region || universe.some(r => r.producer
+      && r.producer.r === st.region && (!ct || r.producer.ct === ct));
+    writeState({country: ct, region: stillThere ? st.region : ''});
+  });
 
   // Changing competition drops any filter the new one has no rows for, so you
   // never land on an empty page holding a value its dropdown no longer offers.
@@ -63,6 +89,8 @@ function wireFilters(universe = D.rows) {
       year: keep(st.year, rows.some(r => String(r.year) === st.year)),
       award: keep(st.award, rows.some(r => matchesAward(r, st.award))),
       style: keep(st.style, rows.some(r => r.style === st.style)),
+      country: keep(st.country, rows.some(r => r.producer && r.producer.ct === st.country)),
+      region: keep(st.region, rows.some(r => r.producer && r.producer.r === st.region)),
     });
   });
 
@@ -567,7 +595,7 @@ export function producer() {
     return `<h2>Producers</h2>
     <p class="sub">Ranked by awards${filtered ? ' matching these filters' : ''}.
        Every producer in the dataset, including those with no pin on the map.</p>
-    ${filterBar(st, {search: false})}
+    ${filterBar(st, {award: false, style: false, place: true, search: false})}
     <div class="filters" style="margin-top:-.4rem">
       <input type="search" id="f-find" placeholder="Find a producer">
       <span class="note" id="prod-count"></span>
