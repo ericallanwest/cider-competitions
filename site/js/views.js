@@ -349,8 +349,27 @@ producer.after = () => {
 };
 
 let mapObj = null;
+// The element MapLibre owns. Every filter change re-renders the view, which
+// replaces the page's HTML wholesale - and used to take the map's container
+// with it, leaving a live map bound to a discarded node and an empty grey box
+// on screen. This node is created once and re-parented into each new slot, so
+// the map survives a re-render with its camera and loaded tiles intact.
+let mapEl = null;
 
-function drawMap() {
+/** Put the persistent map element inside the freshly rendered slot. */
+function mountMap(slot) {
+  if (!slot) return null;
+  if (!mapEl) {
+    mapEl = document.createElement('div');
+    mapEl.className = 'map-canvas';
+  }
+  if (mapEl.parentNode !== slot) slot.replaceChildren(mapEl);
+  return mapEl;
+}
+
+function drawMap(slotId = 'map') {
+  const slot = mountMap(el(slotId));
+  if (!slot) return;
   const rows = apply(D.rows, readState());
   const agg = new Map();
   for (const r of rows) {
@@ -390,11 +409,14 @@ function drawMap() {
   if (mapObj) {
     const src = mapObj.getSource('p');
     if (src) src.setData(data);
+    // The node may have just been re-parented into a new slot of a different
+    // size; MapLibre only learns that when told.
+    mapObj.resize();
     return;
   }
 
   mapObj = new maplibregl.Map({
-    container: 'map',
+    container: slot,
     style: 'https://tiles.openfreemap.org/styles/positron', // no API key required
     center: [-30, 42], zoom: 1.4,
     attributionControl: {compact: true},
@@ -429,4 +451,6 @@ export function teardownMap() {
   // slowly choke the renderer.
   if (mapObj) { try { mapObj.remove(); } catch (e) { /* already gone */ } }
   mapObj = null;
+  if (mapEl) mapEl.remove();
+  mapEl = null;
 }
