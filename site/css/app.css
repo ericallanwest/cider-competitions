@@ -76,6 +76,12 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .card span{color:var(--muted);font-size:.83rem}
 .chart{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.7rem;margin:1rem 0;overflow-x:auto}
 .note{color:var(--muted);font-size:.82rem;margin-top:.8rem}
+/* Small muted marks; they should read as a footnote to the name, not compete
+   with it. Generous hit area for touch, drawn well inside it. */
+.links{display:flex;gap:.15rem;flex-wrap:wrap;margin:-.6rem 0 1rem}
+.links a{display:inline-flex;align-items:center;justify-content:center;width:1.85rem;height:1.85rem;
+  border-radius:7px;color:var(--muted);text-decoration:none}
+.links a:hover{background:var(--accent-soft);color:var(--accent)}
 .pill{display:inline-block;padding:.08rem .5rem;border-radius:999px;background:var(--accent-soft);
   color:var(--accent);font-size:.76rem;margin:0 .25rem .3rem 0;text-decoration:none}
 a.pill:hover{background:var(--accent);color:#fff}

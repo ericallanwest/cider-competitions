@@ -1,5 +1,5 @@
-import {D, TIER_ORDER, TIER_COLOR, tierOf, tierLabel, awardGlyph,
-        awardValue, awardName, awardOptions, esc} from './data.js';
+import {D, TIER_ORDER, TIER_COLOR, tierOf, tierLabel, awardGlyph, awardValue,
+        awardName, awardOptions, producerLinks, LINK_NAME, esc} from './data.js';
 import {readState, writeState, apply, matchesAward} from './filters.js';
 
 const el = id => document.getElementById(id);
@@ -373,6 +373,49 @@ home.after = () => {
   });
 };
 
+
+// Plain monochrome marks, not the services' brand logos: they sit at 15px in
+// a muted row, and a wall of brand colour would shout over the awards the page
+// is actually about. The title attribute names each one, since a glyph alone
+// is not a label.
+const LINK_ICON = {
+  // globe
+  w: '<circle cx="8" cy="8" r="6.2"/><path d="M1.8 8h12.4M8 1.8c1.8 2 2.6 4 2.6 6.2S9.8 12.2 8 14.2 '
+     + '5.4 10.2 5.4 8 6.2 3.8 8 1.8z"/>',
+  // f in a rounded square
+  f: '<rect x="1.8" y="1.8" width="12.4" height="12.4" rx="3"/>'
+     + '<path d="M9.6 5.2H8.8c-.7 0-1 .4-1 1v1.4h1.7l-.25 1.8H7.8v3.6"/>',
+  // camera outline with lens
+  i: '<rect x="1.8" y="1.8" width="12.4" height="12.4" rx="3.6"/>'
+     + '<circle cx="8" cy="8" r="2.9"/><circle cx="11.6" cy="4.4" r=".55" fill="currentColor"/>',
+  // map pin
+  g: '<path d="M8 14.4s4.6-4.3 4.6-7.6A4.6 4.6 0 0 0 3.4 6.8c0 3.3 4.6 7.6 4.6 7.6z"/>'
+     + '<circle cx="8" cy="6.9" r="1.7"/>',
+  // bottle cap, seen from above: a plain ring, so it does not read as the
+  // Yelp burst sitting next to it
+  u: '<circle cx="8" cy="8" r="6.2"/><circle cx="8" cy="8" r="2.9"/>',
+  // burst
+  y: '<path d="M8 1.9v5.2M3.3 4.6l4 2.8M3.1 11.6l4.3-2.2M8.9 9.1l3.9 2.6M9.1 7l3.7-2.2"/>',
+  // owl eyes
+  t: '<circle cx="5" cy="8.6" r="3.2"/><circle cx="11" cy="8.6" r="3.2"/>'
+     + '<circle cx="5" cy="8.6" r=".9" fill="currentColor"/>'
+     + '<circle cx="11" cy="8.6" r=".9" fill="currentColor"/>'
+     + '<path d="M4.4 5.1C5.6 4 6.7 3.6 8 3.6s2.4.4 3.6 1.5"/>',
+};
+
+/** A producer's links as a row of small marks. Empty when there are none,
+ *  which is true for 274 of 2,166 producers. */
+function linkRow(p) {
+  const links = producerLinks(p);
+  if (!links.length) return '';
+  return `<p class="links">${links.map(([k, url]) =>
+    `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"
+        title="${esc(LINK_NAME[k])}" aria-label="${esc(LINK_NAME[k])}">
+      <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor"
+           stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true">${LINK_ICON[k]}</svg></a>`).join('')}</p>`;
+}
+
 /** Share of awards at the gold tier or above: the closest thing the data has
  *  to how hard a competition is to win. */
 function selectivity(rows) {
@@ -625,8 +668,8 @@ export function producer() {
   const filtered = rows.length !== all.length;
   const sorted = [...rows].sort((a, b) => b.year - a.year);
   return `<h2>${esc(p.n)}</h2>
-  <p class="sub">${esc(place) || 'Location not recorded'}${p.w ?
-    ` &middot; <a href="${esc(p.w)}" target="_blank" rel="noopener noreferrer">website</a>` : ''}</p>
+  <p class="sub">${esc(place) || 'Location not recorded'}</p>
+  ${linkRow(p)}
   <div class="stats">
     <div class="stat"><b>${num(rows.length)}</b><span>awards</span></div>
     <div class="stat"><b>${num(events)}</b><span>events</span></div>

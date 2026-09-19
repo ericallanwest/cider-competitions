@@ -19,10 +19,14 @@ import lib
 REFERENCE = lib.ROOT / "data" / "reference" / "producers_geo.csv"
 ALIASES = lib.ROOT / "crosswalks" / "producer_aliases.csv"
 COUNTRIES = lib.ROOT / "crosswalks" / "countries.csv"
-FIELDS = ["producer_id", "producer_name", "wid", "awards", "medals",
-          "first_year", "last_year", "competitions",
-          "town", "region", "country", "latitude", "longitude", "geo_source",
-          "website", "google"]
+# Links the World Cider Map carries for a producer. website and google also
+# arrive on award rows from the competition sheets; the map wins where both
+# have one, being the place producer identity is actually maintained.
+LINKS = ["website", "facebook", "instagram", "google", "untappd", "yelp", "tripadvisor"]
+FIELDS = (["producer_id", "producer_name", "wid", "awards", "medals",
+           "first_year", "last_year", "competitions",
+           "town", "region", "country", "latitude", "longitude", "geo_source"]
+          + LINKS)
 
 
 def match_key(name: str) -> str:
@@ -53,7 +57,7 @@ def load_countries() -> dict:
 
 
 def load_geo() -> tuple[dict, dict]:
-    """Returns (by_name, by_wid), each -> (town, region, country, lat, lon, source)."""
+    """Returns (by_name, by_wid), each -> a dict of place, coordinates and links."""
     by_name, by_wid = {}, {}
     if not REFERENCE.exists():
         print(f"  note: {REFERENCE.name} missing - no coordinates will be attached")
@@ -62,8 +66,10 @@ def load_geo() -> tuple[dict, dict]:
     for r in lib.read_csv(REFERENCE):
         country = lib.clean(r["country"])
         country = countries.get(country.casefold(), country)
-        entry = (lib.clean(r["town"]), lib.clean(r["region"]), country,
-                 lib.clean(r["latitude"]), lib.clean(r["longitude"]), lib.clean(r["source"]))
+        entry = {"town": lib.clean(r["town"]), "region": lib.clean(r["region"]),
+                 "country": country, "latitude": lib.clean(r["latitude"]),
+                 "longitude": lib.clean(r["longitude"]), "source": lib.clean(r["source"]),
+                 **{k: lib.clean(r.get(k, "")) for k in LINKS}}
         name, wid = lib.clean(r["name"]), lib.clean(r["wid"])
         if name:
             by_name.setdefault(match_key(name), entry)
@@ -94,7 +100,7 @@ def main() -> None:
             "years": set(), "comps": set(),
             "town": "", "region": "", "country": "",
             "latitude": "", "longitude": "", "geo_source": "none",
-            "website": "", "google": "",
+            **{k: "" for k in LINKS},
         })
         p["awards"] += 1
         if r["award_kind"] in ("medal", "place"):
@@ -123,11 +129,15 @@ def main() -> None:
                 break
         found = found or geo.get(mkey)
         if found:
-            town, region, country, lat, lon, src = found
-            p["town"] = p["town"] or town
-            p["region"] = p["region"] or region
-            p["country"] = p["country"] or country
-            p["latitude"], p["longitude"], p["geo_source"] = lat, lon, src
+            p["town"] = p["town"] or found["town"]
+            p["region"] = p["region"] or found["region"]
+            p["country"] = p["country"] or found["country"]
+            p["latitude"] = found["latitude"]
+            p["longitude"] = found["longitude"]
+            p["geo_source"] = found["source"]
+            for k in LINKS:
+                if found.get(k):
+                    p[k] = found[k]
             hits += 1
         p["first_year"] = min(p["years"]) if p["years"] else ""
         p["last_year"] = max(p["years"]) if p["years"] else ""

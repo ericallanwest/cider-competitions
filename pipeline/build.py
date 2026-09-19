@@ -11,6 +11,24 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lib
 
+# producers.csv column -> the one-letter key the site reads.
+LINK_KEYS = {"w": "website", "f": "facebook", "i": "instagram", "g": "google",
+             "u": "untappd", "y": "yelp", "t": "tripadvisor"}
+
+# Nearly every link on a service shares one prefix, and producers.json ships to
+# every visitor, so the prefix is stored once here and in the site's copy of
+# this table rather than 1,500 times in the file. A value that does not match
+# is stored whole; the site tells them apart because only a whole URL begins
+# with http. Keep this in step with LINK_PREFIX in site/js/data.js.
+LINK_PREFIX = {"f": "https://www.facebook.com/", "i": "https://www.instagram.com/",
+               "g": "https://maps.google.com/?cid=", "u": "https://untappd.com/",
+               "y": "https://www.yelp.com/biz/", "t": "https://www.tripadvisor.com/"}
+
+
+def shorten(key: str, url: str) -> str:
+    prefix = LINK_PREFIX.get(key, "")
+    return url[len(prefix):] if prefix and url.startswith(prefix) else url
+
 SITE_DATA = lib.ROOT / "site" / "data"
 EXPORTS = lib.ROOT / "exports" / "tableau"
 
@@ -59,7 +77,9 @@ def main() -> None:
         "t": p["town"], "r": p["region"], "ct": p["country"],
         "lat": float(p["latitude"]) if p["latitude"] else None,
         "lon": float(p["longitude"]) if p["longitude"] else None,
-        "w": p["website"],
+        # Links under one short key, empties omitted: most producers have some
+        # but few have all, and the file ships to every visitor.
+        "lk": {k: shorten(k, p[col]) for k, col in LINK_KEYS.items() if p.get(col)},
     } for p in producers], open(SITE_DATA / "producers.json", "w", encoding="utf-8"),
         separators=(",", ":"), ensure_ascii=False)
 

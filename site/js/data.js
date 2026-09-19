@@ -1,4 +1,4 @@
-// Loads the whole dataset once. ~250KB gzipped, so there is no API and no paging.
+// Loads the whole dataset once. ~350KB gzipped, so there is no API and no paging.
 export const D = { awards:null, producers:null, dims:null, meta:null, rows:null };
 
 export async function load(){
@@ -24,6 +24,25 @@ export async function load(){
     };
   }
   return D;
+}
+
+// Producer links arrive with their service's shared prefix stripped, since
+// storing it 1,500 times would cost more than the links are worth. Only a URL
+// that did not match its prefix is stored whole, and only those start with
+// http. Keep in step with LINK_PREFIX in pipeline/build.py.
+const LINK_PREFIX = {f: 'https://www.facebook.com/', i: 'https://www.instagram.com/',
+  g: 'https://maps.google.com/?cid=', u: 'https://untappd.com/',
+  y: 'https://www.yelp.com/biz/', t: 'https://www.tripadvisor.com/'};
+
+export const LINK_NAME = {w: 'Website', f: 'Facebook', i: 'Instagram', g: 'Google Maps',
+  u: 'Untappd', y: 'Yelp', t: 'TripAdvisor'};
+
+/** Rebuild a producer's links as [key, url] pairs, in display order. */
+export function producerLinks(p){
+  const lk = (p && p.lk) || {};
+  return Object.keys(LINK_NAME)
+    .filter(k => lk[k])
+    .map(k => [k, lk[k].startsWith('http') ? lk[k] : (LINK_PREFIX[k] || '') + lk[k]]);
 }
 
 export const MEDAL_LABEL = {double_gold:'Double Gold',gold:'Gold',silver:'Silver',

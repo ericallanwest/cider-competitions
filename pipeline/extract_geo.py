@@ -16,7 +16,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lib
 
 REFERENCE = lib.ROOT / "data" / "reference" / "producers_geo.csv"
-FIELDS = ["name", "wid", "town", "region", "country", "latitude", "longitude", "source"]
+
+# The map's link columns, in the order the site shows them. Public profile
+# URLs only: nothing from Notes, TTB or Google_Place_ID comes near this file.
+LINKS = {"website": "Website", "facebook": "Facebook", "instagram": "Instagram",
+         "google": "Google", "untappd": "Untappd", "yelp": "Yelp",
+         "tripadvisor": "TripAdvisor"}
+FIELDS = (["name", "wid", "town", "region", "country", "latitude", "longitude", "source"]
+          + list(LINKS))
 
 # Local-only bootstrap source. Absent on CI, which is fine - the committed
 # reference file already holds what it produced.
@@ -73,6 +80,8 @@ def main() -> None:
                         "region": lib.clean(r.get("Region", "")),
                         "country": lib.clean(r.get("Country", "")),
                         "latitude": lat, "longitude": lon, "source": "world_cider_map",
+                        **{k: lib.extract_href(r.get(col, "")) or lib.clean(r.get(col, ""))
+                           for k, col in LINKS.items()},
                     }
 
     # 2. GLINTCAP extract - bootstrap for the 710 producers it covers.
@@ -96,7 +105,8 @@ def main() -> None:
 
     rows = sorted(out.values(), key=lambda r: r["name"].casefold())
     lib.write_csv(REFERENCE, rows, FIELDS)
-    print(f"producers_geo.csv: {len(rows)} geocoded producers")
+    linked = sum(1 for r in rows if any(r.get(k) for k in LINKS))
+    print(f"producers_geo.csv: {len(rows)} geocoded producers, {linked} with links")
 
 
 if __name__ == "__main__":
